@@ -45,16 +45,17 @@ def add_inline(paragraph, text):
             set_font(paragraph.add_run(part))
 
 
-def configure(doc):
+def configure(doc, line_numbering=False):
     sec = doc.sections[0]
     sec.top_margin = Inches(0.75)
     sec.bottom_margin = Inches(0.75)
     sec.left_margin = Inches(0.85)
     sec.right_margin = Inches(0.85)
-    line_numbers = OxmlElement("w:lnNumType")
-    line_numbers.set(qn("w:countBy"), "5")
-    line_numbers.set(qn("w:restart"), "continuous")
-    sec._sectPr.append(line_numbers)
+    if line_numbering:
+        line_numbers = OxmlElement("w:lnNumType")
+        line_numbers.set(qn("w:countBy"), "5")
+        line_numbers.set(qn("w:restart"), "continuous")
+        sec._sectPr.append(line_numbers)
 
     footer = sec.footer.paragraphs[0]
     footer.alignment = WD_ALIGN_PARAGRAPH.CENTER
@@ -84,7 +85,7 @@ def configure(doc):
 
 def build(md_path, out_path, include_figures=False):
     doc = Document()
-    configure(doc)
+    configure(doc, line_numbering=include_figures)
     lines = md_path.read_text(encoding="utf-8").splitlines()
     in_code = False
     figure_inserted = set()

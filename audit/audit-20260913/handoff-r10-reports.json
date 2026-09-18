@@ -1,0 +1,48 @@
+{
+ "artifacts": [
+  {
+   "path": "final-report.md",
+   "sha256": "3273f3909579021719339230ec705c0717fd26f65049d25228588dce49353027"
+  },
+  {
+   "path": "target-dossier.md",
+   "sha256": "c0da5f25e216924200fbee74c3662bc9c350f4a2f312f10d6311e48d42ec8d55"
+  },
+  {
+   "path": "structure-analysis.md",
+   "sha256": "fccc9b0bed38dfa2ea79734037cfe8dbc61e9c1c90a7ce04e01a80af8cca635f"
+  },
+  {
+   "path": "hit-report.md",
+   "sha256": "c04261ee600e20450fa082a9650e50c1247545e7dbcfc60077f4f328e764fa37"
+  },
+  {
+   "path": "validation-plan.md",
+   "sha256": "9db369ae376dba190faca92699962aec645630846106c4eaa5fc28b380ded586"
+  },
+  {
+   "path": "research-log.md",
+   "sha256": "3ebfb83ea716dda0659057ac7ae19c94a77b7f371bda0b56bdfda15a1941d16a"
+  },
+  {
+   "path": "AUDIT.md",
+   "sha256": "0f344d8f2df2a367d899bc91d62a0f65f2be110aa67727da7378d9c8a2a880ca"
+  },
+  {
+   "path": "paper/MANUSCRIPT_DRAFT_v1.md",
+   "sha256": "2872a9c9752e3af3500957b2373db8df52ca50be0d217db47c187cda02926af4"
+  },
+  {
+   "path": "paper/manuscript_methods_audit.md",
+   "sha256": "35928d1edbfbe00b8a619efbebc79ec62c1609485d940db3b799a79f5905b28d"
+  },
+  {
+   "path": "paper/manuscript_results_discussion.md",
+   "sha256": "d7b5ba742de5adfa05e8470cb36cde78e1b1e67e8fe7efb002f126e6167ddd20"
+  },
+  {
+   "path": "paper/OUTLINE.md",
+   "sha256": "efa10a5cad32fe25146c7ce887bc329d1c12f1a29da147c71bc4da8803accc3a"
+  }
+ ]
+}

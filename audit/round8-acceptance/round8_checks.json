@@ -1,0 +1,282 @@
+{
+  "audit_round": 8,
+  "date": "2026-09-14",
+  "overall_verdict": "REJECT",
+  "G6_recommendation": "BLOCKED",
+  "scope": "Fresh-session acceptance of current workspace revision; no producer edits",
+  "claims": [
+    {
+      "id": "claim_1",
+      "verdict": "PASS-WITH-MINOR-NOTE",
+      "scope": "Requested numerical results reproduced; general periodic-box implementation caveat R8-N1",
+      "producer_rerun": {
+        "n_frames": 620,
+        "crystal_to_analysis_fit_rmsd_A": 1.875,
+        "pc_centroid_analysis_frame_A": [
+          52.181,
+          56.884,
+          42.44
+        ],
+        "ligand_protein_frame_rmsd_A": {
+          "mean": 4.579,
+          "max": 5.935,
+          "final": 5.638
+        },
+        "pocket_occupancy_fraction": 0.0,
+        "catalytic_residues_ever_contacted_crystal_numbering": [
+          318,
+          319,
+          457,
+          458
+        ],
+        "occupancy_definition": "ligand center (geometric, protein-fit frame) within 6 A of the crystal PC centroid mapped into the analysis frame (backbone Kabsch, fit RMSD 1.87 A) AND >=1 catalytic heavy atom within 4.5 A",
+        "units_note": "box scaled nm->A before imaging; all distances in A",
+        "provenance": "occupancy criterion added post hoc during audit-driven analysis (not in original pre-registration)"
+      },
+      "independent_geometry": {
+        "independent_native_frame_occupancy_counts": {
+          "6": 0,
+          "8": 188,
+          "10": 620
+        },
+        "contact_counts": {
+          "206": 0,
+          "208": 0,
+          "278": 0,
+          "282": 0,
+          "318": 414,
+          "319": 11,
+          "425": 0,
+          "457": 620,
+          "458": 23,
+          "459": 0,
+          "488": 0
+        },
+        "center_distance_range_A": [
+          6.554524911358234,
+          9.992968620551933
+        ],
+        "producer_vs_native_center_distance_max_error_A": 0.0005027117196192421,
+        "native_fit_ligand_rmsd_A": {
+          "mean": 4.579386493889472,
+          "max": 5.935434278176925
+        },
+        "backbone_atom_count": 2112,
+        "backbone_order_names_match": true
+      }
+    },
+    {
+      "id": "claim_2",
+      "verdict": "FAIL",
+      "successful_repairs": [
+        "JSON explicitly marks both analyses ADDED POST HOC",
+        "final-report.md:214-215 discloses post hoc"
+      ],
+      "remaining": [
+        "Results source:82 and assembled:203 fixed in advance",
+        "assembled:29-31 recorded before the run",
+        "Figure 4 lacks explicit post-hoc provenance"
+      ],
+      "finding": "R8-1"
+    },
+    {
+      "id": "claim_3",
+      "verdict": "FAIL",
+      "evidence": {
+        "source_sha256": "3f04d4171a4ac8ab1539ffb02b7f7f465025c783358f547a66c0250f225ea770",
+        "entries": 13,
+        "actual_true": 12,
+        "actual_null": 1,
+        "saved_summary": {
+          "executed_replays": 13,
+          "detected": 11,
+          "detection_rate": "12 true-detected / 13 executed (1 delegated to WSL env)",
+          "note": "counts derived from executed observations; context-only findings (R3-4, R3-5, R3-7) and live-only (R1-4, R1-9) are excluded here and listed separately as coverage inventory",
+          "detected_true": 12,
+          "delegated": 1
+        },
+        "count_line": 164,
+        "append_line": 165,
+        "literal_evidence": {
+          "34": "v1 = [0.47, 2.96, 3.59, 4.39]           # printed \"A\" values from md/bound_run.log",
+          "36": "heat_first = 0.47 * 10                  # 4.70 A expected if nm-as-A",
+          "139": "    'COM-imaged (retired) vs protein-frame values', '4.39 vs 4.579-5.935: metrics differ',",
+          "140": "    True, 'retired metric documented')",
+          "159": "vals = [-6.96, -6.34, -6.01]"
+        },
+        "reads_bound_run_log": false
+      },
+      "finding": "R8-2",
+      "full_live_replay_suite_rerun": false
+    },
+    {
+      "id": "claim_4",
+      "verdict": "FAIL",
+      "level_counts": {
+        "L1_evidence": 35,
+        "L2_scripts": 15,
+        "L3_reports_frozen": 7,
+        "L4_nested_manifests": 2,
+        "L5_audit_artifacts": 7
+      },
+      "passed_entries": 65,
+      "total_entries": 66,
+      "mismatches": [
+        {
+          "level": "L3_reports_frozen",
+          "path": "research-log.md",
+          "sha256": "15546e473610ddded1f286c821ee6f5fb72b4ca938a63454b793f4e0d818a2b9",
+          "bytes": 60461,
+          "actual_sha256": "38010a0c3e33e56db5d8557241b60d07e53440f72410458a96a774674c41115a",
+          "actual_bytes": 62685,
+          "passed": false
+        }
+      ],
+      "handoffs": [
+        {
+          "command": [
+            "C:\\ProgramData\\anaconda3\\python.exe",
+            "-B",
+            "C:\\Users\\Gnimi\\.agents\\skills\\ai-drug-discovery-team\\scripts\\check_handoff.py",
+            "C:\\Users\\Gnimi\\.zcode\\workspace\\default\\cognition-drug-discovery\\runs\\audit-20260913\\handoff-r8-evidence.json",
+            "--root",
+            "C:\\Users\\Gnimi\\.zcode\\workspace\\default\\cognition-drug-discovery",
+            "--require",
+            "artifacts"
+          ],
+          "exit_code": 0,
+          "stdout": "{\n  \"mechanical_checks_passed\": true,\n  \"errors\": [],\n  \"scientific_acceptance\": \"NOT_ASSESSED\"\n}\n",
+          "stderr": ""
+        },
+        {
+          "command": [
+            "C:\\ProgramData\\anaconda3\\python.exe",
+            "-B",
+            "C:\\Users\\Gnimi\\.agents\\skills\\ai-drug-discovery-team\\scripts\\check_handoff.py",
+            "C:\\Users\\Gnimi\\.zcode\\workspace\\default\\cognition-drug-discovery\\runs\\audit-20260913\\handoff-r8-reports.json",
+            "--root",
+            "C:\\Users\\Gnimi\\.zcode\\workspace\\default\\cognition-drug-discovery",
+            "--require",
+            "artifacts"
+          ],
+          "exit_code": 1,
+          "stdout": "{\n  \"mechanical_checks_passed\": false,\n  \"errors\": [\n    \"artifacts[5]: artifact SHA256 mismatch\"\n  ],\n  \"scientific_acceptance\": \"NOT_ASSESSED\"\n}\n",
+          "stderr": ""
+        }
+      ],
+      "finding": "R8-3"
+    },
+    {
+      "id": "claim_5",
+      "verdict": "FAIL",
+      "successful_repairs": [
+        "banner mean/max labels",
+        "3.1 ns v2 total",
+        "obsolete non-catalytic-surface sentence removed",
+        "correct four residue identities"
+      ],
+      "remaining": [
+        "hit-report.md:17 threshold contradiction",
+        "structure-analysis.md:61-62 ensemble contradiction",
+        "final-report.md:63 ambiguous all-four persistence and incomplete frequencies",
+        "final-report.md:226-227 retired-metric inference",
+        "final-report.md:210 cites stale canonical artifact"
+      ],
+      "finding": "R8-4"
+    },
+    {
+      "id": "assembled_manuscript_sync",
+      "verdict": "FAIL",
+      "text_sync_passed": true,
+      "actual_path": "paper/MANUSCRIPT_DRAFT_v1.md",
+      "requested_path_exists": false,
+      "reason": "Both synced Results versions still retain false advance-specification provenance; abstract also uncorrected."
+    }
+  ],
+  "mandatory_findings": [
+    "R8-1",
+    "R8-2",
+    "R8-3",
+    "R8-4"
+  ],
+  "minor_notes": [
+    "R8-N1"
+  ],
+  "rerun_saved_artifact_comparison": {
+    "pocket_residence_r7_summary.json": {
+      "rerun_sha256": "1ddf4e3a801ed7098af4df17d2e30d9cf37c55496b23ed342b698fb2c4749e5a",
+      "producer_sha256": "1ddf4e3a801ed7098af4df17d2e30d9cf37c55496b23ed342b698fb2c4749e5a",
+      "json_equal": true
+    },
+    "pocket_residence_r7_frames.json": {
+      "rerun_sha256": "5c15b9145469b818400260f399b138abadb3a9cf38049b9d8d2308a0cd9fc4c0",
+      "producer_sha256": "5c15b9145469b818400260f399b138abadb3a9cf38049b9d8d2308a0cd9fc4c0",
+      "json_equal": true
+    }
+  },
+  "execution": {
+    "pocket_command": "wsl -e bash -lc ~/miniforge/envs/md/bin/python -B <workspace>/independent-audit/round8-acceptance/run_pocket.py",
+    "pocket_exit_code": 0,
+    "method": "Unchanged producer source executed with only output open paths redirected; separately implemented native-cell geometry check",
+    "manifest_command": "python -B independent-audit/round8-acceptance/check_artifacts.py",
+    "manifest_exit_code": 0,
+    "new_simulation": false,
+    "full_replay_suite_executed": false,
+    "parmed_delegation_newly_verified": false,
+    "write_scope": "independent-audit/round8-acceptance/ only",
+    "supplementary_repeat": "A redundant check_geometry.py repeat was stopped after the original run_pocket.py had already completed both producer rerun and independent geometry successfully (exit 0); all reported geometry is from that completed run."
+  },
+  "evidence_files": [
+    "pocket_stdout.txt",
+    "pocket_residence_r7_summary.json",
+    "pocket_residence_r7_frames.json",
+    "independent_geometry.json",
+    "manifest_checks.json",
+    "replay_checks.json",
+    "report_checks.json"
+  ],
+  "supplementary_paper_manifest_mismatches": [
+    {
+      "path": "paper/MANUSCRIPT_DRAFT_v1.md",
+      "expected_sha256": "89ec21d88ff2b70abe54af65ce89bd7c293a74ce4af5b6713739f1508d83ed7c",
+      "actual_sha256": "1def9afc9d134b5dee1401dbb441cf789f0ce22d3bdeff3114570a016da1704b",
+      "passed": false
+    },
+    {
+      "path": "paper/manuscript_results_discussion.md",
+      "expected_sha256": "2929f2eca1eaec198ea864515770faafaf8d09c368be9a4003ab67a760387c96",
+      "actual_sha256": "7fd5eed9990269330cb90c88265de8cd954fbb43c3410a622968de85af67a22f",
+      "passed": false
+    },
+    {
+      "path": "runs/audit-20260913/gates.json",
+      "expected_sha256": "d321267f21108aac431e7c8c3a9d5029564f10b52b1245cc92d598c768741eca",
+      "actual_sha256": "4c5dfefeaff4a7778d22e13c79c36f178db91c7d9ca6c874e39499b2f1390f7b",
+      "passed": false
+    },
+    {
+      "path": "audit_manifest.json",
+      "expected_sha256": "a8b536071727a48fc7f4439aac84826e25980e6a54a217bd1099505bad44a1e3",
+      "actual_sha256": "1c4ee7e2bd1c43dbc3b86dd67ddffa43df4c87fd736a11111b70f6a0866810b9",
+      "passed": false
+    },
+    {
+      "path": "final-report.md",
+      "expected_sha256": "55e124caeb5c8285610a173629a15231885b1e4ca6b860e424270d975279a64b",
+      "actual_sha256": "2b1ff01b4ab85a05e3532e826974256e5dd2c2c9ab9c12b8936d5af12b7bad6b",
+      "passed": false
+    },
+    {
+      "path": "research-log.md",
+      "expected_sha256": "cc391da1e4c155943c5ef5f2e624eb9ca9bcb2063be0edebdc7ce42c8de9b44e",
+      "actual_sha256": "38010a0c3e33e56db5d8557241b60d07e53440f72410458a96a774674c41115a",
+      "passed": false
+    },
+    {
+      "path": "scripts/pocket_residence.py",
+      "expected_sha256": "3f728d10887a868939123189bf939ed92e1f080ec693a18e696447ccfdb2f7f2",
+      "actual_sha256": "742f0e28ccb2e137ba144ce11206362b636c4ee5af124aad64b9e3cd892049b8",
+      "passed": false
+    }
+  ]
+}

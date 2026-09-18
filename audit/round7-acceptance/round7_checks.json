@@ -1,0 +1,225 @@
+{
+  "role": "Fresh-session acceptance auditor, round 7",
+  "date": "2026-09-14",
+  "mode": "audit-repair (review only; no producer repairs)",
+  "capability": "partial-compute: saved trajectory and deterministic artifact checks",
+  "overall": "REJECT",
+  "G6_recommendation": "Remain BLOCKED. Correct frame handling and replay accounting, reconcile all reports, then freeze current bytes and obtain independent re-acceptance. No experimental-readiness claim.",
+  "checks": {
+    "1_crystal_center_transform": {
+      "verdict": "FAIL",
+      "subchecks": {
+        "executed_620_frames_zero_occupied": "PASS",
+        "units_note_and_translated_definition": "PASS",
+        "coordinate_frame_correctness": "FAIL"
+      },
+      "evidence": {
+        "backbone_atoms": 2112,
+        "ref_backbone_centroid_A": [
+          58.02086639404297,
+          51.679752349853516,
+          43.83640670776367
+        ],
+        "dcd0_backbone_centroid_A": [
+          57.849525451660156,
+          51.62895202636719,
+          43.820735931396484
+        ],
+        "offset_A": [
+          -0.1713409423828125,
+          -0.050800323486328125,
+          -0.0156707763671875
+        ],
+        "offset_per_atom_std_A": [
+          0.5536416172981262,
+          0.48398301005363464,
+          0.5754548907279968
+        ],
+        "crystal_to_ref_backbone_fit_rmsd_A": 1.8747045011774797,
+        "producer_center_A": [
+          -13.884250033291904,
+          -34.148891232577235,
+          -28.740307140003548
+        ],
+        "independent_crystal_center_in_analysis_ref_A": [
+          52.18052768566313,
+          56.8839664973756,
+          42.439810414967845
+        ],
+        "center_error_A": 133.10952323810764,
+        "occupied_frames": 0
+      },
+      "rerun": {
+        "n_frames": 620,
+        "ligand_protein_frame_rmsd_A": {
+          "mean": 4.696,
+          "max": 6.05,
+          "final": 5.753
+        },
+        "pocket_occupancy_fraction": 0.0,
+        "catalytic_residues_ever_contacted_crystal_numbering": [
+          318,
+          319,
+          457,
+          458
+        ],
+        "occupancy_definition": "ligand center (geometric, protein frame) within 6 A of crystal PC centroid (translated into DCD frame via backbone centroid offset, minimum-imaged per frame) AND >=1 catalytic heavy atom within 4.5 A",
+        "units_note": "box vectors scaled nm->A before imaging; all distances in A; crystal-center offset applied (see stdout)",
+        "residue_selector": "zero-based topology resSeq == Murcko ordinal (id2ord[r]); verified mapping 122->206 etc."
+      },
+      "reason": "bound_ref.pdb is not in the raw crystal frame. The ref-to-DCD centroid offset does not map the crystal center into the reference frame used for lig_p. ref_lig is additionally shifted while ref_bb stays unchanged, regressing RMSD."
+    },
+    "2_occupancy_provenance": {
+      "verdict": "FAIL",
+      "subchecks": {
+        "JSON_explicit_post_hoc": "PASS",
+        "final_report_consistent_post_hoc": "FAIL",
+        "figure4_explicit_post_hoc": "FAIL"
+      },
+      "reason": "JSON explicitly says ADDED POST HOC and original pre-registration had no occupancy criterion. final-report.md:214 still says pre-specified; manuscript repeats fixed-in-advance/pre-specified language and Figure 4 lacks audit/post-hoc attribution."
+    },
+    "3_R1_10_replay": {
+      "verdict": "FAIL",
+      "subchecks": {
+        "R1_10_appended": "PASS",
+        "RMSD_recomputed": "PASS",
+        "13_records_12_true_1_null": "PASS",
+        "summary_12_detected_1_delegated": "FAIL",
+        "hardcoded_replays_removed": "FAIL"
+      },
+      "evidence": {
+        "independent_executed_R1_10_A": 1.7569671441021726,
+        "records": 13,
+        "actual_detected": 12,
+        "actual_delegated": 1,
+        "stored_summary": {
+          "executed_replays": 13,
+          "detected": 11,
+          "detection_rate": "11/13",
+          "note": "counts derived from executed observations; context-only findings (R3-4, R3-5, R3-7) and live-only (R1-4, R1-9) are excluded here and listed separately as coverage inventory"
+        },
+        "R1_10": [
+          {
+            "id": "R1-10",
+            "class": "matching-convention",
+            "artifact": "docking/redock_PC_out.pdbqt vs structures/5i85_PC.pdb",
+            "executed_check": "element-swap assignment RMSD recomputation (executed this run)",
+            "observed": "1.757 A (auditor: 1.757)",
+            "detected": true,
+            "note": "lenient convention reproduced by execution; graph-aware validation still pending"
+          }
+        ],
+        "count_before_append": true,
+        "hardcoded_residuals": [
+          "R1-2 literal v1/heat_first",
+          "R3-1 literal observation and True",
+          "R3-6 literal vals"
+        ]
+      }
+    },
+    "4_manifest_freeze": {
+      "verdict": "FAIL",
+      "subchecks": {
+        "five_levels_62_entries_no_self_reference": "PASS",
+        "all_root_hashes_current": "FAIL",
+        "research_log_current": "FAIL",
+        "reports_handoff": "FAIL",
+        "evidence_handoff": "PASS"
+      },
+      "reason": "61/62 root entries match. research-log.md expected 58520 bytes but current 60461; reports handoff artifact[5] SHA256 mismatch. Full hashes and checker outputs: manifest_checks.json."
+    },
+    "5_report_residuals": {
+      "verdict": "FAIL",
+      "subchecks": {
+        "obsolete_surface_sentence_removed_and_mapping_corrected": "PASS",
+        "banner_mean_max_labels": "PASS",
+        "3_1_ns_total": "PASS",
+        "hit_report_threshold": "FAIL",
+        "structure_analysis_ensemble_caveat": "FAIL",
+        "RMSD_agrees_with_current_output": "FAIL",
+        "retired_COM_metric_occupancy_inference_removed": "FAIL"
+      },
+      "reason": "hit-report.md:17 retains <= -7.0 reference claim; structure-analysis.md:61-62 retains no ensemble docking contradiction. final-report.md:211-212 reports 4.579/5.935 A while current rerun and producer output are 4.696/6.050 A."
+    }
+  },
+  "execution": {
+    "pocket": "WSL ~/miniforge/envs/md/bin/python -B independent-audit/round7-acceptance/run_pocket.py; exit 0; exact producer computation with only output path redirected",
+    "replay": "Executed isolated R1-10 parsing/assignment block against current structures; inspected full replay source and saved records. Did not rerun live/TDC full suite.",
+    "handoff": "Installed ai-drug-discovery-team/scripts/check_handoff.py --root project --require artifacts, both bundles",
+    "write_scope": "Only independent-audit/round7-acceptance/; no producer files modified"
+  },
+  "root_manifest_sha256": "4ded91d43abe3d0dba492150a9b8bb110d72bd68eb7ba40f345be1d665186659",
+  "report_review": {
+    "reviewer": "independent report/provenance sub-auditor",
+    "scope": [
+      2,
+      5
+    ],
+    "method": "Read-only UTF-8 source inspection; no external source or producer file changed. No git history exists; original preregistration absence corroborated by prior audit records, not recovered original bytes.",
+    "items": [
+      {
+        "id": "2",
+        "status": "FAIL",
+        "checks": [
+          {
+            "status": "PASS",
+            "evidence": "md/bound_analysis_pre_registered.json:14-16 explicitly ADDED POST HOC, NOT part of original pre-registration.",
+            "check": "JSON marks occupancy post hoc"
+          },
+          {
+            "status": "PASS",
+            "evidence": "Contemporaneous independent-audit/round6-acceptance/round6-acceptance.md:30 and paper/cross_review.md:112 document absence. Original bytes unavailable in discovered files.",
+            "check": "Original pre-registration had no occupancy criterion"
+          },
+          {
+            "status": "FAIL",
+            "evidence": "final-report.md:214 still calls criterion pre-specified.",
+            "check": "Final report honest post-hoc description"
+          },
+          {
+            "status": "FAIL",
+            "evidence": "paper/MANUSCRIPT_DRAFT_v1.md:343-345 says only recorded in md/bound_analysis_pre_registered.json, no audit/post-hoc qualifier. Abstract :30 says recorded before run; body :203 fixed in advance, :217 pre-specified. paper/manuscript_results_discussion.md:82,96 repeats prospective language.",
+            "check": "Figure 4 explicitly audit-recorded/post hoc"
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "status": "FAIL",
+        "checks": [
+          {
+            "status": "PASS",
+            "evidence": "final-report.md:63 and :212-215 give N318/H319/H457/T458; H457 620/620 explicit at :213-214. However :63 ambiguously implies all four persist every frame.",
+            "check": "Obsolete non-catalytic-surface sentence removed and contacts updated"
+          },
+          {
+            "status": "PASS",
+            "evidence": "final-report.md:21-23 explicitly labels both pairs mean/max.",
+            "check": "Banner mean/max labels"
+          },
+          {
+            "status": "PASS",
+            "evidence": "final-report.md:19,63 explicitly 3.1 ns total; :19 gives 0.1+3.0. Minor formatting ambiguity: :19 is unquoted inserted line immediately before v1 6.1 ns at :20.",
+            "check": "3.1 ns total timing"
+          },
+          {
+            "status": "FAIL",
+            "evidence": "hit-report.md:17 still claims reference chemotypes yield <= -7.0 scores; its own :11-13 scores -6.96,-6.34,-6.01 contradict that.",
+            "check": "Hit-report threshold correction"
+          },
+          {
+            "status": "FAIL",
+            "evidence": "structure-analysis.md:58-60 acknowledges cross-crystal and five-snapshot ensemble work but :61-62 retains dangling and no ensemble docking was performed campaign), contradicting preceding statement.",
+            "check": "Structure ensemble caveat corrected"
+          },
+          {
+            "status": "FAIL",
+            "evidence": "final-report.md:226-227 retains ligand remains in pocket region (COM-imaged RMSD 3-4.4 A) and pocket occupancy without metal coordination.",
+            "check": "Retired metric pocket-residence inference removed"
+          }
+        ]
+      }
+    ],
+    "recommendation": "REJECT; G6 not ready for acceptance until mandatory textual and provenance contradictions repaired and refrozen."
+  }
+}

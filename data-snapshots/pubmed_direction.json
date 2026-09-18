@@ -1,0 +1,222 @@
+{
+ "INPP5D_direction": [
+  {
+   "pmid": "41315858",
+   "year": "2026",
+   "journal": "Nature reviews. Neurology",
+   "title": "Microglial phagocytosis in Alzheimer disease.",
+   "abstract": "Accumulating evidence indicates that Alzheimer disease (AD) is caused by dysregulated microglial phagocytosis. The main risk factor for AD is age, and ageing reduces microglial phagocytosis of amyloid-\u03b2 (A\u03b2) plaques, while increasing microglial phagocytosis of synapses and neurons. Most of the known genetic risk for AD can be linked to microglial phagocytosis, including ABCA1, ABI3, ACE, ADAM17, APOE, APP, BIN1, BLNK, CD2AP, CD33, CLU, CR1, CTSB, CTSH, EED, GRN, INPP5D, LILRB2, PICALM, PLCG2, PSEN1, PTK2B, SIGLEC11, SORL1, SPI1, TMEM106B and TREM2. Moreover, the only disease-modifying treatments for AD - anti-A\u03b2 antibodies - work by increasing microglial phagocytosis of A\u03b2 aggregates. Microglial phagocytosis of A\u03b2 via TREM2, LRP1, CD33, TAM receptors and anti-A\u03b2 antibodies appears to reduce AD pathology by pruning and compacting plaques, restricting subsequent tau pathology, whereas microglial phagocytosis of synapses and neurons seems detrimental in the later stages of AD, via complement, P2Y"
+  },
+  {
+   "pmid": "37749326",
+   "year": "2023",
+   "journal": "Nature immunology",
+   "title": "APOE4 impairs the microglial response in Alzheimer's disease by inducing TGF\u03b2-mediated checkpoints.",
+   "abstract": "The APOE4 allele is the strongest genetic risk factor for late-onset Alzheimer's disease (AD). The contribution of microglial APOE4 to AD pathogenesis is unknown, although APOE has the most enriched gene expression in neurodegenerative microglia (MGnD). Here, we show in mice and humans a negative role of microglial APOE4 in the induction of the MGnD response to neurodegeneration. Deletion of microglial APOE4 restores the MGnD phenotype associated with neuroprotection in P301S tau transgenic mice and decreases pathology in APP/PS1 mice. MGnD-astrocyte cross-talk associated with \u03b2-amyloid (A\u03b2) plaque encapsulation and clearance are mediated via LGALS3 signaling following microglial APOE4 deletion. In the brains of AD donors carrying the APOE4 allele, we found a sex-dependent reciprocal induction of AD risk factors associated with suppression of MGnD genes in females, including LGALS3, compared to individuals homozygous for the APOE3 allele. Mechanistically, APOE4-mediated induction of ITGB8-transforming growth factor-\u03b2 (TGF\u03b2) signaling impairs the MGnD response via upregulation of microglial homeostatic checkpoints, including Inpp5d, in mice. Deletion of Inpp5d in microglia restores MGnD-astrocyte cross-talk and facilitates plaque clearance in APP/PS1 mice. We identify the microglial APOE4-ITGB8-TGF\u03b2 pathway as a negative regulator of microglial response to AD pathology, and rest"
+  },
+  {
+   "pmid": "38016942",
+   "year": "2023",
+   "journal": "Nature communications",
+   "title": "INPP5D regulates inflammasome activation in human microglia.",
+   "abstract": "Microglia and neuroinflammation play an important role in the development and progression of Alzheimer's disease (AD). Inositol polyphosphate-5-phosphatase D (INPP5D/SHIP1) is a myeloid-expressed gene genetically-associated with AD. Through unbiased analyses of RNA and protein profiles in INPP5D-disrupted iPSC-derived human microglia, we find that reduction in INPP5D activity is associated with molecular profiles consistent with disrupted autophagy and inflammasome activation. These findings are validated through targeted pharmacological experiments which demonstrate that reduced INPP5D activity induces the formation of the NLRP3 inflammasome, cleavage of CASP1, and secretion of IL-1\u03b2 and IL-18. Further, in-depth analyses of human brain tissue across hundreds of individuals using a multi-analytic approach provides evidence that a reduction in function of INPP5D in microglia results in inflammasome activation in AD. These findings provide insights into the molecular mechanisms underlying microglia-mediated processes in AD and highlight the inflammasome as a potential therapeutic target for modulating INPP5D-mediated vulnerability to AD."
+  },
+  {
+   "pmid": "37895194",
+   "year": "2023",
+   "journal": "Genes",
+   "title": "",
+   "abstract": "Alzheimer's disease (AD) is the most common form of dementia, accounting for approximately 38.5 million cases of all-cause dementia. Over 60% of these individuals live in low- and middle-income countries and are the worst affected, especially by its deleterious effects on the productivity of both patients and caregivers. Numerous risk factors for the disease have been identified and our understanding of gene-environment interactions have shed light on several gene variants that contribute to the most common, sporadic form of AD. Microglial cells, the innate immune cells of the central nervous system (CNS), have long been established as guardians of the brain by providing neuroprotection and maintaining cellular homeostasis. A protein with a myriad of effects on various important signaling pathways that is expressed in microglia is the Src Homology 2 (SH2) domain-containing Inositol 5' Phosphatase 1 (SHIP1) protein. Encoded by the "
+  },
+  {
+   "pmid": "39657671",
+   "year": "2025",
+   "journal": "Immunity",
+   "title": "Microglial lipid phosphatase SHIP1 limits complement-mediated synaptic pruning in the healthy developing hippocampus.",
+   "abstract": "The gene inositol polyphosphate-5-phosphatase D (INPP5D), which encodes the lipid phosphatase SH2-containing inositol polyphosphate 5-phosphatase 1 (SHIP1), is associated with the risk of Alzheimer's disease (AD). How it influences microglial function and brain physiology is unclear. Here, we showed that SHIP1 was enriched in early stages of healthy brain development. By combining in\u00a0vivo loss-of-function approaches and proteomics, we discovered that mice conditionally lacking microglial SHIP1 displayed increased complement and synapse loss in the early postnatal brain. SHIP1-deficient microglia showed altered transcriptional signatures and abnormal synaptic pruning that was dependent on the complement system. Mice exhibited cognitive defects in adulthood only when microglial SHIP1 was depleted early postnatally but not at later stages. Induced pluripotent stem cell (iPSC)-derived microglia lacking SHIP1 also showed increased engulfment of synaptic structures. These findings suggest that SHIP1 is essential for proper microglia-mediated synapse remodeling in the healthy developing brain. Disrupting this process has lasting behavioral effects and may be linked to vulnerability to neurodegeneration."
+  },
+  {
+   "pmid": "38017562",
+   "year": "2023",
+   "journal": "Molecular neurodegeneration",
+   "title": "Microglial function, INPP5D/SHIP1 signaling, and NLRP3 inflammasome activation: implications for Alzheimer's disease.",
+   "abstract": "Recent genetic studies on Alzheimer's disease (AD) have brought microglia under the spotlight, as loci associated with AD risk are enriched in genes expressed in microglia. Several of these genes have been recognized for their central roles in microglial functions. Increasing evidence suggests that SHIP1, the protein encoded by the AD-associated gene INPP5D, is an important regulator of microglial phagocytosis and immune response. A recent study from our group identified SHIP1 as a negative regulator of the NLRP3 inflammasome in human iPSC-derived microglial cells (iMGs). In addition, we found evidence for a connection between SHIP1 activity and inflammasome activation in the AD brain. The NLRP3 inflammasome is a multiprotein complex that induces the secretion of pro-inflammatory cytokines as part of innate immune responses against pathogens and endogenous damage signals. Previously published studies have suggested that the NLRP3 inflammasome is activated in AD and contributes to AD-related pathology. Here, we provide an overview of the current understanding of the microglial NLRP3 inflammasome in the context of AD-related inflammation. We then review the known intracellular functions of SHIP1, including its role in phosphoinositide signaling, interactions with microglial phagocytic receptors such as TREM2 and evidence for its intersection with NLRP3 inflammasome signaling. Thr"
+  }
+ ],
+ "SMPD1_direction": [
+  {
+   "pmid": "40448146",
+   "year": "2025",
+   "journal": "Journal of neuroinflammation",
+   "title": "Astrocyte-derived extracellular vesicular NFIA mediates obesity-associated cognitive impairment.",
+   "abstract": "The escalating global prevalence of cognitive decline associated with obesity represents a significant public health challenge. Emerging evidence implicates astrocyte-derived extracellular vesicles (ADEVs) as key mediators in the pathogenesis of neurodegenerative disease, positioning them as potential therapeutic targets. However, the precise mechanistic role of ADEVs in the pathological processes underlying obesity-related cognitive impairment remains poorly understood. We established an obese mouse model by feeding mice a 60% high-fat diet (HFD) and assessed cognitive function through a series of behavioral tests. To investigate the role of extracellular vesicles (EVs), we inhibited EVs secretion by intraperitoneally administering GW4869, a neutral sphingomyelinase-2 (nSMase2) inhibitor, to 12-week HFD-fed male mice. Using comprehensive proteomic sequencing of brain-derived EVs, we identified NFIA as a potentially candidate protein. A series of in vivo and in vitro experiments were then conducted to confirmed the astrocytic origin of NFIA and neuronal uptake of ADEVs. Further, ADEVs isolated from primary cultured astrocytes under high glucose conditions were administered to both wild-type mice and primary cultured neurons to demonstrate their mediating role. Additionally, we developed adeno-associated virus (AAV) constructs to specifically knockdown the target gene Nfia of as"
+  },
+  {
+   "pmid": "37605262",
+   "year": "2023",
+   "journal": "Acta neuropathologica communications",
+   "title": "Inhibition of acid sphingomyelinase reduces reactive astrocyte secretion of mitotoxic extracellular vesicles and improves Alzheimer's disease pathology in the 5xFAD mouse.",
+   "abstract": "In Alzheimer's disease (AD), reactive astrocytes produce extracellular vesicles (EVs) that affect mitochondria in neurons. Here, we show that A\u03b2-induced generation of the sphingolipid ceramide by acid sphingomyelinase (A-SMase) triggered proinflammatory cytokine (C1q, TNF-\u03b1, IL-1\u03b1) release by microglia, which induced the reactive astrocytes phenotype and secretion of EVs enriched with ceramide. These EVs impeded the capacity of neurons to respond to energy demand. Inhibition of A-SMase with Arc39 and Imipramine reduced the secretion of cytokines from microglia, prompting us to test the effect of Imipramine on EV secretion and AD pathology in the 5xFAD mouse model. Brain derived-EVs from 5xFAD mice treated with Imipramine contained reduced levels of the astrocytic marker GFAP, ceramide, and A\u03b2 and did not impair mitochondrial respiration when compared to EVs derived from untreated 5xFAD brain. Consistently, Imipramine-treated 5xFAD mice showed reduced AD pathology. Our study identifies A-SMase inhibitors as potential AD therapy by preventing cyotokine-elicited secretion of mitotoxic EVs from astrocytes."
+  },
+  {
+   "pmid": "38337058",
+   "year": "2024",
+   "journal": "Experimental & molecular medicine",
+   "title": "Acid sphingomyelinase as a pathological and therapeutic target in neurological disorders: focus on Alzheimer's disease.",
+   "abstract": "Over the past decade, numerous studies have highlighted the importance of acid sphingomyelinase (ASM) in disease treatment in humans. This enzyme functions primarily to generate ceramide, maintain the cellular membrane, and regulate cellular function. However, in the blood and brain of patients with neurological disorders, including major depression, ischemic stroke, amyotrophic lateral sclerosis, multiple sclerosis, and Alzheimer's disease (AD), elevated ASM levels significantly suggest disease onset or progression. In these diseases, increased ASM is profoundly involved in neuronal death, abnormal autophagy, neuroinflammation, blood-brain barrier disruption, hippocampal neurogenesis loss, and immune cell dysfunction. Moreover, genetic and pharmacological inhibition of ASM can prevent or ameliorate various diseases. The therapeutic effects of ASM inhibition have prompted the urgent need to develop ASM inhibitors, and several ASM inhibitors have been identified. In this review, we summarize the current knowledge on the critical roles and mechanisms of ASM in brain cells and blood that are associated with different neuropathological features, especially those observed in AD. Furthermore, we elucidate the potential possibility and limitations of existing ASM-targeting drugs according to experimental studies in neurological disorder mouse models."
+  },
+  {
+   "pmid": "26243307",
+   "year": "2015",
+   "journal": "Expert opinion on therapeutic targets",
+   "title": "Role of sphingomyelinases in neurological disorders.",
+   "abstract": "Sphingomyelinases, which catalyze the hydrolysis of sphingomyelin to ceramide and phosphorylcholine, are abundant in the brain. These enzymes are a major, rapid source of ceramide production not only during physiological responses to receptor stimulation, but also in neurological disorders. We covered an introduction to sphingomyelinases and its enzymatic product ceramide, in membrane domains or lipid rafts and the nucleus; followed by crosstalk between sphingomyelinase and cytosolic phospholipase A2 (cPLA2) catalysed products including arachidonic acid, functions of acid sphingomyelinase (aSMase) and neutral sphingomyelinase (N-SMase) in neurons, neuronal progenitor cells, glial cells, and brain endothelial cells; alterations in acid and N-SMases in Niemann Pick Disease Type A, major depression, Alzheimer's disease, cerebral ischemia, and pain; and recent developments in identification of inhibitors to sphingomyelinases. As literature search methodology, we did key word searches using Pubmed. More research needs to be carried out to develop pharmacological agents that act on sphingomyelinases, for the prevention or treatment of neurological disorders."
+  },
+  {
+   "pmid": "39929585",
+   "year": "2025",
+   "journal": "Advances in pharmacology (San Diego, Calif.)",
+   "title": "Neutral sphingomyelinase 2: A promising drug target for CNS disease.",
+   "abstract": "Neutral sphingomyelinase 2 (nSMase2), encoded by the SMPD3 gene, is a pivotal enzyme in sphingolipid metabolism, hydrolyzing sphingomyelin to produce ceramide, a bioactive lipid involved in apoptosis, inflammation, membrane structure, and extracellular vesicle (EV) biogenesis. nSMase2 is abundantly expressed in the central nervous system (CNS), particularly in neurons, and its dysregulation is implicated in pathologies such as Alzheimer's disease (AD), Parkinson's disease (PD), amyotrophic lateral sclerosis (ALS), prion diseases, and neuroviral diseases. In this review, we discuss the critical role of nSMase2 in the CNS and its involvement in neurological as well as non-neurological diseases. We explore the enzyme's functions in sphingolipid metabolism, its regulatory mechanisms, and the implications of its dysregulation in disease pathogenesis. The chapter highlights the therapeutic potential of pharmacologically targeting nSMase2 with small molecule inhibitors and emphasizes the need for further research to optimize inhibitor specificity and efficacy for clinical applications. By understanding the multifaceted roles of nSMase2, we aim to provide insights into novel therapeutic strategies for treating complex diseases associated with its dysregulation."
+  },
+  {
+   "pmid": "39729766",
+   "year": "2025",
+   "journal": "Bioorganic chemistry",
+   "title": "Quinazoline derivatives as novel bacterial sphingomyelinase enzyme inhibitors.",
+   "abstract": "Bacillus cereus sphingomyelinase C (B. cereus SMase), which plays a crucial role in bacterial virulence, has emerged as a new therapeutic target for treating opportunistic infections caused by this pathogen. It also shares catalytic domain similarity with human neutral sphingomyelinase 2 (nSMase2), which is implicated in Alzheimer's disease. In this study, a series of quinazoline derivatives were synthesized and evaluated for their inhibition of B. cereus SMase, electric eel acetylcholinesterase (EeAChE), and equine butyrylcholinesterase (eqBuChE). Moreover, the antibacterial, anti-hemolytic and metal chelation properties of the selected compounds were determined. Among the synthesized compounds, 6-chloro-2-thioxo-2,3-dihydroquinazolin-4(1H)-one (compound 4) and 6-fluoro-2-thioxo-2,3-dihydroquinazolin-4(1H)-one (compound 5) exhibited promising inhibition of B. cereus SMase, with IC"
+  }
+ ],
+ "PLCG2_direction": [
+  {
+   "pmid": "41315858",
+   "year": "2026",
+   "journal": "Nature reviews. Neurology",
+   "title": "Microglial phagocytosis in Alzheimer disease.",
+   "abstract": "Accumulating evidence indicates that Alzheimer disease (AD) is caused by dysregulated microglial phagocytosis. The main risk factor for AD is age, and ageing reduces microglial phagocytosis of amyloid-\u03b2 (A\u03b2) plaques, while increasing microglial phagocytosis of synapses and neurons. Most of the known genetic risk for AD can be linked to microglial phagocytosis, including ABCA1, ABI3, ACE, ADAM17, APOE, APP, BIN1, BLNK, CD2AP, CD33, CLU, CR1, CTSB, CTSH, EED, GRN, INPP5D, LILRB2, PICALM, PLCG2, PSEN1, PTK2B, SIGLEC11, SORL1, SPI1, TMEM106B and TREM2. Moreover, the only disease-modifying treatments for AD - anti-A\u03b2 antibodies - work by increasing microglial phagocytosis of A\u03b2 aggregates. Microglial phagocytosis of A\u03b2 via TREM2, LRP1, CD33, TAM receptors and anti-A\u03b2 antibodies appears to reduce AD pathology by pruning and compacting plaques, restricting subsequent tau pathology, whereas microglial phagocytosis of synapses and neurons seems detrimental in the later stages of AD, via complement, P2Y"
+  },
+  {
+   "pmid": "41066163",
+   "year": "2025",
+   "journal": "Alzheimer's & dementia : the journal of the Alzheimer's Association",
+   "title": "Alzheimer's disease-associated PLCG2 variants alter microglial state and function in human induced pluripotent stem cell-derived microglia-like cells.",
+   "abstract": "Variants of phospholipase C gamma 2 (PLCG2), a key microglial immune signaling protein, are genetically linked to Alzheimer's disease (AD) risk. Understanding how PLCG2 variants alter microglial function is critical for identifying mechanisms that drive neurodegeneration or resiliency in AD. Induced pluripotent stem cell (iPSC) -derived microglia carrying the protective PLCG2 Protective PLCG2 These findings demonstrate that PLCG2 variants drive distinct microglia transcriptomes that influence microglial functional responses that could contribute to AD risk and protection. Targeting PLCG2-mediated signaling may represent a powerful therapeutic strategy to modulate neuroinflammation. The impact of Alzheimer's disease protective- and risk-associated variants of phospholipase C gamma 2 (PLCG2) on the transcriptome and function of induced pluripotent stem cell (iPSC) -derived microglia was investigated. PLCG2 risk variant microglia exhibited a basal transcriptional profile similar to PLCG2-deficient microglia but significantly different from isotype control and the transcriptionally similar PLCG2 protective variant microglia. PLCG2 risk variant and PLCG2-deficient microglia show decreased levels of triggering receptor expressed on myeloid cells 2 (TREM2). The differential transcriptional pathways of protective and risk-associated PLCG2 variant microglia functionally affect prolifera"
+  },
+  {
+   "pmid": "28714976",
+   "year": "2017",
+   "journal": "Nature genetics",
+   "title": "Rare coding variants in PLCG2, ABI3, and TREM2 implicate microglial-mediated innate immunity in Alzheimer's disease.",
+   "abstract": "We identified rare coding variants associated with Alzheimer's disease in a three-stage case-control study of 85,133 subjects. In stage 1, we genotyped 34,174 samples using a whole-exome microarray. In stage 2, we tested associated variants (P < 1 \u00d7 10"
+  },
+  {
+   "pmid": "41888907",
+   "year": "2026",
+   "journal": "Molecular neurodegeneration",
+   "title": "PLCG2 signaling and genetic resilience in Alzheimer's disease.",
+   "abstract": "Alzheimer\u2019s disease (AD) is a progressive neurodegenerative disorder characterized by cognitive decline and pathological hallmarks, including amyloid plaques, tau tangles, microgliosis, and chronic neuroinflammation. Over the past decade, advances in human genetics have revealed microglia and the innate immune pathways are central determinants of AD susceptibility, resilience, and progression, fundamentally redefining the recent conceptual framework of AD research. Genome-wide association studies (GWAS) implicate microglia-enriched genes including triggering receptor expressed on myeloid cells 2 (TREM2), phospholipase-C gamma 2 (PLCG2), and inositol polyphosphate-5-phosphatase D (INPP5D). Among these, the rare PLCG2 P522R variant is associated with reduced AD risk, enhanced microglial responsiveness, and enrichment in cognitively healthy centenarians. Single-cell and spatial transcriptomic studies have uncovered substantial microglial heterogeneity and pronounced region-specific alterations across age and disease progression. These analyses show that microglia transition through a spectrum of transcriptionally distinct states regulated by coordinated remodeling of lipid metabolic, phagocytic and lysosomal pathways, as well as cytokine-receptor signaling networks. Depending on the direction of these state transitions, microglia may engage neuroprotective programs that enhance de"
+  },
+  {
+   "pmid": "40346446",
+   "year": "2025",
+   "journal": "Alzheimer's & dementia : the journal of the Alzheimer's Association",
+   "title": "PLCG2 modulates TREM2 expression and signaling in response to Alzheimer's disease pathology.",
+   "abstract": "Phospholipase C gamma 2 (PLCG2) is an intracellular effector of microglial cell surface receptors, including triggering receptor expressed on myeloid cells 2 (TREM2). Variants which alter PLCG2 activity impact Alzheimer's disease (AD) risk, but the effects of PLCG2 deficiency in AD remain unclear. 5xFAD mice were crossed with PLCG2- and TREM2-deficient mice to assess the role of PLCG2 in response to amyloid pathology. Human bulk RNA-sequencing data were used to validate findings in AD patients. In 5xFAD mice, the absence of PLCG2 resulted in reduced TREM2 expression and impaired microglial associations with amyloid beta plaques. Transcriptomic analysis revealed perturbations in immune-related pathways shared between PLCG2 and TREM2 deficiencies, as well as distinct differences. Human transcriptomics revealed positive correlations between PLCG2 and TREM2 independent of pathological scores. PLCG2 is a critical component of TREM2 signal transduction and may play an upstream role in TREM2 regulation. These findings clarify the mechanisms of risk and protective PLCG2 variants. The role of phospholipase C gamma 2 (PLCG2) deficiency in response to amyloid beta (A\u03b2) pathology was investigated in 5xFAD mice and with human cortical transcriptomics. PLCG2 deficiency significantly reduces triggering receptor expressed on myeloid cells 2 (TREM2) expression, while TREM2 deficiency increases "
+  },
+  {
+   "pmid": "42601455",
+   "year": "2026",
+   "journal": "Nature genetics",
+   "title": "PLCG2 downregulation impairs synaptic function and increases Alzheimer's disease hallmarks in neuronal cultures.",
+   "abstract": "We developed a high-content screening to investigate how Alzheimer's disease (AD) genetic risk factors may affect synaptic mechanisms in rat primary neuronal cultures. Of the target genes identified, we found that Plcg2 downregulation in mouse dentate gyrus neurons consistently disrupted dendritic morphology and synaptic function. In human neuronal cultures (hNCs), PLCG2 downregulation also impaired synaptic function and increased amyloid-\u03b2 (A\u03b2) levels and Tau phosphorylation. Very rare PLCG2 loss-of-function (LoF) variants were associated with a tenfold increased AD risk. PLCG2 LoF carriers show low mRNA/protein PLCG2/PLC\u03b32 levels and the R953* LoF mutation compromised synaptic function and increased AD hallmarks in hNCs. Single-nucleus RNA sequencing analyses confirmed that the downregulation of PLCG2 impacted pathways related to synaptic and neuronal functions, potentially through neurexins in neurons. In conclusion, PLC\u03b32 downregulation could increase AD risk by impairing synaptic functions and by increasing A\u03b2 levels and Tau phosphorylation in neurons."
+  }
+ ],
+ "INPP5D_ship_activator": [
+  {
+   "pmid": "33724154",
+   "year": "2021",
+   "journal": "Virulence",
+   "title": "Pathogenicity and virulence of Japanese encephalitis virus: Neuroinflammation and neuronal cell damage.",
+   "abstract": "Thousands of human deaths occur annually due to Japanese encephalitis (JE), caused by Japanese encephalitis virus. During the virus infection of the central nervous system, reactive gliosis, uncontrolled inflammatory response, and neuronal cell death are considered as the characteristic features of JE. To date, no specific treatment has been approved to overcome JE, indicating a need for the development of novel therapies. In this article, we focused on basic biological mechanisms in glial (microglia and astrocytes) and neuronal cells that contribute to the onset of neuroinflammation and neuronal cell damage during Japanese encephalitis virus infection. We also provided comprehensive knowledge about anti-JE therapies tested in clinical or pre-clinical settings, and discussed recent therapeutic strategies that could be employed for JE treatment. The improved understanding of JE pathogenesis might lay a foundation for the development of novel therapies to halt JE."
+  },
+  {
+   "pmid": "37895194",
+   "year": "2023",
+   "journal": "Genes",
+   "title": "",
+   "abstract": "Alzheimer's disease (AD) is the most common form of dementia, accounting for approximately 38.5 million cases of all-cause dementia. Over 60% of these individuals live in low- and middle-income countries and are the worst affected, especially by its deleterious effects on the productivity of both patients and caregivers. Numerous risk factors for the disease have been identified and our understanding of gene-environment interactions have shed light on several gene variants that contribute to the most common, sporadic form of AD. Microglial cells, the innate immune cells of the central nervous system (CNS), have long been established as guardians of the brain by providing neuroprotection and maintaining cellular homeostasis. A protein with a myriad of effects on various important signaling pathways that is expressed in microglia is the Src Homology 2 (SH2) domain-containing Inositol 5' Phosphatase 1 (SHIP1) protein. Encoded by the "
+  },
+  {
+   "pmid": "39657671",
+   "year": "2025",
+   "journal": "Immunity",
+   "title": "Microglial lipid phosphatase SHIP1 limits complement-mediated synaptic pruning in the healthy developing hippocampus.",
+   "abstract": "The gene inositol polyphosphate-5-phosphatase D (INPP5D), which encodes the lipid phosphatase SH2-containing inositol polyphosphate 5-phosphatase 1 (SHIP1), is associated with the risk of Alzheimer's disease (AD). How it influences microglial function and brain physiology is unclear. Here, we showed that SHIP1 was enriched in early stages of healthy brain development. By combining in\u00a0vivo loss-of-function approaches and proteomics, we discovered that mice conditionally lacking microglial SHIP1 displayed increased complement and synapse loss in the early postnatal brain. SHIP1-deficient microglia showed altered transcriptional signatures and abnormal synaptic pruning that was dependent on the complement system. Mice exhibited cognitive defects in adulthood only when microglial SHIP1 was depleted early postnatally but not at later stages. Induced pluripotent stem cell (iPSC)-derived microglia lacking SHIP1 also showed increased engulfment of synaptic structures. These findings suggest that SHIP1 is essential for proper microglia-mediated synapse remodeling in the healthy developing brain. Disrupting this process has lasting behavioral effects and may be linked to vulnerability to neurodegeneration."
+  },
+  {
+   "pmid": "38016942",
+   "year": "2023",
+   "journal": "Nature communications",
+   "title": "INPP5D regulates inflammasome activation in human microglia.",
+   "abstract": "Microglia and neuroinflammation play an important role in the development and progression of Alzheimer's disease (AD). Inositol polyphosphate-5-phosphatase D (INPP5D/SHIP1) is a myeloid-expressed gene genetically-associated with AD. Through unbiased analyses of RNA and protein profiles in INPP5D-disrupted iPSC-derived human microglia, we find that reduction in INPP5D activity is associated with molecular profiles consistent with disrupted autophagy and inflammasome activation. These findings are validated through targeted pharmacological experiments which demonstrate that reduced INPP5D activity induces the formation of the NLRP3 inflammasome, cleavage of CASP1, and secretion of IL-1\u03b2 and IL-18. Further, in-depth analyses of human brain tissue across hundreds of individuals using a multi-analytic approach provides evidence that a reduction in function of INPP5D in microglia results in inflammasome activation in AD. These findings provide insights into the molecular mechanisms underlying microglia-mediated processes in AD and highlight the inflammasome as a potential therapeutic target for modulating INPP5D-mediated vulnerability to AD."
+  },
+  {
+   "pmid": "38017562",
+   "year": "2023",
+   "journal": "Molecular neurodegeneration",
+   "title": "Microglial function, INPP5D/SHIP1 signaling, and NLRP3 inflammasome activation: implications for Alzheimer's disease.",
+   "abstract": "Recent genetic studies on Alzheimer's disease (AD) have brought microglia under the spotlight, as loci associated with AD risk are enriched in genes expressed in microglia. Several of these genes have been recognized for their central roles in microglial functions. Increasing evidence suggests that SHIP1, the protein encoded by the AD-associated gene INPP5D, is an important regulator of microglial phagocytosis and immune response. A recent study from our group identified SHIP1 as a negative regulator of the NLRP3 inflammasome in human iPSC-derived microglial cells (iMGs). In addition, we found evidence for a connection between SHIP1 activity and inflammasome activation in the AD brain. The NLRP3 inflammasome is a multiprotein complex that induces the secretion of pro-inflammatory cytokines as part of innate immune responses against pathogens and endogenous damage signals. Previously published studies have suggested that the NLRP3 inflammasome is activated in AD and contributes to AD-related pathology. Here, we provide an overview of the current understanding of the microglial NLRP3 inflammasome in the context of AD-related inflammation. We then review the known intracellular functions of SHIP1, including its role in phosphoinositide signaling, interactions with microglial phagocytic receptors such as TREM2 and evidence for its intersection with NLRP3 inflammasome signaling. Thr"
+  },
+  {
+   "pmid": "38777089",
+   "year": "2024",
+   "journal": "Journal of proteomics",
+   "title": "SHIP1 modulation and proteome characterization of microglia.",
+   "abstract": "Understanding microglial states in the aging brain has become crucial, especially with the discovery of numerous Alzheimer's disease (AD) risk and protective variants in genes such as INPP5D and TREM2, which are essential to microglia function in AD. Here we present a thorough examination of microglia-like cells and primary mouse microglia at the proteome and transcriptome levels to illuminate the roles these genes and the proteins they encode play in various cell states. First, we compared the proteome profiles of wildtype and INPP5D (SHIP1) knockout primary microglia. Our findings revealed significant proteome alterations only in the homozygous SHIP1 knockout, revealing its impact on the microglial proteome. Additionally, we compared the proteome and transcriptome profiles of commonly used in vitro microglia BV2 and HMC3 cells with primary mouse microglia. Our results demonstrated a substantial similarity between the proteome of BV2 and mouse primary cells, while notable differences were observed between BV2 and human HMC3. Lastly, we conducted targeted lipidomic analysis to quantify different phosphatidylinositols (PIs) species, which are direct SHIP1 targets, in the HMC3 and BV2 cells. This in-depth omics analysis of both mouse and human microglia enhances our systematic understanding of these microglia models. SIGNIFICANCE: Given the growing urgency of comprehending microg"
+  }
+ ],
+ "SMPD1_ama": [
+  {
+   "pmid": "40053582",
+   "year": "2025",
+   "journal": "Science advances",
+   "title": "Trained immunity causes myeloid cell hypercoagulability.",
+   "abstract": "The pathogenic basis for increased thrombotic risk in individuals with inflammatory diseases is poorly understood. Myeloid cell \"trained immunity\" describes persistent innate immune cell memory arising from prior exposure to an inflammatory stimulus, leading to an enhanced immune response to subsequent unrelated stimuli. We identify enhanced myeloid cell prothrombotic activity as a maladaptive consequence of trained immunity. Lipopolysaccharide (LPS) stimulation of macrophages trained previously with \u03b2-glucan or heme exhibited significantly enhanced procoagulant activity compared to macrophages stimulated with LPS alone, which was mediated by enhanced acid sphingomyelinase-mediated tissue factor decryption. Furthermore, splenic monocytes isolated from \u03b2-glucan-trained mice revealed enhanced procoagulant activity up to 4 weeks after \u03b2-glucan administration compared to monocytes from control mice over the same time period. Moreover, hematopoietic progenitor cells and bone marrow interstitial fluid from \u03b2-glucan-trained mice had enhanced procoagulant activity compared to control mice. Trained immunity and associated metabolic perturbations may therefore represent an opportunity for targeted intervention in immunothrombotic disease development."
+  },
+  {
+   "pmid": "37003582",
+   "year": "2023",
+   "journal": "Progress in lipid research",
+   "title": "The Niemann-Pick type diseases - A synopsis of inborn errors in sphingolipid and cholesterol metabolism.",
+   "abstract": "Disturbances of lipid homeostasis in cells provoke human diseases. The elucidation of the underlying mechanisms and the development of efficient therapies represent formidable challenges for biomedical research. Exemplary cases are two rare, autosomal recessive, and ultimately fatal lysosomal diseases historically named \"Niemann-Pick\" honoring the physicians, whose pioneering observations led to their discovery. Acid sphingomyelinase deficiency (ASMD) and Niemann-Pick type C disease (NPCD) are caused by specific variants of the sphingomyelin phosphodiesterase 1 (SMPD1) and NPC intracellular cholesterol transporter 1 (NPC1) or NPC intracellular cholesterol transporter 2 (NPC2) genes that perturb homeostasis of two key membrane components, sphingomyelin and cholesterol, respectively. Patients with severe forms of these diseases present visceral and neurologic symptoms and succumb to premature death. This synopsis traces the tortuous discovery of the Niemann-Pick diseases, highlights important advances with respect to genetic culprits and cellular mechanisms, and exposes efforts to improve diagnosis and to explore new therapeutic approaches."
+  },
+  {
+   "pmid": "30611303",
+   "year": "2019",
+   "journal": "Skeletal muscle",
+   "title": "Defects in sarcolemma repair and skeletal muscle function after injury in a mouse model of Niemann-Pick type A/B disease.",
+   "abstract": "Niemann-Pick disease type A (NPDA), a disease caused by mutations in acid sphingomyelinase (ASM), involves severe neurodegeneration and early death. Intracellular lipid accumulation and plasma membrane alterations are implicated in the pathology. ASM is also linked to the mechanism of plasma membrane repair, so we investigated the impact of ASM deficiency in skeletal muscle, a tissue that undergoes frequent cycles of injury and repair in vivo. Utilizing the NPDA/B mouse model ASM ASM Skeletal muscle fibers from ASM"
+  },
+  {
+   "pmid": "27598773",
+   "year": "2016",
+   "journal": "PloS one",
+   "title": "Role of Acid Sphingomyelinase in the Regulation of Social Behavior and Memory.",
+   "abstract": "Major depressive disorder is often associated with deficits in social and cognitive functioning. Mice transgenic for acid sphingomyelinase (t-ASM) were previously shown to have a depressive-like phenotype, which could be normalized by antidepressant treatment. Here, we investigated whether t-ASM mice show deficits in social behavior and memory performance, and whether these possible deficits might be normalized by amitriptyline treatment. Our results revealed that ASM overexpression altered the behavior of mice in a sex-dependent manner. As such, t-ASM female, but not male, mice showed an impaired social preference and a depressive- and anxiogenic-like phenotype, which could be normalized by amitriptyline treatment. Both male and female t-ASM mice showed unaltered preference for social novelty, novel object recognition, and social and object discrimination abilities. Amitriptyline treatment impaired novel object recognition and object discrimination abilities in female, but not in male, wild-type mice, while female t-ASM mice showed unaltered novel object recognition and object discrimination abilities. This study suggests that female t-ASM mice represent a model of depression with comorbid anxiety and social deficits, without memory impairments. It further suggests that ASM overexpression has a protective role against the detrimental effects of amitriptyline on female, but not"
+  },
+  {
+   "pmid": "38615062",
+   "year": "2024",
+   "journal": "Orphanet journal of rare diseases",
+   "title": "A retrospective study of morbidity and mortality of chronic acid sphingomyelinase deficiency in Germany.",
+   "abstract": "Acid sphingomyelinase deficiency (ASMD) is a rare, progressive, potentially fatal lysosomal storage disease that exhibits a broad spectrum of clinical phenotypes. There is a need to expand the knowledge of disease mortality and morbidity in Germany because of limited information on survival analysis in patients with chronic ASMD (type B or type A/B). This observational, multicentre, retrospective cohort study was conducted using medical records of patients with the first symptom onset/diagnosis of ASMD type B or type A/B between 1st January 1990 and 31st July 2021 from four German medical centres. Eligible medical records were abstracted to collect data on demographic characteristics, medical history, hospitalisation, mortality, and causes of death from disease onset to the last follow-up/death. Survival outcomes were estimated using the Kaplan-Meier analysis. Standardised mortality ratio (SMR) was also explored. This study included 33 chart records of patients with ASMD type B (n\u2009=\u200924) and type A/B (n\u2009=\u20099), with a median (interquartile range [IQR]) age of 8.0 [3.0-20.0] years and 1.0 [1.0-2.0] years, respectively, at diagnosis. The commonly reported manifestations were related to spleen (100.0%), liver (93.9%), and respiratory (77.4%) abnormalities. Nine deaths were reported at a median [IQR] age of 17.0 [5.0-25.0] years, with 66.7% of overall patients deceased at less than 18"
+  },
+  {
+   "pmid": "26243307",
+   "year": "2015",
+   "journal": "Expert opinion on therapeutic targets",
+   "title": "Role of sphingomyelinases in neurological disorders.",
+   "abstract": "Sphingomyelinases, which catalyze the hydrolysis of sphingomyelin to ceramide and phosphorylcholine, are abundant in the brain. These enzymes are a major, rapid source of ceramide production not only during physiological responses to receptor stimulation, but also in neurological disorders. We covered an introduction to sphingomyelinases and its enzymatic product ceramide, in membrane domains or lipid rafts and the nucleus; followed by crosstalk between sphingomyelinase and cytosolic phospholipase A2 (cPLA2) catalysed products including arachidonic acid, functions of acid sphingomyelinase (aSMase) and neutral sphingomyelinase (N-SMase) in neurons, neuronal progenitor cells, glial cells, and brain endothelial cells; alterations in acid and N-SMases in Niemann Pick Disease Type A, major depression, Alzheimer's disease, cerebral ischemia, and pain; and recent developments in identification of inhibitors to sphingomyelinases. As literature search methodology, we did key word searches using Pubmed. More research needs to be carried out to develop pharmacological agents that act on sphingomyelinases, for the prevention or treatment of neurological disorders."
+  }
+ ]
+}

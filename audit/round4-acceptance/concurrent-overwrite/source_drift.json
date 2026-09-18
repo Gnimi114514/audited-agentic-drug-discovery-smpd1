@@ -1,0 +1,19 @@
+{
+  "source_changes": [
+    {
+      "path": "audit_manifest.json",
+      "audited_sha256": "269661dc838dc0b30c6a5e1e53a2ae46a8634adb9f6b2cec2c7d6c3c0aba0136",
+      "current_sha256": "a8b536071727a48fc7f4439aac84826e25980e6a54a217bd1099505bad44a1e3"
+    },
+    {
+      "path": "hit-report.md",
+      "audited_sha256": "d6e10f96c6328bb0c170e1d406b0b4fdeb55a98b1dbb01b39a5621bee0593912",
+      "current_sha256": "be55e0c60d1552be43454f72d3848de11cc4da4e410b57af8350f271992435f3"
+    }
+  ],
+  "snapshot_mismatches": [
+    "audit_manifest.json",
+    "hit-report.md"
+  ],
+  "observation": "Changes by an unknown concurrent writer; auditor wrote no project source files. Baseline input_integrity.json and measured evidence still identify audited revision; snapshots with listed mismatches are not baseline copies."
+}

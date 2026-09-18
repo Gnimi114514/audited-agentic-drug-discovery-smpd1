@@ -1,0 +1,42 @@
+[
+ {
+  "name": "CHEMBL28172",
+  "smiles": "O=C1NCN(c2ccccc2)C12CCN(C1Cc3ccccc3C1)CC2",
+  "vina_best": -8.84
+ },
+ {
+  "name": "CHEMBL7385",
+  "smiles": "N#Cc1ccccc1N1CCN(C(=O)c2cc3ccccc3[nH]2)CC1",
+  "vina_best": -8.7
+ },
+ {
+  "name": "CHEMBL48767",
+  "smiles": "O[C@@H]1c2cc3c(cc2C[C@H]1N1CCC(c2cccc4c2OCCO4)CC1)OCO3",
+  "vina_best": -8.71
+ },
+ {
+  "name": "CHEMBL54786",
+  "smiles": "O=C1Cc2cc(CCN3CCN(c4cccc5ccccc45)CC3)ccc2N1",
+  "vina_best": -8.92
+ },
+ {
+  "name": "CHEMBL24974",
+  "smiles": "O=C1OC2(CCN(CC(O)C3COc4ccccc4O3)CC2)CN1CCc1ccccc1",
+  "vina_best": -8.72
+ },
+ {
+  "name": "CHEMBL29571",
+  "smiles": "O=C1N[C@@H]2CCCC[C@H]2N1C1CCN(Cc2ccc3ccccc3c2)CC1",
+  "vina_best": -8.89
+ },
+ {
+  "name": "CHEMBL6729",
+  "smiles": "CC(=O)NCC1CN(c2ccc(-c3ccc(N4CCOCC4)c(=O)cc3)cc2)C(=O)O1",
+  "vina_best": -8.89
+ },
+ {
+  "name": "CHEMBL37169",
+  "smiles": "O=C1NC(CCN2CCN(c3ccc4ccccc4c3)CC2)c2ccccc21",
+  "vina_best": -8.85
+ }
+]

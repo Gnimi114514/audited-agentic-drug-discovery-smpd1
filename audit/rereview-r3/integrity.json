@@ -1,0 +1,183 @@
+{
+  "snapshot_sha256": {
+    "structure-analysis.md": "4fae118e72531466035542b9af588e6688d0d88c8b8c35b014f23ab8973d1854",
+    "target-dossier.md": "7146270bfe8855f66b3214935aac02012b06ac4eff70ed6de274aecffb29213a",
+    "audit_manifest.json": "695c5df3f9e15caa48cc9e0c019912c2dd90e60a53f352989cb9bb871576f8df",
+    "research-log.md": "9d47b4bcef8683f458ed92e7eec83bbd7774a9e87f95b0ec142bbefa1c8da804",
+    "final-report.md": "1d2d18b7da904a211a94790617f3f0b28626333dfffb876385ef9cfcf08e7754"
+  },
+  "manifest_generated": "2026-09-13 22:43:31",
+  "checks": [
+    {
+      "section": "reports",
+      "path": "final-report.md",
+      "actual": "1d2d18b7da904a211a94790617f3f0b28626333dfffb876385ef9cfcf08e7754",
+      "expected": {
+        "sha256": "1d2d18b7da904a211a94790617f3f0b28626333dfffb876385ef9cfcf08e7754",
+        "bytes": 15723
+      },
+      "passed": true
+    },
+    {
+      "section": "reports",
+      "path": "research-log.md",
+      "actual": "9d47b4bcef8683f458ed92e7eec83bbd7774a9e87f95b0ec142bbefa1c8da804",
+      "expected": {
+        "sha256": "9d47b4bcef8683f458ed92e7eec83bbd7774a9e87f95b0ec142bbefa1c8da804",
+        "bytes": 46972
+      },
+      "passed": true
+    },
+    {
+      "section": "reports",
+      "path": "AUDIT.md",
+      "actual": "0f344d8f2df2a367d899bc91d62a0f65f2be110aa67727da7378d9c8a2a880ca",
+      "expected": {
+        "sha256": "0f344d8f2df2a367d899bc91d62a0f65f2be110aa67727da7378d9c8a2a880ca",
+        "bytes": 12549
+      },
+      "passed": true
+    },
+    {
+      "section": "results",
+      "path": "results/funnel_registry.json",
+      "actual": "5d6c059bc74b59044ef6d608386d3b5c4b334d70ef0212360f7948ce3af6d288",
+      "expected": {
+        "sha256": "5d6c059bc74b59044ef6d608386d3b5c4b334d70ef0212360f7948ce3af6d288",
+        "bytes": 1832
+      },
+      "passed": true
+    },
+    {
+      "section": "results",
+      "path": "results/herg_central_repro/metrics.json",
+      "actual": "dc7dc6e28e8d91060d0427324cb03404c157d09bc0947ea8cedd834371003226",
+      "expected": {
+        "sha256": "dc7dc6e28e8d91060d0427324cb03404c157d09bc0947ea8cedd834371003226",
+        "bytes": 117
+      },
+      "passed": true
+    },
+    {
+      "section": "results",
+      "path": "results/herg_central_repro/candidate_overlap.csv",
+      "actual": "dd74ef37dca0e0e63dc8108d0eb9e805698fc947dc392eea7fa9ffbb6def16bb",
+      "expected": {
+        "sha256": "dd74ef37dca0e0e63dc8108d0eb9e805698fc947dc392eea7fa9ffbb6def16bb",
+        "bytes": 723
+      },
+      "passed": true
+    },
+    {
+      "section": "audit",
+      "path": "independent-audit/REPORT.md",
+      "actual": "121544876092a01a2e371c7028300d90d37e5da845c1788bd9e268d8935fb92c",
+      "expected": {
+        "sha256": "121544876092a01a2e371c7028300d90d37e5da845c1788bd9e268d8935fb92c",
+        "bytes": 14220
+      },
+      "passed": true
+    },
+    {
+      "section": "audit",
+      "path": "runs/audit-20260913/reviews/gpt6-audit-triage.md",
+      "actual": "72d0c758f3a1133b99e361bcb5e27a4b79d812797ee9d5bfdc76eab12fd478ed",
+      "expected": {
+        "sha256": "72d0c758f3a1133b99e361bcb5e27a4b79d812797ee9d5bfdc76eab12fd478ed",
+        "bytes": 5922
+      },
+      "passed": true
+    },
+    {
+      "section": "audit",
+      "path": "runs/audit-20260913/gates.json",
+      "actual": "271e8b8d13ab877a3e820d2d41e3eb4d8802010270da33e1416fc5904a784260",
+      "expected": {
+        "sha256": "271e8b8d13ab877a3e820d2d41e3eb4d8802010270da33e1416fc5904a784260",
+        "bytes": 1909
+      },
+      "passed": true
+    },
+    {
+      "section": "audit",
+      "path": "runs/audit-20260913/handoff-r3-mech.json",
+      "actual": "0711fb995de4b2e6501c854b9012455cbd31c0fee31798370127de6f10589508",
+      "expected": {
+        "sha256": "0711fb995de4b2e6501c854b9012455cbd31c0fee31798370127de6f10589508",
+        "bytes": 1941
+      },
+      "passed": true
+    },
+    {
+      "section": "audit",
+      "path": "runs/audit-20260913/handoff-r3-context.json",
+      "actual": "48bbca01f8ea3d4e2eaa215811b4b7c3b44c3cc2d4764a371f8266d96c0b22de",
+      "expected": {
+        "sha256": "48bbca01f8ea3d4e2eaa215811b4b7c3b44c3cc2d4764a371f8266d96c0b22de",
+        "bytes": 3435
+      },
+      "passed": true
+    },
+    {
+      "section": "md",
+      "path": "md/bound_v2.dcd",
+      "actual": "3069107c4d099dfc081673b0becdf6c33e942f5fe4ef2f78bb87d3d0e8200502",
+      "expected": {
+        "sha256": "3069107c4d099dfc081673b0becdf6c33e942f5fe4ef2f78bb87d3d0e8200502",
+        "bytes": 545647396
+      },
+      "passed": true
+    },
+    {
+      "section": "md",
+      "path": "md/bound_ref.pdb",
+      "actual": "b294b05be700ac7e9fd3a2bca59f4940970d7cbe029f88e04190f3873d61e3ab",
+      "expected": {
+        "sha256": "b294b05be700ac7e9fd3a2bca59f4940970d7cbe029f88e04190f3873d61e3ab",
+        "bytes": 7381099
+      },
+      "passed": true
+    },
+    {
+      "section": "md",
+      "path": "md/bound_analysis_pre_registered.json",
+      "actual": "afccad51c5aab8cf4ea52cd5dc19934d05c2259bf9d50ebb43c1ac6ad92231b7",
+      "expected": {
+        "sha256": "afccad51c5aab8cf4ea52cd5dc19934d05c2259bf9d50ebb43c1ac6ad92231b7",
+        "bytes": 590
+      },
+      "passed": true
+    },
+    {
+      "section": "scripts",
+      "path": "scripts/bound_md.py",
+      "actual": "25dfd0aee5f633947348f40b949f08d7b0b1ad4565b3bd8daf84a393b6f8da0f",
+      "expected": {
+        "sha256": "25dfd0aee5f633947348f40b949f08d7b0b1ad4565b3bd8daf84a393b6f8da0f",
+        "bytes": 5623
+      },
+      "passed": true
+    },
+    {
+      "section": "scripts",
+      "path": "scripts/stock_download_loop.sh",
+      "actual": "697de6720ef237cfa151f8ea4817d8d1782112528eee5c502ba76afe4891f426",
+      "expected": {
+        "sha256": "697de6720ef237cfa151f8ea4817d8d1782112528eee5c502ba76afe4891f426",
+        "bytes": 762
+      },
+      "passed": true
+    }
+  ],
+  "selected_not_covered": [
+    "structure-analysis.md",
+    "target-dossier.md",
+    "audit_manifest.json"
+  ],
+  "critical_not_covered": [
+    "md/complex.prmtop",
+    "md/complex.inpcrd",
+    "md/bound_v2_log.csv",
+    "data/herg_central.tab"
+  ]
+}

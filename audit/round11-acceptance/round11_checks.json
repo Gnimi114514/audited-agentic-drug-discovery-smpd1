@@ -1,0 +1,865 @@
+{
+  "timestamp": "2026-09-14T03:10:32.285127+00:00",
+  "python": "C:\\ProgramData\\anaconda3\\python.exe",
+  "manifest": {
+    "count": 77,
+    "levels": {
+      "L1_evidence": 38,
+      "L2_scripts": 15,
+      "L3_reports_frozen": 11,
+      "L4_nested_manifests": 2,
+      "L5_audit_artifacts": 11
+    },
+    "passed": true,
+    "entries": [
+      {
+        "level": "L1_evidence",
+        "path": "results/hits_ranked.csv",
+        "expected_sha256": "d941016bcffb1607d316e3dbba61d41aee4495de81c88f74fc100e43c77b5052",
+        "actual_sha256": "d941016bcffb1607d316e3dbba61d41aee4495de81c88f74fc100e43c77b5052",
+        "bytes": 501654,
+        "passed": true
+      },
+      {
+        "level": "L1_evidence",
+        "path": "results/funnel_registry.json",
+        "expected_sha256": "5d6c059bc74b59044ef6d608386d3b5c4b334d70ef0212360f7948ce3af6d288",
+        "actual_sha256": "5d6c059bc74b59044ef6d608386d3b5c4b334d70ef0212360f7948ce3af6d288",
+        "bytes": 1832,
+        "passed": true
+      },
+      {
+        "level": "L1_evidence",
+        "path": "results/top50.json",
+        "expected_sha256": "aaba6b2857113d0577050b7161be242ac99a2ec1b283bcb67502a9ac88ab4446",
+        "actual_sha256": "aaba6b2857113d0577050b7161be242ac99a2ec1b283bcb67502a9ac88ab4446",
+        "bytes": 21890,
+        "passed": true
+      },
+      {
+        "level": "L1_evidence",
+        "path": "results/ensemble_scores.csv",
+        "expected_sha256": "bcaf6a68fa1f167f748384dde59c5993fae820e11f2a55e67c0c415d208f4c7f",
+        "actual_sha256": "bcaf6a68fa1f167f748384dde59c5993fae820e11f2a55e67c0c415d208f4c7f",
+        "bytes": 693,
+        "passed": true
+      },
+      {
+        "level": "L1_evidence",
+        "path": "results/gnina_rescoring.json",
+        "expected_sha256": "40495bf4b5ef7707549ff8b2a0277a07d9cc429a56273f85249e1383d5ada15d",
+        "actual_sha256": "40495bf4b5ef7707549ff8b2a0277a07d9cc429a56273f85249e1383d5ada15d",
+        "bytes": 944,
+        "passed": true
+      },
+      {
+        "level": "L1_evidence",
+        "path": "results/homolog_selectivity.csv",
+        "expected_sha256": "09d507c7c84826ed33d90407888a4d87e8206d4de0e4406fefa50a45ab52bb1b",
+        "actual_sha256": "09d507c7c84826ed33d90407888a4d87e8206d4de0e4406fefa50a45ab52bb1b",
+        "bytes": 1448,
+        "passed": true
+      },
+      {
+        "level": "L1_evidence",
+        "path": "results/admet_predictions.csv",
+        "expected_sha256": "15dcea91ea51962d186cf65f933ea0cf2160d4c146ffd611f150a35ff0249ec2",
+        "actual_sha256": "15dcea91ea51962d186cf65f933ea0cf2160d4c146ffd611f150a35ff0249ec2",
+        "bytes": 3909,
+        "passed": true
+      },
+      {
+        "level": "L1_evidence",
+        "path": "results/md_ensemble_docking.csv",
+        "expected_sha256": "2c7c65c08dd762449112fe6697c4d8bb83797132d41902aeabb7d488c4868786",
+        "actual_sha256": "2c7c65c08dd762449112fe6697c4d8bb83797132d41902aeabb7d488c4868786",
+        "bytes": 464,
+        "passed": true
+      },
+      {
+        "level": "L1_evidence",
+        "path": "results/expansion_results.json",
+        "expected_sha256": "266c51446bc565a9dce4aae8975c3ae7abf143d75d569032c8684c75e90e8f19",
+        "actual_sha256": "266c51446bc565a9dce4aae8975c3ae7abf143d75d569032c8684c75e90e8f19",
+        "bytes": 53656,
+        "passed": true
+      },
+      {
+        "level": "L1_evidence",
+        "path": "results/herg_central_repro/metrics.json",
+        "expected_sha256": "dc7dc6e28e8d91060d0427324cb03404c157d09bc0947ea8cedd834371003226",
+        "actual_sha256": "dc7dc6e28e8d91060d0427324cb03404c157d09bc0947ea8cedd834371003226",
+        "bytes": 117,
+        "passed": true
+      },
+      {
+        "level": "L1_evidence",
+        "path": "results/herg_central_repro/split_meta.json",
+        "expected_sha256": "643a159b567655d9584fb0b28f84944b114999e52f0dd4ebbc78165ccefd5cd9",
+        "actual_sha256": "643a159b567655d9584fb0b28f84944b114999e52f0dd4ebbc78165ccefd5cd9",
+        "bytes": 402,
+        "passed": true
+      },
+      {
+        "level": "L1_evidence",
+        "path": "results/herg_central_repro/dataset.sha256",
+        "expected_sha256": "a33ffb01b06381a1cb5cfcadcc83b221b323c12b94d515dab9d7c4bb83f53f7c",
+        "actual_sha256": "a33ffb01b06381a1cb5cfcadcc83b221b323c12b94d515dab9d7c4bb83f53f7c",
+        "bytes": 66,
+        "passed": true
+      },
+      {
+        "level": "L1_evidence",
+        "path": "results/herg_central_repro/candidate_overlap.csv",
+        "expected_sha256": "dd74ef37dca0e0e63dc8108d0eb9e805698fc947dc392eea7fa9ffbb6def16bb",
+        "actual_sha256": "dd74ef37dca0e0e63dc8108d0eb9e805698fc947dc392eea7fa9ffbb6def16bb",
+        "bytes": 723,
+        "passed": true
+      },
+      {
+        "level": "L1_evidence",
+        "path": "results/herg_central_repro/models/candidate_predictions_by_model.csv",
+        "expected_sha256": "a46b49dd0d200962c6d7b7919b268687495be696ec826d4b3dc748a2281570b8",
+        "actual_sha256": "a46b49dd0d200962c6d7b7919b268687495be696ec826d4b3dc748a2281570b8",
+        "bytes": 852,
+        "passed": true
+      },
+      {
+        "level": "L1_evidence",
+        "path": "results/herg_central_repro/models/model_provenance.json",
+        "expected_sha256": "0e7fee3337deaed0ab83c8ac9bc3f21d8aa0de38d76d7e6b0cea1f698a44db7a",
+        "actual_sha256": "0e7fee3337deaed0ab83c8ac9bc3f21d8aa0de38d76d7e6b0cea1f698a44db7a",
+        "bytes": 442,
+        "passed": true
+      },
+      {
+        "level": "L1_evidence",
+        "path": "results/herg_central_repro/models/modelB_test_predictions.npz",
+        "expected_sha256": "ff3c9c473c537aeca52a300b6c7b646c528506575ca9a1f7cf133f885c1bfd0f",
+        "actual_sha256": "ff3c9c473c537aeca52a300b6c7b646c528506575ca9a1f7cf133f885c1bfd0f",
+        "bytes": 286122,
+        "passed": true
+      },
+      {
+        "level": "L1_evidence",
+        "path": "results/herg_karim_predictions.csv",
+        "expected_sha256": "e932ae505b6ad5760dcc9a9079109ae5a4a3850838b569f16d6d9d27ed1bb36c",
+        "actual_sha256": "e932ae505b6ad5760dcc9a9079109ae5a4a3850838b569f16d6d9d27ed1bb36c",
+        "bytes": 789,
+        "passed": true
+      },
+      {
+        "level": "L1_evidence",
+        "path": "results/herg_dili_predictions.csv",
+        "expected_sha256": "6cfd4dc4f49dfcef00684d4093411b16be5268c64c5e53e28d3e327386650cc4",
+        "actual_sha256": "6cfd4dc4f49dfcef00684d4093411b16be5268c64c5e53e28d3e327386650cc4",
+        "bytes": 932,
+        "passed": true
+      },
+      {
+        "level": "L1_evidence",
+        "path": "results/pose_contacts.csv",
+        "expected_sha256": "dec00fd260e8186eea9eb3fb2e46dabf80ca9cadb3baf3b04de8fc660846aa18",
+        "actual_sha256": "dec00fd260e8186eea9eb3fb2e46dabf80ca9cadb3baf3b04de8fc660846aa18",
+        "bytes": 2884,
+        "passed": true
+      },
+      {
+        "level": "L1_evidence",
+        "path": "runs/audit-20260913/tasks/sim-02/attempt-1/pocket_residence.json",
+        "expected_sha256": "bd22cc6cd230dcf919ae39da59540d664c407edb24f17266e39883d304d17eea",
+        "actual_sha256": "bd22cc6cd230dcf919ae39da59540d664c407edb24f17266e39883d304d17eea",
+        "bytes": 1165,
+        "passed": true
+      },
+      {
+        "level": "L1_evidence",
+        "path": "runs/audit-20260913/tasks/sim-02/attempt-1/pocket_residence_v1_superseded.json",
+        "expected_sha256": "aaa1f61546740037541e6cb6bc63f1fc3a575735276a3069dbf7016375f4f446",
+        "actual_sha256": "aaa1f61546740037541e6cb6bc63f1fc3a575735276a3069dbf7016375f4f446",
+        "bytes": 113729,
+        "passed": true
+      },
+      {
+        "level": "L1_evidence",
+        "path": "runs/audit-20260913/tasks/sim-02/attempt-1/pocket_residence_superseded_by_r5fix.json",
+        "expected_sha256": "207bb5749c69eb3e7e71d95d37271e4122aae7fa6b9d44a4f23d4ade73d26f49",
+        "actual_sha256": "207bb5749c69eb3e7e71d95d37271e4122aae7fa6b9d44a4f23d4ade73d26f49",
+        "bytes": 113800,
+        "passed": true
+      },
+      {
+        "level": "L1_evidence",
+        "path": "runs/audit-20260913/tasks/sim-02/attempt-1/pocket_residence_r5fix_summary.json",
+        "expected_sha256": "cb648cb97dfb89c665646f2c2da84c03a1ec2129ccaf34fd111bfcf76ee2fefb",
+        "actual_sha256": "cb648cb97dfb89c665646f2c2da84c03a1ec2129ccaf34fd111bfcf76ee2fefb",
+        "bytes": 694,
+        "passed": true
+      },
+      {
+        "level": "L1_evidence",
+        "path": "runs/audit-20260913/tasks/sim-02/attempt-1/pocket_residence_r7_summary.json",
+        "expected_sha256": "1ddf4e3a801ed7098af4df17d2e30d9cf37c55496b23ed342b698fb2c4749e5a",
+        "actual_sha256": "1ddf4e3a801ed7098af4df17d2e30d9cf37c55496b23ed342b698fb2c4749e5a",
+        "bytes": 747,
+        "passed": true
+      },
+      {
+        "level": "L1_evidence",
+        "path": "runs/audit-20260913/tasks/sim-02/attempt-1/pocket_residence_r7_frames.json",
+        "expected_sha256": "5c15b9145469b818400260f399b138abadb3a9cf38049b9d8d2308a0cd9fc4c0",
+        "actual_sha256": "5c15b9145469b818400260f399b138abadb3a9cf38049b9d8d2308a0cd9fc4c0",
+        "bytes": 54934,
+        "passed": true
+      },
+      {
+        "level": "L1_evidence",
+        "path": "runs/audit-20260913/tasks/syn-01/attempt-1/result.json",
+        "expected_sha256": "c77469994a094397faaeb764a0c9f60d254bff1c855c5db3fe1e6eacdc473c4e",
+        "actual_sha256": "c77469994a094397faaeb764a0c9f60d254bff1c855c5db3fe1e6eacdc473c4e",
+        "bytes": 216,
+        "passed": true
+      },
+      {
+        "level": "L1_evidence",
+        "path": "runs/audit-20260913/tasks/syn-01/attempt-1/candidates_routes.json",
+        "expected_sha256": "a4726dda55c058fd61b65840359f2f1711dee1ab9f03a4c14dfefd4b9e5ad851",
+        "actual_sha256": "a4726dda55c058fd61b65840359f2f1711dee1ab9f03a4c14dfefd4b9e5ad851",
+        "bytes": 455,
+        "passed": true
+      },
+      {
+        "level": "L1_evidence",
+        "path": "runs/benchmark-seeded/benchmark_results.json",
+        "expected_sha256": "1c44dfd11d9fe2086cba06d6bce4c1e0d3a6e9614216e46c90dfe15c6cb1abbf",
+        "actual_sha256": "1c44dfd11d9fe2086cba06d6bce4c1e0d3a6e9614216e46c90dfe15c6cb1abbf",
+        "bytes": 2086,
+        "passed": true
+      },
+      {
+        "level": "L1_evidence",
+        "path": "runs/benchmark-seeded/real_findings_replay.json",
+        "expected_sha256": "1f3fbd22cd9c12b565d44058944a2d05a800758b98ed66e532514d2894167695",
+        "actual_sha256": "1f3fbd22cd9c12b565d44058944a2d05a800758b98ed66e532514d2894167695",
+        "bytes": 5453,
+        "passed": true
+      },
+      {
+        "level": "L1_evidence",
+        "path": "runs/benchmark-seeded/real_findings_replay_executed.json",
+        "expected_sha256": "c39c4f86041d3a48d1174cda885a9dc6290041a370d9133afe6b8edf24181300",
+        "actual_sha256": "c39c4f86041d3a48d1174cda885a9dc6290041a370d9133afe6b8edf24181300",
+        "bytes": 4417,
+        "passed": true
+      },
+      {
+        "level": "L1_evidence",
+        "path": "md/bound_v2.dcd",
+        "expected_sha256": "3069107c4d099dfc081673b0becdf6c33e942f5fe4ef2f78bb87d3d0e8200502",
+        "actual_sha256": "3069107c4d099dfc081673b0becdf6c33e942f5fe4ef2f78bb87d3d0e8200502",
+        "bytes": 545647396,
+        "passed": true
+      },
+      {
+        "level": "L1_evidence",
+        "path": "md/bound_ref.pdb",
+        "expected_sha256": "b294b05be700ac7e9fd3a2bca59f4940970d7cbe029f88e04190f3873d61e3ab",
+        "actual_sha256": "b294b05be700ac7e9fd3a2bca59f4940970d7cbe029f88e04190f3873d61e3ab",
+        "bytes": 7381099,
+        "passed": true
+      },
+      {
+        "level": "L1_evidence",
+        "path": "md/bound_analysis_pre_registered.json",
+        "expected_sha256": "32f363a5832ea2702b8311f793526479638af23b616b1b9913ec2715c02fd6dd",
+        "actual_sha256": "32f363a5832ea2702b8311f793526479638af23b616b1b9913ec2715c02fd6dd",
+        "bytes": 1157,
+        "passed": true
+      },
+      {
+        "level": "L1_evidence",
+        "path": "md/complex.prmtop",
+        "expected_sha256": "f2139e02ad03663415bd09849ab8bb398cffa2ad18f7ecbe6003bcb3f3c91cd8",
+        "actual_sha256": "f2139e02ad03663415bd09849ab8bb398cffa2ad18f7ecbe6003bcb3f3c91cd8",
+        "bytes": 13990827,
+        "passed": true
+      },
+      {
+        "level": "L1_evidence",
+        "path": "md/complex.inpcrd",
+        "expected_sha256": "a8299226c0e859d72280cfe874e1ec8074e88b963b66d848e7366c399f349d24",
+        "actual_sha256": "a8299226c0e859d72280cfe874e1ec8074e88b963b66d848e7366c399f349d24",
+        "bytes": 2676748,
+        "passed": true
+      },
+      {
+        "level": "L1_evidence",
+        "path": "md/prod.dcd",
+        "expected_sha256": "4941f5acf59b5265305a48e5f0f59c07a53e0f86ae5785553a90c2b9480f4995",
+        "actual_sha256": "4941f5acf59b5265305a48e5f0f59c07a53e0f86ae5785553a90c2b9480f4995",
+        "bytes": 1962763656,
+        "passed": true
+      },
+      {
+        "level": "L1_evidence",
+        "path": "structures/5i85.pdb",
+        "expected_sha256": "c8b9711df2698f100b5f040f51cab14cf1cc9add5d98fb2eb5ec518ac528f2fe",
+        "actual_sha256": "c8b9711df2698f100b5f040f51cab14cf1cc9add5d98fb2eb5ec518ac528f2fe",
+        "bytes": 791937,
+        "passed": true
+      },
+      {
+        "level": "L1_evidence",
+        "path": "structures/5i85_recA_ZN_rigid.pdbqt",
+        "expected_sha256": "5d33cac3fb16951a306f94041196ff322d30308cd843447c7bdb28aa15da9bd1",
+        "actual_sha256": "5d33cac3fb16951a306f94041196ff322d30308cd843447c7bdb28aa15da9bd1",
+        "bytes": 427119,
+        "passed": true
+      },
+      {
+        "level": "L2_scripts",
+        "path": "scripts/bound_md.py",
+        "expected_sha256": "25dfd0aee5f633947348f40b949f08d7b0b1ad4565b3bd8daf84a393b6f8da0f",
+        "actual_sha256": "25dfd0aee5f633947348f40b949f08d7b0b1ad4565b3bd8daf84a393b6f8da0f",
+        "bytes": 5623,
+        "passed": true
+      },
+      {
+        "level": "L2_scripts",
+        "path": "scripts/pocket_residence.py",
+        "expected_sha256": "742f0e28ccb2e137ba144ce11206362b636c4ee5af124aad64b9e3cd892049b8",
+        "actual_sha256": "742f0e28ccb2e137ba144ce11206362b636c4ee5af124aad64b9e3cd892049b8",
+        "bytes": 8252,
+        "passed": true
+      },
+      {
+        "level": "L2_scripts",
+        "path": "scripts/pocket_residence_r5fix.py",
+        "expected_sha256": "add48616e611526c9000c85298872672664612fba69707b3b05caf0e56b813ff",
+        "actual_sha256": "add48616e611526c9000c85298872672664612fba69707b3b05caf0e56b813ff",
+        "bytes": 7033,
+        "passed": true
+      },
+      {
+        "level": "L2_scripts",
+        "path": "scripts/pocket_residence_r7.py",
+        "expected_sha256": "04b78aa7305a70edec895ef3655183364eda3eee61c94ba8f7deaf33da36d755",
+        "actual_sha256": "04b78aa7305a70edec895ef3655183364eda3eee61c94ba8f7deaf33da36d755",
+        "bytes": 5982,
+        "passed": true
+      },
+      {
+        "level": "L2_scripts",
+        "path": "scripts/herg_model_separation.py",
+        "expected_sha256": "cf7d2b963af31a5c8c2c3cd71b36e6ceab224315971abc23735dcf3f3af76427",
+        "actual_sha256": "cf7d2b963af31a5c8c2c3cd71b36e6ceab224315971abc23735dcf3f3af76427",
+        "bytes": 4576,
+        "passed": true
+      },
+      {
+        "level": "L2_scripts",
+        "path": "scripts/herg_central_repro.py",
+        "expected_sha256": "03f248fc84a78741ac3820de67fd3bfc85f9a4a0efb291370924135568577eb8",
+        "actual_sha256": "03f248fc84a78741ac3820de67fd3bfc85f9a4a0efb291370924135568577eb8",
+        "bytes": 4813,
+        "passed": true
+      },
+      {
+        "level": "L2_scripts",
+        "path": "scripts/seeded_benchmark.py",
+        "expected_sha256": "7ec0f9e821571fbda7dc57cc401edbabd51a3fa0d17905f39758774bef00d908",
+        "actual_sha256": "7ec0f9e821571fbda7dc57cc401edbabd51a3fa0d17905f39758774bef00d908",
+        "bytes": 6677,
+        "passed": true
+      },
+      {
+        "level": "L2_scripts",
+        "path": "scripts/findings_replay.py",
+        "expected_sha256": "55d553f1f257e206856bad5c059a1830ea52a41c02486579aaf6cab2dd8fd7ee",
+        "actual_sha256": "55d553f1f257e206856bad5c059a1830ea52a41c02486579aaf6cab2dd8fd7ee",
+        "bytes": 6223,
+        "passed": true
+      },
+      {
+        "level": "L2_scripts",
+        "path": "scripts/findings_replay_executed.py",
+        "expected_sha256": "fbcad0f6d53e0456907a504b340eb3e138376956526f9e8821fd3ba5efc51b30",
+        "actual_sha256": "fbcad0f6d53e0456907a504b340eb3e138376956526f9e8821fd3ba5efc51b30",
+        "bytes": 11277,
+        "passed": true
+      },
+      {
+        "level": "L2_scripts",
+        "path": "scripts/build_bound.sh",
+        "expected_sha256": "61885c8d7c7b1a396a29c5cf0bca655c00b09fa5ad0b8b9d88f12db94940d20a",
+        "actual_sha256": "61885c8d7c7b1a396a29c5cf0bca655c00b09fa5ad0b8b9d88f12db94940d20a",
+        "bytes": 2267,
+        "passed": true
+      },
+      {
+        "level": "L2_scripts",
+        "path": "scripts/dock_runner.py",
+        "expected_sha256": "8124392ff81f4f6a21b6f2c52ce94e77059a21042be06075c83d0f481aa8fb6f",
+        "actual_sha256": "8124392ff81f4f6a21b6f2c52ce94e77059a21042be06075c83d0f481aa8fb6f",
+        "bytes": 3039,
+        "passed": true
+      },
+      {
+        "level": "L2_scripts",
+        "path": "scripts/triage.py",
+        "expected_sha256": "2c1af9312fb64c06e11e5b494c72e5c6ab63d7d99b4b103b044d1d6f55c72bbd",
+        "actual_sha256": "2c1af9312fb64c06e11e5b494c72e5c6ab63d7d99b4b103b044d1d6f55c72bbd",
+        "bytes": 4357,
+        "passed": true
+      },
+      {
+        "level": "L2_scripts",
+        "path": "scripts/ensemble_dock.py",
+        "expected_sha256": "fda48b7e1df261f441c77f52121ffa21ac28042f33a24e8abb59c9d8fc2d0b88",
+        "actual_sha256": "fda48b7e1df261f441c77f52121ffa21ac28042f33a24e8abb59c9d8fc2d0b88",
+        "bytes": 5099,
+        "passed": true
+      },
+      {
+        "level": "L2_scripts",
+        "path": "scripts/gnina_rescore.py",
+        "expected_sha256": "45ff0db93d2df8b8f146d039dcca84609933fc753cc95ea0e6d884eb166f86b9",
+        "actual_sha256": "45ff0db93d2df8b8f146d039dcca84609933fc753cc95ea0e6d884eb166f86b9",
+        "bytes": 2463,
+        "passed": true
+      },
+      {
+        "level": "L2_scripts",
+        "path": "scripts/run_all.sh",
+        "expected_sha256": "cdf6536bb7604699577ab7efabdac0f2dd2591496aa27be8ebcdce876305af71",
+        "actual_sha256": "cdf6536bb7604699577ab7efabdac0f2dd2591496aa27be8ebcdce876305af71",
+        "bytes": 2740,
+        "passed": true
+      },
+      {
+        "level": "L3_reports_frozen",
+        "path": "final-report.md",
+        "expected_sha256": "3273f3909579021719339230ec705c0717fd26f65049d25228588dce49353027",
+        "actual_sha256": "3273f3909579021719339230ec705c0717fd26f65049d25228588dce49353027",
+        "bytes": 18213,
+        "passed": true
+      },
+      {
+        "level": "L3_reports_frozen",
+        "path": "target-dossier.md",
+        "expected_sha256": "c0da5f25e216924200fbee74c3662bc9c350f4a2f312f10d6311e48d42ec8d55",
+        "actual_sha256": "c0da5f25e216924200fbee74c3662bc9c350f4a2f312f10d6311e48d42ec8d55",
+        "bytes": 8518,
+        "passed": true
+      },
+      {
+        "level": "L3_reports_frozen",
+        "path": "structure-analysis.md",
+        "expected_sha256": "5e45847241075d0397ec4c8320fe7af1f2fbe7e6b92a0e2a925924ee84b51a95",
+        "actual_sha256": "5e45847241075d0397ec4c8320fe7af1f2fbe7e6b92a0e2a925924ee84b51a95",
+        "bytes": 5080,
+        "passed": true
+      },
+      {
+        "level": "L3_reports_frozen",
+        "path": "hit-report.md",
+        "expected_sha256": "54e5b879e8e6e52ae2782bf3cc9ad56fb8e092ae929d62b317dd1c63523bd60b",
+        "actual_sha256": "54e5b879e8e6e52ae2782bf3cc9ad56fb8e092ae929d62b317dd1c63523bd60b",
+        "bytes": 13676,
+        "passed": true
+      },
+      {
+        "level": "L3_reports_frozen",
+        "path": "validation-plan.md",
+        "expected_sha256": "9db369ae376dba190faca92699962aec645630846106c4eaa5fc28b380ded586",
+        "actual_sha256": "9db369ae376dba190faca92699962aec645630846106c4eaa5fc28b380ded586",
+        "bytes": 5770,
+        "passed": true
+      },
+      {
+        "level": "L3_reports_frozen",
+        "path": "research-log.md",
+        "expected_sha256": "3ebfb83ea716dda0659057ac7ae19c94a77b7f371bda0b56bdfda15a1941d16a",
+        "actual_sha256": "3ebfb83ea716dda0659057ac7ae19c94a77b7f371bda0b56bdfda15a1941d16a",
+        "bytes": 63413,
+        "passed": true
+      },
+      {
+        "level": "L3_reports_frozen",
+        "path": "AUDIT.md",
+        "expected_sha256": "0f344d8f2df2a367d899bc91d62a0f65f2be110aa67727da7378d9c8a2a880ca",
+        "actual_sha256": "0f344d8f2df2a367d899bc91d62a0f65f2be110aa67727da7378d9c8a2a880ca",
+        "bytes": 12549,
+        "passed": true
+      },
+      {
+        "level": "L3_reports_frozen",
+        "path": "paper/MANUSCRIPT_DRAFT_v1.md",
+        "expected_sha256": "2872a9c9752e3af3500957b2373db8df52ca50be0d217db47c187cda02926af4",
+        "actual_sha256": "2872a9c9752e3af3500957b2373db8df52ca50be0d217db47c187cda02926af4",
+        "bytes": 42631,
+        "passed": true
+      },
+      {
+        "level": "L3_reports_frozen",
+        "path": "paper/manuscript_methods_audit.md",
+        "expected_sha256": "35928d1edbfbe00b8a619efbebc79ec62c1609485d940db3b799a79f5905b28d",
+        "actual_sha256": "35928d1edbfbe00b8a619efbebc79ec62c1609485d940db3b799a79f5905b28d",
+        "bytes": 22335,
+        "passed": true
+      },
+      {
+        "level": "L3_reports_frozen",
+        "path": "paper/manuscript_results_discussion.md",
+        "expected_sha256": "d7b5ba742de5adfa05e8470cb36cde78e1b1e67e8fe7efb002f126e6167ddd20",
+        "actual_sha256": "d7b5ba742de5adfa05e8470cb36cde78e1b1e67e8fe7efb002f126e6167ddd20",
+        "bytes": 13210,
+        "passed": true
+      },
+      {
+        "level": "L3_reports_frozen",
+        "path": "paper/OUTLINE.md",
+        "expected_sha256": "efa10a5cad32fe25146c7ce887bc329d1c12f1a29da147c71bc4da8803accc3a",
+        "actual_sha256": "efa10a5cad32fe25146c7ce887bc329d1c12f1a29da147c71bc4da8803accc3a",
+        "bytes": 14863,
+        "passed": true
+      },
+      {
+        "level": "L4_nested_manifests",
+        "path": "runs/audit-20260913/handoff-r11-reports.json",
+        "expected_sha256": "623805bf9b0be275c699a7c634b2c0349dd6db58a758ed0b6c2e13c41b504074",
+        "actual_sha256": "623805bf9b0be275c699a7c634b2c0349dd6db58a758ed0b6c2e13c41b504074",
+        "bytes": 1434,
+        "passed": true
+      },
+      {
+        "level": "L4_nested_manifests",
+        "path": "runs/audit-20260913/handoff-r11-evidence.json",
+        "expected_sha256": "bb704b0b760b8a1199fdb6159424e6ffe8b01fb07123b19c871a3eb7f49e8bea",
+        "actual_sha256": "bb704b0b760b8a1199fdb6159424e6ffe8b01fb07123b19c871a3eb7f49e8bea",
+        "bytes": 7710,
+        "passed": true
+      },
+      {
+        "level": "L5_audit_artifacts",
+        "path": "independent-audit/REPORT.md",
+        "expected_sha256": "121544876092a01a2e371c7028300d90d37e5da845c1788bd9e268d8935fb92c",
+        "actual_sha256": "121544876092a01a2e371c7028300d90d37e5da845c1788bd9e268d8935fb92c",
+        "bytes": 14220,
+        "passed": true
+      },
+      {
+        "level": "L5_audit_artifacts",
+        "path": "independent-audit/rereview-r3/REPORT.md",
+        "expected_sha256": "f32c2013768fdffeb70f724b36a4e96d4fdc5954a674ca70de2fcbd96a9b99dc",
+        "actual_sha256": "f32c2013768fdffeb70f724b36a4e96d4fdc5954a674ca70de2fcbd96a9b99dc",
+        "bytes": 12255,
+        "passed": true
+      },
+      {
+        "level": "L5_audit_artifacts",
+        "path": "independent-audit/round4-acceptance/round4_checks.json",
+        "expected_sha256": "0271d44ac8c88d5d14a1c7acc7da7eef5b0bbe2ba9fc1064fb1b91a7bc293483",
+        "actual_sha256": "0271d44ac8c88d5d14a1c7acc7da7eef5b0bbe2ba9fc1064fb1b91a7bc293483",
+        "bytes": 65330,
+        "passed": true
+      },
+      {
+        "level": "L5_audit_artifacts",
+        "path": "independent-audit/round4-acceptance/adjudication.md",
+        "expected_sha256": "15d03d7e8844a5c7c2eeeaa0a701ac9b11359e63912a39ac8c9a5937a38b81c1",
+        "actual_sha256": "15d03d7e8844a5c7c2eeeaa0a701ac9b11359e63912a39ac8c9a5937a38b81c1",
+        "bytes": 13406,
+        "passed": true
+      },
+      {
+        "level": "L5_audit_artifacts",
+        "path": "independent-audit/round5-acceptance/round5-acceptance.md",
+        "expected_sha256": "93b04d46408e10d0907074d9e41199b2d204a74e1383fcf30d500e7f82a47bad",
+        "actual_sha256": "93b04d46408e10d0907074d9e41199b2d204a74e1383fcf30d500e7f82a47bad",
+        "bytes": 5736,
+        "passed": true
+      },
+      {
+        "level": "L5_audit_artifacts",
+        "path": "independent-audit/round6-acceptance/round6-acceptance.md",
+        "expected_sha256": "94e7b35d9b8176718eda27e8595c676e3c70fbfe5e004f26720ff28a06d75b19",
+        "actual_sha256": "94e7b35d9b8176718eda27e8595c676e3c70fbfe5e004f26720ff28a06d75b19",
+        "bytes": 6187,
+        "passed": true
+      },
+      {
+        "level": "L5_audit_artifacts",
+        "path": "independent-audit/round7-acceptance/round7-acceptance.md",
+        "expected_sha256": "94d486d223e6ce8cbc55994f88ffcf870d5c540f2389b14ac6e05c72e4500e32",
+        "actual_sha256": "94d486d223e6ce8cbc55994f88ffcf870d5c540f2389b14ac6e05c72e4500e32",
+        "bytes": 7067,
+        "passed": true
+      },
+      {
+        "level": "L5_audit_artifacts",
+        "path": "independent-audit/round8-acceptance/round8-acceptance.md",
+        "expected_sha256": "9e08a7d9b941aeb8e03e81a9a36a7e5e1a2f8622948e58690c5ea9bc3ce22ef2",
+        "actual_sha256": "9e08a7d9b941aeb8e03e81a9a36a7e5e1a2f8622948e58690c5ea9bc3ce22ef2",
+        "bytes": 8734,
+        "passed": true
+      },
+      {
+        "level": "L5_audit_artifacts",
+        "path": "independent-audit/round9-acceptance/round9-acceptance.md",
+        "expected_sha256": "ea400e64f69478b61afc4755cf9718a4b9cf59d64dac2494415c01f3b13c6745",
+        "actual_sha256": "ea400e64f69478b61afc4755cf9718a4b9cf59d64dac2494415c01f3b13c6745",
+        "bytes": 9112,
+        "passed": true
+      },
+      {
+        "level": "L5_audit_artifacts",
+        "path": "independent-audit/round10-acceptance/round10-acceptance.md",
+        "expected_sha256": "e6f8a267e3d69caacde33cc45694d326c62f62c92ceafd72d8096060850788b2",
+        "actual_sha256": "e6f8a267e3d69caacde33cc45694d326c62f62c92ceafd72d8096060850788b2",
+        "bytes": 4997,
+        "passed": true
+      },
+      {
+        "level": "L5_audit_artifacts",
+        "path": "runs/audit-20260913/reviews/gpt6-audit-triage.md",
+        "expected_sha256": "72d0c758f3a1133b99e361bcb5e27a4b79d812797ee9d5bfdc76eab12fd478ed",
+        "actual_sha256": "72d0c758f3a1133b99e361bcb5e27a4b79d812797ee9d5bfdc76eab12fd478ed",
+        "bytes": 5922,
+        "passed": true
+      }
+    ]
+  },
+  "handoffs": [
+    {
+      "path": "runs\\audit-20260913\\handoff-r11-evidence.json",
+      "command": [
+        "C:\\ProgramData\\anaconda3\\python.exe",
+        "-B",
+        "C:\\Users\\Gnimi\\.agents\\skills\\ai-drug-discovery-team\\scripts\\check_handoff.py",
+        "C:\\Users\\Gnimi\\.zcode\\workspace\\default\\cognition-drug-discovery\\runs\\audit-20260913\\handoff-r11-evidence.json",
+        "--root",
+        "C:\\Users\\Gnimi\\.zcode\\workspace\\default\\cognition-drug-discovery",
+        "--require",
+        "artifacts"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"mechanical_checks_passed\": true,\n  \"errors\": [],\n  \"scientific_acceptance\": \"NOT_ASSESSED\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "path": "runs\\audit-20260913\\handoff-r11-reports.json",
+      "command": [
+        "C:\\ProgramData\\anaconda3\\python.exe",
+        "-B",
+        "C:\\Users\\Gnimi\\.agents\\skills\\ai-drug-discovery-team\\scripts\\check_handoff.py",
+        "C:\\Users\\Gnimi\\.zcode\\workspace\\default\\cognition-drug-discovery\\runs\\audit-20260913\\handoff-r11-reports.json",
+        "--root",
+        "C:\\Users\\Gnimi\\.zcode\\workspace\\default\\cognition-drug-discovery",
+        "--require",
+        "artifacts"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"mechanical_checks_passed\": true,\n  \"errors\": [],\n  \"scientific_acceptance\": \"NOT_ASSESSED\"\n}\n",
+      "stderr": ""
+    }
+  ],
+  "replay": {
+    "exit_code": 0,
+    "design": "each replayable finding is executed against its artifact; counts are derived from observed outcomes",
+    "replays": [
+      {
+        "id": "R1-1",
+        "class": "identity-swap",
+        "artifact": "ChEMBL target CHEMBL4712",
+        "executed_check": "live pref-name lookup",
+        "observed": "pref_name=Sphingomyelin phosphodiesterase 2",
+        "detected": true,
+        "note": "SMPD2 != human SMPD1 target"
+      },
+      {
+        "id": "R1-2",
+        "class": "unit-swap+selection",
+        "artifact": "md/bound_run.log + independent-audit/round4-acceptance/c1_evidence.json",
+        "executed_check": "printed heat value x10 vs corrected first-saved-frame ligand RMSD",
+        "observed": "printed=0.47 A(labeled) x10=4.699999999999999 vs corrected 5.30023729336108",
+        "detected": true,
+        "note": "unit error replayed from artifacts"
+      },
+      {
+        "id": "R1-3",
+        "class": "parameter-swap",
+        "artifact": "md/complex.prmtop",
+        "executed_check": "LJ self-pair epsilon vs published sets",
+        "observed": "parmed unavailable on this interpreter; eps verification delegated to WSL env",
+        "detected": null,
+        "note": "current v2 topology verified; v1 identity verified from rereview-r3 snapshot records"
+      },
+      {
+        "id": "R1-5",
+        "class": "dataset-scale",
+        "artifact": "TDC hERG_Central",
+        "executed_check": "row count vs claimed n≈12k",
+        "observed": "rows=306893 (claimed 12k -> false)",
+        "detected": true,
+        "note": ""
+      },
+      {
+        "id": "R1-6",
+        "class": "hash-staleness",
+        "artifact": "temp canary",
+        "executed_check": "SHA256 recompute after modification",
+        "observed": "c9286858 != 26ba98ff",
+        "detected": true,
+        "note": ""
+      },
+      {
+        "id": "R1-7",
+        "class": "overstated-interval",
+        "artifact": "c1_evidence.json (min catalytic distance)",
+        "executed_check": "full-frame range vs claimed 1.9-2.1",
+        "observed": "range=2.63-3.93",
+        "detected": true,
+        "note": ""
+      },
+      {
+        "id": "R1-8",
+        "class": "ordering",
+        "artifact": "results/hits_ranked.csv",
+        "executed_check": "min vina vs first row",
+        "observed": "first=CHEMBL28172(-8.84) best=CHEMBL54786(-8.92)",
+        "detected": true,
+        "note": ""
+      },
+      {
+        "id": "R1-11",
+        "class": "band-overclaim",
+        "artifact": "results/gnina_rescoring.json",
+        "executed_check": "candidates below reference minimum",
+        "observed": "['CHEMBL24974', 'CHEMBL48767']",
+        "detected": true,
+        "note": ""
+      },
+      {
+        "id": "R3-1",
+        "class": "reference-frame",
+        "artifact": "md/bound_run.log + independent-audit/round4-acceptance/c1_evidence.json",
+        "executed_check": "retired COM-imaged last-frame (x10 as-A) vs corrected protein-frame mean from c1 artifact",
+        "observed": "retired last 0.65 (x10=6.50 A) vs protein-frame mean 4.579 A",
+        "detected": true,
+        "note": "retired metric documented; both values from artifacts"
+      },
+      {
+        "id": "R3-2",
+        "class": "pipeline-mixing",
+        "artifact": "scripts/herg_model_separation.py",
+        "executed_check": "confirm candidate probs are generated per-model",
+        "observed": "separated outputs present=True",
+        "detected": true,
+        "note": ""
+      },
+      {
+        "id": "R3-3",
+        "class": "hash-staleness",
+        "artifact": "nested manifest demo",
+        "executed_check": "hash changes when file content changes",
+        "observed": "af9d300a != be41238e",
+        "detected": true,
+        "note": ""
+      },
+      {
+        "id": "R3-6",
+        "class": "numeric-consistency",
+        "artifact": "structure-analysis.md reference-inhibitor table",
+        "executed_check": "executed check: none of the cited table values <= -7.0",
+        "observed": "values=[-6.96, -6.34, -6.01]",
+        "detected": true,
+        "note": "sign-preserving parse of the cited row"
+      },
+      {
+        "id": "R1-10",
+        "class": "matching-convention",
+        "artifact": "docking/redock_PC_out.pdbqt vs structures/5i85_PC.pdb",
+        "executed_check": "element-swap assignment RMSD recomputation (executed this run)",
+        "observed": "1.757 A (auditor: 1.757)",
+        "detected": true,
+        "note": "lenient convention reproduced by execution; graph-aware validation still pending"
+      }
+    ],
+    "summary": {
+      "executed_replays": 13,
+      "detected": 12,
+      "delegated": 1,
+      "detection_rate": "12/13",
+      "note": "counts derived from executed observations; context-only findings (R3-4, R3-5, R3-7) and live-only (R1-4, R1-9) are excluded here and listed separately as coverage inventory"
+    }
+  },
+  "mutations": [
+    {
+      "name": "baseline",
+      "copy": "independent-audit\\round11-acceptance\\structure-analysis-baseline.md",
+      "values": [
+        -6.96,
+        -6.34,
+        -6.01
+      ],
+      "assertion": null,
+      "detected": true,
+      "passed": true
+    },
+    {
+      "name": "all_missing",
+      "copy": "independent-audit\\round11-acceptance\\structure-analysis-all_missing.md",
+      "values": [],
+      "assertion": "R3-6 replay: expected 3 bold docking scores, got []",
+      "detected": null,
+      "passed": true
+    },
+    {
+      "name": "all_below_threshold",
+      "copy": "independent-audit\\round11-acceptance\\structure-analysis-all_below_threshold.md",
+      "values": [
+        -8.0,
+        -8.0,
+        -8.0
+      ],
+      "assertion": null,
+      "detected": false,
+      "passed": true
+    },
+    {
+      "name": "one_missing",
+      "copy": "independent-audit\\round11-acceptance\\structure-analysis-one_missing.md",
+      "values": [
+        -6.34,
+        -6.01
+      ],
+      "assertion": "R3-6 replay: expected 3 bold docking scores, got [-6.34, -6.01]",
+      "detected": null,
+      "passed": true
+    },
+    {
+      "name": "empty",
+      "copy": "independent-audit\\round11-acceptance\\structure-analysis-empty.md",
+      "values": null,
+      "assertion": "R3-6 replay: expected the combined reference line, found 0",
+      "detected": null,
+      "passed": true
+    }
+  ],
+  "reports": {
+    "withdrawn_paragraph_absent": true,
+    "withdrawn_assertion_absent": true,
+    "dangling_fragment_absent": true,
+    "merged_ensemble_sentence_present": true
+  },
+  "claims": {
+    "R10-1": "PASS",
+    "R10-2a": "PASS",
+    "R10-2b": "PASS",
+    "manifests": "PASS"
+  },
+  "frozen_hashes_unchanged_after_execution": true,
+  "overall": "ACCEPT-WITH-MINOR-NOTES",
+  "G6_recommendation": "CONDITIONAL: close R10-1/R10-2 acceptance blockers; retain inherited scientific limitations and incomplete validations."
+}

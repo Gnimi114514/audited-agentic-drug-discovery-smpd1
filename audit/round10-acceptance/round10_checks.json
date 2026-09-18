@@ -1,0 +1,117 @@
+{
+  "round": 10,
+  "date": "2026-09-14",
+  "overall": "REJECT",
+  "G6_recommendation": "Remain BLOCKED",
+  "claims": [
+    {
+      "id": "1",
+      "verdict": "PASS",
+      "claim": "Occupancy chronology",
+      "evidence": [
+        "Both Results sections explicitly say defined during audit-driven analysis after the run; synchronized Results confirmed.",
+        "Assembled abstract lines 29-31 and Figure 4 lines 340-345 disclose post-hoc provenance; figure gives 8 A -> 30.3%, 10 A -> 100%.",
+        "final-report.md:64 says post-hoc-defined; md/bound_analysis_pre_registered.json post_hoc_additions explicitly excludes occupancy from original preregistration."
+      ]
+    },
+    {
+      "id": "2",
+      "verdict": "FAIL",
+      "claim": "Replay hardening",
+      "evidence": [
+        "Windows execution exited 0: 13 records, 12 true, 1 null (R1-3 parmed unavailable). Counts derive from record observations; R1-10 precedes counting.",
+        "R1-2 opens bound_run.log and reads c1 frame 0: 0.47*10 vs 5.300237293; R3-1 reads last retired print 0.65*10 vs protein-frame mean 4.579. Both assert discrepancies.",
+        "R3-6 preserves signs and scopes to the reference line, but extracts seven numbers including potency values; >=3 assertion does not require three docking scores.",
+        "Removing all three docking scores leaves [1.0,1.8,1.0,3.3] and detected=True. Empty input raises; -7.96 returns False."
+      ],
+      "limitation": "R1-2 broad 1.5 A tolerance compares different contexts, and R3-1 compares last frame to mean; neither alone independently establishes the causal metric/unit defect."
+    },
+    {
+      "id": "3",
+      "verdict": "FAIL",
+      "claim": "Report residual repairs",
+      "subclaims": {
+        "hit_report": "FAIL: lines 15-19 retain withdrawn-anchor paragraph and yields <= -7.0 assertion despite table scores -6.96/-6.34/-6.01.",
+        "structure_analysis": "FAIL: line 62 retains campaign); dangling clause.",
+        "canonical_citation": "PASS: final-report lines 213-216 cite r7 summary for 4.579/5.935 A and label pocket_residence.json superseded r5fix history."
+      }
+    },
+    {
+      "id": "4",
+      "verdict": "PASS",
+      "claim": "Manifest freeze and metadata",
+      "level_counts": {
+        "L1_evidence": 38,
+        "L2_scripts": 15,
+        "L3_reports_frozen": 11,
+        "L4_nested_manifests": 2,
+        "L5_audit_artifacts": 10
+      },
+      "total": 76,
+      "hash_and_size_passes": 76,
+      "handoff_exit_codes": [
+        0,
+        0
+      ]
+    }
+  ],
+  "replay_summary": {
+    "executed_replays": 13,
+    "detected": 12,
+    "delegated": 1,
+    "detection_rate": "12/13",
+    "note": "counts derived from executed observations; context-only findings (R3-4, R3-5, R3-7) and live-only (R1-4, R1-9) are excluded here and listed separately as coverage inventory"
+  },
+  "rerun_equals_saved_json": true,
+  "mutation_checks": [
+    {
+      "variant": "current",
+      "values": [
+        1.0,
+        -6.96,
+        1.8,
+        -6.34,
+        1.0,
+        3.3,
+        -6.01
+      ],
+      "detected": true,
+      "exception": null
+    },
+    {
+      "variant": "negative_score",
+      "values": [
+        1.0,
+        -7.96,
+        1.8,
+        -6.34,
+        1.0,
+        3.3,
+        -6.01
+      ],
+      "detected": false,
+      "exception": null
+    },
+    {
+      "variant": "missing_all_three_scores",
+      "values": [
+        1.0,
+        1.8,
+        1.0,
+        3.3
+      ],
+      "detected": true,
+      "exception": null
+    },
+    {
+      "variant": "empty",
+      "exception": "AssertionError: R3-6 replay: expected >=3 table values"
+    }
+  ],
+  "minor_notes": [
+    "final-report glance row still spans physical Markdown lines.",
+    "final-report.md:226 states 5.6-6.6 A without production-snapshot qualification.",
+    "Historical manuscript_revision_manifest.json has seven mismatches; current root freeze passes."
+  ],
+  "write_boundary": "Only independent-audit/round10-acceptance/ written; unchanged replay source executed via runpy with output/canary/temp redirection and filesystem audit guard."
+}

@@ -1,0 +1,7 @@
+{
+ "type": "mol",
+ "hide": false,
+ "smiles": "CC(=O)N1C2CCC1C(c1ccc(Cl)nc1)C2",
+ "is_chemical": true,
+ "in_stock": false
+}

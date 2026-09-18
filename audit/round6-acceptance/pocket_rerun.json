@@ -1,0 +1,17 @@
+{
+ "n_frames": 620,
+ "ligand_protein_frame_rmsd_A": {
+  "mean": 4.579,
+  "max": 5.935,
+  "final": 5.638
+ },
+ "pocket_occupancy_fraction": 0.0,
+ "catalytic_residues_ever_contacted_crystal_numbering": [
+  318,
+  319,
+  457,
+  458
+ ],
+ "occupancy_definition": "ligand center (geometric, protein frame) within 6 A of crystal PC centroid AND >=1 catalytic heavy atom within 4.5 A",
+ "residue_selector": "zero-based topology resSeq == Murcko ordinal (id2ord[r]); verified mapping 122->206 etc."
+}

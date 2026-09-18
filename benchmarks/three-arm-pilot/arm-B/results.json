@@ -1,0 +1,137 @@
+[
+ {
+  "arm": "B",
+  "task_id": "T001",
+  "family": "target-evidence",
+  "elapsed_s": 380.4,
+  "agent_calls": 3,
+  "outputs": [
+   {
+    "role": "target-analyst",
+    "exit_code": 0,
+    "output_len": 67106
+   },
+   {
+    "role": "molecular-designer",
+    "exit_code": 0,
+    "output_len": 48880
+   },
+   {
+    "role": "simulation-analyst",
+    "exit_code": 0,
+    "output_len": 32569
+   }
+  ],
+  "artifact_exists": true,
+  "artifact_content": "[\n  {\n    \"gene\": \"APP\",\n    \"target_id\": \"ENSG00000142192\",\n    \"evidence_types\": [\n      \"Human genetics with functional follow-up: APP A673T is associated with protection against Alzheimer disease and cognitive decline in elderly people without Alzheimer disease; in vitro assays show reduced amyloidogenic peptide formation (PMID:22801501). Lifelong genetic protection does not establish efficacy of starting APP suppression after disease onset.\",\n      \"Randomized clinical trial: lecanemab, which targets APP-derived amyloid-beta protofibrils, reduced amyloid burden and moderately slowed cognitive and functional decline in early Alzheimer disease (PMID:36449413). This supports targeting the cleavage product, not direct inhibition of full-length APP.\"\n    ],\n    \"direction\": \"Decrease pathogenic APP-derived amyloid-beta burden, preferentially by neutralizing or clearing aggregated amyloid-beta while preserving physiological APP functions. Clinical support is for modest slowing of cognitive and functional decline in amyloid-positive early Alzheimer disease, not cognitive restoration or indiscriminate full-length APP inhibition; anti-amyloid treatment carries ARIA risk.\"\n  },\n  {\n    \"gene\": \"ACHE\",\n    \"target_id\": \"ENSG00000087085\",\n    \"evidence_types\": [\n      \"Human randomized clinical trials, synthesized in a systematic review: donepezil, an acetylcholinesterase inhibitor, provides small cognitive and functional benefits versus placebo in Alzheimer dementia (PMID:29923184). Trials and their review count as one evidence type; this is symptomatic efficacy, not established disease modification.\",\n      \"Biochemical functional experiments: human recombinant acetylcholinesterase accelerates amyloid-beta fibril assembly through its peripheral binding site; this effect was sensitive to a peripheral-site ligand but not an active-site inhibitor (PMID:8608006). This is mechanistic evidence, not proof that catalytic inhibition modifies disease.\"\n    ],\n    \"direction\": \"Par",
+  "task_family": "target-evidence"
+ },
+ {
+  "arm": "B",
+  "task_id": "T002",
+  "family": "target-evidence",
+  "elapsed_s": 525.8,
+  "agent_calls": 3,
+  "outputs": [
+   {
+    "role": "target-analyst",
+    "exit_code": 0,
+    "output_len": 40733
+   },
+   {
+    "role": "molecular-designer",
+    "exit_code": 0,
+    "output_len": 42732
+   },
+   {
+    "role": "simulation-analyst",
+    "exit_code": 0,
+    "output_len": 43306
+   }
+  ],
+  "artifact_exists": true,
+  "artifact_content": "[\n  {\n    \"gene\": \"ACHE\",\n    \"target_id\": \"ENSG00000087085\",\n    \"evidence_types\": [\n      \"Human clinical pharmacology: donepezil, an acetylcholinesterase inhibitor, has demonstrated cognitive benefits across Alzheimer disease severity; clinical evidence reviewed in PMID:25690270; DOI:10.1111/ane.12386.\",\n      \"Animal functional pharmacology: in rats, donepezil alone increased extracellular hippocampal acetylcholine and evoked theta/gamma power in a study also testing idalopirdine combinations. These pharmacodynamic endpoints support mechanism, not cognitive efficacy in an Alzheimer disease model; PMID:27039041; DOI:10.1016/j.neuropharm.2016.03.043.\"\n    ],\n    \"direction\": \"Inhibit CNS acetylcholinesterase activity to increase synaptic acetylcholine for symptomatic cognitive benefit in Alzheimer dementia. Use tolerable partial inhibition; cholinergic adverse effects, including bradycardia and gastrointestinal effects, constrain dosing. Disease modification is not established.\"\n  },\n  {\n    \"gene\": \"APP\",\n    \"target_id\": \"ENSG00000142192\",\n    \"evidence_types\": [\n      \"Human genetics: protective APP A673T variant associates with reduced Alzheimer disease risk and age-related cognitive decline; PMID:22801501; DOI:10.1038/nature11283.\",\n      \"Randomized clinical trial: lecanemab targeting APP-derived amyloid-beta protofibrils slowed cognitive and functional decline in early Alzheimer disease; this validates the processed peptide pathway, not direct inhibition of full-length APP; PMID:36449413; DOI:10.1056/NEJMoa2212948.\"\n    ],\n    \"direction\": \"Selectively reduce pathogenic APP-derived amyloid-beta generation or enhance aggregated amyloid-beta clearance while preserving physiological APP functions. Human treatment evidence supports modest slowing of decline in early amyloid-positive Alzheimer disease through peptide clearance, not indiscriminate inhibition of full-length APP or all amyloid-production pathways. Anti-amyloid treatment carries amyloid-related imag",
+  "task_family": "target-evidence"
+ },
+ {
+  "arm": "B",
+  "task_id": "T003",
+  "family": "target-evidence",
+  "elapsed_s": 401.9,
+  "agent_calls": 3,
+  "outputs": [
+   {
+    "role": "target-analyst",
+    "exit_code": 0,
+    "output_len": 64343
+   },
+   {
+    "role": "molecular-designer",
+    "exit_code": 0,
+    "output_len": 43581
+   },
+   {
+    "role": "simulation-analyst",
+    "exit_code": 0,
+    "output_len": 27879
+   }
+  ],
+  "artifact_exists": true,
+  "artifact_content": "[\n  {\n    \"gene\": \"ACHE\",\n    \"target_id\": \"ENSG00000087085\",\n    \"evidence_types\": [\n      \"Clinical intervention: meta-analysis of randomized donepezil trials found small cognitive benefits in Alzheimer dementia (PMID:29923184).\",\n      \"Biochemical pharmacology: independent in vitro assays demonstrated inhibition of human acetylcholinesterase by donepezil and related compounds, supporting the molecular mechanism rather than independently establishing disease causality (PMID:28613859).\"\n    ],\n    \"direction\": \"Inhibit acetylcholinesterase enzymatic activity to reduce acetylcholine breakdown and enhance cholinergic neurotransmission for symptomatic cognitive benefit. Disease modification is not established; excessive inhibition increases cholinergic adverse effects.\"\n  },\n  {\n    \"gene\": \"APP\",\n    \"target_id\": \"ENSG00000142192\",\n    \"evidence_types\": [\n      \"Human genetics: APP A673T protects against Alzheimer disease and age-related cognitive decline (PMID:22801501).\",\n      \"Randomized clinical trial: lecanemab targeting APP-derived amyloid-beta protofibrils slowed cognitive and functional decline in early Alzheimer disease; this supports targeting the cleavage product, not direct inhibition of full-length APP (PMID:36449413).\"\n    ],\n    \"direction\": \"Reduce pathogenic APP-derived amyloid-beta burden, preferentially by enhancing clearance of aggregated amyloid-beta while preserving physiological full-length APP functions. Human genetics supports reduced amyloidogenic APP processing; the cited clinical trial supports product-directed clearance, not direct APP inhibition or general secretase inhibition. Expected benefit is modest slowing of decline in early amyloid-positive Alzheimer disease, with amyloid-related imaging abnormality risk.\"\n  },\n  {\n    \"gene\": \"MAPT\",\n    \"target_id\": \"ENSG00000186868\",\n    \"evidence_types\": [\n      \"Animal model: reducing endogenous tau prevented behavioral deficits in human-APP transgenic mice without lowering amyloid-beta le",
+  "task_family": "target-evidence"
+ },
+ {
+  "arm": "B",
+  "task_id": "T004",
+  "family": "target-evidence",
+  "elapsed_s": 382.3,
+  "agent_calls": 3,
+  "outputs": [
+   {
+    "role": "target-analyst",
+    "exit_code": 0,
+    "output_len": 53432
+   },
+   {
+    "role": "molecular-designer",
+    "exit_code": 0,
+    "output_len": 45333
+   },
+   {
+    "role": "simulation-analyst",
+    "exit_code": 0,
+    "output_len": 32621
+   }
+  ],
+  "artifact_exists": true,
+  "artifact_content": "[\n  {\n    \"gene\": \"ACHE\",\n    \"target_id\": \"ENSG00000087085\",\n    \"evidence_types\": [\n      \"Human randomized clinical evidence: a Cochrane review of donepezil trials found small benefits in cognition and daily functioning in Alzheimer dementia (PMID:29923184).\",\n      \"Human molecular imaging: an independent observational MP4A-PET study in clinically diagnosed amnestic MCI or mild Alzheimer dementia linked lower cortical acetylcholinesterase activity to Alzheimer-typical atrophy and hypoperfusion (PMID:40116674). This supports cholinergic dysfunction, not ACHE overactivity or causal genetic association.\"\n    ],\n    \"direction\": \"Inhibit acetylcholinesterase enzymatic activity to slow acetylcholine breakdown and enhance residual cholinergic neurotransmission. Established symptomatic strategy; disease modification is not established, and tolerability limits inhibition.\"\n  },\n  {\n    \"gene\": \"APP\",\n    \"target_id\": \"ENSG00000142192\",\n    \"evidence_types\": [\n      \"Human genetics: the APP A673T coding variant protects against Alzheimer disease and against age-related cognitive decline in elderly people without Alzheimer disease (PMID:22801501).\",\n      \"Human randomized clinical trial: lecanemab targeting APP-derived amyloid-beta reduced cognitive and functional decline in early Alzheimer disease; this supports the amyloid pathway, not direct full-length APP inhibition (PMID:36449413).\"\n    ],\n    \"direction\": \"Reduce amyloidogenic APP processing and accumulation of its toxic amyloid-beta products while preserving physiological APP function. Disease-modification hypothesis supported by protective genetics and downstream anti-amyloid treatment; global APP suppression is not clinically validated, lifelong genetic protection may not translate to late intervention, and anti-amyloid treatment carries amyloid-related imaging abnormality risk.\"\n  },\n  {\n    \"gene\": \"MAPT\",\n    \"target_id\": \"ENSG00000186868\",\n    \"evidence_types\": [\n      \"Animal genetic perturbation: reducing",
+  "task_family": "target-evidence"
+ },
+ {
+  "arm": "B",
+  "task_id": "T005",
+  "family": "target-evidence",
+  "elapsed_s": 489.6,
+  "agent_calls": 3,
+  "outputs": [
+   {
+    "role": "target-analyst",
+    "exit_code": 0,
+    "output_len": 49291
+   },
+   {
+    "role": "molecular-designer",
+    "exit_code": 0,
+    "output_len": 45822
+   },
+   {
+    "role": "simulation-analyst",
+    "exit_code": 0,
+    "output_len": 32409
+   }
+  ],
+  "artifact_exists": true,
+  "artifact_content": "[\n  {\n    \"gene\": \"ACHE\",\n    \"target_id\": \"ENSG00000087085\",\n    \"evidence_types\": [\n      \"Randomized clinical evidence: Cochrane meta-analysis found small cognitive benefits from the acetylcholinesterase inhibitor donepezil in Alzheimer dementia (PMID:29923184).\",\n      \"Human functional imaging: in 32 patients with clinically diagnosed amnestic MCI or mild AD dementia, acetylcholinesterase PET deficits correlated with AD-typical temporo-parietal atrophy and hypoperfusion. This supports cholinergic dysfunction, not causal ACHE overactivity; pathological AD confirmation was not established by this abstract (PMID:40116674).\"\n    ],\n    \"direction\": \"Inhibit acetylcholinesterase enzymatic activity in the CNS to reduce acetylcholine breakdown and improve residual cholinergic transmission. Symptomatic cognitive benefit is established; this does not establish disease modification, and excessive cholinergic effects limit tolerability.\"\n  },\n  {\n    \"gene\": \"APP\",\n    \"target_id\": \"ENSG00000142192\",\n    \"evidence_types\": [\n      \"Human genetics: APP A673T protects against Alzheimer disease and age-related cognitive decline (PMID:22801501).\",\n      \"Randomized clinical trial: lecanemab targeting APP-derived amyloid-beta protofibrils slowed cognitive and functional decline in early Alzheimer disease; this validates the peptide product, not direct inhibition of full-length APP (PMID:36449413).\"\n    ],\n    \"direction\": \"Reduce pathogenic APP-derived amyloid-beta, preferentially through selective clearance or reduced amyloidogenic processing while preserving physiological APP function. Clinical support concerns amyloid-beta clearance in early amyloid-positive AD, not global APP inhibition or proof that any production-lowering strategy improves cognition. Benefits are modest; amyloid-related imaging abnormalities limit anti-amyloid therapy.\"\n  },\n  {\n    \"gene\": \"MAPT\",\n    \"target_id\": \"ENSG00000186868\",\n    \"evidence_types\": [\n      \"Animal intervention: tau antisense-mediat",
+  "task_family": "target-evidence"
+ }
+]

@@ -1,0 +1,20 @@
+{
+ "CHEMBL7385": {
+  "in_proxy_stock": true,
+  "n_routes": 1,
+  "top_score": {
+   "state score": 0.049100689501895424
+  },
+  "top_steps": 0,
+  "closure": "PROXY (chembl20k stock) - NOT purchasability evidence"
+ },
+ "EXP_CHEMBL24974_CF3": {
+  "in_proxy_stock": false,
+  "n_routes": 1,
+  "top_score": {
+   "state score": 0.049100689501895424
+  },
+  "top_steps": 0,
+  "closure": "PROXY (chembl20k stock) - NOT purchasability evidence"
+ }
+}

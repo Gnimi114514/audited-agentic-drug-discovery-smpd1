@@ -1,0 +1,24 @@
+{
+  "source_sha256": "3f04d4171a4ac8ab1539ffb02b7f7f465025c783358f547a66c0250f225ea770",
+  "entries": 13,
+  "actual_true": 12,
+  "actual_null": 1,
+  "saved_summary": {
+    "executed_replays": 13,
+    "detected": 11,
+    "detection_rate": "12 true-detected / 13 executed (1 delegated to WSL env)",
+    "note": "counts derived from executed observations; context-only findings (R3-4, R3-5, R3-7) and live-only (R1-4, R1-9) are excluded here and listed separately as coverage inventory",
+    "detected_true": 12,
+    "delegated": 1
+  },
+  "count_line": 164,
+  "append_line": 165,
+  "literal_evidence": {
+    "34": "v1 = [0.47, 2.96, 3.59, 4.39]           # printed \"A\" values from md/bound_run.log",
+    "36": "heat_first = 0.47 * 10                  # 4.70 A expected if nm-as-A",
+    "139": "    'COM-imaged (retired) vs protein-frame values', '4.39 vs 4.579-5.935: metrics differ',",
+    "140": "    True, 'retired metric documented')",
+    "159": "vals = [-6.96, -6.34, -6.01]"
+  },
+  "reads_bound_run_log": false
+}

@@ -1,0 +1,20 @@
+{
+ "executed_replays": 13,
+ "detected": 12,
+ "delegated": 1,
+ "detection_rate": "12/13",
+ "note": "counts derived from executed observations; context-only findings (R3-4, R3-5, R3-7) and live-only (R1-4, R1-9) are excluded here and listed separately as coverage inventory"
+}
+R1-1 detected - pref_name=Sphingomyelin phosphodiesterase 2
+R1-2 detected - heat printed 0.47 vs corrected first-frame ~4.7 A -> nm-as-A confirmed
+R1-3 NOT - parmed unavailable on this interpreter; eps verification delegated to 
+R1-5 detected - rows=306893 (claimed 12k -> false)
+R1-6 detected - c9286858 != 26ba98ff
+R1-7 detected - range=2.63-3.93
+R1-8 detected - first=CHEMBL28172(-8.84) best=CHEMBL54786(-8.92)
+R1-11 detected - ['CHEMBL24974', 'CHEMBL48767']
+R3-1 detected - 4.39 vs 4.579-5.935: metrics differ
+R3-2 detected - separated outputs present=True
+R3-3 detected - af9d300a != be41238e
+R3-6 detected - values=[6.96, 6.34, 6.01], any<=-7: False
+R1-10 detected - 1.757 A (auditor: 1.757)

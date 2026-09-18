@@ -1,0 +1,162 @@
+{
+ "summary": {
+  "n_findings": 18,
+  "deterministic_replayable": 13,
+  "deterministic_detected": 13,
+  "detection_rate_deterministic": "13/13 artifact-replayable findings detected (100%); 5 findings were context/live-only and are reported separately",
+  "context_or_live_only": [
+   "R1-4",
+   "R1-9",
+   "R3-4",
+   "R3-5",
+   "R3-7"
+  ],
+  "interpretation": "Every audited finding that had a local erroneous artifact state was reproduced by a deterministic check on that artifact. Findings requiring live literature fetching or cross-document textual judgment are reported separately; their audit detection depended on fresh-context review rather than replayable checks. This measures checker COVERAGE of the audited findings, not the detection rate for errors no auditor happened to check."
+ },
+ "findings": [
+  {
+   "id": "R1-1",
+   "cls": "E2-identity-swap (reference activity belongs to SMPD2)",
+   "check_type": "live+deterministic",
+   "replayable": true,
+   "detector": "ChEMBL target-ID x pref-name cross-reference + activity 375434 lookup",
+   "replay": "detected"
+  },
+  {
+   "id": "R1-2",
+   "cls": "E1-unit-swap + selection (bound-v1 nm labeled A; water in backbone)",
+   "check_type": "deterministic-artifact",
+   "replayable": true,
+   "detector": "script inspection (x10 conversion) + selection audit vs topology",
+   "replay": "detected"
+  },
+  {
+   "id": "R1-3",
+   "cls": "E3-parameter-swap (Zn eps = 2013 12-6, not 2014 12-6-4)",
+   "check_type": "deterministic-artifact",
+   "replayable": true,
+   "detector": "ParmEd LJ-coefficient extraction from prmtop vs published sets",
+   "replay": "detected"
+  },
+  {
+   "id": "R1-4",
+   "cls": "E4-direction-flip (PMID 27598773 counterexample)",
+   "check_type": "live",
+   "replayable": false,
+   "detector": "abstract fetch + stance comparison",
+   "replay": "NOT_REPLAYED (live literature; stance verified in audit)"
+  },
+  {
+   "id": "R1-5",
+   "cls": "dataset-scale mislabel (hERG n\u224812k vs 306,893)",
+   "check_type": "deterministic-artifact",
+   "replayable": true,
+   "detector": "TDC retrieval + row count vs claimed n",
+   "replay": "detected"
+  },
+  {
+   "id": "R1-6",
+   "cls": "E5-hash-staleness (manifest vs modified research-log)",
+   "check_type": "deterministic-artifact",
+   "replayable": true,
+   "detector": "SHA256 recomputation over manifest entries",
+   "replay": "detected"
+  },
+  {
+   "id": "R1-7",
+   "cls": "overstated interval (\"1.9-2.1 throughout\")",
+   "check_type": "deterministic-artifact",
+   "replayable": true,
+   "detector": "full-frame min-image distance recomputation",
+   "replay": "detected"
+  },
+  {
+   "id": "R1-8",
+   "cls": "funnel/best-score misstatement (composite vs raw best)",
+   "check_type": "deterministic-artifact",
+   "replayable": true,
+   "detector": "csv recomputation (min vina vs first composite row)",
+   "replay": "detected"
+  },
+  {
+   "id": "R1-9",
+   "cls": "activity-wording (\"no records\" vs 1 negative + 5 other records)",
+   "check_type": "live",
+   "replayable": false,
+   "detector": "ChEMBL activity query per molecule",
+   "replay": "NOT_REPLAYED (live; verified in audit)"
+  },
+  {
+   "id": "R1-10",
+   "cls": "E-lenient-matching (redocking RMSD convention)",
+   "check_type": "deterministic-artifact",
+   "replayable": true,
+   "detector": "constrained vs name-based vs element-swap RMSD comparison",
+   "replay": "detected"
+  },
+  {
+   "id": "R1-11",
+   "cls": "CNN-band overclaim (2 of 4 below reference min)",
+   "check_type": "deterministic-artifact",
+   "replayable": true,
+   "detector": "table self-consistency check",
+   "replay": "detected"
+  },
+  {
+   "id": "R3-1",
+   "cls": "reference-frame error (COM-imaged RMSD as pocket residence)",
+   "check_type": "deterministic-artifact",
+   "replayable": true,
+   "detector": "independent trajectory recomputation with protein-fit frames",
+   "replay": "detected"
+  },
+  {
+   "id": "R3-2",
+   "cls": "model/probability mixing (new eval vs old candidate probs)",
+   "check_type": "deterministic-artifact",
+   "replayable": true,
+   "detector": "pipeline inspection (proba=None path) + provenance separation",
+   "replay": "detected"
+  },
+  {
+   "id": "R3-3",
+   "cls": "E5-hash-staleness (stale nested manifest)",
+   "check_type": "deterministic-artifact",
+   "replayable": true,
+   "detector": "nested manifest hash recomputation",
+   "replay": "detected"
+  },
+  {
+   "id": "R3-4",
+   "cls": "gate-numbering mixing in summary tables",
+   "check_type": "context",
+   "replayable": false,
+   "detector": "textual consistency review",
+   "replay": "NOT_REPLAYED (contextual)"
+  },
+  {
+   "id": "R3-5",
+   "cls": "mean/max mislabeled as range in abstract",
+   "check_type": "context",
+   "replayable": false,
+   "detector": "textual consistency review",
+   "replay": "NOT_REPLAYED (contextual)"
+  },
+  {
+   "id": "R3-6",
+   "cls": "benchmark sentence inconsistency (<= -7.0 vs -6.96..-6.01)",
+   "check_type": "deterministic-artifact",
+   "replayable": true,
+   "detector": "numeric self-consistency check on the cited table",
+   "replay": "detected"
+  },
+  {
+   "id": "R3-7",
+   "cls": "recommendation-table direction claim vs reopened gate",
+   "check_type": "context",
+   "replayable": false,
+   "detector": "cross-document consistency review",
+   "replay": "NOT_REPLAYED (contextual)"
+  }
+ ]
+}

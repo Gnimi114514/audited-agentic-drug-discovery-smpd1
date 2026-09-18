@@ -1,0 +1,30 @@
+{
+ "pilot": true,
+ "arms": {
+  "A": {
+   "tasks": 5,
+   "total_time_s": 873.1,
+   "total_agent_calls": 5,
+   "all_artifacts": true
+  },
+  "B": {
+   "tasks": 5,
+   "total_time_s": 2180.0,
+   "total_agent_calls": 15,
+   "all_artifacts": true
+  },
+  "C": {
+   "tasks": 5,
+   "total_time_s": 2446.9,
+   "total_agent_calls": 20,
+   "all_artifacts": true
+  }
+ },
+ "observations": [
+  "Single-agent arm is fastest (15 min for 5 tasks)",
+  "Multi-agent arm takes 2.5\u00d7 longer (36 min) due to sequential role calls",
+  "Audited multi-agent takes 2.7\u00d7 longer (41 min) due to added audit step",
+  "All 15 executions produced non-trivial output artifacts",
+  "Target-evidence outputs from different arms nominated different genes (ACHE vs APP), showing model stochasticity across runs"
+ ]
+}

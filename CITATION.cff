@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the repository release and associated manuscript."
+title: "Audited Agentic Drug Discovery SMPD1 Case Study"
+type: software
+authors:
+  - family-names: "Zuo"
+    given-names: "Yiming"
+    orcid: "https://orcid.org/0009-0001-3280-1027"
+date-released: 2026-09-18
+version: "0.1.0"
+license: MIT
+keywords:
+  - artificial intelligence
+  - drug discovery
+  - scientific audit
+  - reproducibility
+  - SMPD1

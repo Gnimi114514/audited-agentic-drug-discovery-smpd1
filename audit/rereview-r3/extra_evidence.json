@@ -1,0 +1,26 @@
+{
+  "log_records": 620,
+  "first": [
+    "2500",
+    "4.999999999999671",
+    "-881831.0443318202",
+    "307.30475670965114",
+    "0"
+  ],
+  "last": [
+    "1550000",
+    "3099.9999999405186",
+    "-892593.7582345377",
+    "310.0799087513162",
+    "214"
+  ],
+  "all_step_intervals_2500": true,
+  "evidence_sha256": {
+    "md/complex.prmtop": "f2139e02ad03663415bd09849ab8bb398cffa2ad18f7ecbe6003bcb3f3c91cd8",
+    "md/complex.inpcrd": "a8299226c0e859d72280cfe874e1ec8074e88b963b66d848e7366c399f349d24",
+    "scripts/bound_md.py": "25dfd0aee5f633947348f40b949f08d7b0b1ad4565b3bd8daf84a393b6f8da0f",
+    "md/bound_v2_log.csv": "05a6f124cfe3dea6ada04a5da6e10c41e82f43ac91166130ef8fb77950873ba6",
+    "md/bound_ref.pdb": "b294b05be700ac7e9fd3a2bca59f4940970d7cbe029f88e04190f3873d61e3ab",
+    "data/herg_central.tab": "5775a6900c3be6a2db65d357411fd3f768189de611dc2da3456dab4acbcb3ee8"
+  }
+}

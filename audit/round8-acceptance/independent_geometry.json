@@ -1,0 +1,31 @@
+{
+  "independent_native_frame_occupancy_counts": {
+    "6": 0,
+    "8": 188,
+    "10": 620
+  },
+  "contact_counts": {
+    "206": 0,
+    "208": 0,
+    "278": 0,
+    "282": 0,
+    "318": 414,
+    "319": 11,
+    "425": 0,
+    "457": 620,
+    "458": 23,
+    "459": 0,
+    "488": 0
+  },
+  "center_distance_range_A": [
+    6.554524911358234,
+    9.992968620551933
+  ],
+  "producer_vs_native_center_distance_max_error_A": 0.0005027117196192421,
+  "native_fit_ligand_rmsd_A": {
+    "mean": 4.579386493889472,
+    "max": 5.935434278176925
+  },
+  "backbone_atom_count": 2112,
+  "backbone_order_names_match": true
+}

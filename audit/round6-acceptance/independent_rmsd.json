@@ -1,0 +1,27 @@
+{
+  "method": "Independent exhaustive same-element permutations, no alignment, first docked model; no producer parser or Hungarian routine reused",
+  "atoms": 11,
+  "element_groups": [
+    {
+      "element": "C",
+      "count": 5,
+      "minimum_squared_distance_sum": 26.870711999999987
+    },
+    {
+      "element": "N",
+      "count": 1,
+      "minimum_squared_distance_sum": 5.971246000000008
+    },
+    {
+      "element": "O",
+      "count": 4,
+      "minimum_squared_distance_sum": 0.9620769999999976
+    },
+    {
+      "element": "P",
+      "count": 1,
+      "minimum_squared_distance_sum": 0.15223399999999807
+    }
+  ],
+  "rmsd_A": 1.7569671441021726
+}

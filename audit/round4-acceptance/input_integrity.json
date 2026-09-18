@@ -1,0 +1,117 @@
+[
+  {
+    "path": "audit_manifest.json",
+    "sha256": "269661dc838dc0b30c6a5e1e53a2ae46a8634adb9f6b2cec2c7d6c3c0aba0136",
+    "bytes": 3214
+  },
+  {
+    "path": "final-report.md",
+    "sha256": "55e124caeb5c8285610a173629a15231885b1e4ca6b860e424270d975279a64b",
+    "bytes": 15882
+  },
+  {
+    "path": "hit-report.md",
+    "sha256": "d6e10f96c6328bb0c170e1d406b0b4fdeb55a98b1dbb01b39a5621bee0593912",
+    "bytes": 13045
+  },
+  {
+    "path": "md/bound_ref.pdb",
+    "sha256": "b294b05be700ac7e9fd3a2bca59f4940970d7cbe029f88e04190f3873d61e3ab",
+    "bytes": 7381099
+  },
+  {
+    "path": "md/bound_v2.dcd",
+    "sha256": "3069107c4d099dfc081673b0becdf6c33e942f5fe4ef2f78bb87d3d0e8200502",
+    "bytes": 545647396
+  },
+  {
+    "path": "md/complex.prmtop",
+    "sha256": "f2139e02ad03663415bd09849ab8bb398cffa2ad18f7ecbe6003bcb3f3c91cd8",
+    "bytes": 13990827
+  },
+  {
+    "path": "research-log.md",
+    "sha256": "a66fe96a5ead46f8ef7d41c4d5df932cbaf2dde5b5f7ffcc663f83a31274fed2",
+    "bytes": 51131
+  },
+  {
+    "path": "results/herg_central_repro/models/candidate_predictions_by_model.csv",
+    "sha256": "a46b49dd0d200962c6d7b7919b268687495be696ec826d4b3dc748a2281570b8",
+    "bytes": 852
+  },
+  {
+    "path": "results/herg_central_repro/models/modelB_test_predictions.npz",
+    "sha256": "ff3c9c473c537aeca52a300b6c7b646c528506575ca9a1f7cf133f885c1bfd0f",
+    "bytes": 286122
+  },
+  {
+    "path": "results/herg_central_repro/models/model_provenance.json",
+    "sha256": "0e7fee3337deaed0ab83c8ac9bc3f21d8aa0de38d76d7e6b0cea1f698a44db7a",
+    "bytes": 442
+  },
+  {
+    "path": "results/herg_central_repro/split_indices.npz",
+    "sha256": "2a63992154ab7c4ae23a3cd03033fa5077e737c685af11040a49789e92f00ca4",
+    "bytes": 903663
+  },
+  {
+    "path": "results/herg_karim_predictions.csv",
+    "sha256": "e932ae505b6ad5760dcc9a9079109ae5a4a3850838b569f16d6d9d27ed1bb36c",
+    "bytes": 789
+  },
+  {
+    "path": "runs/audit-20260913/gates.json",
+    "sha256": "d321267f21108aac431e7c8c3a9d5029564f10b52b1245cc92d598c768741eca",
+    "bytes": 3128
+  },
+  {
+    "path": "runs/audit-20260913/handoff-r4-evidence.json",
+    "sha256": "b93eff2af11de34198dbb9055ae80c1951a275f0d0f8ed8c74821c3131048391",
+    "bytes": 5284
+  },
+  {
+    "path": "runs/audit-20260913/handoff-r4-mech.json",
+    "sha256": "dcf99b6ef86cbccf0af8df90e4d8d4a56c3bd2643fdfb562bd6cacffbec55df8",
+    "bytes": 887
+  },
+  {
+    "path": "runs/audit-20260913/tasks/sim-02/attempt-1/pocket_residence.json",
+    "sha256": "aaa1f61546740037541e6cb6bc63f1fc3a575735276a3069dbf7016375f4f446",
+    "bytes": 113729
+  },
+  {
+    "path": "scripts/herg_karim.py",
+    "sha256": "5cdfeaecf941b5d93fce1a08716cc72391e5cb8f53b0e7b74b2fa9337bbd23a7",
+    "bytes": 2183
+  },
+  {
+    "path": "scripts/herg_model_separation.py",
+    "sha256": "cf7d2b963af31a5c8c2c3cd71b36e6ceab224315971abc23735dcf3f3af76427",
+    "bytes": 4576
+  },
+  {
+    "path": "scripts/pocket_residence.py",
+    "sha256": "3f728d10887a868939123189bf939ed92e1f080ec693a18e696447ccfdb2f7f2",
+    "bytes": 7349
+  },
+  {
+    "path": "structure-analysis.md",
+    "sha256": "e21e8dd1753489d19c69c262e191fba6d476d82bb43089dad948871dcfaae421",
+    "bytes": 4889
+  },
+  {
+    "path": "structures/5i85_PC.pdb",
+    "sha256": "2930289e87cb50428ed5b2cada2999a34246ff50cab18463f922f790a6054873",
+    "bytes": 907
+  },
+  {
+    "path": "structures/5i85_recA_ZN.pdb",
+    "sha256": "4626aa6207b8df14646cd1becb4926d01b929c6ffcc4d5935ab54e9456dcf782",
+    "bytes": 341376
+  },
+  {
+    "path": "target-dossier.md",
+    "sha256": "c0da5f25e216924200fbee74c3662bc9c350f4a2f312f10d6311e48d42ec8d55",
+    "bytes": 8518
+  }
+]

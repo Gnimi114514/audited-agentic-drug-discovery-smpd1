@@ -1,0 +1,130 @@
+{
+  "repair": "1",
+  "verdict": "FAIL",
+  "literal_requested_checks": {
+    "box_nm_to_A_before_imaging": true,
+    "placeholder_removed": true,
+    "summary_mean_4_579_max_5_935": true,
+    "contacted_catalytic_residues_crystal_numbering_equals_319_458": true,
+    "units_note_present": true,
+    "v1_preserved_byte_identical_to_round4_snapshot": true,
+    "rerun_all_metrics_and_summary_equal_saved_producer": true
+  },
+  "independent_rerun": {
+    "frames": 620,
+    "RMSD_A": {
+      "mean": 4.579370920598672,
+      "min": 3.400931209523146,
+      "max": 5.935442988257247,
+      "final": 5.63788140935179
+    },
+    "frame_results_identical_to_round4_independent": true,
+    "actual_catalytic_residues": [
+      318,
+      319,
+      457,
+      458
+    ],
+    "catalytic_frame_counts": {
+      "206": 0,
+      "208": 0,
+      "278": 0,
+      "282": 0,
+      "318": 414,
+      "319": 11,
+      "425": 0,
+      "457": 620,
+      "458": 23,
+      "459": 0,
+      "488": 0
+    },
+    "strict_occupancy": 0.0,
+    "crystal_centroid_distance_A": {
+      "mean": 8.303681819346446,
+      "min": 6.5545028061399435,
+      "max": 9.992978185664809,
+      "final": 7.141910023393647
+    },
+    "residue_mapping": [
+      {
+        "topology_residue_index": 122,
+        "topology_resSeq": 122,
+        "crystal_residue": 206
+      },
+      {
+        "topology_residue_index": 124,
+        "topology_resSeq": 124,
+        "crystal_residue": 208
+      },
+      {
+        "topology_residue_index": 194,
+        "topology_resSeq": 194,
+        "crystal_residue": 278
+      },
+      {
+        "topology_residue_index": 198,
+        "topology_resSeq": 198,
+        "crystal_residue": 282
+      },
+      {
+        "topology_residue_index": 234,
+        "topology_resSeq": 234,
+        "crystal_residue": 318
+      },
+      {
+        "topology_residue_index": 235,
+        "topology_resSeq": 235,
+        "crystal_residue": 319
+      },
+      {
+        "topology_residue_index": 341,
+        "topology_resSeq": 341,
+        "crystal_residue": 425
+      },
+      {
+        "topology_residue_index": 373,
+        "topology_resSeq": 373,
+        "crystal_residue": 457
+      },
+      {
+        "topology_residue_index": 374,
+        "topology_resSeq": 374,
+        "crystal_residue": 458
+      },
+      {
+        "topology_residue_index": 375,
+        "topology_resSeq": 375,
+        "crystal_residue": 459
+      },
+      {
+        "topology_residue_index": 404,
+        "topology_resSeq": 404,
+        "crystal_residue": 488
+      }
+    ]
+  },
+  "failures": [
+    {
+      "id": "R5-P1",
+      "severity": "mandatory",
+      "source": "scripts/pocket_residence.py:44",
+      "finding": "Selection still uses id2ord[r]+1 against MDTraj resSeq, which is zero-based. In this topology crystal numbering = topology resSeq +84, not the comment +83. The later ord2crystal dictionary correctly translates the selected residues but cannot repair the wrong atom selection. Actual catalytic 318 and 457 are excluded; 457 contacts in all 620 frames and 318 in 414. Requested literal [319,458] is present but is an incomplete catalytic-contact result.",
+      "repair": "Build mapping from actual topology residue indices to crystal records, select all eleven catalytic residues correctly, rerun and report [318,319,457,458]."
+    },
+    {
+      "id": "R5-P2",
+      "severity": "mandatory",
+      "source": "scripts/pocket_residence.py:63,129",
+      "finding": "Crystal PC center remains untransformed when compared against ligand fitted to minimized reference. Common-frame alignment requested by adjudication is not implemented. Independent verifier aligns crystal backbone to reference first. Zero strict occupancy nevertheless independently reproduced.",
+      "repair": "Transform crystal PC centroid to minimized-reference frame before center-condition measurement; retain independent zero occupancy and distinguish geometric centroid from mass COM."
+    }
+  ],
+  "v1_sha256": "aaa1f61546740037541e6cb6bc63f1fc3a575735276a3069dbf7016375f4f446",
+  "artifacts": [
+    "pocket_rerun.py",
+    "pocket_rerun.json",
+    "c1_verify.py",
+    "c1_evidence.json"
+  ],
+  "execution": "Both WSL md-environment scripts exited 0 with -B. Producer copy changed only output destination; independent round4 verifier copied unchanged to round5 so all generated files stay in permitted directory."
+}

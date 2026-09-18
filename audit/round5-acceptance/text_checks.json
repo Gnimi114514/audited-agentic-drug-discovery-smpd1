@@ -1,0 +1,143 @@
+{
+  "checklist_numbering": "T1..T7 keys follow user round5 enumeration; original round4 mapping is separately noted.",
+  "checks": {
+    "MODEL_A_lineage_both_reports": {
+      "status": "PASS",
+      "details": "Both disclose raw-record legacy training, deduplicated refit, and only 1/26 reproduced; final report canonical-dedup context is immediately above the lineage paragraph. MODEL-B alone gets held-out AUC.",
+      "evidence": [
+        {
+          "path": "final-report.md",
+          "line": 232,
+          "text": "**hERG_Central (dataset = 306,893 records; canonical-dedup to 306,879; now\nREPRODUCIBLE)**: stratified 80/20 split (indices saved), RF-300 (MODEL-B) → **held-out\ntest ROC-AUC 0.9091, average precision 0.4792** (sklearn average_precision_score;\nper-test-sample predictions archived so this is independently recomputable);\ndataset SHA256, split indices and metrics archived in results/herg_central_repro/.\n**Model lineage (post-adjudication):** the candidate probabilities quoted below come\nfrom the legacy RF500 run on raw retrieved records; the archived MODEL-A is a\n*deduplicated refit*, not a verified legacy reproduction (only 1/26 legacy values\nreproduced at tolerance — a training-protocol change, not random variation). Candidate\noverlap: all top candidates are 0.290–0.724 Tanimoto *similarity* from the nearest\ntraining molecule (no near-duplicate threshold defined), nearest-neighbor labels\nrecorded. Candidate legacy probabilities: CHEMBL7385 0.090, CHEMBL6729 0.058,\nCHEMBL48767 0.118, CHEMBL24974 0.258; expansion analogs 0.058–0.416. These are\npredictions on novel scaffolds — not a de-risking guarantee; the small-set DILI flag on\nCHEMBL7385 remains the main safety watch-item."
+        },
+        {
+          "path": "hit-report.md",
+          "line": 200,
+          "text": "The CNN's skepticism toward CHEMBL24974/48767 poses is an uncertainty flag, consistent\nwith their pharmacology/P-gp warnings. Data: results/gnina_rescoring.json.\n\n## MODEL-A legacy-probability precision note (round-4 audit)\n\n**MODEL-A lineage correction (post-adjudication):** the values previously reported\nas \"MODEL-A (RF500, full-data)\" were produced by a run on *raw retrieved records*\n(scripts/herg_karim.py); the archived MODEL-A is a *refit* on canonicalized,\ndeduplicated data (scripts/herg_model_separation.py). These are different estimators:\nan independent comparison reproduced only 1/26 legacy values at tolerance (e.g.\nCHEMBL28172 0.254 → 0.228, CHEMBL54786 0.328 → 0.392) — a training-protocol change,\nnot random variation. Legacy values are cited as legacy-run outputs; refit values are\nMODEL-A refit outputs. MODEL-B (RF300, fixed 80/20 split) values are exact for the archived split\n(results/herg_central_repro/models/)."
+        }
+      ]
+    },
+    "fitted_estimator_serialization_withdrawal": {
+      "status": "PARTIAL",
+      "details": "No fitted-estimator serialization claim remains in final-report.md, and saved-test-score evaluation is described. No explicit withdrawal or statement that fitted estimators are not archived is present; clarify this to close adjudication repair 2 unambiguously."
+    },
+    "T1_pocket": {
+      "status": "FAIL",
+      "details": "Center-condition-fails correction is present, but non-catalytic-only surface labels and occupancy from retired COM-imaged metric survive as current conclusions.",
+      "evidence": [
+        {
+          "path": "final-report.md",
+          "line": 59,
+          "text": "| Simulation/triage (G4) | 3,642 scored; 1,158 ≤ −7.0; apo MD 5.81 ns; bound MD v1 (6.1 ns, Li-2013 12-6) **audited & corrected**; bound MD v2 (3.0 ns, 12-6 subset of 12-6-4, C4 omitted, pre-registered): **no Zn coordination (5.6–6.6 Å), pocket occupancy 0%, contacts on non-catalytic surface (235/342/374/375/376/405)**. **FAIL-as-submitted (units/selection); corrected analyses adopted** | G4: FAIL→corrected |"
+        },
+        {
+          "path": "final-report.md",
+          "line": 202,
+          "text": "¹ These in-run values used the COM-imaged metric later retired by the round-3 audit\n(R3-1: COM alignment removes the very translation the metric claimed to measure) and\nprinted nm as Å. The corrected analysis, recomputed independently by the auditor and\nnow reproduced by the repaired producer script\n(runs/audit-20260913/tasks/sim-02/attempt-1/pocket_residence.json), uses whole-molecule\nimaging and a protein-backbone fit: **ligand RMSD mean 4.579 Å / max 5.935 Å over all\n620 frames**. Corrected contact analysis: catalytic residues H319 and T458 are contacted\n(≥1 heavy atom within 4.5 Å) during the trajectory; occupancy under the pre-specified\n6 Å-center + 4.5 Å-catalytic-contact conjunction remains 0/620 (the center condition\nfails; substantial radius sensitivity documented).\n\n**Honest interpretation (downgrades the earlier coordination story further):**\n1. The protein backbone is **stable** (1.7–1.8 Å) — the audited \"12.5 Å drift\" was a\n   water-contaminated selection, now corrected.\n2. The docked CHEMBL24974-CF3 pose does **not** coordinate the catalytic Zn²⁺: minimum\n   Zn–ligand distance stays 5.6–6.6 Å in the re-run. Attribution caveat: the v1-vs-v2\n   difference cannot be attributed to parameter strength alone — v1's metrics were also\n   unit-broken and the C4 term is absent from BOTH runs; what is established is only\n   that the corrected analysis of either run shows no persistent Zn coordination.\n3. The ligand remains in the pocket region (COM-imaged RMSD 3–4.4 Å) but drifts within\n   it — pocket occupancy without metal coordination."
+        }
+      ]
+    },
+    "T2_lineage": {
+      "status": "PASS",
+      "evidence": [
+        {
+          "path": "final-report.md",
+          "line": 232,
+          "text": "**hERG_Central (dataset = 306,893 records; canonical-dedup to 306,879; now\nREPRODUCIBLE)**: stratified 80/20 split (indices saved), RF-300 (MODEL-B) → **held-out\ntest ROC-AUC 0.9091, average precision 0.4792** (sklearn average_precision_score;\nper-test-sample predictions archived so this is independently recomputable);\ndataset SHA256, split indices and metrics archived in results/herg_central_repro/.\n**Model lineage (post-adjudication):** the candidate probabilities quoted below come\nfrom the legacy RF500 run on raw retrieved records; the archived MODEL-A is a\n*deduplicated refit*, not a verified legacy reproduction (only 1/26 legacy values\nreproduced at tolerance — a training-protocol change, not random variation). Candidate\noverlap: all top candidates are 0.290–0.724 Tanimoto *similarity* from the nearest\ntraining molecule (no near-duplicate threshold defined), nearest-neighbor labels\nrecorded. Candidate legacy probabilities: CHEMBL7385 0.090, CHEMBL6729 0.058,\nCHEMBL48767 0.118, CHEMBL24974 0.258; expansion analogs 0.058–0.416. These are\npredictions on novel scaffolds — not a de-risking guarantee; the small-set DILI flag on\nCHEMBL7385 remains the main safety watch-item."
+        }
+      ]
+    },
+    "T3_average_precision": {
+      "status": "PASS",
+      "evidence": [
+        {
+          "path": "final-report.md",
+          "line": 232,
+          "text": "**hERG_Central (dataset = 306,893 records; canonical-dedup to 306,879; now\nREPRODUCIBLE)**: stratified 80/20 split (indices saved), RF-300 (MODEL-B) → **held-out\ntest ROC-AUC 0.9091, average precision 0.4792** (sklearn average_precision_score;\nper-test-sample predictions archived so this is independently recomputable);"
+        }
+      ]
+    },
+    "T4_mean_max": {
+      "status": "FAIL",
+      "details": "Body labels mean/max correctly, but banner still uses unlabeled ranges.",
+      "evidence": [
+        {
+          "path": "final-report.md",
+          "line": 19,
+          "text": "> 6.1 ns duration (not 3 ns), naive ligand displacement 0.47–0.69 **nm** (4.7–6.9 Å),\n> and the corrected imaged/fit analysis (GPT6) gives ligand internal RMSD 1.85–2.37 Å\n> and protein backbone RMSD 2.18–2.68 Å — the original \"≤0.69 Å stable binding\" claim\n> is **withdrawn**; (3) the simulation actually used **Li 2013 CM 12-6 Zn²⁺ parameters**\n> (126 file, ε=0.00330286 — verified in complex.prmtop), not the 2014 12-6-4 file's 12-6 parameters; the C4 term of the 12-6-4 model is absent from both runs; (4)"
+        },
+        {
+          "path": "final-report.md",
+          "line": 173,
+          "text": "- Corrected analysis (GPT6; whole-molecule periodic imaging; ligand metric uses\n  ligand-self fitting, protein metric uses protein-backbone fitting): ligand internal\n  RMSD **mean 1.847 Å, max 2.370 Å**; protein backbone RMSD **mean 2.175 Å, max\n  2.679 Å**. (These are mean/max statistics, not min–max ranges.) The original\n  \"≤0.69 Å stable binding\" and \"12.5 Å loop-flailing\" claims are **withdrawn**."
+        }
+      ]
+    },
+    "T5_old_gate_labels": {
+      "status": "FAIL",
+      "details": "The two narrow literal strings in the request are absent, but old-G5 PASS survives outside the mapping table.",
+      "literal_old_G1_PASS_absent": true,
+      "literal_G5_PASS_pipe_absent": true,
+      "evidence": [
+        {
+          "path": "final-report.md",
+          "line": 60,
+          "text": "| Triage | Composite ranking + novelty NN + homolog selectivity (all ≤0.31) + **activity-record audit** (6/10 were GPCR ligands → reordered) | old-G5 PASS → team-skill G4 FAIL-as-submitted (units/selection; corrected analyses adopted) |"
+        }
+      ]
+    },
+    "T6_threshold": {
+      "status": "FAIL",
+      "details": "Internal ranking convention is absent from final-report.md. Structure report has it, but hit-report still claims the reference chemotypes yield <= -7.0 despite all three scores being above -7.0.",
+      "evidence": [
+        {
+          "path": "hit-report.md",
+          "line": 9,
+          "text": "| Reference compound | Known potency | Vina (predicted) |\n|---|---|---|\n| CHEMBL418376 | **1.0 µM vs SMPD2 (CHEMBL4712)** — no verified human-SMPD1 record | −6.96 |\n| CHEMBL5284579 | **1.8 µM vs SMPD2 (CHEMBL4712)** | −6.34 |\n| CHEMBL310981 | 1.0–3.3 µM vs SMPD2; **49 µM vs human SMPD1** (activity 375434) | −6.01 |\n\n→ **CORRECTED after external audit:** the \"known 1–2 µM actives\" hit **SMPD2\n(CHEMBL4712), not human SMPD1** — the calibration anchor is **withdrawn**. These\nchemotypes still show that the pocket/protocol yields ≤ −7.0 scores for sphingomyelinase\nchemotypes, but they are NOT validated human-SMPD1 actives. Docking scores never compare\nacross protocols/papers or across different enzymes.\n"
+        },
+        {
+          "path": "structure-analysis.md",
+          "line": 36,
+          "text": "Empirical benchmark — **WITHDRAWN after external audit**: the \"known 1–2 µM ASM\ninhibitors\" are µM actives of SMPD2 (CHEMBL4712), not human SMPD1 (CHEMBL310981 vs\nhuman SMPD1 = 49 µM, activity 375434). Their docked scores here are −6.96, −6.34 and −6.01 (none ≤ −7.0); they demonstrate\nonly that the protocol scores sphingomyelinase-family binders in this range. They are\nNOT a human-SMPD1 potency anchor and NOT evidence that sub-−7.0 scores indicate\nactivity. The campaign's −7.0 threshold is retained only as an\ninternal ranking convention, not a potency calibration."
+        }
+      ]
+    },
+    "T7_v1_topology": {
+      "status": "FAIL",
+      "details": "No rereview-r3 snapshot citation in final-report.md; v1 attribution still points to current complex.prmtop, now v2.",
+      "evidence": [
+        {
+          "path": "final-report.md",
+          "line": 22,
+          "text": "> is **withdrawn**; (3) the simulation actually used **Li 2013 CM 12-6 Zn²⁺ parameters**\n> (126 file, ε=0.00330286 — verified in complex.prmtop), not the 2014 12-6-4 file's 12-6 parameters; the C4 term of the 12-6-4 model is absent from both runs; (4)"
+        },
+        {
+          "path": "final-report.md",
+          "line": 168,
+          "text": "- Zn²⁺ parameters actually used: **Li et al. 2013 CM 12-6 set** (frcmod.ions234lm_126_tip3p,\n  auto-loaded by leaprc.water.tip3p; coordinator-verified in complex.prmtop:\n  ε = 0.00330286 kcal/mol, q = +2), **not** the 2014 12-6-4 file cited earlier."
+        }
+      ]
+    },
+    "historical_R4_T6_ensemble_denial": {
+      "status": "FAIL",
+      "details": "Original round4 IDs differ from the user checklist: original T3=mean/max,T4=old gate,T5=threshold,T6=ensemble denial. This additional historical mandatory closure still fails.",
+      "evidence": [
+        {
+          "path": "structure-analysis.md",
+          "line": 34,
+          "text": "| Ensemble re-docking of top 20 (5I81 / 5JG8; cross-crystal ensemble, see above) | 5I81 |Δ| median 0.17 (max 0.34) kcal/mol; 5JG8 systematically ~0.3–1.4 lower but all hits −6.99…−9.07; top-4 clean hits stable in all three crystals |"
+        },
+        {
+          "path": "structure-analysis.md",
+          "line": 58,
+          "text": "- Receptor is a single static conformation (no ensemble docking performed in this\n  campaign); flexible-loop (SMD/MD) effects on the entry channel are unassessed."
+        }
+      ]
+    }
+  },
+  "source_sha256": {
+    "final-report.md": "ad8492f3316fb9dc38a620eb58d8757b055d0bbbc1e682def886b29f83cde784",
+    "hit-report.md": "c04261ee600e20450fa082a9650e50c1247545e7dbcfc60077f4f328e764fa37",
+    "structure-analysis.md": "e21e8dd1753489d19c69c262e191fba6d476d82bb43089dad948871dcfaae421"
+  }
+}

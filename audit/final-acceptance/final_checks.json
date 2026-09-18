@@ -1,0 +1,98 @@
+{
+  "audit_round": 15,
+  "audit_date": "2026-09-14",
+  "timezone": "Asia/Shanghai",
+  "overall_verdict": "ACCEPT-WITH-MINOR-NOTES",
+  "g6_recommendation": "CONDITIONAL",
+  "checks": {
+    "A_manifest_integrity": {
+      "verdict": "PASS",
+      "manifest_entries_total": 58,
+      "hash_bearing_entries": 56,
+      "sha256_matches": 56,
+      "sha256_mismatches": 0,
+      "byte_size_matches": 56,
+      "byte_size_mismatches": 0,
+      "declared_missing_entries": 2,
+      "declared_missing_confirmed": 2,
+      "unexpected_missing": 0,
+      "unexpected_present": 0,
+      "self_reference": false
+    },
+    "B_manuscript_final_state": {
+      "verdict": "PASS",
+      "exact_uppercase_UNRESOLVED_absent": true,
+      "lowercase_unresolved_only_as_scoped_limitations": true,
+      "lead_pose_absent": true,
+      "13_of_13_detected_absent": true,
+      "15_ns_absent": true,
+      "occupancy_not_called_pre_specified": true,
+      "validated_drug_only_negated": true,
+      "de_risked_absent": true,
+      "confirm_reject_adjudication_present": true,
+      "occupancy_post_hoc_consistent": true,
+      "gate_numbering_G0_through_G6": true,
+      "real_replay_12_detected_1_delegated_consistent": true,
+      "total_md_14_9_ns_consistent": true,
+      "stable_ledger_findings_18_consistent": true,
+      "benchmark_validation_qualified": true,
+      "note": "Post hoc/post-hoc hyphenation varies, but chronology and meaning are consistent."
+    },
+    "C_benchmark_integrity": {
+      "verdict": "PASS-WITH-MINOR-NOTE",
+      "full_benchmark": {
+        "expected_total_from_request": 30,
+        "observed_summary_total": 28,
+        "observed_case_array_count": 28,
+        "source_registered_case_count": 28,
+        "supplementary_cases_observed": 0,
+        "seeded": 18,
+        "seeded_detected": 15,
+        "seeded_missed": ["C4-b", "C6-a", "C8-c"],
+        "controls": 10,
+        "apparent_false_positives": ["C9-b"],
+        "confirmed_false_positives_after_label_correction": 0,
+        "miss_analysis_present": true,
+        "label_error_analysis_present": true
+      },
+      "real_findings_replay": {
+        "records": 13,
+        "detected": 12,
+        "delegated": 1,
+        "delegated_id": "R1-3",
+        "delegated_reason": "ParmEd unavailable in Windows interpreter; delegated to WSL environment",
+        "counts_derived_from_recorded_observations": true
+      }
+    },
+    "D_skill_validity": {
+      "verdict": "PASS",
+      "producer_disciplines": 8,
+      "producer_disciplines_complete": true,
+      "auditor_deterministic_check_types": 7,
+      "auditor_check_requirement_met": true,
+      "producer_mutation_reference": true,
+      "auditor_mutation_reference": true,
+      "installed_skill_exists": true,
+      "frontmatter_valid": true,
+      "frontmatter_name": "audited-drug-discovery",
+      "frontmatter_description_nonempty": true,
+      "reference_files_present": 2
+    },
+    "E_gate_status": {
+      "verdict": "PASS-WITH-MINOR-NOTE",
+      "legacy_outcome": "BLOCKED",
+      "legacy_team_g6": "BLOCKED",
+      "latest_history_round": 11,
+      "latest_history_verdict": "ACCEPT-WITH-MINOR-NOTES",
+      "latest_history_g6": "CONDITIONAL",
+      "declared_g6_state": "CONDITIONAL",
+      "controlling_interpretation": "Round-11 CONDITIONAL supersedes retained BLOCKED historical fields",
+      "recommended_g6": "CONDITIONAL"
+    }
+  },
+  "minor_notes": [
+    "The full benchmark has 28 serialized/script-registered cases, not the requested 30; no two supplementary cases are present.",
+    "gates.json retains two BLOCKED fields that are stale relative to its round-11 history and dedicated CONDITIONAL g6_state."
+  ],
+  "blocking_findings": []
+}

@@ -1,0 +1,104 @@
+{
+  "scope": "Read-only wording sweep and artifact-level numerical cross-check; no trajectory recomputation",
+  "overall": "REJECT",
+  "g6_recommendation": "BLOCKED",
+  "files": {
+    "hit-report.md": {
+      "sha256": "c04261ee600e20450fa082a9650e50c1247545e7dbcfc60077f4f328e764fa37",
+      "lines": 213
+    },
+    "structure-analysis.md": {
+      "sha256": "fccc9b0bed38dfa2ea79734037cfe8dbc61e9c1c90a7ce04e01a80af8cca635f",
+      "lines": 62
+    },
+    "final-report.md": {
+      "sha256": "3ad9bf95f704d87f6c134eedefed7f2eee0712964e6e42798567f1de9d4aa6dd",
+      "lines": 265
+    },
+    "paper/manuscript_results_discussion.md": {
+      "sha256": "7fd5eed9990269330cb90c88265de8cd954fbb43c3410a622968de85af67a22f",
+      "lines": 181
+    },
+    "paper/MANUSCRIPT_DRAFT_v1.md": {
+      "sha256": "1def9afc9d134b5dee1401dbb441cf789f0ce22d3bdeff3114570a016da1704b",
+      "lines": 366
+    }
+  },
+  "items": [
+    {
+      "id": "R8-1",
+      "verdict": "FAIL",
+      "evidence": [
+        "paper/manuscript_results_discussion.md:82 still says occupancy criterion fixed in advance, contradicting post hoc at line96",
+        "paper/MANUSCRIPT_DRAFT_v1.md:203 same fixed-in-advance statement; line217 post hoc",
+        "paper/MANUSCRIPT_DRAFT_v1.md:30 abstract still says analysis specification recorded before the run",
+        "paper/MANUSCRIPT_DRAFT_v1.md:338-342 Figure4 lacks claimed post-hoc addition disclosure and numerical 8A/10A sensitivity",
+        "md/bound_analysis_pre_registered.json:14-16 explicitly says occupancy added post hoc and not original preregistration"
+      ]
+    },
+    {
+      "id": "R8-4-hit",
+      "verdict": "FAIL",
+      "evidence": [
+        "hit-report.md:17 still says pocket/protocol yields <= -7.0 scores",
+        "hit-report.md:11-13 own reference table is -6.96/-6.34/-6.01; zero of three <= -7.0",
+        "structure-analysis.md:38-43 correctly states none <= -7.0 and internal ranking convention, creating cross-report contradiction"
+      ]
+    },
+    {
+      "id": "R8-4-structure",
+      "verdict": "FAIL",
+      "evidence": [
+        "structure-analysis.md:58-61 properly acknowledges cross-crystal and MD ensemble docking and scopes within-crystal rotamer caveat",
+        "structure-analysis.md:62 still contains dangling campaign); clause"
+      ]
+    },
+    {
+      "id": "R8-4-final-contacts",
+      "verdict": "PASS_WITH_NOTE",
+      "evidence": [
+        "final-report.md:63-66 correctly states at least one catalytic-residue contact each frame and exact per-residue frequencies",
+        "final-report.md:64 still calls joint criterion pre-registered-style, inconsistent with unambiguous post-hoc description at217-218",
+        "final-report.md:63-66 row is physically split across Markdown lines, breaking GFM table rendering"
+      ]
+    },
+    {
+      "id": "R8-4-retired-metric",
+      "verdict": "PASS",
+      "evidence": [
+        "final-report.md:229-232 replaces retired-metric pocket-residence inference with explicit supersession and no residence conclusion"
+      ]
+    },
+    {
+      "id": "R9-report-citation-residual",
+      "verdict": "FAIL",
+      "evidence": [
+        "final-report.md:211-215 claims canonical pocket_residence.json reproduces mean4.579/max5.935",
+        "actual runs/audit-20260913/tasks/sim-02/attempt-1/pocket_residence.json summary gives mean4.696/max6.05/final5.753; auditor c1 summary supports4.5793709206/5.9354429883"
+      ]
+    }
+  ],
+  "additional_sweep_notes": [
+    "Cannot establish which residuals were newly introduced without complete pre-edit comparison; report these as surviving inconsistencies, not new-origin findings.",
+    "final-report.md:202-207 retains misleading protein-frame header and squared-A units on retired metric, despite footnote explaining retirement.",
+    "final-report.md:225 says distance stays5.6-6.6A without snapshot scope; full-frame range4.18-7.71A appears at63.",
+    "paper/MANUSCRIPT_DRAFT_v1.md:363 says manifest levels L1-L4, stale against claimed/current L1-L5.",
+    "paper/MANUSCRIPT_DRAFT_v1.md:308 says repaired every accepted finding, despite ledger partial/open and line117 no blanket closure.",
+    "paper/MANUSCRIPT_DRAFT_v1.md:78 v1 6.1ns includes initialization; line187/source results_discussion:66 calls6.1ns production.",
+    "paper/manuscript_results_discussion.md:167 and compiled:288 say no seeded-error benchmark run; must reconcile with currently executed benchmark artifacts."
+  ],
+  "c1_frame_array_recount": {
+    "frames": 620,
+    "catalytic_frame_counts": {
+      "457": 620,
+      "318": 414,
+      "458": 23,
+      "319": 11
+    },
+    "occupancy_radius_fractions": {
+      "6": 0.0,
+      "8": 0.3032258064516129,
+      "10": 1.0
+    }
+  }
+}

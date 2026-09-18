@@ -1,0 +1,158 @@
+{
+  "role": "Fresh-session acceptance auditor, round 6",
+  "date": "2026-09-14",
+  "scope": "Only four R5 repairs and requested residual regression sweep",
+  "overall": "REJECT",
+  "G6_recommendation": "Remain BLOCKED; repair deterministic failures and freeze again before fresh independent acceptance.",
+  "checks": {
+    "R5-1": {
+      "verdict": "FAIL",
+      "evidence": [
+        "WSL mdtraj rerun reproduces 620 frames, contacts [318,319,457,458], RMSD mean 4.579 / max 5.935 A; primary summary matches rerun.",
+        "Primary pocket_residence.json has summary and provenance only; units_note absent. Both superseded files exist.",
+        "scripts/pocket_residence_r5fix.py:83-88 assumes crystal frame equals saved reference frame; no crystal-to-reference transformation applied. Independent 2112-backbone fit changes center by 132.9814 A. Thus occupancy remains invalid despite numerical RMSD/contact repair."
+      ],
+      "numerical_subcheck": "PASS",
+      "rerun": {
+        "n_frames": 620,
+        "ligand_protein_frame_rmsd_A": {
+          "mean": 4.579,
+          "max": 5.935,
+          "final": 5.638
+        },
+        "pocket_occupancy_fraction": 0.0,
+        "catalytic_residues_ever_contacted_crystal_numbering": [
+          318,
+          319,
+          457,
+          458
+        ],
+        "occupancy_definition": "ligand center (geometric, protein frame) within 6 A of crystal PC centroid AND >=1 catalytic heavy atom within 4.5 A",
+        "residue_selector": "zero-based topology resSeq == Murcko ordinal (id2ord[r]); verified mapping 122->206 etc."
+      },
+      "reference_check": {
+        "crystal_center_A": [
+          -13.712909090909092,
+          -34.09809090909091,
+          -28.72463636363636
+        ],
+        "center_in_raw_minimized_reference_A": [
+          52.18052768566312,
+          56.883966497375596,
+          42.43981041496785
+        ],
+        "center_shift_A": 132.98142075284983,
+        "matched_backbone_atoms": 2112,
+        "Zn_epsilon_kcal_mol": 0.02662781997945352
+      }
+    },
+    "R5-2": {
+      "verdict": "PASS",
+      "evidence": [
+        "hit-report.md:205-214 distinguishes raw-record legacy RF500 from deduplicated MODEL-A refit, discloses 1/26 agreement, and attributes difference to training protocol. stochastic-approximate is absent.",
+        "final-report.md:239-247 contains matching lineage disclosure and explicit serialization withdrawal: no fitted estimator (MODEL-A refit, MODEL-B, or legacy) serialized; reproducibility limited to archived scores/refit outputs."
+      ]
+    },
+    "R5-3": {
+      "verdict": "FAIL",
+      "evidence": [
+        "Windows Python replay completed through final output: 12 recorded checks, 11 detected, R1-3 null with designed parmed-unavailable fallback; claimed 13/12 is not reproduced.",
+        "R1-10 RMSD is computed but has no rec() call and is absent from replay records. Independent exhaustive per-element permutation RMSD = 1.7569671441021726 A, matching 1.757 A.",
+        "R1-2 uses hardcoded v1 values and arithmetic, R3-1 hardcodes observation and True, R3-6 uses literal values rather than reading the cited table. Counts are derived from records, but records are not all artifact-backed replays. R1-7 reads min catalytic-residue distance, not the Zn distance stated in its comment.",
+        "R1-6 and R3-3 execute generic canaries; R3-2 checks source substrings. These do not establish replay of the corresponding historical artifact defects.",
+        "WSL independently completed R1-3 topology epsilon check: 0.02662781997945352 kcal/mol. This does not change the submitted Windows replay count."
+      ],
+      "observed_summary": {
+        "executed_replays": 12,
+        "detected": 11,
+        "detection_rate": "11/12",
+        "note": "counts derived from executed observations; context-only findings (R3-4, R3-5, R3-7) and live-only (R1-4, R1-9) are excluded here and listed separately as coverage inventory"
+      },
+      "independent_R1_10": {
+        "method": "Independent exhaustive same-element permutations, no alignment, first docked model; no producer parser or Hungarian routine reused",
+        "atoms": 11,
+        "element_groups": [
+          {
+            "element": "C",
+            "count": 5,
+            "minimum_squared_distance_sum": 26.870711999999987
+          },
+          {
+            "element": "N",
+            "count": 1,
+            "minimum_squared_distance_sum": 5.971246000000008
+          },
+          {
+            "element": "O",
+            "count": 4,
+            "minimum_squared_distance_sum": 0.9620769999999976
+          },
+          {
+            "element": "P",
+            "count": 1,
+            "minimum_squared_distance_sum": 0.15223399999999807
+          }
+        ],
+        "rmsd_A": 1.7569671441021726
+      }
+    },
+    "R5-4": {
+      "verdict": "FAIL",
+      "evidence": [
+        "Root has claimed level counts 29/12/7/2/5, but only 51/55 hashes and sizes match.",
+        "Stale leaves: pocket_residence.json, final-report.md, structure-analysis.md, research-log.md.",
+        "Both check_handoff.py invocations exit 1: reports artifacts[0,2,5], evidence artifacts[15] hash mismatch.",
+        "Append-after-hash root note exists but does not satisfy current-byte integrity. L2 also omits both new repair scripts, and L1 omits the executed-replay result."
+      ],
+      "manifest_evidence": "manifest_checks.json"
+    },
+    "R5-T1": {
+      "verdict": "FAIL",
+      "evidence": [
+        "final-report.md:61 retains non-catalytic surface (235/342/374/375/376/405); :210 still lists only H319/T458; :223-224 retains pocket occupancy from the retired COM-imaged metric."
+      ]
+    },
+    "R5-T2": {
+      "verdict": "FAIL",
+      "evidence": [
+        "hit-report.md:17 retains yields <= -7.0 despite table scores -6.96/-6.34/-6.01."
+      ]
+    },
+    "R5-T3": {
+      "verdict": "FAIL",
+      "evidence": [
+        "structure-analysis.md:58-60 adds cross-crystal/5-snapshot ensembles and a rotamer caveat, but :61-62 still says and no ensemble docking was performed / campaign); the contradictory denial fragment remains."
+      ]
+    },
+    "R5-T4": {
+      "verdict": "FAIL",
+      "evidence": [
+        "final-report.md:20-21 still presents 1.85-2.37 and 2.18-2.68 A as unlabeled ranges; mean/max labels later at :177-178 do not repair the banner.",
+        "The :61 summary labels bound v2 3.0 ns; :192 gives 100 ps heat + 3.0 ns production, but no explicit 3.1 ns total label appears."
+      ]
+    },
+    "R5-T5": {
+      "verdict": "FAIL",
+      "evidence": [
+        "Assembled manuscript abstract :29-31 and Figure 4 :343-347 remove the literal pre-specified wording and acknowledge radius sensitivity (wording subcheck PASS).",
+        "Abstract still asserts specification recorded before the run; Figure 4 falsely attributes the occupancy conjunction to md/bound_analysis_pre_registered.json. That file contains RMSD/Zn metrics, no occupancy or 6 A/4.5 A criterion. Thus unsupported prospective provenance survives the rewording."
+      ],
+      "literal_wording_subcheck": "PASS"
+    },
+    "R5-T6": {
+      "verdict": "PASS",
+      "evidence": [
+        "paper/MANUSCRIPT_DRAFT_v1.md:301-304 Positioning qualifies chain verification by recorded round-4 findings; :363-371 Data and code availability explicitly notes root self-reference, stale nested entry, unresolved revision integrity, and lack of adjudicated full-chain acceptance."
+      ],
+      "scope": "Assembled manuscript Positioning and Data availability"
+    }
+  },
+  "execution": {
+    "write_boundary": "All created/modified artifacts restricted to independent-audit/round6-acceptance/. Producer scripts executed as local copies with only output/temp destinations redirected; replay additionally guarded against outside file writes and bytecode disabled. No producer computations changed.",
+    "pocket": "WSL /root/miniforge/envs/md/bin/python -B; exit 0",
+    "replay": "Windows C:/ProgramData/anaconda3/python.exe; full JSON and terminal completion observed. PowerShell stream redirection marked TDC informational stderr as NativeCommandError; no Python traceback or guard rejection.",
+    "independent_RMSD": "Exhaustive permutations by element, first docking model, 11 heavy atoms; independent parser; no superposition.",
+    "handoff_checker": "C:/Users/Gnimi/.agents/skills/ai-drug-discovery-team/scripts/check_handoff.py; --root workspace"
+  },
+  "root_manifest_sha256": "18194bde7d5b16974b4ffb28a21c3a6f1bb08d17bc437318031bd69a694ebf6f"
+}

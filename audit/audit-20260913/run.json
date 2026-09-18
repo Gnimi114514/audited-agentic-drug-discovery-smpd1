@@ -1,0 +1,28 @@
+{
+ "schema_version": "1.0",
+ "run_id": "audit-20260913",
+ "mode": "audit-repair",
+ "scope": {
+  "object": "cognition-drug-discovery project (SMPD1 / cognitive impairment, first-in-class small molecule)",
+  "audit_basis": "AUDIT.md + audit_manifest.json (40 files SHA256)",
+  "objectives": [
+   "independent recomputation",
+   "failure-registry completeness",
+   "identity checks",
+   "adversarial review of top-pick claims"
+  ]
+ },
+ "capabilities": {
+  "compute": "full-compute",
+  "note": "auditors run in fresh agent contexts; same model family as coordinator (no GPT6 available in this environment) — independence of context, not model diversity"
+ },
+ "resource_budget": {
+  "wall_minutes": 90,
+  "agents": 3,
+  "gpu": "shared RTX 5080 (no exclusive allocation)",
+  "retries": 2
+ },
+ "completion_criteria": "3 worker result.json accepted or BLOCKED with cause; consolidated audit report written; gate objections triaged",
+ "input_snapshot": "audit_manifest.json",
+ "started_at": "2026-09-13T18:03:47+08:00"
+}

@@ -1,0 +1,60 @@
+{
+ "artifacts": [
+  {
+   "path": "final-report.md",
+   "sha256": "1d2d18b7da904a211a94790617f3f0b28626333dfffb876385ef9cfcf08e7754"
+  },
+  {
+   "path": "hit-report.md",
+   "sha256": "d6e10f96c6328bb0c170e1d406b0b4fdeb55a98b1dbb01b39a5621bee0593912"
+  },
+  {
+   "path": "structure-analysis.md",
+   "sha256": "4fae118e72531466035542b9af588e6688d0d88c8b8c35b014f23ab8973d1854"
+  },
+  {
+   "path": "target-dossier.md",
+   "sha256": "7146270bfe8855f66b3214935aac02012b06ac4eff70ed6de274aecffb29213a"
+  },
+  {
+   "path": "research-log.md",
+   "sha256": "6b1501670dc8db4f9e86bda419818fc56ddea7a86c0a99d92f9aa0435ed27089"
+  },
+  {
+   "path": "results/funnel_registry.json",
+   "sha256": "5d6c059bc74b59044ef6d608386d3b5c4b334d70ef0212360f7948ce3af6d288"
+  },
+  {
+   "path": "results/herg_central_repro/metrics.json",
+   "sha256": "dc7dc6e28e8d91060d0427324cb03404c157d09bc0947ea8cedd834371003226"
+  },
+  {
+   "path": "results/herg_central_repro/split_meta.json",
+   "sha256": "643a159b567655d9584fb0b28f84944b114999e52f0dd4ebbc78165ccefd5cd9"
+  },
+  {
+   "path": "results/herg_central_repro/dataset.sha256",
+   "sha256": "a33ffb01b06381a1cb5cfcadcc83b221b323c12b94d515dab9d7c4bb83f53f7c"
+  },
+  {
+   "path": "results/herg_central_repro/candidate_overlap.csv",
+   "sha256": "dd74ef37dca0e0e63dc8108d0eb9e805698fc947dc392eea7fa9ffbb6def16bb"
+  },
+  {
+   "path": "md/bound_analysis_pre_registered.json",
+   "sha256": "afccad51c5aab8cf4ea52cd5dc19934d05c2259bf9d50ebb43c1ac6ad92231b7"
+  },
+  {
+   "path": "scripts/bound_md.py",
+   "sha256": "25dfd0aee5f633947348f40b949f08d7b0b1ad4565b3bd8daf84a393b6f8da0f"
+  },
+  {
+   "path": "scripts/build_bound.sh",
+   "sha256": "61885c8d7c7b1a396a29c5cf0bca655c00b09fa5ad0b8b9d88f12db94940d20a"
+  },
+  {
+   "path": "runs/audit-20260913/reviews/gpt6-audit-triage.md",
+   "sha256": "72d0c758f3a1133b99e361bcb5e27a4b79d812797ee9d5bfdc76eab12fd478ed"
+  }
+ ]
+}

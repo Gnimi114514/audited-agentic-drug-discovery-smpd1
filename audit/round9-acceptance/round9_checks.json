@@ -1,0 +1,959 @@
+{
+  "audit_round": 9,
+  "date": "2026-09-14",
+  "overall": "REJECT",
+  "g6_recommendation": "BLOCKED",
+  "capability_coverage": "partial-compute",
+  "write_scope": "independent-audit/round9-acceptance/",
+  "items": [
+    {
+      "id": "R8-1",
+      "verdict": "FAIL",
+      "finding": "R9-1",
+      "evidence": [
+        "paper/manuscript_results_discussion.md:82",
+        "paper/MANUSCRIPT_DRAFT_v1.md:30",
+        "paper/MANUSCRIPT_DRAFT_v1.md:203",
+        "paper/MANUSCRIPT_DRAFT_v1.md:336"
+      ],
+      "reason": "Claimed post-hoc unification is absent; abstract, Results and Figure 4 remain unreconciled."
+    },
+    {
+      "id": "R8-2-counting",
+      "verdict": "PASS",
+      "append_line": 167,
+      "count_line": 173,
+      "generated_summary": {
+        "executed_replays": 13,
+        "detected": 12,
+        "delegated": 1,
+        "detection_rate": "12/13",
+        "note": "counts derived from executed observations; context-only findings (R3-4, R3-5, R3-7) and live-only (R1-4, R1-9) are excluded here and listed separately as coverage inventory"
+      },
+      "generated_equals_saved": true,
+      "execution_exit_code": 0
+    },
+    {
+      "id": "R8-2-R1-2",
+      "verdict": "FAIL",
+      "finding": "R9-2",
+      "reads_bound_run_log": false,
+      "reason": "Literal values; no first-frame artifact check, inaccurate claimed log array."
+    },
+    {
+      "id": "R8-2-R3-1",
+      "verdict": "FAIL",
+      "finding": "R9-2",
+      "reason": "Literal observed string and unconditional True; c1 read elsewhere does not feed this record."
+    },
+    {
+      "id": "R8-2-R3-6",
+      "verdict": "FAIL",
+      "finding": "R9-2",
+      "reason": "Regex loses signs, selects only 6.xx from whole document, accepts empty and contradictory evidence.",
+      "probes": [
+        {
+          "variant": "current_artifact",
+          "parsed_values": [
+            6.96,
+            6.34,
+            6.01
+          ],
+          "observed": "values=[6.96, 6.34, 6.01], any<=-7: False",
+          "detected": true
+        },
+        {
+          "variant": "reference_score_changed_to_minus_7_96",
+          "parsed_values": [
+            6.34,
+            6.01,
+            6.99
+          ],
+          "observed": "values=[6.34, 6.01, 6.99], any<=-7: False",
+          "detected": true
+        },
+        {
+          "variant": "empty_artifact",
+          "parsed_values": [],
+          "observed": "values=[], any<=-7: False",
+          "detected": true
+        }
+      ]
+    },
+    {
+      "id": "R8-2-R1-3-delegated",
+      "verdict": "PASS",
+      "scope": "Null correctly reported; WSL parmed verification not newly run, and no WSL dispatch occurs in replay source."
+    },
+    {
+      "id": "R8-3",
+      "verdict": "PASS",
+      "research_log": {
+        "level": "L3_reports_frozen",
+        "path": "research-log.md",
+        "sha256": "3ebfb83ea716dda0659057ac7ae19c94a77b7f371bda0b56bdfda15a1941d16a",
+        "bytes": 63413,
+        "actual_sha256": "3ebfb83ea716dda0659057ac7ae19c94a77b7f371bda0b56bdfda15a1941d16a",
+        "actual_bytes": 63413,
+        "passed": true
+      },
+      "reason": "Final D22-addendum bytes match freeze; content truth is separately rejected."
+    },
+    {
+      "id": "manifest-all-hashes",
+      "verdict": "PASS",
+      "total": 75,
+      "passed": 75,
+      "level_counts": {
+        "L1_evidence": 38,
+        "L2_scripts": 15,
+        "L3_reports_frozen": 11,
+        "L4_nested_manifests": 2,
+        "L5_audit_artifacts": 9
+      }
+    },
+    {
+      "id": "manifest-level-count-description",
+      "verdict": "MINOR_NOTE",
+      "expected_L1_claim": 39,
+      "actual_L1": 38,
+      "actual_total": 75,
+      "reason": "Claimed 39/15/11/2/9 would total 76; actual root has 38/15/11/2/9."
+    },
+    {
+      "id": "handoff-r9-evidence",
+      "verdict": "PASS",
+      "execution": {
+        "command": [
+          "C:\\ProgramData\\anaconda3\\python.exe",
+          "-B",
+          "C:\\Users\\Gnimi\\.agents\\skills\\ai-drug-discovery-team\\scripts\\check_handoff.py",
+          "C:\\Users\\Gnimi\\.zcode\\workspace\\default\\cognition-drug-discovery\\runs\\audit-20260913\\handoff-r9-evidence.json",
+          "--root",
+          "C:\\Users\\Gnimi\\.zcode\\workspace\\default\\cognition-drug-discovery",
+          "--require",
+          "artifacts"
+        ],
+        "exit_code": 0,
+        "stdout": "{\n  \"mechanical_checks_passed\": true,\n  \"errors\": [],\n  \"scientific_acceptance\": \"NOT_ASSESSED\"\n}\n",
+        "stderr": ""
+      }
+    },
+    {
+      "id": "handoff-r9-reports",
+      "verdict": "PASS",
+      "execution": {
+        "command": [
+          "C:\\ProgramData\\anaconda3\\python.exe",
+          "-B",
+          "C:\\Users\\Gnimi\\.agents\\skills\\ai-drug-discovery-team\\scripts\\check_handoff.py",
+          "C:\\Users\\Gnimi\\.zcode\\workspace\\default\\cognition-drug-discovery\\runs\\audit-20260913\\handoff-r9-reports.json",
+          "--root",
+          "C:\\Users\\Gnimi\\.zcode\\workspace\\default\\cognition-drug-discovery",
+          "--require",
+          "artifacts"
+        ],
+        "exit_code": 0,
+        "stdout": "{\n  \"mechanical_checks_passed\": true,\n  \"errors\": [],\n  \"scientific_acceptance\": \"NOT_ASSESSED\"\n}\n",
+        "stderr": ""
+      }
+    },
+    {
+      "id": "R8-4-hit",
+      "verdict": "FAIL",
+      "evidence": [
+        "hit-report.md:17 still says pocket/protocol yields <= -7.0 scores",
+        "hit-report.md:11-13 own reference table is -6.96/-6.34/-6.01; zero of three <= -7.0",
+        "structure-analysis.md:38-43 correctly states none <= -7.0 and internal ranking convention, creating cross-report contradiction"
+      ]
+    },
+    {
+      "id": "R8-4-structure",
+      "verdict": "FAIL",
+      "evidence": [
+        "structure-analysis.md:58-61 properly acknowledges cross-crystal and MD ensemble docking and scopes within-crystal rotamer caveat",
+        "structure-analysis.md:62 still contains dangling campaign); clause"
+      ]
+    },
+    {
+      "id": "R8-4-final-contacts",
+      "verdict": "PASS_WITH_NOTE",
+      "evidence": [
+        "final-report.md:63-66 correctly states at least one catalytic-residue contact each frame and exact per-residue frequencies",
+        "final-report.md:64 still calls joint criterion pre-registered-style, inconsistent with unambiguous post-hoc description at217-218",
+        "final-report.md:63-66 row is physically split across Markdown lines, breaking GFM table rendering"
+      ]
+    },
+    {
+      "id": "R8-4-retired-metric",
+      "verdict": "PASS",
+      "evidence": [
+        "final-report.md:229-232 replaces retired-metric pocket-residence inference with explicit supersession and no residence conclusion"
+      ]
+    },
+    {
+      "id": "R9-report-citation-residual",
+      "verdict": "FAIL",
+      "evidence": [
+        "final-report.md:211-215 claims canonical pocket_residence.json reproduces mean4.579/max5.935",
+        "actual runs/audit-20260913/tasks/sim-02/attempt-1/pocket_residence.json summary gives mean4.696/max6.05/final5.753; auditor c1 summary supports4.5793709206/5.9354429883"
+      ]
+    }
+  ],
+  "replay_execution": {
+    "command": [
+      "C:\\ProgramData\\anaconda3\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "independent-audit\\round9-acceptance\\run_replay.py"
+    ],
+    "exit_code": 0,
+    "interpreter": "3.12.3 | packaged by conda-forge | (main, Apr 15 2024, 18:20:11) [MSC v.1938 64 bit (AMD64)]",
+    "platform": "win32"
+  },
+  "replay_source": {
+    "source_sha256": "e1976d1dc160d704ef24671ab9804883d93639e8ceb02e3c28fc0f92cc1e5ddb",
+    "entries": 13,
+    "actual_true": 12,
+    "actual_null": 1,
+    "saved_summary": {
+      "executed_replays": 13,
+      "detected": 12,
+      "delegated": 1,
+      "detection_rate": "12/13",
+      "note": "counts derived from executed observations; context-only findings (R3-4, R3-5, R3-7) and live-only (R1-4, R1-9) are excluded here and listed separately as coverage inventory"
+    },
+    "count_line": 173,
+    "append_line": 167,
+    "literal_evidence": {
+      "34": "v1 = [0.47, 2.96, 3.59, 4.39]           # printed \"A\" values from md/bound_run.log",
+      "36": "heat_first = 0.47 * 10                  # 4.70 A expected if nm-as-A",
+      "139": "    'COM-imaged (retired) vs protein-frame values', '4.39 vs 4.579-5.935: metrics differ',",
+      "140": "    True, 'retired metric documented')",
+      "161": "vals = [float(x) for x in _re.findall(r'[−-](6\\.\\d\\d)', _sa)][:3]"
+    },
+    "reads_bound_run_log": false
+  },
+  "root_manifest_sha256": "3e3341dd7b2f0247d48786485aa86fd72e41baeea6dd84af1cdf4067e51fbc6f",
+  "manifest_entries": [
+    {
+      "level": "L1_evidence",
+      "path": "results/hits_ranked.csv",
+      "sha256": "d941016bcffb1607d316e3dbba61d41aee4495de81c88f74fc100e43c77b5052",
+      "bytes": 501654,
+      "actual_sha256": "d941016bcffb1607d316e3dbba61d41aee4495de81c88f74fc100e43c77b5052",
+      "actual_bytes": 501654,
+      "passed": true
+    },
+    {
+      "level": "L1_evidence",
+      "path": "results/funnel_registry.json",
+      "sha256": "5d6c059bc74b59044ef6d608386d3b5c4b334d70ef0212360f7948ce3af6d288",
+      "bytes": 1832,
+      "actual_sha256": "5d6c059bc74b59044ef6d608386d3b5c4b334d70ef0212360f7948ce3af6d288",
+      "actual_bytes": 1832,
+      "passed": true
+    },
+    {
+      "level": "L1_evidence",
+      "path": "results/top50.json",
+      "sha256": "aaba6b2857113d0577050b7161be242ac99a2ec1b283bcb67502a9ac88ab4446",
+      "bytes": 21890,
+      "actual_sha256": "aaba6b2857113d0577050b7161be242ac99a2ec1b283bcb67502a9ac88ab4446",
+      "actual_bytes": 21890,
+      "passed": true
+    },
+    {
+      "level": "L1_evidence",
+      "path": "results/ensemble_scores.csv",
+      "sha256": "bcaf6a68fa1f167f748384dde59c5993fae820e11f2a55e67c0c415d208f4c7f",
+      "bytes": 693,
+      "actual_sha256": "bcaf6a68fa1f167f748384dde59c5993fae820e11f2a55e67c0c415d208f4c7f",
+      "actual_bytes": 693,
+      "passed": true
+    },
+    {
+      "level": "L1_evidence",
+      "path": "results/gnina_rescoring.json",
+      "sha256": "40495bf4b5ef7707549ff8b2a0277a07d9cc429a56273f85249e1383d5ada15d",
+      "bytes": 944,
+      "actual_sha256": "40495bf4b5ef7707549ff8b2a0277a07d9cc429a56273f85249e1383d5ada15d",
+      "actual_bytes": 944,
+      "passed": true
+    },
+    {
+      "level": "L1_evidence",
+      "path": "results/homolog_selectivity.csv",
+      "sha256": "09d507c7c84826ed33d90407888a4d87e8206d4de0e4406fefa50a45ab52bb1b",
+      "bytes": 1448,
+      "actual_sha256": "09d507c7c84826ed33d90407888a4d87e8206d4de0e4406fefa50a45ab52bb1b",
+      "actual_bytes": 1448,
+      "passed": true
+    },
+    {
+      "level": "L1_evidence",
+      "path": "results/admet_predictions.csv",
+      "sha256": "15dcea91ea51962d186cf65f933ea0cf2160d4c146ffd611f150a35ff0249ec2",
+      "bytes": 3909,
+      "actual_sha256": "15dcea91ea51962d186cf65f933ea0cf2160d4c146ffd611f150a35ff0249ec2",
+      "actual_bytes": 3909,
+      "passed": true
+    },
+    {
+      "level": "L1_evidence",
+      "path": "results/md_ensemble_docking.csv",
+      "sha256": "2c7c65c08dd762449112fe6697c4d8bb83797132d41902aeabb7d488c4868786",
+      "bytes": 464,
+      "actual_sha256": "2c7c65c08dd762449112fe6697c4d8bb83797132d41902aeabb7d488c4868786",
+      "actual_bytes": 464,
+      "passed": true
+    },
+    {
+      "level": "L1_evidence",
+      "path": "results/expansion_results.json",
+      "sha256": "266c51446bc565a9dce4aae8975c3ae7abf143d75d569032c8684c75e90e8f19",
+      "bytes": 53656,
+      "actual_sha256": "266c51446bc565a9dce4aae8975c3ae7abf143d75d569032c8684c75e90e8f19",
+      "actual_bytes": 53656,
+      "passed": true
+    },
+    {
+      "level": "L1_evidence",
+      "path": "results/herg_central_repro/metrics.json",
+      "sha256": "dc7dc6e28e8d91060d0427324cb03404c157d09bc0947ea8cedd834371003226",
+      "bytes": 117,
+      "actual_sha256": "dc7dc6e28e8d91060d0427324cb03404c157d09bc0947ea8cedd834371003226",
+      "actual_bytes": 117,
+      "passed": true
+    },
+    {
+      "level": "L1_evidence",
+      "path": "results/herg_central_repro/split_meta.json",
+      "sha256": "643a159b567655d9584fb0b28f84944b114999e52f0dd4ebbc78165ccefd5cd9",
+      "bytes": 402,
+      "actual_sha256": "643a159b567655d9584fb0b28f84944b114999e52f0dd4ebbc78165ccefd5cd9",
+      "actual_bytes": 402,
+      "passed": true
+    },
+    {
+      "level": "L1_evidence",
+      "path": "results/herg_central_repro/dataset.sha256",
+      "sha256": "a33ffb01b06381a1cb5cfcadcc83b221b323c12b94d515dab9d7c4bb83f53f7c",
+      "bytes": 66,
+      "actual_sha256": "a33ffb01b06381a1cb5cfcadcc83b221b323c12b94d515dab9d7c4bb83f53f7c",
+      "actual_bytes": 66,
+      "passed": true
+    },
+    {
+      "level": "L1_evidence",
+      "path": "results/herg_central_repro/candidate_overlap.csv",
+      "sha256": "dd74ef37dca0e0e63dc8108d0eb9e805698fc947dc392eea7fa9ffbb6def16bb",
+      "bytes": 723,
+      "actual_sha256": "dd74ef37dca0e0e63dc8108d0eb9e805698fc947dc392eea7fa9ffbb6def16bb",
+      "actual_bytes": 723,
+      "passed": true
+    },
+    {
+      "level": "L1_evidence",
+      "path": "results/herg_central_repro/models/candidate_predictions_by_model.csv",
+      "sha256": "a46b49dd0d200962c6d7b7919b268687495be696ec826d4b3dc748a2281570b8",
+      "bytes": 852,
+      "actual_sha256": "a46b49dd0d200962c6d7b7919b268687495be696ec826d4b3dc748a2281570b8",
+      "actual_bytes": 852,
+      "passed": true
+    },
+    {
+      "level": "L1_evidence",
+      "path": "results/herg_central_repro/models/model_provenance.json",
+      "sha256": "0e7fee3337deaed0ab83c8ac9bc3f21d8aa0de38d76d7e6b0cea1f698a44db7a",
+      "bytes": 442,
+      "actual_sha256": "0e7fee3337deaed0ab83c8ac9bc3f21d8aa0de38d76d7e6b0cea1f698a44db7a",
+      "actual_bytes": 442,
+      "passed": true
+    },
+    {
+      "level": "L1_evidence",
+      "path": "results/herg_central_repro/models/modelB_test_predictions.npz",
+      "sha256": "ff3c9c473c537aeca52a300b6c7b646c528506575ca9a1f7cf133f885c1bfd0f",
+      "bytes": 286122,
+      "actual_sha256": "ff3c9c473c537aeca52a300b6c7b646c528506575ca9a1f7cf133f885c1bfd0f",
+      "actual_bytes": 286122,
+      "passed": true
+    },
+    {
+      "level": "L1_evidence",
+      "path": "results/herg_karim_predictions.csv",
+      "sha256": "e932ae505b6ad5760dcc9a9079109ae5a4a3850838b569f16d6d9d27ed1bb36c",
+      "bytes": 789,
+      "actual_sha256": "e932ae505b6ad5760dcc9a9079109ae5a4a3850838b569f16d6d9d27ed1bb36c",
+      "actual_bytes": 789,
+      "passed": true
+    },
+    {
+      "level": "L1_evidence",
+      "path": "results/herg_dili_predictions.csv",
+      "sha256": "6cfd4dc4f49dfcef00684d4093411b16be5268c64c5e53e28d3e327386650cc4",
+      "bytes": 932,
+      "actual_sha256": "6cfd4dc4f49dfcef00684d4093411b16be5268c64c5e53e28d3e327386650cc4",
+      "actual_bytes": 932,
+      "passed": true
+    },
+    {
+      "level": "L1_evidence",
+      "path": "results/pose_contacts.csv",
+      "sha256": "dec00fd260e8186eea9eb3fb2e46dabf80ca9cadb3baf3b04de8fc660846aa18",
+      "bytes": 2884,
+      "actual_sha256": "dec00fd260e8186eea9eb3fb2e46dabf80ca9cadb3baf3b04de8fc660846aa18",
+      "actual_bytes": 2884,
+      "passed": true
+    },
+    {
+      "level": "L1_evidence",
+      "path": "runs/audit-20260913/tasks/sim-02/attempt-1/pocket_residence.json",
+      "sha256": "bd22cc6cd230dcf919ae39da59540d664c407edb24f17266e39883d304d17eea",
+      "bytes": 1165,
+      "actual_sha256": "bd22cc6cd230dcf919ae39da59540d664c407edb24f17266e39883d304d17eea",
+      "actual_bytes": 1165,
+      "passed": true
+    },
+    {
+      "level": "L1_evidence",
+      "path": "runs/audit-20260913/tasks/sim-02/attempt-1/pocket_residence_v1_superseded.json",
+      "sha256": "aaa1f61546740037541e6cb6bc63f1fc3a575735276a3069dbf7016375f4f446",
+      "bytes": 113729,
+      "actual_sha256": "aaa1f61546740037541e6cb6bc63f1fc3a575735276a3069dbf7016375f4f446",
+      "actual_bytes": 113729,
+      "passed": true
+    },
+    {
+      "level": "L1_evidence",
+      "path": "runs/audit-20260913/tasks/sim-02/attempt-1/pocket_residence_superseded_by_r5fix.json",
+      "sha256": "207bb5749c69eb3e7e71d95d37271e4122aae7fa6b9d44a4f23d4ade73d26f49",
+      "bytes": 113800,
+      "actual_sha256": "207bb5749c69eb3e7e71d95d37271e4122aae7fa6b9d44a4f23d4ade73d26f49",
+      "actual_bytes": 113800,
+      "passed": true
+    },
+    {
+      "level": "L1_evidence",
+      "path": "runs/audit-20260913/tasks/sim-02/attempt-1/pocket_residence_r5fix_summary.json",
+      "sha256": "cb648cb97dfb89c665646f2c2da84c03a1ec2129ccaf34fd111bfcf76ee2fefb",
+      "bytes": 694,
+      "actual_sha256": "cb648cb97dfb89c665646f2c2da84c03a1ec2129ccaf34fd111bfcf76ee2fefb",
+      "actual_bytes": 694,
+      "passed": true
+    },
+    {
+      "level": "L1_evidence",
+      "path": "runs/audit-20260913/tasks/sim-02/attempt-1/pocket_residence_r7_summary.json",
+      "sha256": "1ddf4e3a801ed7098af4df17d2e30d9cf37c55496b23ed342b698fb2c4749e5a",
+      "bytes": 747,
+      "actual_sha256": "1ddf4e3a801ed7098af4df17d2e30d9cf37c55496b23ed342b698fb2c4749e5a",
+      "actual_bytes": 747,
+      "passed": true
+    },
+    {
+      "level": "L1_evidence",
+      "path": "runs/audit-20260913/tasks/sim-02/attempt-1/pocket_residence_r7_frames.json",
+      "sha256": "5c15b9145469b818400260f399b138abadb3a9cf38049b9d8d2308a0cd9fc4c0",
+      "bytes": 54934,
+      "actual_sha256": "5c15b9145469b818400260f399b138abadb3a9cf38049b9d8d2308a0cd9fc4c0",
+      "actual_bytes": 54934,
+      "passed": true
+    },
+    {
+      "level": "L1_evidence",
+      "path": "runs/audit-20260913/tasks/syn-01/attempt-1/result.json",
+      "sha256": "c77469994a094397faaeb764a0c9f60d254bff1c855c5db3fe1e6eacdc473c4e",
+      "bytes": 216,
+      "actual_sha256": "c77469994a094397faaeb764a0c9f60d254bff1c855c5db3fe1e6eacdc473c4e",
+      "actual_bytes": 216,
+      "passed": true
+    },
+    {
+      "level": "L1_evidence",
+      "path": "runs/audit-20260913/tasks/syn-01/attempt-1/candidates_routes.json",
+      "sha256": "a4726dda55c058fd61b65840359f2f1711dee1ab9f03a4c14dfefd4b9e5ad851",
+      "bytes": 455,
+      "actual_sha256": "a4726dda55c058fd61b65840359f2f1711dee1ab9f03a4c14dfefd4b9e5ad851",
+      "actual_bytes": 455,
+      "passed": true
+    },
+    {
+      "level": "L1_evidence",
+      "path": "runs/benchmark-seeded/benchmark_results.json",
+      "sha256": "1c44dfd11d9fe2086cba06d6bce4c1e0d3a6e9614216e46c90dfe15c6cb1abbf",
+      "bytes": 2086,
+      "actual_sha256": "1c44dfd11d9fe2086cba06d6bce4c1e0d3a6e9614216e46c90dfe15c6cb1abbf",
+      "actual_bytes": 2086,
+      "passed": true
+    },
+    {
+      "level": "L1_evidence",
+      "path": "runs/benchmark-seeded/real_findings_replay.json",
+      "sha256": "1f3fbd22cd9c12b565d44058944a2d05a800758b98ed66e532514d2894167695",
+      "bytes": 5453,
+      "actual_sha256": "1f3fbd22cd9c12b565d44058944a2d05a800758b98ed66e532514d2894167695",
+      "actual_bytes": 5453,
+      "passed": true
+    },
+    {
+      "level": "L1_evidence",
+      "path": "runs/benchmark-seeded/real_findings_replay_executed.json",
+      "sha256": "3ee4c6eda201b56b0a9a8c808741f1edf3743e297f91a6186346fac8b529f125",
+      "bytes": 4177,
+      "actual_sha256": "3ee4c6eda201b56b0a9a8c808741f1edf3743e297f91a6186346fac8b529f125",
+      "actual_bytes": 4177,
+      "passed": true
+    },
+    {
+      "level": "L1_evidence",
+      "path": "md/bound_v2.dcd",
+      "sha256": "3069107c4d099dfc081673b0becdf6c33e942f5fe4ef2f78bb87d3d0e8200502",
+      "bytes": 545647396,
+      "actual_sha256": "3069107c4d099dfc081673b0becdf6c33e942f5fe4ef2f78bb87d3d0e8200502",
+      "actual_bytes": 545647396,
+      "passed": true
+    },
+    {
+      "level": "L1_evidence",
+      "path": "md/bound_ref.pdb",
+      "sha256": "b294b05be700ac7e9fd3a2bca59f4940970d7cbe029f88e04190f3873d61e3ab",
+      "bytes": 7381099,
+      "actual_sha256": "b294b05be700ac7e9fd3a2bca59f4940970d7cbe029f88e04190f3873d61e3ab",
+      "actual_bytes": 7381099,
+      "passed": true
+    },
+    {
+      "level": "L1_evidence",
+      "path": "md/bound_analysis_pre_registered.json",
+      "sha256": "32f363a5832ea2702b8311f793526479638af23b616b1b9913ec2715c02fd6dd",
+      "bytes": 1157,
+      "actual_sha256": "32f363a5832ea2702b8311f793526479638af23b616b1b9913ec2715c02fd6dd",
+      "actual_bytes": 1157,
+      "passed": true
+    },
+    {
+      "level": "L1_evidence",
+      "path": "md/complex.prmtop",
+      "sha256": "f2139e02ad03663415bd09849ab8bb398cffa2ad18f7ecbe6003bcb3f3c91cd8",
+      "bytes": 13990827,
+      "actual_sha256": "f2139e02ad03663415bd09849ab8bb398cffa2ad18f7ecbe6003bcb3f3c91cd8",
+      "actual_bytes": 13990827,
+      "passed": true
+    },
+    {
+      "level": "L1_evidence",
+      "path": "md/complex.inpcrd",
+      "sha256": "a8299226c0e859d72280cfe874e1ec8074e88b963b66d848e7366c399f349d24",
+      "bytes": 2676748,
+      "actual_sha256": "a8299226c0e859d72280cfe874e1ec8074e88b963b66d848e7366c399f349d24",
+      "actual_bytes": 2676748,
+      "passed": true
+    },
+    {
+      "level": "L1_evidence",
+      "path": "md/prod.dcd",
+      "sha256": "4941f5acf59b5265305a48e5f0f59c07a53e0f86ae5785553a90c2b9480f4995",
+      "bytes": 1962763656,
+      "actual_sha256": "4941f5acf59b5265305a48e5f0f59c07a53e0f86ae5785553a90c2b9480f4995",
+      "actual_bytes": 1962763656,
+      "passed": true
+    },
+    {
+      "level": "L1_evidence",
+      "path": "structures/5i85.pdb",
+      "sha256": "c8b9711df2698f100b5f040f51cab14cf1cc9add5d98fb2eb5ec518ac528f2fe",
+      "bytes": 791937,
+      "actual_sha256": "c8b9711df2698f100b5f040f51cab14cf1cc9add5d98fb2eb5ec518ac528f2fe",
+      "actual_bytes": 791937,
+      "passed": true
+    },
+    {
+      "level": "L1_evidence",
+      "path": "structures/5i85_recA_ZN_rigid.pdbqt",
+      "sha256": "5d33cac3fb16951a306f94041196ff322d30308cd843447c7bdb28aa15da9bd1",
+      "bytes": 427119,
+      "actual_sha256": "5d33cac3fb16951a306f94041196ff322d30308cd843447c7bdb28aa15da9bd1",
+      "actual_bytes": 427119,
+      "passed": true
+    },
+    {
+      "level": "L2_scripts",
+      "path": "scripts/bound_md.py",
+      "sha256": "25dfd0aee5f633947348f40b949f08d7b0b1ad4565b3bd8daf84a393b6f8da0f",
+      "bytes": 5623,
+      "actual_sha256": "25dfd0aee5f633947348f40b949f08d7b0b1ad4565b3bd8daf84a393b6f8da0f",
+      "actual_bytes": 5623,
+      "passed": true
+    },
+    {
+      "level": "L2_scripts",
+      "path": "scripts/pocket_residence.py",
+      "sha256": "742f0e28ccb2e137ba144ce11206362b636c4ee5af124aad64b9e3cd892049b8",
+      "bytes": 8252,
+      "actual_sha256": "742f0e28ccb2e137ba144ce11206362b636c4ee5af124aad64b9e3cd892049b8",
+      "actual_bytes": 8252,
+      "passed": true
+    },
+    {
+      "level": "L2_scripts",
+      "path": "scripts/pocket_residence_r5fix.py",
+      "sha256": "add48616e611526c9000c85298872672664612fba69707b3b05caf0e56b813ff",
+      "bytes": 7033,
+      "actual_sha256": "add48616e611526c9000c85298872672664612fba69707b3b05caf0e56b813ff",
+      "actual_bytes": 7033,
+      "passed": true
+    },
+    {
+      "level": "L2_scripts",
+      "path": "scripts/pocket_residence_r7.py",
+      "sha256": "04b78aa7305a70edec895ef3655183364eda3eee61c94ba8f7deaf33da36d755",
+      "bytes": 5982,
+      "actual_sha256": "04b78aa7305a70edec895ef3655183364eda3eee61c94ba8f7deaf33da36d755",
+      "actual_bytes": 5982,
+      "passed": true
+    },
+    {
+      "level": "L2_scripts",
+      "path": "scripts/herg_model_separation.py",
+      "sha256": "cf7d2b963af31a5c8c2c3cd71b36e6ceab224315971abc23735dcf3f3af76427",
+      "bytes": 4576,
+      "actual_sha256": "cf7d2b963af31a5c8c2c3cd71b36e6ceab224315971abc23735dcf3f3af76427",
+      "actual_bytes": 4576,
+      "passed": true
+    },
+    {
+      "level": "L2_scripts",
+      "path": "scripts/herg_central_repro.py",
+      "sha256": "03f248fc84a78741ac3820de67fd3bfc85f9a4a0efb291370924135568577eb8",
+      "bytes": 4813,
+      "actual_sha256": "03f248fc84a78741ac3820de67fd3bfc85f9a4a0efb291370924135568577eb8",
+      "actual_bytes": 4813,
+      "passed": true
+    },
+    {
+      "level": "L2_scripts",
+      "path": "scripts/seeded_benchmark.py",
+      "sha256": "7ec0f9e821571fbda7dc57cc401edbabd51a3fa0d17905f39758774bef00d908",
+      "bytes": 6677,
+      "actual_sha256": "7ec0f9e821571fbda7dc57cc401edbabd51a3fa0d17905f39758774bef00d908",
+      "actual_bytes": 6677,
+      "passed": true
+    },
+    {
+      "level": "L2_scripts",
+      "path": "scripts/findings_replay.py",
+      "sha256": "55d553f1f257e206856bad5c059a1830ea52a41c02486579aaf6cab2dd8fd7ee",
+      "bytes": 6223,
+      "actual_sha256": "55d553f1f257e206856bad5c059a1830ea52a41c02486579aaf6cab2dd8fd7ee",
+      "actual_bytes": 6223,
+      "passed": true
+    },
+    {
+      "level": "L2_scripts",
+      "path": "scripts/findings_replay_executed.py",
+      "sha256": "e1976d1dc160d704ef24671ab9804883d93639e8ceb02e3c28fc0f92cc1e5ddb",
+      "bytes": 9650,
+      "actual_sha256": "e1976d1dc160d704ef24671ab9804883d93639e8ceb02e3c28fc0f92cc1e5ddb",
+      "actual_bytes": 9650,
+      "passed": true
+    },
+    {
+      "level": "L2_scripts",
+      "path": "scripts/build_bound.sh",
+      "sha256": "61885c8d7c7b1a396a29c5cf0bca655c00b09fa5ad0b8b9d88f12db94940d20a",
+      "bytes": 2267,
+      "actual_sha256": "61885c8d7c7b1a396a29c5cf0bca655c00b09fa5ad0b8b9d88f12db94940d20a",
+      "actual_bytes": 2267,
+      "passed": true
+    },
+    {
+      "level": "L2_scripts",
+      "path": "scripts/dock_runner.py",
+      "sha256": "8124392ff81f4f6a21b6f2c52ce94e77059a21042be06075c83d0f481aa8fb6f",
+      "bytes": 3039,
+      "actual_sha256": "8124392ff81f4f6a21b6f2c52ce94e77059a21042be06075c83d0f481aa8fb6f",
+      "actual_bytes": 3039,
+      "passed": true
+    },
+    {
+      "level": "L2_scripts",
+      "path": "scripts/triage.py",
+      "sha256": "2c1af9312fb64c06e11e5b494c72e5c6ab63d7d99b4b103b044d1d6f55c72bbd",
+      "bytes": 4357,
+      "actual_sha256": "2c1af9312fb64c06e11e5b494c72e5c6ab63d7d99b4b103b044d1d6f55c72bbd",
+      "actual_bytes": 4357,
+      "passed": true
+    },
+    {
+      "level": "L2_scripts",
+      "path": "scripts/ensemble_dock.py",
+      "sha256": "fda48b7e1df261f441c77f52121ffa21ac28042f33a24e8abb59c9d8fc2d0b88",
+      "bytes": 5099,
+      "actual_sha256": "fda48b7e1df261f441c77f52121ffa21ac28042f33a24e8abb59c9d8fc2d0b88",
+      "actual_bytes": 5099,
+      "passed": true
+    },
+    {
+      "level": "L2_scripts",
+      "path": "scripts/gnina_rescore.py",
+      "sha256": "45ff0db93d2df8b8f146d039dcca84609933fc753cc95ea0e6d884eb166f86b9",
+      "bytes": 2463,
+      "actual_sha256": "45ff0db93d2df8b8f146d039dcca84609933fc753cc95ea0e6d884eb166f86b9",
+      "actual_bytes": 2463,
+      "passed": true
+    },
+    {
+      "level": "L2_scripts",
+      "path": "scripts/run_all.sh",
+      "sha256": "cdf6536bb7604699577ab7efabdac0f2dd2591496aa27be8ebcdce876305af71",
+      "bytes": 2740,
+      "actual_sha256": "cdf6536bb7604699577ab7efabdac0f2dd2591496aa27be8ebcdce876305af71",
+      "actual_bytes": 2740,
+      "passed": true
+    },
+    {
+      "level": "L3_reports_frozen",
+      "path": "final-report.md",
+      "sha256": "3ad9bf95f704d87f6c134eedefed7f2eee0712964e6e42798567f1de9d4aa6dd",
+      "bytes": 18054,
+      "actual_sha256": "3ad9bf95f704d87f6c134eedefed7f2eee0712964e6e42798567f1de9d4aa6dd",
+      "actual_bytes": 18054,
+      "passed": true
+    },
+    {
+      "level": "L3_reports_frozen",
+      "path": "target-dossier.md",
+      "sha256": "c0da5f25e216924200fbee74c3662bc9c350f4a2f312f10d6311e48d42ec8d55",
+      "bytes": 8518,
+      "actual_sha256": "c0da5f25e216924200fbee74c3662bc9c350f4a2f312f10d6311e48d42ec8d55",
+      "actual_bytes": 8518,
+      "passed": true
+    },
+    {
+      "level": "L3_reports_frozen",
+      "path": "structure-analysis.md",
+      "sha256": "fccc9b0bed38dfa2ea79734037cfe8dbc61e9c1c90a7ce04e01a80af8cca635f",
+      "bytes": 5093,
+      "actual_sha256": "fccc9b0bed38dfa2ea79734037cfe8dbc61e9c1c90a7ce04e01a80af8cca635f",
+      "actual_bytes": 5093,
+      "passed": true
+    },
+    {
+      "level": "L3_reports_frozen",
+      "path": "hit-report.md",
+      "sha256": "c04261ee600e20450fa082a9650e50c1247545e7dbcfc60077f4f328e764fa37",
+      "bytes": 13628,
+      "actual_sha256": "c04261ee600e20450fa082a9650e50c1247545e7dbcfc60077f4f328e764fa37",
+      "actual_bytes": 13628,
+      "passed": true
+    },
+    {
+      "level": "L3_reports_frozen",
+      "path": "validation-plan.md",
+      "sha256": "9db369ae376dba190faca92699962aec645630846106c4eaa5fc28b380ded586",
+      "bytes": 5770,
+      "actual_sha256": "9db369ae376dba190faca92699962aec645630846106c4eaa5fc28b380ded586",
+      "actual_bytes": 5770,
+      "passed": true
+    },
+    {
+      "level": "L3_reports_frozen",
+      "path": "research-log.md",
+      "sha256": "3ebfb83ea716dda0659057ac7ae19c94a77b7f371bda0b56bdfda15a1941d16a",
+      "bytes": 63413,
+      "actual_sha256": "3ebfb83ea716dda0659057ac7ae19c94a77b7f371bda0b56bdfda15a1941d16a",
+      "actual_bytes": 63413,
+      "passed": true
+    },
+    {
+      "level": "L3_reports_frozen",
+      "path": "AUDIT.md",
+      "sha256": "0f344d8f2df2a367d899bc91d62a0f65f2be110aa67727da7378d9c8a2a880ca",
+      "bytes": 12549,
+      "actual_sha256": "0f344d8f2df2a367d899bc91d62a0f65f2be110aa67727da7378d9c8a2a880ca",
+      "actual_bytes": 12549,
+      "passed": true
+    },
+    {
+      "level": "L3_reports_frozen",
+      "path": "paper/MANUSCRIPT_DRAFT_v1.md",
+      "sha256": "1def9afc9d134b5dee1401dbb441cf789f0ce22d3bdeff3114570a016da1704b",
+      "bytes": 42403,
+      "actual_sha256": "1def9afc9d134b5dee1401dbb441cf789f0ce22d3bdeff3114570a016da1704b",
+      "actual_bytes": 42403,
+      "passed": true
+    },
+    {
+      "level": "L3_reports_frozen",
+      "path": "paper/manuscript_methods_audit.md",
+      "sha256": "35928d1edbfbe00b8a619efbebc79ec62c1609485d940db3b799a79f5905b28d",
+      "bytes": 22335,
+      "actual_sha256": "35928d1edbfbe00b8a619efbebc79ec62c1609485d940db3b799a79f5905b28d",
+      "actual_bytes": 22335,
+      "passed": true
+    },
+    {
+      "level": "L3_reports_frozen",
+      "path": "paper/manuscript_results_discussion.md",
+      "sha256": "7fd5eed9990269330cb90c88265de8cd954fbb43c3410a622968de85af67a22f",
+      "bytes": 13143,
+      "actual_sha256": "7fd5eed9990269330cb90c88265de8cd954fbb43c3410a622968de85af67a22f",
+      "actual_bytes": 13143,
+      "passed": true
+    },
+    {
+      "level": "L3_reports_frozen",
+      "path": "paper/OUTLINE.md",
+      "sha256": "efa10a5cad32fe25146c7ce887bc329d1c12f1a29da147c71bc4da8803accc3a",
+      "bytes": 14863,
+      "actual_sha256": "efa10a5cad32fe25146c7ce887bc329d1c12f1a29da147c71bc4da8803accc3a",
+      "actual_bytes": 14863,
+      "passed": true
+    },
+    {
+      "level": "L4_nested_manifests",
+      "path": "runs/audit-20260913/handoff-r9-reports.json",
+      "sha256": "a13a0d5394a1c8cd70fdebe19813b91e69c8859e87c7d83293db8f2a178eaafc",
+      "bytes": 1434,
+      "actual_sha256": "a13a0d5394a1c8cd70fdebe19813b91e69c8859e87c7d83293db8f2a178eaafc",
+      "actual_bytes": 1434,
+      "passed": true
+    },
+    {
+      "level": "L4_nested_manifests",
+      "path": "runs/audit-20260913/handoff-r9-evidence.json",
+      "sha256": "9165b6520d3f0622f205c6f15b7bee4acb110898856485288ca6a7d7912ad242",
+      "bytes": 7710,
+      "actual_sha256": "9165b6520d3f0622f205c6f15b7bee4acb110898856485288ca6a7d7912ad242",
+      "actual_bytes": 7710,
+      "passed": true
+    },
+    {
+      "level": "L5_audit_artifacts",
+      "path": "independent-audit/REPORT.md",
+      "sha256": "121544876092a01a2e371c7028300d90d37e5da845c1788bd9e268d8935fb92c",
+      "bytes": 14220,
+      "actual_sha256": "121544876092a01a2e371c7028300d90d37e5da845c1788bd9e268d8935fb92c",
+      "actual_bytes": 14220,
+      "passed": true
+    },
+    {
+      "level": "L5_audit_artifacts",
+      "path": "independent-audit/rereview-r3/REPORT.md",
+      "sha256": "f32c2013768fdffeb70f724b36a4e96d4fdc5954a674ca70de2fcbd96a9b99dc",
+      "bytes": 12255,
+      "actual_sha256": "f32c2013768fdffeb70f724b36a4e96d4fdc5954a674ca70de2fcbd96a9b99dc",
+      "actual_bytes": 12255,
+      "passed": true
+    },
+    {
+      "level": "L5_audit_artifacts",
+      "path": "independent-audit/round4-acceptance/round4_checks.json",
+      "sha256": "0271d44ac8c88d5d14a1c7acc7da7eef5b0bbe2ba9fc1064fb1b91a7bc293483",
+      "bytes": 65330,
+      "actual_sha256": "0271d44ac8c88d5d14a1c7acc7da7eef5b0bbe2ba9fc1064fb1b91a7bc293483",
+      "actual_bytes": 65330,
+      "passed": true
+    },
+    {
+      "level": "L5_audit_artifacts",
+      "path": "independent-audit/round4-acceptance/adjudication.md",
+      "sha256": "15d03d7e8844a5c7c2eeeaa0a701ac9b11359e63912a39ac8c9a5937a38b81c1",
+      "bytes": 13406,
+      "actual_sha256": "15d03d7e8844a5c7c2eeeaa0a701ac9b11359e63912a39ac8c9a5937a38b81c1",
+      "actual_bytes": 13406,
+      "passed": true
+    },
+    {
+      "level": "L5_audit_artifacts",
+      "path": "independent-audit/round5-acceptance/round5-acceptance.md",
+      "sha256": "93b04d46408e10d0907074d9e41199b2d204a74e1383fcf30d500e7f82a47bad",
+      "bytes": 5736,
+      "actual_sha256": "93b04d46408e10d0907074d9e41199b2d204a74e1383fcf30d500e7f82a47bad",
+      "actual_bytes": 5736,
+      "passed": true
+    },
+    {
+      "level": "L5_audit_artifacts",
+      "path": "independent-audit/round6-acceptance/round6-acceptance.md",
+      "sha256": "94e7b35d9b8176718eda27e8595c676e3c70fbfe5e004f26720ff28a06d75b19",
+      "bytes": 6187,
+      "actual_sha256": "94e7b35d9b8176718eda27e8595c676e3c70fbfe5e004f26720ff28a06d75b19",
+      "actual_bytes": 6187,
+      "passed": true
+    },
+    {
+      "level": "L5_audit_artifacts",
+      "path": "independent-audit/round7-acceptance/round7-acceptance.md",
+      "sha256": "94d486d223e6ce8cbc55994f88ffcf870d5c540f2389b14ac6e05c72e4500e32",
+      "bytes": 7067,
+      "actual_sha256": "94d486d223e6ce8cbc55994f88ffcf870d5c540f2389b14ac6e05c72e4500e32",
+      "actual_bytes": 7067,
+      "passed": true
+    },
+    {
+      "level": "L5_audit_artifacts",
+      "path": "independent-audit/round8-acceptance/round8-acceptance.md",
+      "sha256": "9e08a7d9b941aeb8e03e81a9a36a7e5e1a2f8622948e58690c5ea9bc3ce22ef2",
+      "bytes": 8734,
+      "actual_sha256": "9e08a7d9b941aeb8e03e81a9a36a7e5e1a2f8622948e58690c5ea9bc3ce22ef2",
+      "actual_bytes": 8734,
+      "passed": true
+    },
+    {
+      "level": "L5_audit_artifacts",
+      "path": "runs/audit-20260913/reviews/gpt6-audit-triage.md",
+      "sha256": "72d0c758f3a1133b99e361bcb5e27a4b79d812797ee9d5bfdc76eab12fd478ed",
+      "bytes": 5922,
+      "actual_sha256": "72d0c758f3a1133b99e361bcb5e27a4b79d812797ee9d5bfdc76eab12fd478ed",
+      "actual_bytes": 5922,
+      "passed": true
+    }
+  ],
+  "artifact_frame_recount": {
+    "frames": 620,
+    "catalytic_frame_counts": {
+      "457": 620,
+      "318": 414,
+      "458": 23,
+      "319": 11
+    },
+    "occupancy_radius_fractions": {
+      "6": 0.0,
+      "8": 0.3032258064516129,
+      "10": 1.0
+    }
+  },
+  "additional_sweep_notes": [
+    "Cannot establish which residuals were newly introduced without complete pre-edit comparison; report these as surviving inconsistencies, not new-origin findings.",
+    "final-report.md:202-207 retains misleading protein-frame header and squared-A units on retired metric, despite footnote explaining retirement.",
+    "final-report.md:225 says distance stays5.6-6.6A without snapshot scope; full-frame range4.18-7.71A appears at63.",
+    "paper/MANUSCRIPT_DRAFT_v1.md:363 says manifest levels L1-L4, stale against claimed/current L1-L5.",
+    "paper/MANUSCRIPT_DRAFT_v1.md:308 says repaired every accepted finding, despite ledger partial/open and line117 no blanket closure.",
+    "paper/MANUSCRIPT_DRAFT_v1.md:78 v1 6.1ns includes initialization; line187/source results_discussion:66 calls6.1ns production.",
+    "paper/manuscript_results_discussion.md:167 and compiled:288 say no seeded-error benchmark run; must reconcile with currently executed benchmark artifacts."
+  ],
+  "limitations": [
+    "No new dynamics or trajectory geometry recomputation.",
+    "R1-3 parmed delegated/null, not newly verified in WSL.",
+    "Mechanical handoff success does not certify scientific acceptance.",
+    "Historical paper manifest is not a current freeze."
+  ],
+  "supporting_files": [
+    "round9-acceptance.md",
+    "manifest_checks.json",
+    "report_review.json",
+    "replay_checks.json",
+    "replay_execution.json",
+    "replay_stdout.txt",
+    "replay_stderr.txt",
+    "real_findings_replay_executed.json",
+    "replay_mutation_checks.json",
+    "check_artifacts.py",
+    "run_replay.py",
+    "probe_replay.py"
+  ]
+}

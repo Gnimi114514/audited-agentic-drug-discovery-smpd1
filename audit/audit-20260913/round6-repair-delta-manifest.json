@@ -1,0 +1,80 @@
+{
+ "generated": "2026-09-14 09:46:28",
+ "note": "Round-6 repair delta manifest (D21). research-log append-after-hash documented.",
+ "sections": {
+  "reports": {
+   "final-report.md": {
+    "sha256": "1612f68496a99d7ca379c02227f153168cc6d8b4fd90aa467fe83339a6b02d6e",
+    "bytes": 17754
+   },
+   "structure-analysis.md": {
+    "sha256": "9d180b01a87f7c00081085c52566ca871075183674ac39c3bfc2ac37433d1a37",
+    "bytes": 5131
+   },
+   "hit-report.md": {
+    "sha256": "c04261ee600e20450fa082a9650e50c1247545e7dbcfc60077f4f328e764fa37",
+    "bytes": 13628
+   },
+   "research-log.md": {
+    "sha256": "15546e473610ddded1f286c821ee6f5fb72b4ca938a63454b793f4e0d818a2b9",
+    "bytes": 60461
+   }
+  },
+  "md": {
+   "md/bound_analysis_pre_registered.json": {
+    "sha256": "32f363a5832ea2702b8311f793526479638af23b616b1b9913ec2715c02fd6dd",
+    "bytes": 1157
+   }
+  },
+  "results": {
+   "runs/audit-20260913/tasks/sim-02/attempt-1/pocket_residence.json": {
+    "sha256": "bd22cc6cd230dcf919ae39da59540d664c407edb24f17266e39883d304d17eea",
+    "bytes": 1165
+   },
+   "runs/benchmark-seeded/real_findings_replay_executed.json": {
+    "sha256": "1ee1ff0adff694c358863eaa4b85b8446106add2295880a3a5a87c53ccc91dd8",
+    "bytes": 4161
+   }
+  },
+  "audit": {
+   "independent-audit/round6-acceptance/round6-acceptance.md": {
+    "sha256": "94e7b35d9b8176718eda27e8595c676e3c70fbfe5e004f26720ff28a06d75b19",
+    "bytes": 6187
+   },
+   "independent-audit/round6-acceptance/manifest_checks.json": {
+    "sha256": "9301d9c31b4ebb9c8f868d61e17a910b6fc3506cb18abbc6226523528592f534",
+    "bytes": 20076
+   },
+   "independent-audit/round6-acceptance/pocket_rerun.json": {
+    "sha256": "097fa4319e8fb97f5014fe761b76bddf0ee9b93a0e008ea49b10ac42f04ed8cf",
+    "bytes": 490
+   },
+   "audit_manifest.json": {
+    "sha256": "4ded91d43abe3d0dba492150a9b8bb110d72bd68eb7ba40f345be1d665186659",
+    "bytes": 10902
+   },
+   "runs/audit-20260913/gates.json": {
+    "sha256": "4c5dfefeaff4a7778d22e13c79c36f178db91c7d9ca6c874e39499b2f1390f7b",
+    "bytes": 3821
+   },
+   "runs/audit-20260913/handoff-r7-reports.json": {
+    "sha256": "833d10fa7027a64dc3ab19fc00f434ec6034df2dd62d6a4f411a5cbd272d8664",
+    "bytes": 887
+   },
+   "runs/audit-20260913/handoff-r7-evidence.json": {
+    "sha256": "8c88682360102a9241817ad1fd0c432de16f1a08fab1f28b44e270b29f456601",
+    "bytes": 6791
+   }
+  },
+  "scripts": {
+   "scripts/pocket_residence_r5fix.py": {
+    "sha256": "add48616e611526c9000c85298872672664612fba69707b3b05caf0e56b813ff",
+    "bytes": 7033
+   },
+   "scripts/findings_replay_executed.py": {
+    "sha256": "3f04d4171a4ac8ab1539ffb02b7f7f465025c783358f547a66c0250f225ea770",
+    "bytes": 9345
+   }
+  }
+ }
+}

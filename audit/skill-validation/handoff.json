@@ -1,0 +1,34 @@
+{
+  "activity_controls": [
+    {
+      "expected_target": "CHEMBL2760",
+      "target": "CHEMBL4712",
+      "expected_organism": "Homo sapiens",
+      "organism": "Homo sapiens",
+      "evidence_type": "experimental",
+      "activity_id": "375432",
+      "relation": "=",
+      "value": 1000,
+      "unit": "nM"
+    }
+  ],
+  "md_checks": [
+    {
+      "steps_total": 3050000,
+      "dt_fs": 2,
+      "duration_ns": 3,
+      "report_interval_steps": 2500,
+      "first_report_step": 2500,
+      "frame_count": 1220,
+      "coordinate_unit": "nm",
+      "rmsd_unit": "angstrom",
+      "rmsd_conversion": 1,
+      "backbone_selection_counts": {
+        "protein": 2112,
+        "water": 21684,
+        "ligand": 0,
+        "ions": 0
+      }
+    }
+  ]
+}

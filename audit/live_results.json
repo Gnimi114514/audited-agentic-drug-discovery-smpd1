@@ -1,0 +1,2525 @@
+{
+  "mechanisms": {
+    "url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json?target_chembl_id=CHEMBL2760&limit=1000",
+    "status": 200,
+    "data": {
+      "mechanisms": [],
+      "page_meta": {
+        "limit": 1000,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total_count": 0
+      }
+    }
+  },
+  "target": {
+    "url": "https://www.ebi.ac.uk/chembl/api/data/target/CHEMBL2760.json",
+    "status": 200,
+    "data": {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Sphingomyelin phosphodiesterase",
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL2760",
+      "target_components": [
+        {
+          "accession": "P17405",
+          "component_description": "Sphingomyelin phosphodiesterase",
+          "component_id": 1093,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "3.1.4.12",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "3.1.4.3",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "Acid sphingomyelinase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ASM",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "aSMase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "SMPD1",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Sphingomyelin phosphodiesterase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Sphingomyelin phosphodiesterase, processed form",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Synonyms=ASM",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "P17405",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P17405",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0005576",
+              "xref_name": "extracellular region",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005615",
+              "xref_name": "extracellular space",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005764",
+              "xref_name": "lysosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005768",
+              "xref_name": "endosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005811",
+              "xref_name": "lipid droplet",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0036019",
+              "xref_name": "endolysosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0043202",
+              "xref_name": "lysosomal lumen",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070062",
+              "xref_name": "extracellular exosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0004767",
+              "xref_name": "sphingomyelin phosphodiesterase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008270",
+              "xref_name": "zinc ion binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016798",
+              "xref_name": "hydrolase activity, acting on glycosyl bonds",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0034480",
+              "xref_name": "phosphatidylcholine phospholipase C activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0046872",
+              "xref_name": "metal ion binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0061750",
+              "xref_name": "acid sphingomyelin phosphodiesterase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0001778",
+              "xref_name": "plasma membrane repair",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006629",
+              "xref_name": "lipid metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006672",
+              "xref_name": "ceramide metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006684",
+              "xref_name": "sphingomyelin metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006685",
+              "xref_name": "sphingomyelin catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007165",
+              "xref_name": "signal transduction",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007399",
+              "xref_name": "nervous system development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008203",
+              "xref_name": "cholesterol metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0023021",
+              "xref_name": "termination of signal transduction",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0034644",
+              "xref_name": "cellular response to UV",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043065",
+              "xref_name": "positive regulation of apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043409",
+              "xref_name": "negative regulation of MAPK cascade",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045807",
+              "xref_name": "positive regulation of endocytosis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0046479",
+              "xref_name": "glycosphingolipid catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0046513",
+              "xref_name": "ceramide biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0046598",
+              "xref_name": "positive regulation of viral entry into host cell",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0046718",
+              "xref_name": "symbiont entry into host cell",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071277",
+              "xref_name": "cellular response to calcium ion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:11120",
+              "xref_name": "SMPD1",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "P17405",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR004843",
+              "xref_name": "Calcineurin-like_PHP",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR008139",
+              "xref_name": "SaposinB_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR011001",
+              "xref_name": "Saposin-like",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR011160",
+              "xref_name": "Sphingomy_PDE",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR029052",
+              "xref_name": "Metallo-depent_PP-like",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR041805",
+              "xref_name": "ASMase/PPN1_MPP",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR045473",
+              "xref_name": "ASM_C",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR10340",
+              "xref_name": "SPHINGOMYELIN PHOSPHODIESTERASE",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR10340:SF34",
+              "xref_name": "SPHINGOMYELIN PHOSPHODIESTERASE",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "5I81",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5I85",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5I8R",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5JG8",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5I81",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5I85",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5I8R",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5JG8",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "PF00149",
+              "xref_name": "Metallophos",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF19272",
+              "xref_name": "ASMase_C",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA35969",
+              "xref_name": "sphingomyelin phosphodiesterase 1",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "P17405",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-9840310",
+              "xref_name": "Glycosphingolipid catabolism",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "A8K8M3",
+              "xref_name": "Sphingomyelin phosphodiesterase",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "E9PKS3",
+              "xref_name": "Sphingomyelin phosphodiesterase",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P17405",
+              "xref_name": "Sphingomyelin phosphodiesterase",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P17406",
+              "xref_name": "Sphingomyelin phosphodiesterase",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q13811",
+              "xref_name": "Sphingomyelin phosphodiesterase",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q16837",
+              "xref_name": "Sphingomyelin phosphodiesterase",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q16841",
+              "xref_name": "Sphingomyelin phosphodiesterase",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    }
+  },
+  "pubmed": {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A38337058+OR+EXT_ID%3A37605262+OR+EXT_ID%3A27598773&format=json&resultType=core",
+    "status": 200,
+    "data": {
+      "version": "6.9",
+      "hitCount": 3,
+      "request": {
+        "queryString": "EXT_ID:38337058 OR EXT_ID:37605262 OR EXT_ID:27598773",
+        "resultType": "core",
+        "cursorMark": "*",
+        "pageSize": 25,
+        "sort": "",
+        "synonym": false
+      },
+      "resultList": {
+        "result": [
+          {
+            "id": "38337058",
+            "source": "MED",
+            "pmid": "38337058",
+            "pmcid": "PMC10907607",
+            "fullTextIdList": {
+              "fullTextId": [
+                "PMC10907607"
+              ]
+            },
+            "doi": "10.1038/s12276-024-01176-4",
+            "title": "Acid sphingomyelinase as a pathological and therapeutic target in neurological disorders: focus on Alzheimer's disease.",
+            "authorString": "Choi BJ, Park MH, Jin HK, Bae JS.",
+            "authorList": {
+              "author": [
+                {
+                  "fullName": "Choi BJ",
+                  "firstName": "Byung Jo",
+                  "lastName": "Choi",
+                  "initials": "BJ",
+                  "authorAffiliationDetailsList": {
+                    "authorAffiliation": [
+                      {
+                        "affiliation": "KNU Alzheimer's Disease Research Institute, Kyungpook National University, Daegu, 41566, South Korea."
+                      },
+                      {
+                        "affiliation": "Department of Physiology, School of Medicine, Kyungpook National University, Daegu, 41944, South Korea."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "fullName": "Park MH",
+                  "firstName": "Min Hee",
+                  "lastName": "Park",
+                  "initials": "MH",
+                  "authorAffiliationDetailsList": {
+                    "authorAffiliation": [
+                      {
+                        "affiliation": "KNU Alzheimer's Disease Research Institute, Kyungpook National University, Daegu, 41566, South Korea."
+                      },
+                      {
+                        "affiliation": "Department of Physiology, School of Medicine, Kyungpook National University, Daegu, 41944, South Korea."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "fullName": "Jin HK",
+                  "firstName": "Hee Kyung",
+                  "lastName": "Jin",
+                  "initials": "HK",
+                  "authorAffiliationDetailsList": {
+                    "authorAffiliation": [
+                      {
+                        "affiliation": "KNU Alzheimer's Disease Research Institute, Kyungpook National University, Daegu, 41566, South Korea."
+                      },
+                      {
+                        "affiliation": "Department of Laboratory Animal Medicine, College of Veterinary Medicine, Kyungpook National University, Daegu, 41566, South Korea."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "fullName": "Bae JS",
+                  "firstName": "Jae-Sung",
+                  "lastName": "Bae",
+                  "initials": "JS",
+                  "authorId": {
+                    "type": "ORCID",
+                    "value": "0000-0002-8270-0072"
+                  },
+                  "authorAffiliationDetailsList": {
+                    "authorAffiliation": [
+                      {
+                        "affiliation": "KNU Alzheimer's Disease Research Institute, Kyungpook National University, Daegu, 41566, South Korea. jsbae@knu.ac.kr."
+                      },
+                      {
+                        "affiliation": "Department of Physiology, School of Medicine, Kyungpook National University, Daegu, 41944, South Korea. jsbae@knu.ac.kr."
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "authorIdList": {
+              "authorId": [
+                {
+                  "type": "ORCID",
+                  "value": "0000-0002-8270-0072"
+                }
+              ]
+            },
+            "dataLinksTagsList": {
+              "dataLinkstag": [
+                "supporting_data"
+              ]
+            },
+            "journalInfo": {
+              "issue": "2",
+              "volume": "56",
+              "journalIssueId": 3732413,
+              "dateOfPublication": "2024 Feb",
+              "monthOfPublication": 2,
+              "yearOfPublication": 2024,
+              "printPublicationDate": "2024-02-01",
+              "journal": {
+                "title": "Experimental & molecular medicine",
+                "medlineAbbreviation": "Exp Mol Med",
+                "essn": "2092-6413",
+                "issn": "1226-3613",
+                "isoabbreviation": "Exp Mol Med",
+                "nlmid": "9607880"
+              }
+            },
+            "pubYear": "2024",
+            "pageInfo": "301-310",
+            "abstractText": "Over the past decade, numerous studies have highlighted the importance of acid sphingomyelinase (ASM) in disease treatment in humans. This enzyme functions primarily to generate ceramide, maintain the cellular membrane, and regulate cellular function. However, in the blood and brain of patients with neurological disorders, including major depression, ischemic stroke, amyotrophic lateral sclerosis, multiple sclerosis, and Alzheimer's disease (AD), elevated ASM levels significantly suggest disease onset or progression. In these diseases, increased ASM is profoundly involved in neuronal death, abnormal autophagy, neuroinflammation, blood-brain barrier disruption, hippocampal neurogenesis loss, and immune cell dysfunction. Moreover, genetic and pharmacological inhibition of ASM can prevent or ameliorate various diseases. The therapeutic effects of ASM inhibition have prompted the urgent need to develop ASM inhibitors, and several ASM inhibitors have been identified. In this review, we summarize the current knowledge on the critical roles and mechanisms of ASM in brain cells and blood that are associated with different neuropathological features, especially those observed in AD. Furthermore, we elucidate the potential possibility and limitations of existing ASM-targeting drugs according to experimental studies in neurological disorder mouse models.",
+            "affiliation": "KNU Alzheimer's Disease Research Institute, Kyungpook National University, Daegu, 41566, South Korea.",
+            "publicationStatus": "ppublish",
+            "language": "eng",
+            "pubModel": "Print-Electronic",
+            "pubTypeList": {
+              "pubType": [
+                "Research Support, Non-U.S. Gov't",
+                "review-article",
+                "Review",
+                "Journal Article"
+              ]
+            },
+            "meshHeadingList": {
+              "meshHeading": [
+                {
+                  "majorTopic_YN": "N",
+                  "descriptorName": "Brain"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "descriptorName": "Animals"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "descriptorName": "Humans"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "descriptorName": "Mice"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "descriptorName": "Nervous System Diseases"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "descriptorName": "Multiple Sclerosis"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "descriptorName": "Alzheimer Disease",
+                  "meshQualifierList": {
+                    "meshQualifier": [
+                      {
+                        "abbreviation": "DT",
+                        "qualifierName": "drug therapy",
+                        "majorTopic_YN": "N"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "descriptorName": "Sphingomyelin Phosphodiesterase",
+                  "meshQualifierList": {
+                    "meshQualifier": [
+                      {
+                        "abbreviation": "GE",
+                        "qualifierName": "genetics",
+                        "majorTopic_YN": "N"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "chemicalList": {
+              "chemical": [
+                {
+                  "name": "Sphingomyelin Phosphodiesterase",
+                  "registryNumber": "EC 3.1.4.12"
+                },
+                {
+                  "name": "SMPD1 protein, human",
+                  "registryNumber": "EC 3.1.4.12"
+                }
+              ]
+            },
+            "subsetList": {
+              "subset": [
+                {
+                  "code": "IM",
+                  "name": "Index Medicus"
+                }
+              ]
+            },
+            "fullTextUrlList": {
+              "fullTextUrl": [
+                {
+                  "availability": "Subscription required",
+                  "availabilityCode": "S",
+                  "documentStyle": "doi",
+                  "site": "DOI",
+                  "url": "https://doi.org/10.1038/s12276-024-01176-4"
+                },
+                {
+                  "availability": "Open access",
+                  "availabilityCode": "OA",
+                  "documentStyle": "html",
+                  "site": "Europe_PMC",
+                  "url": "https://europepmc.org/articles/PMC10907607"
+                },
+                {
+                  "availability": "Open access",
+                  "availabilityCode": "OA",
+                  "documentStyle": "pdf",
+                  "site": "Europe_PMC",
+                  "url": "https://europepmc.org/articles/PMC10907607?pdf=render"
+                }
+              ]
+            },
+            "isOpenAccess": "Y",
+            "inEPMC": "Y",
+            "inPMC": "Y",
+            "hasPDF": "Y",
+            "hasBook": "N",
+            "hasSuppl": "N",
+            "citedByCount": 25,
+            "hasData": "Y",
+            "hasReferences": "Y",
+            "hasTextMinedTerms": "Y",
+            "hasDbCrossReferences": "N",
+            "hasLabsLinks": "N",
+            "license": "cc by",
+            "hasEvaluations": "N",
+            "authMan": "N",
+            "epmcAuthMan": "N",
+            "nihAuthMan": "N",
+            "hasTMAccessionNumbers": "Y",
+            "tmAccessionTypeList": {
+              "accessionType": [
+                "doi"
+              ]
+            },
+            "dateOfCompletion": "2024-03-04",
+            "dateOfCreation": "2024-02-10",
+            "firstIndexDate": "2024-02-11",
+            "fullTextReceivedDate": "2024-03-04",
+            "dateOfRevision": "2026-06-08",
+            "electronicPublicationDate": "2024-02-09",
+            "firstPublicationDate": "2024-02-09"
+          },
+          {
+            "id": "37605262",
+            "source": "MED",
+            "pmid": "37605262",
+            "pmcid": "PMC10440899",
+            "fullTextIdList": {
+              "fullTextId": [
+                "PMC10440899"
+              ]
+            },
+            "doi": "10.1186/s40478-023-01633-7",
+            "title": "Inhibition of acid sphingomyelinase reduces reactive astrocyte secretion of mitotoxic extracellular vesicles and improves Alzheimer's disease pathology in the 5xFAD mouse.",
+            "authorString": "Crivelli SM, Quadri Z, Vekaria HJ, Zhu Z, Tripathi P, Elsherbini A, Zhang L, Sullivan PG, Bieberich E.",
+            "authorList": {
+              "author": [
+                {
+                  "fullName": "Crivelli SM",
+                  "firstName": "Simone M",
+                  "lastName": "Crivelli",
+                  "initials": "SM",
+                  "authorId": {
+                    "type": "ORCID",
+                    "value": "0000-0003-1776-7761"
+                  },
+                  "authorAffiliationDetailsList": {
+                    "authorAffiliation": [
+                      {
+                        "affiliation": "Department of Physiology, University of Kentucky College of Medicine, 780 Rose Street MS519, Lexington, KY, 40536, USA."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "fullName": "Quadri Z",
+                  "firstName": "Zainuddin",
+                  "lastName": "Quadri",
+                  "initials": "Z",
+                  "authorAffiliationDetailsList": {
+                    "authorAffiliation": [
+                      {
+                        "affiliation": "Department of Physiology, University of Kentucky College of Medicine, 780 Rose Street MS519, Lexington, KY, 40536, USA."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "fullName": "Vekaria HJ",
+                  "firstName": "Hemendra J",
+                  "lastName": "Vekaria",
+                  "initials": "HJ",
+                  "authorAffiliationDetailsList": {
+                    "authorAffiliation": [
+                      {
+                        "affiliation": "Department of Neuroscience, University of Kentucky, Lexington, KY, 40536, USA."
+                      },
+                      {
+                        "affiliation": "Spinal Cord and Brain Injury Research Center (SCoBIRC), University of Kentucky, Lexington, KY, USA."
+                      },
+                      {
+                        "affiliation": "Veterans Affairs Medical Center, Lexington, KY, 40502, USA."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "fullName": "Zhu Z",
+                  "firstName": "Zhihui",
+                  "lastName": "Zhu",
+                  "initials": "Z",
+                  "authorAffiliationDetailsList": {
+                    "authorAffiliation": [
+                      {
+                        "affiliation": "Department of Physiology, University of Kentucky College of Medicine, 780 Rose Street MS519, Lexington, KY, 40536, USA."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "fullName": "Tripathi P",
+                  "firstName": "Priyanka",
+                  "lastName": "Tripathi",
+                  "initials": "P",
+                  "authorAffiliationDetailsList": {
+                    "authorAffiliation": [
+                      {
+                        "affiliation": "Department of Physiology, University of Kentucky College of Medicine, 780 Rose Street MS519, Lexington, KY, 40536, USA."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "fullName": "Elsherbini A",
+                  "firstName": "Ahmed",
+                  "lastName": "Elsherbini",
+                  "initials": "A",
+                  "authorAffiliationDetailsList": {
+                    "authorAffiliation": [
+                      {
+                        "affiliation": "Department of Physiology, University of Kentucky College of Medicine, 780 Rose Street MS519, Lexington, KY, 40536, USA."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "fullName": "Zhang L",
+                  "firstName": "Liping",
+                  "lastName": "Zhang",
+                  "initials": "L",
+                  "authorAffiliationDetailsList": {
+                    "authorAffiliation": [
+                      {
+                        "affiliation": "Department of Physiology, University of Kentucky College of Medicine, 780 Rose Street MS519, Lexington, KY, 40536, USA."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "fullName": "Sullivan PG",
+                  "firstName": "Patrick G",
+                  "lastName": "Sullivan",
+                  "initials": "PG",
+                  "authorAffiliationDetailsList": {
+                    "authorAffiliation": [
+                      {
+                        "affiliation": "Department of Neuroscience, University of Kentucky, Lexington, KY, 40536, USA."
+                      },
+                      {
+                        "affiliation": "Spinal Cord and Brain Injury Research Center (SCoBIRC), University of Kentucky, Lexington, KY, USA."
+                      },
+                      {
+                        "affiliation": "Veterans Affairs Medical Center, Lexington, KY, 40502, USA."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "fullName": "Bieberich E",
+                  "firstName": "Erhard",
+                  "lastName": "Bieberich",
+                  "initials": "E",
+                  "authorId": {
+                    "type": "ORCID",
+                    "value": "0000-0001-8490-7395"
+                  },
+                  "authorAffiliationDetailsList": {
+                    "authorAffiliation": [
+                      {
+                        "affiliation": "Department of Physiology, University of Kentucky College of Medicine, 780 Rose Street MS519, Lexington, KY, 40536, USA. erhard.bieberich@uky.edu."
+                      },
+                      {
+                        "affiliation": "Veterans Affairs Medical Center, Lexington, KY, 40502, USA. erhard.bieberich@uky.edu."
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "authorIdList": {
+              "authorId": [
+                {
+                  "type": "ORCID",
+                  "value": "0000-0001-8490-7395"
+                },
+                {
+                  "type": "ORCID",
+                  "value": "0000-0003-1776-7761"
+                }
+              ]
+            },
+            "dataLinksTagsList": {
+              "dataLinkstag": [
+                "supporting_data",
+                "related_data"
+              ]
+            },
+            "journalInfo": {
+              "issue": "1",
+              "volume": "11",
+              "journalIssueId": 3610122,
+              "dateOfPublication": "2023 Aug",
+              "monthOfPublication": 8,
+              "yearOfPublication": 2023,
+              "printPublicationDate": "2023-08-01",
+              "journal": {
+                "title": "Acta neuropathologica communications",
+                "medlineAbbreviation": "Acta Neuropathol Commun",
+                "essn": "2051-5960",
+                "issn": "2051-5960",
+                "isoabbreviation": "Acta Neuropathol Commun",
+                "nlmid": "101610673"
+              }
+            },
+            "pubYear": "2023",
+            "pageInfo": "135",
+            "abstractText": "In Alzheimer's disease (AD), reactive astrocytes produce extracellular vesicles (EVs) that affect mitochondria in neurons. Here, we show that A\u03b2-induced generation of the sphingolipid ceramide by acid sphingomyelinase (A-SMase) triggered proinflammatory cytokine (C1q, TNF-\u03b1, IL-1\u03b1) release by microglia, which induced the reactive astrocytes phenotype and secretion of EVs enriched with ceramide. These EVs impeded the capacity of neurons to respond to energy demand. Inhibition of A-SMase with Arc39 and Imipramine reduced the secretion of cytokines from microglia, prompting us to test the effect of Imipramine on EV secretion and AD pathology in the 5xFAD mouse model. Brain derived-EVs from 5xFAD mice treated with Imipramine contained reduced levels of the astrocytic marker GFAP, ceramide, and A\u03b2 and did not impair mitochondrial respiration when compared to EVs derived from untreated 5xFAD brain. Consistently, Imipramine-treated 5xFAD mice showed reduced AD pathology. Our study identifies A-SMase inhibitors as potential AD therapy by preventing cyotokine-elicited secretion of mitotoxic EVs from astrocytes.",
+            "affiliation": "Department of Physiology, University of Kentucky College of Medicine, 780 Rose Street MS519, Lexington, KY, 40536, USA.",
+            "publicationStatus": "epublish",
+            "language": "eng",
+            "pubModel": "Electronic",
+            "pubTypeList": {
+              "pubType": [
+                "Research Support, Non-U.S. Gov't",
+                "research-article",
+                "Research Support, U.S. Gov't, Non-P.H.S.",
+                "Journal Article",
+                "Research Support, N.I.H., Extramural"
+              ]
+            },
+            "grantsList": {
+              "grant": [
+                {
+                  "grantId": "RF1AG078338",
+                  "agency": "National Institute on Aging",
+                  "orderIn": 0
+                },
+                {
+                  "grantId": "A20201464F",
+                  "agency": "BrightFocus Foundation",
+                  "orderIn": 0
+                },
+                {
+                  "grantId": "R01 AG064234",
+                  "agency": "NIA NIH HHS",
+                  "acronym": "AG",
+                  "orderIn": 0
+                },
+                {
+                  "grantId": "I01BX003643",
+                  "agency": "Veterans Administration Medical Center",
+                  "orderIn": 0
+                },
+                {
+                  "grantId": "P30 AG072946",
+                  "agency": "NIA NIH HHS",
+                  "acronym": "AG",
+                  "orderIn": 0
+                },
+                {
+                  "grantId": "P30 CA177558",
+                  "agency": "NCI NIH HHS",
+                  "acronym": "CA",
+                  "orderIn": 0
+                },
+                {
+                  "grantId": "R21AG078601",
+                  "agency": "National Institute on Aging",
+                  "orderIn": 0
+                },
+                {
+                  "grantId": "I01 BX003643",
+                  "agency": "BLRD VA",
+                  "acronym": "BX",
+                  "orderIn": 0
+                },
+                {
+                  "grantId": "P30 AG028383",
+                  "agency": "NIA NIH HHS",
+                  "acronym": "AG",
+                  "orderIn": 0
+                },
+                {
+                  "grantId": "R01AG064234",
+                  "agency": "National Institute on Aging",
+                  "orderIn": 0
+                },
+                {
+                  "grantId": "R21 AG078601",
+                  "agency": "NIA NIH HHS",
+                  "acronym": "AG",
+                  "orderIn": 0
+                },
+                {
+                  "grantId": "R56 AG064234",
+                  "agency": "NIA NIH HHS",
+                  "acronym": "AG",
+                  "orderIn": 0
+                },
+                {
+                  "grantId": "RF1 AG078338",
+                  "agency": "NIA NIH HHS",
+                  "acronym": "AG",
+                  "orderIn": 0
+                }
+              ]
+            },
+            "meshHeadingList": {
+              "meshHeading": [
+                {
+                  "majorTopic_YN": "N",
+                  "descriptorName": "Astrocytes"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "descriptorName": "Animals"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "descriptorName": "Mice"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "descriptorName": "Alzheimer Disease",
+                  "meshQualifierList": {
+                    "meshQualifier": [
+                      {
+                        "abbreviation": "DT",
+                        "qualifierName": "drug therapy",
+                        "majorTopic_YN": "N"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "descriptorName": "Imipramine",
+                  "meshQualifierList": {
+                    "meshQualifier": [
+                      {
+                        "abbreviation": "PD",
+                        "qualifierName": "pharmacology",
+                        "majorTopic_YN": "N"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "descriptorName": "Sphingomyelin Phosphodiesterase"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "descriptorName": "Ceramides"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "descriptorName": "Extracellular Vesicles"
+                }
+              ]
+            },
+            "keywordList": {
+              "keyword": [
+                "Mitochondria",
+                "Astrocytes",
+                "TNF-\u03b1",
+                "Microglia",
+                "C1q",
+                "Imipramine",
+                "Acid Sphingomyelinase",
+                "Il-1\u03b1",
+                "Extracellular Vesicle",
+                "5Xfad"
+              ]
+            },
+            "chemicalList": {
+              "chemical": [
+                {
+                  "name": "Sphingomyelin Phosphodiesterase",
+                  "registryNumber": "EC 3.1.4.12"
+                },
+                {
+                  "name": "Ceramides",
+                  "registryNumber": "0"
+                },
+                {
+                  "name": "Imipramine",
+                  "registryNumber": "OGG85SX4E4"
+                }
+              ]
+            },
+            "subsetList": {
+              "subset": [
+                {
+                  "code": "IM",
+                  "name": "Index Medicus"
+                }
+              ]
+            },
+            "fullTextUrlList": {
+              "fullTextUrl": [
+                {
+                  "availability": "Open access",
+                  "availabilityCode": "OA",
+                  "documentStyle": "pdf",
+                  "site": "Unpaywall",
+                  "url": "https://actaneurocomms.biomedcentral.com/counter/pdf/10.1186/s40478-023-01633-7"
+                },
+                {
+                  "availability": "Subscription required",
+                  "availabilityCode": "S",
+                  "documentStyle": "doi",
+                  "site": "DOI",
+                  "url": "https://doi.org/10.1186/s40478-023-01633-7"
+                },
+                {
+                  "availability": "Open access",
+                  "availabilityCode": "OA",
+                  "documentStyle": "html",
+                  "site": "Europe_PMC",
+                  "url": "https://europepmc.org/articles/PMC10440899"
+                },
+                {
+                  "availability": "Open access",
+                  "availabilityCode": "OA",
+                  "documentStyle": "pdf",
+                  "site": "Europe_PMC",
+                  "url": "https://europepmc.org/articles/PMC10440899?pdf=render"
+                }
+              ]
+            },
+            "isOpenAccess": "Y",
+            "inEPMC": "Y",
+            "inPMC": "Y",
+            "hasPDF": "Y",
+            "hasBook": "N",
+            "hasSuppl": "Y",
+            "citedByCount": 30,
+            "hasData": "Y",
+            "hasReferences": "Y",
+            "hasTextMinedTerms": "Y",
+            "hasDbCrossReferences": "N",
+            "hasLabsLinks": "Y",
+            "license": "cc by",
+            "hasEvaluations": "N",
+            "authMan": "N",
+            "epmcAuthMan": "N",
+            "nihAuthMan": "N",
+            "hasTMAccessionNumbers": "Y",
+            "tmAccessionTypeList": {
+              "accessionType": [
+                "gen"
+              ]
+            },
+            "dateOfCompletion": "2023-08-23",
+            "dateOfCreation": "2023-08-22",
+            "firstIndexDate": "2023-08-23",
+            "fullTextReceivedDate": "2025-02-04",
+            "dateOfRevision": "2024-08-21",
+            "electronicPublicationDate": "2023-08-21",
+            "firstPublicationDate": "2023-08-21"
+          },
+          {
+            "id": "27598773",
+            "source": "MED",
+            "pmid": "27598773",
+            "pmcid": "PMC5012580",
+            "fullTextIdList": {
+              "fullTextId": [
+                "PMC5012580"
+              ]
+            },
+            "doi": "10.1371/journal.pone.0162498",
+            "title": "Role of Acid Sphingomyelinase in the Regulation of Social Behavior and Memory.",
+            "authorString": "Zoicas I, Reichel M, Gulbins E, Kornhuber J.",
+            "authorList": {
+              "author": [
+                {
+                  "fullName": "Zoicas I",
+                  "firstName": "Iulia",
+                  "lastName": "Zoicas",
+                  "initials": "I",
+                  "authorId": {
+                    "type": "ORCID",
+                    "value": "0000-0001-7187-3181"
+                  },
+                  "authorAffiliationDetailsList": {
+                    "authorAffiliation": [
+                      {
+                        "affiliation": "Department of Psychiatry and Psychotherapy, University Hospital, Friedrich-Alexander-University Erlangen-Nuremberg, Erlangen, Germany."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "fullName": "Reichel M",
+                  "firstName": "Martin",
+                  "lastName": "Reichel",
+                  "initials": "M",
+                  "authorId": {
+                    "type": "ORCID",
+                    "value": "0000-0001-7886-2784"
+                  },
+                  "authorAffiliationDetailsList": {
+                    "authorAffiliation": [
+                      {
+                        "affiliation": "Department of Psychiatry and Psychotherapy, University Hospital, Friedrich-Alexander-University Erlangen-Nuremberg, Erlangen, Germany."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "fullName": "Gulbins E",
+                  "firstName": "Erich",
+                  "lastName": "Gulbins",
+                  "initials": "E",
+                  "authorAffiliationDetailsList": {
+                    "authorAffiliation": [
+                      {
+                        "affiliation": "Department of Molecular Biology, University of Duisburg-Essen, Essen, Germany."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "fullName": "Kornhuber J",
+                  "firstName": "Johannes",
+                  "lastName": "Kornhuber",
+                  "initials": "J",
+                  "authorAffiliationDetailsList": {
+                    "authorAffiliation": [
+                      {
+                        "affiliation": "Department of Psychiatry and Psychotherapy, University Hospital, Friedrich-Alexander-University Erlangen-Nuremberg, Erlangen, Germany."
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "authorIdList": {
+              "authorId": [
+                {
+                  "type": "ORCID",
+                  "value": "0000-0001-7187-3181"
+                },
+                {
+                  "type": "ORCID",
+                  "value": "0000-0001-7886-2784"
+                }
+              ]
+            },
+            "dataLinksTagsList": {
+              "dataLinkstag": [
+                "altmetrics",
+                "related_data"
+              ]
+            },
+            "journalInfo": {
+              "issue": "9",
+              "volume": "11",
+              "journalIssueId": 2445807,
+              "dateOfPublication": "2016",
+              "monthOfPublication": 0,
+              "yearOfPublication": 2016,
+              "printPublicationDate": "2016-01-01",
+              "journal": {
+                "title": "PloS one",
+                "medlineAbbreviation": "PLoS One",
+                "essn": "1932-6203",
+                "issn": "1932-6203",
+                "isoabbreviation": "PLoS One",
+                "nlmid": "101285081"
+              }
+            },
+            "pubYear": "2016",
+            "pageInfo": "e0162498",
+            "abstractText": "Major depressive disorder is often associated with deficits in social and cognitive functioning. Mice transgenic for acid sphingomyelinase (t-ASM) were previously shown to have a depressive-like phenotype, which could be normalized by antidepressant treatment. Here, we investigated whether t-ASM mice show deficits in social behavior and memory performance, and whether these possible deficits might be normalized by amitriptyline treatment. Our results revealed that ASM overexpression altered the behavior of mice in a sex-dependent manner. As such, t-ASM female, but not male, mice showed an impaired social preference and a depressive- and anxiogenic-like phenotype, which could be normalized by amitriptyline treatment. Both male and female t-ASM mice showed unaltered preference for social novelty, novel object recognition, and social and object discrimination abilities. Amitriptyline treatment impaired novel object recognition and object discrimination abilities in female, but not in male, wild-type mice, while female t-ASM mice showed unaltered novel object recognition and object discrimination abilities. This study suggests that female t-ASM mice represent a model of depression with comorbid anxiety and social deficits, without memory impairments. It further suggests that ASM overexpression has a protective role against the detrimental effects of amitriptyline on female, but not on male, non-social (object) memory.",
+            "affiliation": "Department of Psychiatry and Psychotherapy, University Hospital, Friedrich-Alexander-University Erlangen-Nuremberg, Erlangen, Germany.",
+            "publicationStatus": "epublish",
+            "language": "eng",
+            "pubModel": "Electronic-eCollection",
+            "pubTypeList": {
+              "pubType": [
+                "research-article",
+                "Journal Article"
+              ]
+            },
+            "grantsList": {
+              "grant": [
+                {
+                  "grantId": "01EE1401G/OptiMD",
+                  "agency": "BMBF",
+                  "orderIn": 0
+                }
+              ]
+            },
+            "meshHeadingList": {
+              "meshHeading": [
+                {
+                  "majorTopic_YN": "N",
+                  "descriptorName": "Animals"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "descriptorName": "Mice, Transgenic"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "descriptorName": "Mice"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "descriptorName": "Disease Models, Animal"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "descriptorName": "Amitriptyline",
+                  "meshQualifierList": {
+                    "meshQualifier": [
+                      {
+                        "abbreviation": "PD",
+                        "qualifierName": "pharmacology",
+                        "majorTopic_YN": "N"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "descriptorName": "Sphingomyelin Phosphodiesterase",
+                  "meshQualifierList": {
+                    "meshQualifier": [
+                      {
+                        "abbreviation": "GE",
+                        "qualifierName": "genetics",
+                        "majorTopic_YN": "Y"
+                      },
+                      {
+                        "abbreviation": "ME",
+                        "qualifierName": "metabolism",
+                        "majorTopic_YN": "N"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "descriptorName": "Antidepressive Agents, Tricyclic",
+                  "meshQualifierList": {
+                    "meshQualifier": [
+                      {
+                        "abbreviation": "PD",
+                        "qualifierName": "pharmacology",
+                        "majorTopic_YN": "N"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "descriptorName": "Behavior, Animal",
+                  "meshQualifierList": {
+                    "meshQualifier": [
+                      {
+                        "abbreviation": "DE",
+                        "qualifierName": "drug effects",
+                        "majorTopic_YN": "N"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "descriptorName": "Depression",
+                  "meshQualifierList": {
+                    "meshQualifier": [
+                      {
+                        "abbreviation": "EN",
+                        "qualifierName": "enzymology",
+                        "majorTopic_YN": "N"
+                      },
+                      {
+                        "abbreviation": "GE",
+                        "qualifierName": "genetics",
+                        "majorTopic_YN": "Y"
+                      },
+                      {
+                        "abbreviation": "PP",
+                        "qualifierName": "physiopathology",
+                        "majorTopic_YN": "N"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "descriptorName": "Exploratory Behavior",
+                  "meshQualifierList": {
+                    "meshQualifier": [
+                      {
+                        "abbreviation": "DE",
+                        "qualifierName": "drug effects",
+                        "majorTopic_YN": "N"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "descriptorName": "Social Behavior"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "descriptorName": "Anxiety",
+                  "meshQualifierList": {
+                    "meshQualifier": [
+                      {
+                        "abbreviation": "EN",
+                        "qualifierName": "enzymology",
+                        "majorTopic_YN": "N"
+                      },
+                      {
+                        "abbreviation": "GE",
+                        "qualifierName": "genetics",
+                        "majorTopic_YN": "Y"
+                      },
+                      {
+                        "abbreviation": "PP",
+                        "qualifierName": "physiopathology",
+                        "majorTopic_YN": "N"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "descriptorName": "Memory",
+                  "meshQualifierList": {
+                    "meshQualifier": [
+                      {
+                        "abbreviation": "DE",
+                        "qualifierName": "drug effects",
+                        "majorTopic_YN": "Y"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "descriptorName": "Pattern Recognition, Visual",
+                  "meshQualifierList": {
+                    "meshQualifier": [
+                      {
+                        "abbreviation": "DE",
+                        "qualifierName": "drug effects",
+                        "majorTopic_YN": "N"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "descriptorName": "Sex Factors"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "descriptorName": "Gene Expression"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "descriptorName": "Transgenes"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "descriptorName": "Female"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "descriptorName": "Male"
+                }
+              ]
+            },
+            "chemicalList": {
+              "chemical": [
+                {
+                  "name": "acid sphingomyelinase-1",
+                  "registryNumber": "EC 3.1.4.-"
+                },
+                {
+                  "name": "Sphingomyelin Phosphodiesterase",
+                  "registryNumber": "EC 3.1.4.12"
+                },
+                {
+                  "name": "Antidepressive Agents, Tricyclic",
+                  "registryNumber": "0"
+                },
+                {
+                  "name": "Amitriptyline",
+                  "registryNumber": "1806D8D52K"
+                }
+              ]
+            },
+            "subsetList": {
+              "subset": [
+                {
+                  "code": "IM",
+                  "name": "Index Medicus"
+                }
+              ]
+            },
+            "fullTextUrlList": {
+              "fullTextUrl": [
+                {
+                  "availability": "Subscription required",
+                  "availabilityCode": "S",
+                  "documentStyle": "doi",
+                  "site": "DOI",
+                  "url": "https://doi.org/10.1371/journal.pone.0162498"
+                },
+                {
+                  "availability": "Open access",
+                  "availabilityCode": "OA",
+                  "documentStyle": "html",
+                  "site": "Europe_PMC",
+                  "url": "https://europepmc.org/articles/PMC5012580"
+                },
+                {
+                  "availability": "Open access",
+                  "availabilityCode": "OA",
+                  "documentStyle": "pdf",
+                  "site": "Europe_PMC",
+                  "url": "https://europepmc.org/articles/PMC5012580?pdf=render"
+                }
+              ]
+            },
+            "isOpenAccess": "Y",
+            "inEPMC": "Y",
+            "inPMC": "Y",
+            "hasPDF": "Y",
+            "hasBook": "N",
+            "hasSuppl": "N",
+            "citedByCount": 23,
+            "hasData": "Y",
+            "hasReferences": "Y",
+            "hasTextMinedTerms": "Y",
+            "hasDbCrossReferences": "N",
+            "hasLabsLinks": "Y",
+            "license": "cc by",
+            "hasEvaluations": "N",
+            "authMan": "N",
+            "epmcAuthMan": "N",
+            "nihAuthMan": "N",
+            "hasTMAccessionNumbers": "N",
+            "dateOfCompletion": "2017-08-04",
+            "dateOfCreation": "2016-09-07",
+            "firstIndexDate": "2016-09-08",
+            "fullTextReceivedDate": "2020-07-11",
+            "dateOfRevision": "2019-02-12",
+            "electronicPublicationDate": "2016-09-06",
+            "firstPublicationDate": "2016-09-06"
+          }
+        ]
+      }
+    }
+  },
+  "trend": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=SMPD1+AND+inhibitor&retmode=json&mindate=2015&maxdate=2025&datetype=pdat",
+    "status": 200,
+    "data": {
+      "header": {
+        "type": "esearch",
+        "version": "0.3"
+      },
+      "esearchresult": {
+        "count": "50",
+        "retmax": "20",
+        "retstart": "0",
+        "idlist": [
+          "41223812",
+          "41027372",
+          "40076784",
+          "39825014",
+          "38634138",
+          "40395533",
+          "38490328",
+          "38337058",
+          "37211762",
+          "36252682",
+          "36038749",
+          "35847503",
+          "35373347",
+          "34919035",
+          "34731610",
+          "34445706",
+          "34401974",
+          "34280850",
+          "34075401",
+          "34050932"
+        ],
+        "translationset": [
+          {
+            "from": "SMPD1",
+            "to": "\"smpd1 protein, human\"[Supplementary Concept] OR \"smpd1 protein, human\"[All Fields] OR \"smpd1\"[All Fields]"
+          },
+          {
+            "from": "inhibitor",
+            "to": "\"antagonists and inhibitors\"[Subheading] OR (\"antagonists\"[All Fields] AND \"inhibitors\"[All Fields]) OR \"antagonists and inhibitors\"[All Fields] OR \"inhibitors\"[All Fields] OR \"inhibitor\"[All Fields] OR \"inhibitor's\"[All Fields]"
+          }
+        ],
+        "querytranslation": "(\"smpd1 protein human\"[Supplementary Concept] OR \"smpd1 protein human\"[All Fields] OR \"smpd1\"[All Fields]) AND (\"antagonists and inhibitors\"[MeSH Subheading] OR (\"antagonists\"[All Fields] AND \"inhibitors\"[All Fields]) OR \"antagonists and inhibitors\"[All Fields] OR \"inhibitors\"[All Fields] OR \"inhibitor\"[All Fields] OR \"inhibitor s\"[All Fields]) AND 2015/01/01:2025/12/31[Date - Publication]"
+      }
+    }
+  },
+  "CHEMBL28172": {
+    "url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL28172&limit=1000",
+    "status": 200,
+    "data": {
+      "activities": [
+        {
+          "action_type": null,
+          "activity_comment": null,
+          "activity_id": 1007490,
+          "activity_properties": [],
+          "assay_chembl_id": "CHEMBL754588",
+          "assay_description": "Competitive binding affinity against transfected HEK293 cells expressing human Opioid receptor like 1",
+          "assay_type": "B",
+          "assay_variant_accession": null,
+          "assay_variant_mutation": null,
+          "bao_endpoint": "BAO_0000192",
+          "bao_format": "BAO_0000219",
+          "bao_label": "cell-based format",
+          "canonical_smiles": "O=C1NCN(c2ccccc2)C12CCN(C1Cc3ccccc3C1)CC2",
+          "data_validity_comment": null,
+          "data_validity_description": null,
+          "document_chembl_id": "CHEMBL1132995",
+          "document_journal": "J Med Chem",
+          "document_year": 2000,
+          "ligand_efficiency": {
+            "bei": "24.76",
+            "le": "0.45",
+            "lle": "6.02",
+            "sei": "24.18"
+          },
+          "modality": null,
+          "molecule_chembl_id": "CHEMBL28172",
+          "molecule_pref_name": null,
+          "parent_molecule_chembl_id": "CHEMBL28172",
+          "pchembl_value": "8.60",
+          "potential_duplicate": 0,
+          "qudt_units": "http://www.openphacts.org/units/Nanomolar",
+          "record_id": 38260,
+          "relation": "=",
+          "src_id": 1,
+          "standard_flag": 1,
+          "standard_relation": "=",
+          "standard_text_value": null,
+          "standard_type": "Ki",
+          "standard_units": "nM",
+          "standard_upper_value": null,
+          "standard_value": "2.5",
+          "target_chembl_id": "CHEMBL2014",
+          "target_organism": "Homo sapiens",
+          "target_pref_name": "Nociceptin receptor",
+          "target_tax_id": "9606",
+          "text_value": null,
+          "toid": null,
+          "type": "Ki",
+          "units": "nM",
+          "uo_units": "UO_0000065",
+          "upper_value": null,
+          "value": "2.5"
+        },
+        {
+          "action_type": null,
+          "activity_comment": null,
+          "activity_id": 1007491,
+          "activity_properties": [],
+          "assay_chembl_id": "CHEMBL753393",
+          "assay_description": "Competitive binding displacement analyses was performed from permanently transfected HEK293 cells expressing human Opioid receptor mu 1",
+          "assay_type": "B",
+          "assay_variant_accession": null,
+          "assay_variant_mutation": null,
+          "bao_endpoint": "BAO_0000192",
+          "bao_format": "BAO_0000219",
+          "bao_label": "cell-based format",
+          "canonical_smiles": "O=C1NCN(c2ccccc2)C12CCN(C1Cc3ccccc3C1)CC2",
+          "data_validity_comment": null,
+          "data_validity_description": null,
+          "document_chembl_id": "CHEMBL1132995",
+          "document_journal": "J Med Chem",
+          "document_year": 2000,
+          "ligand_efficiency": {
+            "bei": "21.83",
+            "le": "0.40",
+            "lle": "5.01",
+            "sei": "21.32"
+          },
+          "modality": null,
+          "molecule_chembl_id": "CHEMBL28172",
+          "molecule_pref_name": null,
+          "parent_molecule_chembl_id": "CHEMBL28172",
+          "pchembl_value": "7.58",
+          "potential_duplicate": 0,
+          "qudt_units": "http://www.openphacts.org/units/Nanomolar",
+          "record_id": 38260,
+          "relation": "=",
+          "src_id": 1,
+          "standard_flag": 1,
+          "standard_relation": "=",
+          "standard_text_value": null,
+          "standard_type": "Ki",
+          "standard_units": "nM",
+          "standard_upper_value": null,
+          "standard_value": "26.0",
+          "target_chembl_id": "CHEMBL233",
+          "target_organism": "Homo sapiens",
+          "target_pref_name": "Mu-type opioid receptor",
+          "target_tax_id": "9606",
+          "text_value": null,
+          "toid": null,
+          "type": "Ki",
+          "units": "nM",
+          "uo_units": "UO_0000065",
+          "upper_value": null,
+          "value": "26.0"
+        },
+        {
+          "action_type": null,
+          "activity_comment": null,
+          "activity_id": 1007492,
+          "activity_properties": [],
+          "assay_chembl_id": "CHEMBL751199",
+          "assay_description": "Competitive binding displacement analyses was performed from permanently transfected HEK293 cells expressing human Opioid receptor kappa 1",
+          "assay_type": "B",
+          "assay_variant_accession": null,
+          "assay_variant_mutation": null,
+          "bao_endpoint": "BAO_0000192",
+          "bao_format": "BAO_0000219",
+          "bao_label": "cell-based format",
+          "canonical_smiles": "O=C1NCN(c2ccccc2)C12CCN(C1Cc3ccccc3C1)CC2",
+          "data_validity_comment": null,
+          "data_validity_description": null,
+          "document_chembl_id": "CHEMBL1132995",
+          "document_journal": "J Med Chem",
+          "document_year": 2000,
+          "ligand_efficiency": {
+            "bei": "19.55",
+            "le": "0.36",
+            "lle": "4.21",
+            "sei": "19.09"
+          },
+          "modality": null,
+          "molecule_chembl_id": "CHEMBL28172",
+          "molecule_pref_name": null,
+          "parent_molecule_chembl_id": "CHEMBL28172",
+          "pchembl_value": "6.79",
+          "potential_duplicate": 0,
+          "qudt_units": "http://www.openphacts.org/units/Nanomolar",
+          "record_id": 38260,
+          "relation": "=",
+          "src_id": 1,
+          "standard_flag": 1,
+          "standard_relation": "=",
+          "standard_text_value": null,
+          "standard_type": "Ki",
+          "standard_units": "nM",
+          "standard_upper_value": null,
+          "standard_value": "161.0",
+          "target_chembl_id": "CHEMBL237",
+          "target_organism": "Homo sapiens",
+          "target_pref_name": "Kappa-type opioid receptor",
+          "target_tax_id": "9606",
+          "text_value": null,
+          "toid": null,
+          "type": "Ki",
+          "units": "nM",
+          "uo_units": "UO_0000065",
+          "upper_value": null,
+          "value": "161.0"
+        },
+        {
+          "action_type": null,
+          "activity_comment": null,
+          "activity_id": 1007493,
+          "activity_properties": [],
+          "assay_chembl_id": "CHEMBL752135",
+          "assay_description": "Competitive binding displacement analyses was performed from permanently transfected HEK293 cells expressing human Opioid receptor delta 1",
+          "assay_type": "B",
+          "assay_variant_accession": null,
+          "assay_variant_mutation": null,
+          "bao_endpoint": "BAO_0000192",
+          "bao_format": "BAO_0000219",
+          "bao_label": "cell-based format",
+          "canonical_smiles": "O=C1NCN(c2ccccc2)C12CCN(C1Cc3ccccc3C1)CC2",
+          "data_validity_comment": null,
+          "data_validity_description": null,
+          "document_chembl_id": "CHEMBL1132995",
+          "document_journal": "J Med Chem",
+          "document_year": 2000,
+          "ligand_efficiency": {
+            "bei": "17.70",
+            "le": "0.32",
+            "lle": "3.57",
+            "sei": "17.28"
+          },
+          "modality": null,
+          "molecule_chembl_id": "CHEMBL28172",
+          "molecule_pref_name": null,
+          "parent_molecule_chembl_id": "CHEMBL28172",
+          "pchembl_value": "6.15",
+          "potential_duplicate": 0,
+          "qudt_units": "http://www.openphacts.org/units/Nanomolar",
+          "record_id": 38260,
+          "relation": "=",
+          "src_id": 1,
+          "standard_flag": 1,
+          "standard_relation": "=",
+          "standard_text_value": null,
+          "standard_type": "Ki",
+          "standard_units": "nM",
+          "standard_upper_value": null,
+          "standard_value": "710.0",
+          "target_chembl_id": "CHEMBL236",
+          "target_organism": "Homo sapiens",
+          "target_pref_name": "Delta-type opioid receptor",
+          "target_tax_id": "9606",
+          "text_value": null,
+          "toid": null,
+          "type": "Ki",
+          "units": "nM",
+          "uo_units": "UO_0000065",
+          "upper_value": null,
+          "value": "710.0"
+        },
+        {
+          "action_type": null,
+          "activity_comment": null,
+          "activity_id": 1007494,
+          "activity_properties": [],
+          "assay_chembl_id": "CHEMBL883401",
+          "assay_description": "Effective concentration required to stimulate binding of GTPgammaS to Opioid receptor like 1 was determined using scintillation proximity assay",
+          "assay_type": "B",
+          "assay_variant_accession": null,
+          "assay_variant_mutation": null,
+          "bao_endpoint": "BAO_0000188",
+          "bao_format": "BAO_0000357",
+          "bao_label": "single protein format",
+          "canonical_smiles": "O=C1NCN(c2ccccc2)C12CCN(C1Cc3ccccc3C1)CC2",
+          "data_validity_comment": null,
+          "data_validity_description": null,
+          "document_chembl_id": "CHEMBL1132995",
+          "document_journal": "J Med Chem",
+          "document_year": 2000,
+          "ligand_efficiency": {
+            "bei": "18.13",
+            "le": "0.33",
+            "lle": "3.72",
+            "sei": "17.71"
+          },
+          "modality": null,
+          "molecule_chembl_id": "CHEMBL28172",
+          "molecule_pref_name": null,
+          "parent_molecule_chembl_id": "CHEMBL28172",
+          "pchembl_value": "6.30",
+          "potential_duplicate": 0,
+          "qudt_units": "http://www.openphacts.org/units/Nanomolar",
+          "record_id": 38260,
+          "relation": "=",
+          "src_id": 1,
+          "standard_flag": 1,
+          "standard_relation": "=",
+          "standard_text_value": null,
+          "standard_type": "EC50",
+          "standard_units": "nM",
+          "standard_upper_value": null,
+          "standard_value": "500.0",
+          "target_chembl_id": "CHEMBL2014",
+          "target_organism": "Homo sapiens",
+          "target_pref_name": "Nociceptin receptor",
+          "target_tax_id": "9606",
+          "text_value": null,
+          "toid": null,
+          "type": "EC50",
+          "units": "nM",
+          "uo_units": "UO_0000065",
+          "upper_value": null,
+          "value": "500.0"
+        },
+        {
+          "action_type": null,
+          "activity_comment": "No data",
+          "activity_id": 1007495,
+          "activity_properties": [],
+          "assay_chembl_id": "CHEMBL753408",
+          "assay_description": "Effective concentration of the required to stimulate binding of GTPgammaS to Opioid receptor mu 1 was determined using scintillation proximity assay;ND is Not Determined",
+          "assay_type": "B",
+          "assay_variant_accession": null,
+          "assay_variant_mutation": null,
+          "bao_endpoint": "BAO_0000179",
+          "bao_format": "BAO_0000357",
+          "bao_label": "single protein format",
+          "canonical_smiles": "O=C1NCN(c2ccccc2)C12CCN(C1Cc3ccccc3C1)CC2",
+          "data_validity_comment": "Potential missing data",
+          "data_validity_description": "No data provided for value, units or activity_comment, needs further investigation",
+          "document_chembl_id": "CHEMBL1132995",
+          "document_journal": "J Med Chem",
+          "document_year": 2000,
+          "ligand_efficiency": null,
+          "modality": null,
+          "molecule_chembl_id": "CHEMBL28172",
+          "molecule_pref_name": null,
+          "parent_molecule_chembl_id": "CHEMBL28172",
+          "pchembl_value": null,
+          "potential_duplicate": 0,
+          "qudt_units": null,
+          "record_id": 38260,
+          "relation": null,
+          "src_id": 1,
+          "standard_flag": 0,
+          "standard_relation": null,
+          "standard_text_value": null,
+          "standard_type": "Effective concentration",
+          "standard_units": null,
+          "standard_upper_value": null,
+          "standard_value": null,
+          "target_chembl_id": "CHEMBL233",
+          "target_organism": "Homo sapiens",
+          "target_pref_name": "Mu-type opioid receptor",
+          "target_tax_id": "9606",
+          "text_value": null,
+          "toid": null,
+          "type": "Effective concentration",
+          "units": null,
+          "uo_units": null,
+          "upper_value": null,
+          "value": null
+        }
+      ],
+      "page_meta": {
+        "limit": 1000,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total_count": 6
+      }
+    }
+  },
+  "CHEMBL28132": {
+    "url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL28132&limit=1000",
+    "status": 200,
+    "data": {
+      "activities": [
+        {
+          "action_type": null,
+          "activity_comment": null,
+          "activity_id": 1078057,
+          "activity_properties": [],
+          "assay_chembl_id": "CHEMBL801758",
+          "assay_description": "The concentration producing 50% inhibition of renin activity in monkey plasma was determined by radioimmunoassay.",
+          "assay_type": "B",
+          "assay_variant_accession": null,
+          "assay_variant_mutation": null,
+          "bao_endpoint": "BAO_0000190",
+          "bao_format": "BAO_0000366",
+          "bao_label": "cell-free format",
+          "canonical_smiles": "CCCO[C@H](NC(=O)[C@H](Cc1ccccc1)NS(=O)(=O)N1CCOCC1)C(=O)N[C@@H](CC1CCCCC1)C(=O)C(F)(F)C(=O)NCCN1CCOCC1",
+          "data_validity_comment": null,
+          "data_validity_description": null,
+          "document_chembl_id": "CHEMBL1126021",
+          "document_journal": "J Med Chem",
+          "document_year": 1992,
+          "ligand_efficiency": {
+            "bei": "11.25",
+            "le": "0.22",
+            "lle": "7.96",
+            "sei": "4.71"
+          },
+          "modality": null,
+          "molecule_chembl_id": "CHEMBL28132",
+          "molecule_pref_name": null,
+          "parent_molecule_chembl_id": "CHEMBL28132",
+          "pchembl_value": "8.70",
+          "potential_duplicate": 0,
+          "qudt_units": "http://www.openphacts.org/units/Nanomolar",
+          "record_id": 45276,
+          "relation": "=",
+          "src_id": 1,
+          "standard_flag": 1,
+          "standard_relation": "=",
+          "standard_text_value": null,
+          "standard_type": "IC50",
+          "standard_units": "nM",
+          "standard_upper_value": null,
+          "standard_value": "2.0",
+          "target_chembl_id": "CHEMBL286",
+          "target_organism": "Homo sapiens",
+          "target_pref_name": "Renin",
+          "target_tax_id": "9606",
+          "text_value": null,
+          "toid": null,
+          "type": "IC50",
+          "units": "nM",
+          "uo_units": "UO_0000065",
+          "upper_value": null,
+          "value": "2.0"
+        },
+        {
+          "action_type": null,
+          "activity_comment": null,
+          "activity_id": 1078058,
+          "activity_properties": [],
+          "assay_chembl_id": "CHEMBL660148",
+          "assay_description": "Inhibitory activity against bovine Cathepsin D",
+          "assay_type": "B",
+          "assay_variant_accession": null,
+          "assay_variant_mutation": null,
+          "bao_endpoint": "BAO_0000190",
+          "bao_format": "BAO_0000357",
+          "bao_label": "single protein format",
+          "canonical_smiles": "CCCO[C@H](NC(=O)[C@H](Cc1ccccc1)NS(=O)(=O)N1CCOCC1)C(=O)N[C@@H](CC1CCCCC1)C(=O)C(F)(F)C(=O)NCCN1CCOCC1",
+          "data_validity_comment": null,
+          "data_validity_description": null,
+          "document_chembl_id": "CHEMBL1126021",
+          "document_journal": "J Med Chem",
+          "document_year": 1992,
+          "ligand_efficiency": {
+            "bei": "8.57",
+            "le": "0.17",
+            "lle": "5.89",
+            "sei": "3.59"
+          },
+          "modality": null,
+          "molecule_chembl_id": "CHEMBL28132",
+          "molecule_pref_name": null,
+          "parent_molecule_chembl_id": "CHEMBL28132",
+          "pchembl_value": "6.62",
+          "potential_duplicate": 0,
+          "qudt_units": "http://www.openphacts.org/units/Nanomolar",
+          "record_id": 45276,
+          "relation": "=",
+          "src_id": 1,
+          "standard_flag": 1,
+          "standard_relation": "=",
+          "standard_text_value": null,
+          "standard_type": "IC50",
+          "standard_units": "nM",
+          "standard_upper_value": null,
+          "standard_value": "237.0",
+          "target_chembl_id": "CHEMBL4106",
+          "target_organism": "Bos taurus",
+          "target_pref_name": "Cathepsin D",
+          "target_tax_id": "9913",
+          "text_value": null,
+          "toid": null,
+          "type": "IC50",
+          "units": "nM",
+          "uo_units": "UO_0000065",
+          "upper_value": null,
+          "value": "237.0"
+        },
+        {
+          "action_type": null,
+          "activity_comment": null,
+          "activity_id": 1078059,
+          "activity_properties": [],
+          "assay_chembl_id": "CHEMBL657338",
+          "assay_description": "Ratio between IC50 cathepsin vs IC50 renin",
+          "assay_type": "B",
+          "assay_variant_accession": null,
+          "assay_variant_mutation": null,
+          "bao_endpoint": "BAO_0000193",
+          "bao_format": "BAO_0000019",
+          "bao_label": "assay format",
+          "canonical_smiles": "CCCO[C@H](NC(=O)[C@H](Cc1ccccc1)NS(=O)(=O)N1CCOCC1)C(=O)N[C@@H](CC1CCCCC1)C(=O)C(F)(F)C(=O)NCCN1CCOCC1",
+          "data_validity_comment": null,
+          "data_validity_description": null,
+          "document_chembl_id": "CHEMBL1126021",
+          "document_journal": "J Med Chem",
+          "document_year": 1992,
+          "ligand_efficiency": null,
+          "modality": null,
+          "molecule_chembl_id": "CHEMBL28132",
+          "molecule_pref_name": null,
+          "parent_molecule_chembl_id": "CHEMBL28132",
+          "pchembl_value": null,
+          "potential_duplicate": 0,
+          "qudt_units": null,
+          "record_id": 45276,
+          "relation": "=",
+          "src_id": 1,
+          "standard_flag": 0,
+          "standard_relation": "=",
+          "standard_text_value": null,
+          "standard_type": "Ratio",
+          "standard_units": null,
+          "standard_upper_value": null,
+          "standard_value": "119.0",
+          "target_chembl_id": "CHEMBL612545",
+          "target_organism": null,
+          "target_pref_name": "Unchecked",
+          "target_tax_id": null,
+          "text_value": null,
+          "toid": null,
+          "type": "Ratio",
+          "units": null,
+          "uo_units": null,
+          "upper_value": null,
+          "value": "119.0"
+        }
+      ],
+      "page_meta": {
+        "limit": 1000,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total_count": 3
+      }
+    }
+  },
+  "CHEMBL7385": {
+    "url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL7385&limit=1000",
+    "status": 200,
+    "data": {
+      "activities": [
+        {
+          "action_type": null,
+          "activity_comment": null,
+          "activity_id": 215605,
+          "activity_properties": [],
+          "assay_chembl_id": "CHEMBL800647",
+          "assay_description": "In vitro inhibitory activity against HIV-1 reverse transcriptase at 100 uM",
+          "assay_type": "B",
+          "assay_variant_accession": null,
+          "assay_variant_mutation": null,
+          "bao_endpoint": "BAO_0000201",
+          "bao_format": "BAO_0000357",
+          "bao_label": "single protein format",
+          "canonical_smiles": "N#Cc1ccccc1N1CCN(C(=O)c2cc3ccccc3[nH]2)CC1",
+          "data_validity_comment": null,
+          "data_validity_description": null,
+          "document_chembl_id": "CHEMBL1127691",
+          "document_journal": "J Med Chem",
+          "document_year": 1994,
+          "ligand_efficiency": null,
+          "modality": null,
+          "molecule_chembl_id": "CHEMBL7385",
+          "molecule_pref_name": null,
+          "parent_molecule_chembl_id": "CHEMBL7385",
+          "pchembl_value": null,
+          "potential_duplicate": 0,
+          "qudt_units": "http://qudt.org/vocab/unit#Percent",
+          "record_id": 1727,
+          "relation": "=",
+          "src_id": 1,
+          "standard_flag": 1,
+          "standard_relation": "=",
+          "standard_text_value": null,
+          "standard_type": "Inhibition",
+          "standard_units": "%",
+          "standard_upper_value": null,
+          "standard_value": "0.0",
+          "target_chembl_id": "CHEMBL247",
+          "target_organism": "Human immunodeficiency virus 1",
+          "target_pref_name": "Human immunodeficiency virus type 1 reverse transcriptase",
+          "target_tax_id": "11676",
+          "text_value": null,
+          "toid": null,
+          "type": "Inhibition",
+          "units": "%",
+          "uo_units": "UO_0000187",
+          "upper_value": null,
+          "value": "0.0"
+        }
+      ],
+      "page_meta": {
+        "limit": 1000,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total_count": 1
+      }
+    }
+  },
+  "CHEMBL24974": {
+    "url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL24974&limit=1000",
+    "status": 200,
+    "data": {
+      "activities": [
+        {
+          "action_type": null,
+          "activity_comment": null,
+          "activity_id": 38017,
+          "activity_properties": [],
+          "assay_chembl_id": "CHEMBL787741",
+          "assay_description": "Antihypertensive activity as percentage fall in systolic blood pressure in spontaneously hypertensive rats after a period of 1 hr for a dose of 50 mg/kg",
+          "assay_type": "F",
+          "assay_variant_accession": null,
+          "assay_variant_mutation": null,
+          "bao_endpoint": "BAO_0000179",
+          "bao_format": "BAO_0000218",
+          "bao_label": "organism-based format",
+          "canonical_smiles": "O=C1OC2(CCN(CC(O)C3COc4ccccc4O3)CC2)CN1CCc1ccccc1",
+          "data_validity_comment": null,
+          "data_validity_description": null,
+          "document_chembl_id": "CHEMBL1121744",
+          "document_journal": "J Med Chem",
+          "document_year": 1981,
+          "ligand_efficiency": null,
+          "modality": null,
+          "molecule_chembl_id": "CHEMBL24974",
+          "molecule_pref_name": null,
+          "parent_molecule_chembl_id": "CHEMBL24974",
+          "pchembl_value": null,
+          "potential_duplicate": 0,
+          "qudt_units": "http://qudt.org/vocab/unit#Percent",
+          "record_id": 37303,
+          "relation": "=",
+          "src_id": 1,
+          "standard_flag": 0,
+          "standard_relation": "=",
+          "standard_text_value": null,
+          "standard_type": "Decrease in blood pressure",
+          "standard_units": "%",
+          "standard_upper_value": null,
+          "standard_value": "14.0",
+          "target_chembl_id": "CHEMBL376",
+          "target_organism": "Rattus norvegicus",
+          "target_pref_name": "Rattus norvegicus",
+          "target_tax_id": "10116",
+          "text_value": null,
+          "toid": null,
+          "type": "Decrease in blood pressure",
+          "units": "%",
+          "uo_units": "UO_0000187",
+          "upper_value": null,
+          "value": "14.0"
+        },
+        {
+          "action_type": null,
+          "activity_comment": null,
+          "activity_id": 38018,
+          "activity_properties": [],
+          "assay_chembl_id": "CHEMBL787746",
+          "assay_description": "Antihypertensive activity as percentage fall in systolic blood pressure in spontaneously hypertensive rats after a period of 2 hr for a dose of 50 mg/kg",
+          "assay_type": "F",
+          "assay_variant_accession": null,
+          "assay_variant_mutation": null,
+          "bao_endpoint": "BAO_0000179",
+          "bao_format": "BAO_0000218",
+          "bao_label": "organism-based format",
+          "canonical_smiles": "O=C1OC2(CCN(CC(O)C3COc4ccccc4O3)CC2)CN1CCc1ccccc1",
+          "data_validity_comment": null,
+          "data_validity_description": null,
+          "document_chembl_id": "CHEMBL1121744",
+          "document_journal": "J Med Chem",
+          "document_year": 1981,
+          "ligand_efficiency": null,
+          "modality": null,
+          "molecule_chembl_id": "CHEMBL24974",
+          "molecule_pref_name": null,
+          "parent_molecule_chembl_id": "CHEMBL24974",
+          "pchembl_value": null,
+          "potential_duplicate": 0,
+          "qudt_units": null,
+          "record_id": 37303,
+          "relation": null,
+          "src_id": 1,
+          "standard_flag": 0,
+          "standard_relation": null,
+          "standard_text_value": "Not significant",
+          "standard_type": "Decrease in blood pressure",
+          "standard_units": null,
+          "standard_upper_value": null,
+          "standard_value": null,
+          "target_chembl_id": "CHEMBL376",
+          "target_organism": "Rattus norvegicus",
+          "target_pref_name": "Rattus norvegicus",
+          "target_tax_id": "10116",
+          "text_value": "Not significant",
+          "toid": null,
+          "type": "Decrease in blood pressure",
+          "units": "%",
+          "uo_units": null,
+          "upper_value": null,
+          "value": null
+        },
+        {
+          "action_type": null,
+          "activity_comment": null,
+          "activity_id": 38019,
+          "activity_properties": [],
+          "assay_chembl_id": "CHEMBL783579",
+          "assay_description": "Antihypertensive activity as percentage fall in systolic blood pressure in spontaneously hypertensive rats after a period of 3 h for a dose of 50 mg/kg",
+          "assay_type": "F",
+          "assay_variant_accession": null,
+          "assay_variant_mutation": null,
+          "bao_endpoint": "BAO_0000179",
+          "bao_format": "BAO_0000218",
+          "bao_label": "organism-based format",
+          "canonical_smiles": "O=C1OC2(CCN(CC(O)C3COc4ccccc4O3)CC2)CN1CCc1ccccc1",
+          "data_validity_comment": null,
+          "data_validity_description": null,
+          "document_chembl_id": "CHEMBL1121744",
+          "document_journal": "J Med Chem",
+          "document_year": 1981,
+          "ligand_efficiency": null,
+          "modality": null,
+          "molecule_chembl_id": "CHEMBL24974",
+          "molecule_pref_name": null,
+          "parent_molecule_chembl_id": "CHEMBL24974",
+          "pchembl_value": null,
+          "potential_duplicate": 0,
+          "qudt_units": null,
+          "record_id": 37303,
+          "relation": null,
+          "src_id": 1,
+          "standard_flag": 0,
+          "standard_relation": null,
+          "standard_text_value": "Not significant",
+          "standard_type": "Decrease in blood pressure",
+          "standard_units": null,
+          "standard_upper_value": null,
+          "standard_value": null,
+          "target_chembl_id": "CHEMBL376",
+          "target_organism": "Rattus norvegicus",
+          "target_pref_name": "Rattus norvegicus",
+          "target_tax_id": "10116",
+          "text_value": "Not significant",
+          "toid": null,
+          "type": "Decrease in blood pressure",
+          "units": "%",
+          "uo_units": null,
+          "upper_value": null,
+          "value": null
+        },
+        {
+          "action_type": null,
+          "activity_comment": null,
+          "activity_id": 38020,
+          "activity_properties": [],
+          "assay_chembl_id": "CHEMBL878960",
+          "assay_description": "Antihypertensive activity as percentage fall in systolic blood pressure in spontaneously hypertensive rats after a period of 4 hr for a dose of 50 mg/kg",
+          "assay_type": "F",
+          "assay_variant_accession": null,
+          "assay_variant_mutation": null,
+          "bao_endpoint": "BAO_0000179",
+          "bao_format": "BAO_0000218",
+          "bao_label": "organism-based format",
+          "canonical_smiles": "O=C1OC2(CCN(CC(O)C3COc4ccccc4O3)CC2)CN1CCc1ccccc1",
+          "data_validity_comment": null,
+          "data_validity_description": null,
+          "document_chembl_id": "CHEMBL1121744",
+          "document_journal": "J Med Chem",
+          "document_year": 1981,
+          "ligand_efficiency": null,
+          "modality": null,
+          "molecule_chembl_id": "CHEMBL24974",
+          "molecule_pref_name": null,
+          "parent_molecule_chembl_id": "CHEMBL24974",
+          "pchembl_value": null,
+          "potential_duplicate": 0,
+          "qudt_units": null,
+          "record_id": 37303,
+          "relation": null,
+          "src_id": 1,
+          "standard_flag": 0,
+          "standard_relation": null,
+          "standard_text_value": "Not significant",
+          "standard_type": "Decrease in blood pressure",
+          "standard_units": null,
+          "standard_upper_value": null,
+          "standard_value": null,
+          "target_chembl_id": "CHEMBL376",
+          "target_organism": "Rattus norvegicus",
+          "target_pref_name": "Rattus norvegicus",
+          "target_tax_id": "10116",
+          "text_value": "Not significant",
+          "toid": null,
+          "type": "Decrease in blood pressure",
+          "units": "%",
+          "uo_units": null,
+          "upper_value": null,
+          "value": null
+        },
+        {
+          "action_type": null,
+          "activity_comment": null,
+          "activity_id": 38021,
+          "activity_properties": [],
+          "assay_chembl_id": "CHEMBL877622",
+          "assay_description": "Distribution coefficient between 1-Octanol and phosphate buffer at pH7.4",
+          "assay_type": "P",
+          "assay_variant_accession": null,
+          "assay_variant_mutation": null,
+          "bao_endpoint": "BAO_0002129",
+          "bao_format": "BAO_0000100",
+          "bao_label": "small-molecule physicochemical format",
+          "canonical_smiles": "O=C1OC2(CCN(CC(O)C3COc4ccccc4O3)CC2)CN1CCc1ccccc1",
+          "data_validity_comment": null,
+          "data_validity_description": null,
+          "document_chembl_id": "CHEMBL1121744",
+          "document_journal": "J Med Chem",
+          "document_year": 1981,
+          "ligand_efficiency": null,
+          "modality": null,
+          "molecule_chembl_id": "CHEMBL24974",
+          "molecule_pref_name": null,
+          "parent_molecule_chembl_id": "CHEMBL24974",
+          "pchembl_value": null,
+          "potential_duplicate": 0,
+          "qudt_units": null,
+          "record_id": 37303,
+          "relation": "=",
+          "src_id": 1,
+          "standard_flag": 1,
+          "standard_relation": "=",
+          "standard_text_value": null,
+          "standard_type": "LogD",
+          "standard_units": null,
+          "standard_upper_value": null,
+          "standard_value": "2.79",
+          "target_chembl_id": "CHEMBL2362975",
+          "target_organism": null,
+          "target_pref_name": "No relevant target",
+          "target_tax_id": null,
+          "text_value": null,
+          "toid": null,
+          "type": "logD",
+          "units": null,
+          "uo_units": null,
+          "upper_value": null,
+          "value": "2.79"
+        }
+      ],
+      "page_meta": {
+        "limit": 1000,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total_count": 5
+      }
+    }
+  },
+  "CHEMBL418376": {
+    "url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL418376&limit=1000&target_chembl_id=CHEMBL2760",
+    "status": 200,
+    "data": {
+      "activities": [],
+      "page_meta": {
+        "limit": 1000,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total_count": 0
+      }
+    }
+  },
+  "CHEMBL310981": {
+    "url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL310981&limit=1000&target_chembl_id=CHEMBL2760",
+    "status": 200,
+    "data": {
+      "activities": [
+        {
+          "action_type": null,
+          "activity_comment": null,
+          "activity_id": 375434,
+          "activity_properties": [],
+          "assay_chembl_id": "CHEMBL644936",
+          "assay_description": "Inhibitory activity against Acid sphingomyelinase from bovine brain microsome",
+          "assay_type": "B",
+          "assay_variant_accession": null,
+          "assay_variant_mutation": null,
+          "bao_endpoint": "BAO_0000190",
+          "bao_format": "BAO_0000019",
+          "bao_label": "assay format",
+          "canonical_smiles": "CCCCCCCCCCCCCCCC(=O)N[C@@H](CC(F)(F)P(=O)(O)O)[C@H](O)c1ccccc1",
+          "data_validity_comment": null,
+          "data_validity_description": null,
+          "document_chembl_id": "CHEMBL1136263",
+          "document_journal": "Bioorg Med Chem Lett",
+          "document_year": 2003,
+          "ligand_efficiency": {
+            "bei": "8.29",
+            "le": "0.17",
+            "lle": "-2.54",
+            "sei": "4.03"
+          },
+          "modality": null,
+          "molecule_chembl_id": "CHEMBL310981",
+          "molecule_pref_name": null,
+          "parent_molecule_chembl_id": "CHEMBL310981",
+          "pchembl_value": "4.31",
+          "potential_duplicate": 0,
+          "qudt_units": "http://www.openphacts.org/units/Nanomolar",
+          "record_id": 137769,
+          "relation": "=",
+          "src_id": 1,
+          "standard_flag": 1,
+          "standard_relation": "=",
+          "standard_text_value": null,
+          "standard_type": "IC50",
+          "standard_units": "nM",
+          "standard_upper_value": null,
+          "standard_value": "49000.0",
+          "target_chembl_id": "CHEMBL2760",
+          "target_organism": "Homo sapiens",
+          "target_pref_name": "Sphingomyelin phosphodiesterase",
+          "target_tax_id": "9606",
+          "text_value": null,
+          "toid": null,
+          "type": "IC50",
+          "units": "uM",
+          "uo_units": "UO_0000065",
+          "upper_value": null,
+          "value": "49.0"
+        }
+      ],
+      "page_meta": {
+        "limit": 1000,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total_count": 1
+      }
+    }
+  },
+  "CHEMBL5284579": {
+    "url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL5284579&limit=1000&target_chembl_id=CHEMBL2760",
+    "status": 200,
+    "data": {
+      "activities": [],
+      "page_meta": {
+        "limit": 1000,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total_count": 0
+      }
+    }
+  },
+  "open_targets": {
+    "status": 400,
+    "query": "query { target(ensemblId: \"ENSG00000166311\") { approvedSymbol associatedDiseases(efoIds: [\"MONDO_0004975\"], page: {index: 0, size: 10}) { rows { disease { id name } score datatypeScores { id score } } } } }",
+    "data": {
+      "errors": [
+        {
+          "message": "Unknown argument 'efoIds' on field 'associatedDiseases' of type 'Target'. (line 1, column 82):\nquery { target(ensemblId: \"ENSG00000166311\") { approvedSymbol associatedDiseases(efoIds: [\"MONDO_0004975\"], page: {index: 0, size: 10}) { rows { disease { id name } score datatypeScores { id score } } } } }\n                                                                                 ^",
+          "locations": [
+            {
+              "line": 1,
+              "column": 82
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "queried_utc": "2026-09-13T09:22:00.610979+00:00"
+}

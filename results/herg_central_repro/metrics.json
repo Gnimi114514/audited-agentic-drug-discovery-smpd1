@@ -1,0 +1,7 @@
+{
+ "test_roc_auc": 0.9091,
+ "test_pr_auc": 0.4792,
+ "wall_seconds": 235,
+ "n_train": 245503,
+ "n_test": 61376
+}

@@ -1,0 +1,66 @@
+{
+  "bound_frames": 1220,
+  "lig_heavy": 36,
+  "zn_count": 2,
+  "bound_dcd_time_ps": {
+    "first": 0,
+    "last": 1219
+  },
+  "min_zn_ligand_A": {
+    "min": 1.809942603111267,
+    "max": 3.5290777683258057,
+    "mean": 1.9779666662216187,
+    "final": 1.9209994077682495
+  },
+  "fraction_min_distance_in_1p9_2p1": 0.7786885245901639,
+  "ligand_rmsd_A_protein_backbone_fit_first_saved_frame": {
+    "min": 3.8576793670823736e-07,
+    "max": 5.14126590004177,
+    "mean": 4.127537781038541,
+    "final": 4.142756557694729
+  },
+  "backbone_rmsd_A_first_saved_frame": {
+    "min": 1.2087414644046817e-06,
+    "max": 2.678569424813756,
+    "mean": 2.1750304509883054,
+    "final": 2.3337541643326682
+  },
+  "ligand_internal_rmsd_A_self_fit": {
+    "min": 1.6870506309145644e-07,
+    "max": 2.370049212607737,
+    "mean": 1.8470133678423128,
+    "final": 1.836098459805333
+  },
+  "zn_parameters": [
+    {
+      "index": 8214,
+      "name": "ZN",
+      "type": "Zn2+",
+      "charge": 2.0,
+      "rmin": 1.2709999998610308,
+      "epsilon": 0.0033028600024354845
+    },
+    {
+      "index": 8215,
+      "name": "ZN",
+      "type": "Zn2+",
+      "charge": 2.0,
+      "rmin": 1.2709999998610308,
+      "epsilon": 0.0033028600024354845
+    }
+  ],
+  "apo": {
+    "frames": 1161,
+    "protein_atoms": 8198,
+    "backbone_rmsd_A": {
+      "min": 0.016656305640935898,
+      "max": 3.8394620418548584,
+      "mean": 2.750093936920166,
+      "final": 3.489048719406128
+    },
+    "dcd_time_ps": {
+      "first": 0,
+      "last": 1160
+    }
+  }
+}

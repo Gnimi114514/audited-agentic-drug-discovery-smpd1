@@ -1,0 +1,23 @@
+{
+  "source_sha256": "e1976d1dc160d704ef24671ab9804883d93639e8ceb02e3c28fc0f92cc1e5ddb",
+  "entries": 13,
+  "actual_true": 12,
+  "actual_null": 1,
+  "saved_summary": {
+    "executed_replays": 13,
+    "detected": 12,
+    "delegated": 1,
+    "detection_rate": "12/13",
+    "note": "counts derived from executed observations; context-only findings (R3-4, R3-5, R3-7) and live-only (R1-4, R1-9) are excluded here and listed separately as coverage inventory"
+  },
+  "count_line": 173,
+  "append_line": 167,
+  "literal_evidence": {
+    "34": "v1 = [0.47, 2.96, 3.59, 4.39]           # printed \"A\" values from md/bound_run.log",
+    "36": "heat_first = 0.47 * 10                  # 4.70 A expected if nm-as-A",
+    "139": "    'COM-imaged (retired) vs protein-frame values', '4.39 vs 4.579-5.935: metrics differ',",
+    "140": "    True, 'retired metric documented')",
+    "161": "vals = [float(x) for x in _re.findall(r'[\u2212-](6\\.\\d\\d)', _sa)][:3]"
+  },
+  "reads_bound_run_log": false
+}

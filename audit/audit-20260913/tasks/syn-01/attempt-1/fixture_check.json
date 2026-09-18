@@ -1,0 +1,6 @@
+{
+ "fixture_v2": "positive control: molecule present in proxy stock (trivial 0-step closure expected)",
+ "target_smiles": "CC(=O)N1C2CCC1C(c1ccc(Cl)nc1)C2",
+ "target_chembl_id": "CHEMBL300070",
+ "mw": 250.7
+}

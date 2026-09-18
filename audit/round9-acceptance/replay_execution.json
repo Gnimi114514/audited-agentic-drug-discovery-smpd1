@@ -1,0 +1,12 @@
+{
+  "command": [
+    "C:\\ProgramData\\anaconda3\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "independent-audit\\round9-acceptance\\run_replay.py"
+  ],
+  "exit_code": 0,
+  "interpreter": "3.12.3 | packaged by conda-forge | (main, Apr 15 2024, 18:20:11) [MSC v.1938 64 bit (AMD64)]",
+  "platform": "win32"
+}

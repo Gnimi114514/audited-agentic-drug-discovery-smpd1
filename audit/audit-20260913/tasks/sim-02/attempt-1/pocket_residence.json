@@ -1,0 +1,21 @@
+{
+ "summary": {
+  "n_frames": 620,
+  "ligand_protein_frame_rmsd_A": {
+   "mean": 4.696,
+   "max": 6.05,
+   "final": 5.753
+  },
+  "pocket_occupancy_fraction": 0.0,
+  "catalytic_residues_ever_contacted_crystal_numbering": [
+   318,
+   319,
+   457,
+   458
+  ],
+  "occupancy_definition": "ligand center (geometric, protein frame) within 6 A of crystal PC centroid (translated into DCD frame via backbone centroid offset, minimum-imaged per frame) AND >=1 catalytic heavy atom within 4.5 A",
+  "units_note": "box vectors scaled nm->A before imaging; all distances in A; crystal-center offset applied (see stdout)",
+  "residue_selector": "zero-based topology resSeq == Murcko ordinal (id2ord[r]); verified mapping 122->206 etc."
+ },
+ "provenance": "scripts/pocket_residence_r5fix.py \u2014 crystal PC center translated into DCD frame via backbone-centroid offset; zero-based residue selector; units note embedded. Supersedes pocket_residence.py (R3-1) and the r5fix variant without center transform. NOTE: the occupancy criterion was added post hoc during audit-driven analysis (not in the original pre-registration); radius sensitivity documented."
+}

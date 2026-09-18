@@ -1,0 +1,6 @@
+{
+  "overall": "REJECT",
+  "authoritative_results": "round4_checks.json",
+  "authoritative_report": "verdict.md",
+  "note": "Unexpected prior acceptance output preserved in concurrent-overwrite/; it is not an accepted auditor verdict."
+}

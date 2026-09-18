@@ -1,0 +1,80 @@
+{
+ "generated": "2026-09-13 22:43:31",
+ "note": "SUPERSEDES earlier manifests; updated for D15c (ZINC stock service-side failure documented; handoff-r3 package added)",
+ "sections": {
+  "reports": {
+   "final-report.md": {
+    "sha256": "1d2d18b7da904a211a94790617f3f0b28626333dfffb876385ef9cfcf08e7754",
+    "bytes": 15723
+   },
+   "research-log.md": {
+    "sha256": "9d47b4bcef8683f458ed92e7eec83bbd7774a9e87f95b0ec142bbefa1c8da804",
+    "bytes": 46972
+   },
+   "AUDIT.md": {
+    "sha256": "0f344d8f2df2a367d899bc91d62a0f65f2be110aa67727da7378d9c8a2a880ca",
+    "bytes": 12549
+   }
+  },
+  "results": {
+   "results/funnel_registry.json": {
+    "sha256": "5d6c059bc74b59044ef6d608386d3b5c4b334d70ef0212360f7948ce3af6d288",
+    "bytes": 1832
+   },
+   "results/herg_central_repro/metrics.json": {
+    "sha256": "dc7dc6e28e8d91060d0427324cb03404c157d09bc0947ea8cedd834371003226",
+    "bytes": 117
+   },
+   "results/herg_central_repro/candidate_overlap.csv": {
+    "sha256": "dd74ef37dca0e0e63dc8108d0eb9e805698fc947dc392eea7fa9ffbb6def16bb",
+    "bytes": 723
+   }
+  },
+  "audit": {
+   "independent-audit/REPORT.md": {
+    "sha256": "121544876092a01a2e371c7028300d90d37e5da845c1788bd9e268d8935fb92c",
+    "bytes": 14220
+   },
+   "runs/audit-20260913/reviews/gpt6-audit-triage.md": {
+    "sha256": "72d0c758f3a1133b99e361bcb5e27a4b79d812797ee9d5bfdc76eab12fd478ed",
+    "bytes": 5922
+   },
+   "runs/audit-20260913/gates.json": {
+    "sha256": "271e8b8d13ab877a3e820d2d41e3eb4d8802010270da33e1416fc5904a784260",
+    "bytes": 1909
+   },
+   "runs/audit-20260913/handoff-r3-mech.json": {
+    "sha256": "0711fb995de4b2e6501c854b9012455cbd31c0fee31798370127de6f10589508",
+    "bytes": 1941
+   },
+   "runs/audit-20260913/handoff-r3-context.json": {
+    "sha256": "48bbca01f8ea3d4e2eaa215811b4b7c3b44c3cc2d4764a371f8266d96c0b22de",
+    "bytes": 3435
+   }
+  },
+  "md": {
+   "md/bound_v2.dcd": {
+    "sha256": "3069107c4d099dfc081673b0becdf6c33e942f5fe4ef2f78bb87d3d0e8200502",
+    "bytes": 545647396
+   },
+   "md/bound_ref.pdb": {
+    "sha256": "b294b05be700ac7e9fd3a2bca59f4940970d7cbe029f88e04190f3873d61e3ab",
+    "bytes": 7381099
+   },
+   "md/bound_analysis_pre_registered.json": {
+    "sha256": "afccad51c5aab8cf4ea52cd5dc19934d05c2259bf9d50ebb43c1ac6ad92231b7",
+    "bytes": 590
+   }
+  },
+  "scripts": {
+   "scripts/bound_md.py": {
+    "sha256": "25dfd0aee5f633947348f40b949f08d7b0b1ad4565b3bd8daf84a393b6f8da0f",
+    "bytes": 5623
+   },
+   "scripts/stock_download_loop.sh": {
+    "sha256": "697de6720ef237cfa151f8ea4817d8d1782112528eee5c502ba76afe4891f426",
+    "bytes": 762
+   }
+  }
+ }
+}

@@ -1,0 +1,99 @@
+{
+ "pre_registered": true,
+ "generated": "2026-09-14T09:12:17",
+ "cases": [
+  {
+   "class": "E1-unit-swap",
+   "site": "bound-v2 Zn-ligand distance table",
+   "seeded": {
+    "min": 41.769999999999996,
+    "mean": 64.78,
+    "max": 77.13
+   },
+   "detector": "plausibility vs frozen trajectory stats",
+   "detected": true
+  },
+  {
+   "class": "E1-unit-swap",
+   "site": "control (true table)",
+   "seeded": {
+    "min": 4.177,
+    "mean": 6.478,
+    "max": 7.713
+   },
+   "detector": "same",
+   "detected": false
+  },
+  {
+   "class": "E2-identity-swap",
+   "site": "reference activity record",
+   "seeded": {
+    "target_chembl_id": "CHEMBL4712",
+    "claim": "human SMPD1 1 \u00b5M anchor"
+   },
+   "detected": true
+  },
+  {
+   "class": "E2-identity-swap",
+   "site": "control (correct record)",
+   "seeded": {
+    "target_chembl_id": "CHEMBL2760",
+    "claim": "human SMPD1 49 \u00b5M record"
+   },
+   "detected": false
+  },
+  {
+   "class": "E3-parameter-swap",
+   "site": "Zn epsilon",
+   "seeded": 0.01234567,
+   "detected": true
+  },
+  {
+   "class": "E3-parameter-swap",
+   "site": "control (2014 12-6-4 eps)",
+   "seeded": 0.02662782,
+   "detected": false
+  },
+  {
+   "class": "E4-direction-flip",
+   "site": "PMID 27598773 row",
+   "seeded": {
+    "pmid": 27598773,
+    "direction": "supports_inhibit"
+   },
+   "detected": true
+  },
+  {
+   "class": "E4-direction-flip",
+   "site": "control (honest row)",
+   "seeded": {
+    "pmid": 27598773,
+    "direction": "counterexample"
+   },
+   "detected": false
+  },
+  {
+   "class": "E5-hash-staleness",
+   "site": "modified file",
+   "detected": true
+  },
+  {
+   "class": "E5-hash-staleness",
+   "site": "control (untouched file)",
+   "detected": false
+  }
+ ],
+ "summary": {
+  "seeded_cases": 5,
+  "detected": 5,
+  "missed": [],
+  "control_false_positives": 0,
+  "per_class_detection": {
+   "E5-hash-staleness": true,
+   "E3-parameter-swap": true,
+   "E4-direction-flip": true,
+   "E1-unit-swap": true,
+   "E2-identity-swap": true
+  }
+ }
+}

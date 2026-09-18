@@ -1,0 +1,557 @@
+{
+  "root_manifest_sha256": "269661dc838dc0b30c6a5e1e53a2ae46a8634adb9f6b2cec2c7d6c3c0aba0136",
+  "root_schema_keys": [
+    "generated",
+    "note",
+    "sections"
+  ],
+  "root_section_counts": {
+    "reports": 5,
+    "new_analysis": 6,
+    "audit": 5,
+    "scripts": 3
+  },
+  "claimed_four_levels_present": false,
+  "root_checks": {
+    "reports": [
+      {
+        "path": "final-report.md",
+        "expected_sha256": "55e124caeb5c8285610a173629a15231885b1e4ca6b860e424270d975279a64b",
+        "actual_sha256": "55e124caeb5c8285610a173629a15231885b1e4ca6b860e424270d975279a64b",
+        "expected_bytes": 15882,
+        "actual_bytes": 15882,
+        "match": true
+      },
+      {
+        "path": "target-dossier.md",
+        "expected_sha256": "c0da5f25e216924200fbee74c3662bc9c350f4a2f312f10d6311e48d42ec8d55",
+        "actual_sha256": "c0da5f25e216924200fbee74c3662bc9c350f4a2f312f10d6311e48d42ec8d55",
+        "expected_bytes": 8518,
+        "actual_bytes": 8518,
+        "match": true
+      },
+      {
+        "path": "structure-analysis.md",
+        "expected_sha256": "e21e8dd1753489d19c69c262e191fba6d476d82bb43089dad948871dcfaae421",
+        "actual_sha256": "e21e8dd1753489d19c69c262e191fba6d476d82bb43089dad948871dcfaae421",
+        "expected_bytes": 4889,
+        "actual_bytes": 4889,
+        "match": true
+      },
+      {
+        "path": "hit-report.md",
+        "expected_sha256": "d6e10f96c6328bb0c170e1d406b0b4fdeb55a98b1dbb01b39a5621bee0593912",
+        "actual_sha256": "d6e10f96c6328bb0c170e1d406b0b4fdeb55a98b1dbb01b39a5621bee0593912",
+        "expected_bytes": 13045,
+        "actual_bytes": 13045,
+        "match": true
+      },
+      {
+        "path": "research-log.md",
+        "expected_sha256": "a66fe96a5ead46f8ef7d41c4d5df932cbaf2dde5b5f7ffcc663f83a31274fed2",
+        "actual_sha256": "a66fe96a5ead46f8ef7d41c4d5df932cbaf2dde5b5f7ffcc663f83a31274fed2",
+        "expected_bytes": 51131,
+        "actual_bytes": 51131,
+        "match": true
+      }
+    ],
+    "new_analysis": [
+      {
+        "path": "runs/audit-20260913/tasks/sim-02/attempt-1/pocket_residence.json",
+        "expected_sha256": "aaa1f61546740037541e6cb6bc63f1fc3a575735276a3069dbf7016375f4f446",
+        "actual_sha256": "aaa1f61546740037541e6cb6bc63f1fc3a575735276a3069dbf7016375f4f446",
+        "expected_bytes": 113729,
+        "actual_bytes": 113729,
+        "match": true
+      },
+      {
+        "path": "runs/audit-20260913/tasks/syn-01/attempt-1/result.json",
+        "expected_sha256": "c77469994a094397faaeb764a0c9f60d254bff1c855c5db3fe1e6eacdc473c4e",
+        "actual_sha256": "c77469994a094397faaeb764a0c9f60d254bff1c855c5db3fe1e6eacdc473c4e",
+        "expected_bytes": 216,
+        "actual_bytes": 216,
+        "match": true
+      },
+      {
+        "path": "runs/audit-20260913/tasks/syn-01/attempt-1/candidates_routes.json",
+        "expected_sha256": "a4726dda55c058fd61b65840359f2f1711dee1ab9f03a4c14dfefd4b9e5ad851",
+        "actual_sha256": "a4726dda55c058fd61b65840359f2f1711dee1ab9f03a4c14dfefd4b9e5ad851",
+        "expected_bytes": 455,
+        "actual_bytes": 455,
+        "match": true
+      },
+      {
+        "path": "results/herg_central_repro/models/candidate_predictions_by_model.csv",
+        "expected_sha256": "a46b49dd0d200962c6d7b7919b268687495be696ec826d4b3dc748a2281570b8",
+        "actual_sha256": "a46b49dd0d200962c6d7b7919b268687495be696ec826d4b3dc748a2281570b8",
+        "expected_bytes": 852,
+        "actual_bytes": 852,
+        "match": true
+      },
+      {
+        "path": "results/herg_central_repro/models/model_provenance.json",
+        "expected_sha256": "0e7fee3337deaed0ab83c8ac9bc3f21d8aa0de38d76d7e6b0cea1f698a44db7a",
+        "actual_sha256": "0e7fee3337deaed0ab83c8ac9bc3f21d8aa0de38d76d7e6b0cea1f698a44db7a",
+        "expected_bytes": 442,
+        "actual_bytes": 442,
+        "match": true
+      },
+      {
+        "path": "results/herg_central_repro/models/modelB_test_predictions.npz",
+        "expected_sha256": "ff3c9c473c537aeca52a300b6c7b646c528506575ca9a1f7cf133f885c1bfd0f",
+        "actual_sha256": "ff3c9c473c537aeca52a300b6c7b646c528506575ca9a1f7cf133f885c1bfd0f",
+        "expected_bytes": 286122,
+        "actual_bytes": 286122,
+        "match": true
+      }
+    ],
+    "audit": [
+      {
+        "path": "independent-audit/rereview-r3/REPORT.md",
+        "expected_sha256": "f32c2013768fdffeb70f724b36a4e96d4fdc5954a674ca70de2fcbd96a9b99dc",
+        "actual_sha256": "f32c2013768fdffeb70f724b36a4e96d4fdc5954a674ca70de2fcbd96a9b99dc",
+        "expected_bytes": 12255,
+        "actual_bytes": 12255,
+        "match": true
+      },
+      {
+        "path": "runs/audit-20260913/gates.json",
+        "expected_sha256": "d321267f21108aac431e7c8c3a9d5029564f10b52b1245cc92d598c768741eca",
+        "actual_sha256": "d321267f21108aac431e7c8c3a9d5029564f10b52b1245cc92d598c768741eca",
+        "expected_bytes": 3128,
+        "actual_bytes": 3128,
+        "match": true
+      },
+      {
+        "path": "runs/audit-20260913/handoff-r4-mech.json",
+        "expected_sha256": "dcf99b6ef86cbccf0af8df90e4d8d4a56c3bd2643fdfb562bd6cacffbec55df8",
+        "actual_sha256": "dcf99b6ef86cbccf0af8df90e4d8d4a56c3bd2643fdfb562bd6cacffbec55df8",
+        "expected_bytes": 887,
+        "actual_bytes": 887,
+        "match": true
+      },
+      {
+        "path": "runs/audit-20260913/handoff-r4-evidence.json",
+        "expected_sha256": "b93eff2af11de34198dbb9055ae80c1951a275f0d0f8ed8c74821c3131048391",
+        "actual_sha256": "b93eff2af11de34198dbb9055ae80c1951a275f0d0f8ed8c74821c3131048391",
+        "expected_bytes": 5284,
+        "actual_bytes": 5284,
+        "match": true
+      },
+      {
+        "path": "audit_manifest.json",
+        "expected_sha256": "673a92cc92a64234478d7cd7d6d4c22f1f099e9ee7d3961c9cc0250d98031c93",
+        "actual_sha256": "269661dc838dc0b30c6a5e1e53a2ae46a8634adb9f6b2cec2c7d6c3c0aba0136",
+        "expected_bytes": 8025,
+        "actual_bytes": 3214,
+        "match": false
+      }
+    ],
+    "scripts": [
+      {
+        "path": "scripts/pocket_residence.py",
+        "expected_sha256": "3f728d10887a868939123189bf939ed92e1f080ec693a18e696447ccfdb2f7f2",
+        "actual_sha256": "3f728d10887a868939123189bf939ed92e1f080ec693a18e696447ccfdb2f7f2",
+        "expected_bytes": 7349,
+        "actual_bytes": 7349,
+        "match": true
+      },
+      {
+        "path": "scripts/herg_model_separation.py",
+        "expected_sha256": "cf7d2b963af31a5c8c2c3cd71b36e6ceab224315971abc23735dcf3f3af76427",
+        "actual_sha256": "cf7d2b963af31a5c8c2c3cd71b36e6ceab224315971abc23735dcf3f3af76427",
+        "expected_bytes": 4576,
+        "actual_bytes": 4576,
+        "match": true
+      },
+      {
+        "path": "scripts/bound_md.py",
+        "expected_sha256": "25dfd0aee5f633947348f40b949f08d7b0b1ad4565b3bd8daf84a393b6f8da0f",
+        "actual_sha256": "25dfd0aee5f633947348f40b949f08d7b0b1ad4565b3bd8daf84a393b6f8da0f",
+        "expected_bytes": 5623,
+        "actual_bytes": 5623,
+        "match": true
+      }
+    ]
+  },
+  "nested_checks": {
+    "handoff-r4-mech.json": [
+      {
+        "path": "final-report.md",
+        "expected_sha256": "55e124caeb5c8285610a173629a15231885b1e4ca6b860e424270d975279a64b",
+        "actual_sha256": "55e124caeb5c8285610a173629a15231885b1e4ca6b860e424270d975279a64b",
+        "expected_bytes": null,
+        "actual_bytes": 15882,
+        "match": true
+      },
+      {
+        "path": "target-dossier.md",
+        "expected_sha256": "c0da5f25e216924200fbee74c3662bc9c350f4a2f312f10d6311e48d42ec8d55",
+        "actual_sha256": "c0da5f25e216924200fbee74c3662bc9c350f4a2f312f10d6311e48d42ec8d55",
+        "expected_bytes": null,
+        "actual_bytes": 8518,
+        "match": true
+      },
+      {
+        "path": "structure-analysis.md",
+        "expected_sha256": "e21e8dd1753489d19c69c262e191fba6d476d82bb43089dad948871dcfaae421",
+        "actual_sha256": "e21e8dd1753489d19c69c262e191fba6d476d82bb43089dad948871dcfaae421",
+        "expected_bytes": null,
+        "actual_bytes": 4889,
+        "match": true
+      },
+      {
+        "path": "hit-report.md",
+        "expected_sha256": "d6e10f96c6328bb0c170e1d406b0b4fdeb55a98b1dbb01b39a5621bee0593912",
+        "actual_sha256": "d6e10f96c6328bb0c170e1d406b0b4fdeb55a98b1dbb01b39a5621bee0593912",
+        "expected_bytes": null,
+        "actual_bytes": 13045,
+        "match": true
+      },
+      {
+        "path": "validation-plan.md",
+        "expected_sha256": "9db369ae376dba190faca92699962aec645630846106c4eaa5fc28b380ded586",
+        "actual_sha256": "9db369ae376dba190faca92699962aec645630846106c4eaa5fc28b380ded586",
+        "expected_bytes": null,
+        "actual_bytes": 5770,
+        "match": true
+      },
+      {
+        "path": "research-log.md",
+        "expected_sha256": "e38ac713120a7e6e010527fe2fb768c80431d46a97c1be22283250bd47a2eb3b",
+        "actual_sha256": "a66fe96a5ead46f8ef7d41c4d5df932cbaf2dde5b5f7ffcc663f83a31274fed2",
+        "expected_bytes": null,
+        "actual_bytes": 51131,
+        "match": false
+      },
+      {
+        "path": "AUDIT.md",
+        "expected_sha256": "0f344d8f2df2a367d899bc91d62a0f65f2be110aa67727da7378d9c8a2a880ca",
+        "actual_sha256": "0f344d8f2df2a367d899bc91d62a0f65f2be110aa67727da7378d9c8a2a880ca",
+        "expected_bytes": null,
+        "actual_bytes": 12549,
+        "match": true
+      }
+    ],
+    "handoff-r4-evidence.json": [
+      {
+        "path": "results/hits_ranked.csv",
+        "expected_sha256": "d941016bcffb1607d316e3dbba61d41aee4495de81c88f74fc100e43c77b5052",
+        "actual_sha256": "d941016bcffb1607d316e3dbba61d41aee4495de81c88f74fc100e43c77b5052",
+        "expected_bytes": null,
+        "actual_bytes": 501654,
+        "match": true
+      },
+      {
+        "path": "results/funnel_registry.json",
+        "expected_sha256": "5d6c059bc74b59044ef6d608386d3b5c4b334d70ef0212360f7948ce3af6d288",
+        "actual_sha256": "5d6c059bc74b59044ef6d608386d3b5c4b334d70ef0212360f7948ce3af6d288",
+        "expected_bytes": null,
+        "actual_bytes": 1832,
+        "match": true
+      },
+      {
+        "path": "results/top50.json",
+        "expected_sha256": "aaba6b2857113d0577050b7161be242ac99a2ec1b283bcb67502a9ac88ab4446",
+        "actual_sha256": "aaba6b2857113d0577050b7161be242ac99a2ec1b283bcb67502a9ac88ab4446",
+        "expected_bytes": null,
+        "actual_bytes": 21890,
+        "match": true
+      },
+      {
+        "path": "results/herg_central_repro/metrics.json",
+        "expected_sha256": "dc7dc6e28e8d91060d0427324cb03404c157d09bc0947ea8cedd834371003226",
+        "actual_sha256": "dc7dc6e28e8d91060d0427324cb03404c157d09bc0947ea8cedd834371003226",
+        "expected_bytes": null,
+        "actual_bytes": 117,
+        "match": true
+      },
+      {
+        "path": "results/herg_central_repro/split_meta.json",
+        "expected_sha256": "643a159b567655d9584fb0b28f84944b114999e52f0dd4ebbc78165ccefd5cd9",
+        "actual_sha256": "643a159b567655d9584fb0b28f84944b114999e52f0dd4ebbc78165ccefd5cd9",
+        "expected_bytes": null,
+        "actual_bytes": 402,
+        "match": true
+      },
+      {
+        "path": "results/herg_central_repro/dataset.sha256",
+        "expected_sha256": "a33ffb01b06381a1cb5cfcadcc83b221b323c12b94d515dab9d7c4bb83f53f7c",
+        "actual_sha256": "a33ffb01b06381a1cb5cfcadcc83b221b323c12b94d515dab9d7c4bb83f53f7c",
+        "expected_bytes": null,
+        "actual_bytes": 66,
+        "match": true
+      },
+      {
+        "path": "results/herg_central_repro/candidate_overlap.csv",
+        "expected_sha256": "dd74ef37dca0e0e63dc8108d0eb9e805698fc947dc392eea7fa9ffbb6def16bb",
+        "actual_sha256": "dd74ef37dca0e0e63dc8108d0eb9e805698fc947dc392eea7fa9ffbb6def16bb",
+        "expected_bytes": null,
+        "actual_bytes": 723,
+        "match": true
+      },
+      {
+        "path": "results/herg_central_repro/models/candidate_predictions_by_model.csv",
+        "expected_sha256": "a46b49dd0d200962c6d7b7919b268687495be696ec826d4b3dc748a2281570b8",
+        "actual_sha256": "a46b49dd0d200962c6d7b7919b268687495be696ec826d4b3dc748a2281570b8",
+        "expected_bytes": null,
+        "actual_bytes": 852,
+        "match": true
+      },
+      {
+        "path": "results/herg_central_repro/models/model_provenance.json",
+        "expected_sha256": "0e7fee3337deaed0ab83c8ac9bc3f21d8aa0de38d76d7e6b0cea1f698a44db7a",
+        "actual_sha256": "0e7fee3337deaed0ab83c8ac9bc3f21d8aa0de38d76d7e6b0cea1f698a44db7a",
+        "expected_bytes": null,
+        "actual_bytes": 442,
+        "match": true
+      },
+      {
+        "path": "results/ensemble_scores.csv",
+        "expected_sha256": "bcaf6a68fa1f167f748384dde59c5993fae820e11f2a55e67c0c415d208f4c7f",
+        "actual_sha256": "bcaf6a68fa1f167f748384dde59c5993fae820e11f2a55e67c0c415d208f4c7f",
+        "expected_bytes": null,
+        "actual_bytes": 693,
+        "match": true
+      },
+      {
+        "path": "results/gnina_rescoring.json",
+        "expected_sha256": "40495bf4b5ef7707549ff8b2a0277a07d9cc429a56273f85249e1383d5ada15d",
+        "actual_sha256": "40495bf4b5ef7707549ff8b2a0277a07d9cc429a56273f85249e1383d5ada15d",
+        "expected_bytes": null,
+        "actual_bytes": 944,
+        "match": true
+      },
+      {
+        "path": "results/homolog_selectivity.csv",
+        "expected_sha256": "09d507c7c84826ed33d90407888a4d87e8206d4de0e4406fefa50a45ab52bb1b",
+        "actual_sha256": "09d507c7c84826ed33d90407888a4d87e8206d4de0e4406fefa50a45ab52bb1b",
+        "expected_bytes": null,
+        "actual_bytes": 1448,
+        "match": true
+      },
+      {
+        "path": "results/admet_predictions.csv",
+        "expected_sha256": "15dcea91ea51962d186cf65f933ea0cf2160d4c146ffd611f150a35ff0249ec2",
+        "actual_sha256": "15dcea91ea51962d186cf65f933ea0cf2160d4c146ffd611f150a35ff0249ec2",
+        "expected_bytes": null,
+        "actual_bytes": 3909,
+        "match": true
+      },
+      {
+        "path": "results/md_ensemble_docking.csv",
+        "expected_sha256": "2c7c65c08dd762449112fe6697c4d8bb83797132d41902aeabb7d488c4868786",
+        "actual_sha256": "2c7c65c08dd762449112fe6697c4d8bb83797132d41902aeabb7d488c4868786",
+        "expected_bytes": null,
+        "actual_bytes": 464,
+        "match": true
+      },
+      {
+        "path": "results/expansion_results.json",
+        "expected_sha256": "266c51446bc565a9dce4aae8975c3ae7abf143d75d569032c8684c75e90e8f19",
+        "actual_sha256": "266c51446bc565a9dce4aae8975c3ae7abf143d75d569032c8684c75e90e8f19",
+        "expected_bytes": null,
+        "actual_bytes": 53656,
+        "match": true
+      },
+      {
+        "path": "runs/audit-20260913/tasks/sim-02/attempt-1/pocket_residence.json",
+        "expected_sha256": "aaa1f61546740037541e6cb6bc63f1fc3a575735276a3069dbf7016375f4f446",
+        "actual_sha256": "aaa1f61546740037541e6cb6bc63f1fc3a575735276a3069dbf7016375f4f446",
+        "expected_bytes": null,
+        "actual_bytes": 113729,
+        "match": true
+      },
+      {
+        "path": "runs/audit-20260913/tasks/syn-01/attempt-1/result.json",
+        "expected_sha256": "c77469994a094397faaeb764a0c9f60d254bff1c855c5db3fe1e6eacdc473c4e",
+        "actual_sha256": "c77469994a094397faaeb764a0c9f60d254bff1c855c5db3fe1e6eacdc473c4e",
+        "expected_bytes": null,
+        "actual_bytes": 216,
+        "match": true
+      },
+      {
+        "path": "runs/audit-20260913/tasks/syn-01/attempt-1/candidates_routes.json",
+        "expected_sha256": "a4726dda55c058fd61b65840359f2f1711dee1ab9f03a4c14dfefd4b9e5ad851",
+        "actual_sha256": "a4726dda55c058fd61b65840359f2f1711dee1ab9f03a4c14dfefd4b9e5ad851",
+        "expected_bytes": null,
+        "actual_bytes": 455,
+        "match": true
+      },
+      {
+        "path": "md/bound_v2.dcd",
+        "expected_sha256": "3069107c4d099dfc081673b0becdf6c33e942f5fe4ef2f78bb87d3d0e8200502",
+        "actual_sha256": "3069107c4d099dfc081673b0becdf6c33e942f5fe4ef2f78bb87d3d0e8200502",
+        "expected_bytes": null,
+        "actual_bytes": 545647396,
+        "match": true
+      },
+      {
+        "path": "md/bound_ref.pdb",
+        "expected_sha256": "b294b05be700ac7e9fd3a2bca59f4940970d7cbe029f88e04190f3873d61e3ab",
+        "actual_sha256": "b294b05be700ac7e9fd3a2bca59f4940970d7cbe029f88e04190f3873d61e3ab",
+        "expected_bytes": null,
+        "actual_bytes": 7381099,
+        "match": true
+      },
+      {
+        "path": "md/bound_analysis_pre_registered.json",
+        "expected_sha256": "afccad51c5aab8cf4ea52cd5dc19934d05c2259bf9d50ebb43c1ac6ad92231b7",
+        "actual_sha256": "afccad51c5aab8cf4ea52cd5dc19934d05c2259bf9d50ebb43c1ac6ad92231b7",
+        "expected_bytes": null,
+        "actual_bytes": 590,
+        "match": true
+      },
+      {
+        "path": "md/complex.prmtop",
+        "expected_sha256": "f2139e02ad03663415bd09849ab8bb398cffa2ad18f7ecbe6003bcb3f3c91cd8",
+        "actual_sha256": "f2139e02ad03663415bd09849ab8bb398cffa2ad18f7ecbe6003bcb3f3c91cd8",
+        "expected_bytes": null,
+        "actual_bytes": 13990827,
+        "match": true
+      },
+      {
+        "path": "md/complex.inpcrd",
+        "expected_sha256": "a8299226c0e859d72280cfe874e1ec8074e88b963b66d848e7366c399f349d24",
+        "actual_sha256": "a8299226c0e859d72280cfe874e1ec8074e88b963b66d848e7366c399f349d24",
+        "expected_bytes": null,
+        "actual_bytes": 2676748,
+        "match": true
+      },
+      {
+        "path": "md/bound_v2_log.csv",
+        "expected_sha256": "05a6f124cfe3dea6ada04a5da6e10c41e82f43ac91166130ef8fb77950873ba6",
+        "actual_sha256": "05a6f124cfe3dea6ada04a5da6e10c41e82f43ac91166130ef8fb77950873ba6",
+        "expected_bytes": null,
+        "actual_bytes": 41631,
+        "match": true
+      },
+      {
+        "path": "md/prod.dcd",
+        "expected_sha256": "4941f5acf59b5265305a48e5f0f59c07a53e0f86ae5785553a90c2b9480f4995",
+        "actual_sha256": "4941f5acf59b5265305a48e5f0f59c07a53e0f86ae5785553a90c2b9480f4995",
+        "expected_bytes": null,
+        "actual_bytes": 1962763656,
+        "match": true
+      },
+      {
+        "path": "md/solvated.pdb",
+        "expected_sha256": "c6f5d4b62034af6b9e7882d5b244a7d0f95699ce5609ebb76a07a9c12dbb8e8a",
+        "actual_sha256": "c6f5d4b62034af6b9e7882d5b244a7d0f95699ce5609ebb76a07a9c12dbb8e8a",
+        "expected_bytes": null,
+        "actual_bytes": 11411353,
+        "match": true
+      },
+      {
+        "path": "structures/5i85.pdb",
+        "expected_sha256": "c8b9711df2698f100b5f040f51cab14cf1cc9add5d98fb2eb5ec518ac528f2fe",
+        "actual_sha256": "c8b9711df2698f100b5f040f51cab14cf1cc9add5d98fb2eb5ec518ac528f2fe",
+        "expected_bytes": null,
+        "actual_bytes": 791937,
+        "match": true
+      },
+      {
+        "path": "structures/5i85_recA_ZN_rigid.pdbqt",
+        "expected_sha256": "5d33cac3fb16951a306f94041196ff322d30308cd843447c7bdb28aa15da9bd1",
+        "actual_sha256": "5d33cac3fb16951a306f94041196ff322d30308cd843447c7bdb28aa15da9bd1",
+        "expected_bytes": null,
+        "actual_bytes": 427119,
+        "match": true
+      },
+      {
+        "path": "scripts/bound_md.py",
+        "expected_sha256": "25dfd0aee5f633947348f40b949f08d7b0b1ad4565b3bd8daf84a393b6f8da0f",
+        "actual_sha256": "25dfd0aee5f633947348f40b949f08d7b0b1ad4565b3bd8daf84a393b6f8da0f",
+        "expected_bytes": null,
+        "actual_bytes": 5623,
+        "match": true
+      },
+      {
+        "path": "scripts/pocket_residence.py",
+        "expected_sha256": "3f728d10887a868939123189bf939ed92e1f080ec693a18e696447ccfdb2f7f2",
+        "actual_sha256": "3f728d10887a868939123189bf939ed92e1f080ec693a18e696447ccfdb2f7f2",
+        "expected_bytes": null,
+        "actual_bytes": 7349,
+        "match": true
+      },
+      {
+        "path": "scripts/herg_model_separation.py",
+        "expected_sha256": "cf7d2b963af31a5c8c2c3cd71b36e6ceab224315971abc23735dcf3f3af76427",
+        "actual_sha256": "cf7d2b963af31a5c8c2c3cd71b36e6ceab224315971abc23735dcf3f3af76427",
+        "expected_bytes": null,
+        "actual_bytes": 4576,
+        "match": true
+      },
+      {
+        "path": "scripts/herg_central_repro.py",
+        "expected_sha256": "03f248fc84a78741ac3820de67fd3bfc85f9a4a0efb291370924135568577eb8",
+        "actual_sha256": "03f248fc84a78741ac3820de67fd3bfc85f9a4a0efb291370924135568577eb8",
+        "expected_bytes": null,
+        "actual_bytes": 4813,
+        "match": true
+      },
+      {
+        "path": "scripts/build_bound.sh",
+        "expected_sha256": "61885c8d7c7b1a396a29c5cf0bca655c00b09fa5ad0b8b9d88f12db94940d20a",
+        "actual_sha256": "61885c8d7c7b1a396a29c5cf0bca655c00b09fa5ad0b8b9d88f12db94940d20a",
+        "expected_bytes": null,
+        "actual_bytes": 2267,
+        "match": true
+      },
+      {
+        "path": "scripts/dock_runner.py",
+        "expected_sha256": "8124392ff81f4f6a21b6f2c52ce94e77059a21042be06075c83d0f481aa8fb6f",
+        "actual_sha256": "8124392ff81f4f6a21b6f2c52ce94e77059a21042be06075c83d0f481aa8fb6f",
+        "expected_bytes": null,
+        "actual_bytes": 3039,
+        "match": true
+      },
+      {
+        "path": "scripts/triage.py",
+        "expected_sha256": "2c1af9312fb64c06e11e5b494c72e5c6ab63d7d99b4b103b044d1d6f55c72bbd",
+        "actual_sha256": "2c1af9312fb64c06e11e5b494c72e5c6ab63d7d99b4b103b044d1d6f55c72bbd",
+        "expected_bytes": null,
+        "actual_bytes": 4357,
+        "match": true
+      },
+      {
+        "path": "scripts/ensemble_dock.py",
+        "expected_sha256": "fda48b7e1df261f441c77f52121ffa21ac28042f33a24e8abb59c9d8fc2d0b88",
+        "actual_sha256": "fda48b7e1df261f441c77f52121ffa21ac28042f33a24e8abb59c9d8fc2d0b88",
+        "expected_bytes": null,
+        "actual_bytes": 5099,
+        "match": true
+      },
+      {
+        "path": "scripts/gnina_rescore.py",
+        "expected_sha256": "45ff0db93d2df8b8f146d039dcca84609933fc753cc95ea0e6d884eb166f86b9",
+        "actual_sha256": "45ff0db93d2df8b8f146d039dcca84609933fc753cc95ea0e6d884eb166f86b9",
+        "expected_bytes": null,
+        "actual_bytes": 2463,
+        "match": true
+      },
+      {
+        "path": "scripts/run_all.sh",
+        "expected_sha256": "cdf6536bb7604699577ab7efabdac0f2dd2591496aa27be8ebcdce876305af71",
+        "actual_sha256": "cdf6536bb7604699577ab7efabdac0f2dd2591496aa27be8ebcdce876305af71",
+        "expected_bytes": null,
+        "actual_bytes": 2740,
+        "match": true
+      }
+    ]
+  },
+  "root_summary": {
+    "total": 19,
+    "matched": 18
+  },
+  "nested_summary": {
+    "handoff-r4-mech.json": {
+      "total": 7,
+      "matched": 6
+    },
+    "handoff-r4-evidence.json": {
+      "total": 38,
+      "matched": 38
+    }
+  }
+}

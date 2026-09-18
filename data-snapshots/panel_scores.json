@@ -1,0 +1,178 @@
+{
+ "HFE": {
+  "total": 0.6595054353813101,
+  "genetics": 0.6616002328427332,
+  "mech": 0.20512682764245116,
+  "novelty": 1.0,
+  "safety": 1.0,
+  "druggability": 0.2
+ },
+ "PLCG2": {
+  "total": 0.654902593313734,
+  "genetics": 0.6830086443791131,
+  "mech": 0.0,
+  "novelty": 1.0,
+  "safety": 1.0,
+  "druggability": 0.5
+ },
+ "SORL1": {
+  "total": 0.6370901632445899,
+  "genetics": 0.6146724141900433,
+  "mech": 0.16344219493788434,
+  "novelty": 1.0,
+  "safety": 1.0,
+  "druggability": 0.2
+ },
+ "TREM2": {
+  "total": 0.6357680050417023,
+  "genetics": 0.6897389623167697,
+  "mech": 0.14423158173335712,
+  "novelty": 0.9,
+  "safety": 1.0,
+  "druggability": 0.2
+ },
+ "ADAM10": {
+  "total": 0.6234516449357201,
+  "genetics": 0.611505483119067,
+  "mech": 0.0,
+  "novelty": 0.8,
+  "safety": 1.0,
+  "druggability": 0.8
+ },
+ "MS4A6A": {
+  "total": 0.6222882626270905,
+  "genetics": 0.6742942087569683,
+  "mech": 0.0,
+  "novelty": 1.0,
+  "safety": 1.0,
+  "druggability": 0.2
+ },
+ "CR1": {
+  "total": 0.61925708737012,
+  "genetics": 0.7308569579003996,
+  "mech": 0.0,
+  "novelty": 0.9,
+  "safety": 1.0,
+  "druggability": 0.2
+ },
+ "BIN1": {
+  "total": 0.6122531483002491,
+  "genetics": 0.640843827667497,
+  "mech": 0.0,
+  "novelty": 1.0,
+  "safety": 1.0,
+  "druggability": 0.2
+ },
+ "ABCA7": {
+  "total": 0.6057352058176384,
+  "genetics": 0.5191173527254614,
+  "mech": 0.0,
+  "novelty": 1.0,
+  "safety": 1.0,
+  "druggability": 0.5
+ },
+ "EPHA1": {
+  "total": 0.6036353759422408,
+  "genetics": 0.6610519209329876,
+  "mech": 0.2765989983117228,
+  "novelty": 0.5,
+  "safety": 0.85,
+  "druggability": 0.8
+ },
+ "INPP5D": {
+  "total": 0.5951267241332769,
+  "genetics": 0.5837557471109227,
+  "mech": 0.0,
+  "novelty": 1.0,
+  "safety": 1.0,
+  "druggability": 0.2
+ },
+ "PICALM": {
+  "total": 0.592300226160975,
+  "genetics": 0.5743340872032499,
+  "mech": 0.0,
+  "novelty": 1.0,
+  "safety": 1.0,
+  "druggability": 0.2
+ },
+ "SMPD1": {
+  "total": 0.5901433300453482,
+  "genetics": 0.0,
+  "mech": 0.7007166502267406,
+  "novelty": 1.0,
+  "safety": 1.0,
+  "druggability": 0.5
+ },
+ "CDC25B": {
+  "total": 0.5786129389687762,
+  "genetics": 0.0,
+  "mech": 0.3930646948438808,
+  "novelty": 1.0,
+  "safety": 1.0,
+  "druggability": 1.0
+ },
+ "CLU": {
+  "total": 0.5608112202157083,
+  "genetics": 0.5360374007190276,
+  "mech": 0.0,
+  "novelty": 0.9,
+  "safety": 1.0,
+  "druggability": 0.2
+ },
+ "MAPT": {
+  "total": 0.5520847991576239,
+  "genetics": 0.3744381249340453,
+  "mech": 0.298766808387051,
+  "novelty": 0.49999999999999994,
+  "safety": 1.0,
+  "druggability": 0.8
+ },
+ "SPI1": {
+  "total": 0.5444271264156259,
+  "genetics": 0.21353089423503058,
+  "mech": 0.30183929072558324,
+  "novelty": 1.0,
+  "safety": 1.0,
+  "druggability": 0.2
+ },
+ "APH1B": {
+  "total": 0.5170687268664211,
+  "genetics": 0.6568957562214036,
+  "mech": 0.0,
+  "novelty": 0.2,
+  "safety": 1.0,
+  "druggability": 0.8
+ },
+ "CDK5": {
+  "total": 0.49313053428336706,
+  "genetics": 0.017955973586395974,
+  "mech": 0.4387187110372415,
+  "novelty": 0.49999999999999994,
+  "safety": 1.0,
+  "druggability": 1.0
+ },
+ "CD33": {
+  "total": 0.48592987678276783,
+  "genetics": 0.630133310642073,
+  "mech": 0.28444941795072937,
+  "novelty": 0.1,
+  "safety": 1.0,
+  "druggability": 0.2
+ },
+ "ACE": {
+  "total": 0.3757517770062364,
+  "genetics": 0.6525059233541215,
+  "mech": 0.0,
+  "novelty": 0.0,
+  "safety": 0.4,
+  "druggability": 1.0
+ },
+ "GSK3B": {
+  "total": 0.26535285968223743,
+  "genetics": 0.003375573064582516,
+  "mech": 0.42170093881431303,
+  "novelty": 0.0,
+  "safety": 0.4,
+  "druggability": 1.0
+ }
+}

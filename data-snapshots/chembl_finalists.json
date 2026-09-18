@@ -1,0 +1,187 @@
+{
+ "PLCG2": {
+  "chembl_id": "CHEMBL3608199",
+  "pref_name": null,
+  "target_type": "SINGLE PROTEIN",
+  "n_activities": 0,
+  "examples": [],
+  "mechanisms": []
+ },
+ "INPP5D": {
+  "chembl_id": "CHEMBL1781870",
+  "pref_name": null,
+  "target_type": "SINGLE PROTEIN",
+  "n_activities": 15,
+  "examples": [
+   {
+    "assay": "CHEMBL5241499",
+    "type": "IC50",
+    "value": "2500.0",
+    "unit": "nM",
+    "pchembl": "5.60",
+    "mol": "CHEMBL5271592",
+    "doc": "CHEMBL5241065"
+   },
+   {
+    "assay": "CHEMBL5700957",
+    "type": "IC50",
+    "value": "4320.0",
+    "unit": "nM",
+    "pchembl": "5.37",
+    "mol": "CHEMBL1232461",
+    "doc": "CHEMBL5696440"
+   },
+   {
+    "assay": "CHEMBL5701428",
+    "type": "Kd",
+    "value": "2652.0",
+    "unit": "nM",
+    "pchembl": "5.58",
+    "mol": "CHEMBL1232461",
+    "doc": "CHEMBL5696440"
+   },
+   {
+    "assay": "CHEMBL6095503",
+    "type": "IC50",
+    "value": "46600.0",
+    "unit": "nM",
+    "pchembl": "4.33",
+    "mol": "CHEMBL1347282",
+    "doc": "CHEMBL6092211"
+   },
+   {
+    "assay": "CHEMBL6095503",
+    "type": "IC50",
+    "value": "46700.0",
+    "unit": "nM",
+    "pchembl": "4.33",
+    "mol": "CHEMBL6162681",
+    "doc": "CHEMBL6092211"
+   },
+   {
+    "assay": "CHEMBL6095503",
+    "type": "IC50",
+    "value": "86800.0",
+    "unit": "nM",
+    "pchembl": "4.06",
+    "mol": "CHEMBL6148308",
+    "doc": "CHEMBL6092211"
+   },
+   {
+    "assay": "CHEMBL6095503",
+    "type": "IC50",
+    "value": "65500.0",
+    "unit": "nM",
+    "pchembl": "4.18",
+    "mol": "CHEMBL6102115",
+    "doc": "CHEMBL6092211"
+   },
+   {
+    "assay": "CHEMBL6095503",
+    "type": "IC50",
+    "value": "36700.0",
+    "unit": "nM",
+    "pchembl": "4.43",
+    "mol": "CHEMBL6152142",
+    "doc": "CHEMBL6092211"
+   },
+   {
+    "assay": "CHEMBL6095503",
+    "type": "IC50",
+    "value": "15400.0",
+    "unit": "nM",
+    "pchembl": "4.81",
+    "mol": "CHEMBL1539310",
+    "doc": "CHEMBL6092211"
+   },
+   {
+    "assay": "CHEMBL6095503",
+    "type": "IC50",
+    "value": "39000.0",
+    "unit": "nM",
+    "pchembl": "4.41",
+    "mol": "CHEMBL6147416",
+    "doc": "CHEMBL6092211"
+   },
+   {
+    "assay": "CHEMBL6095503",
+    "type": "IC50",
+    "value": "23400.0",
+    "unit": "nM",
+    "pchembl": "4.63",
+    "mol": "CHEMBL6168975",
+    "doc": "CHEMBL6092211"
+   },
+   {
+    "assay": "CHEMBL6095503",
+    "type": "IC50",
+    "value": "13200.0",
+    "unit": "nM",
+    "pchembl": "4.88",
+    "mol": "CHEMBL6170714",
+    "doc": "CHEMBL6092211"
+   },
+   {
+    "assay": "CHEMBL6095503",
+    "type": "IC50",
+    "value": "33600.0",
+    "unit": "nM",
+    "pchembl": "4.47",
+    "mol": "CHEMBL6160481",
+    "doc": "CHEMBL6092211"
+   },
+   {
+    "assay": "CHEMBL6095503",
+    "type": "IC50",
+    "value": "40200.0",
+    "unit": "nM",
+    "pchembl": "4.40",
+    "mol": "CHEMBL6142621",
+    "doc": "CHEMBL6092211"
+   },
+   {
+    "assay": "CHEMBL6095503",
+    "type": "IC50",
+    "value": "28200.0",
+    "unit": "nM",
+    "pchembl": "4.55",
+    "mol": "CHEMBL6148754",
+    "doc": "CHEMBL6092211"
+   }
+  ],
+  "mechanisms": [
+   {
+    "mol": "CHEMBL3989954",
+    "moa": "Phosphatidylinositol-3,4,5-trisphosphate 5-phosphatase 1 activator",
+    "max_phase": 3
+   }
+  ]
+ },
+ "SMPD1": {
+  "chembl_id": "CHEMBL4295808",
+  "pref_name": null,
+  "target_type": "SINGLE PROTEIN",
+  "n_activities": 2,
+  "examples": [
+   {
+    "assay": "CHEMBL4153058",
+    "type": "IC50",
+    "value": "14100.0",
+    "unit": "nM",
+    "pchembl": "4.85",
+    "mol": "CHEMBL323197",
+    "doc": "CHEMBL4152204"
+   },
+   {
+    "assay": "CHEMBL5517625",
+    "type": "IC50",
+    "value": "14100.0",
+    "unit": "nM",
+    "pchembl": "4.85",
+    "mol": "CHEMBL323197",
+    "doc": "CHEMBL5512696"
+   }
+  ],
+  "mechanisms": []
+ }
+}

@@ -1,0 +1,1472 @@
+[
+ {
+  "task_id": "T009",
+  "arm": "A",
+  "family": "structure-prep",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 1.6,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 1.6
+ },
+ {
+  "task_id": "T006",
+  "arm": "A",
+  "family": "structure-prep",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 1.6,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 1.6
+ },
+ {
+  "task_id": "T010",
+  "arm": "A",
+  "family": "structure-prep",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 1.7,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 1.7
+ },
+ {
+  "task_id": "T007",
+  "arm": "A",
+  "family": "structure-prep",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 1.7,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 1.7
+ },
+ {
+  "task_id": "T008",
+  "arm": "A",
+  "family": "structure-prep",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 1.8,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 1.8
+ },
+ {
+  "task_id": "T012",
+  "arm": "A",
+  "family": "virtual-screen",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 2.3,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.3
+ },
+ {
+  "task_id": "T011",
+  "arm": "A",
+  "family": "virtual-screen",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 2.6,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.6
+ },
+ {
+  "task_id": "T013",
+  "arm": "A",
+  "family": "virtual-screen",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 3.0,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 3.0
+ },
+ {
+  "task_id": "T014",
+  "arm": "A",
+  "family": "virtual-screen",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 1.6,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 1.6
+ },
+ {
+  "task_id": "T017",
+  "arm": "A",
+  "family": "md-analysis",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 1.6,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 1.6
+ },
+ {
+  "task_id": "T016",
+  "arm": "A",
+  "family": "md-analysis",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 1.6,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 1.6
+ },
+ {
+  "task_id": "T015",
+  "arm": "A",
+  "family": "virtual-screen",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 2.5,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.5
+ },
+ {
+  "task_id": "T018",
+  "arm": "A",
+  "family": "md-analysis",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 2.4,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.4
+ },
+ {
+  "task_id": "T019",
+  "arm": "A",
+  "family": "md-analysis",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 2.3,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.3
+ },
+ {
+  "task_id": "T023",
+  "arm": "A",
+  "family": "route-planning",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 1.5,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 1.5
+ },
+ {
+  "task_id": "T024",
+  "arm": "A",
+  "family": "route-planning",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 1.5,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 1.5
+ },
+ {
+  "task_id": "T020",
+  "arm": "A",
+  "family": "md-analysis",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 2.4,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.4
+ },
+ {
+  "task_id": "T021",
+  "arm": "A",
+  "family": "route-planning",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 2.2,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.2
+ },
+ {
+  "task_id": "T022",
+  "arm": "A",
+  "family": "route-planning",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 2.5,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.5
+ },
+ {
+  "task_id": "T026",
+  "arm": "A",
+  "family": "target-evidence",
+  "variant": "perturbed-identity-swap",
+  "result": {
+   "elapsed_s": 1.5,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 1.5
+ },
+ {
+  "task_id": "T025",
+  "arm": "A",
+  "family": "route-planning",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 1.9,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 1.9
+ },
+ {
+  "task_id": "T027",
+  "arm": "A",
+  "family": "structure-prep",
+  "variant": "perturbed-unit-swap",
+  "result": {
+   "elapsed_s": 2.3,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.3
+ },
+ {
+  "task_id": "T028",
+  "arm": "A",
+  "family": "virtual-screen",
+  "variant": "perturbed-parameter-swap",
+  "result": {
+   "elapsed_s": 2.5,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.5
+ },
+ {
+  "task_id": "T029",
+  "arm": "A",
+  "family": "md-analysis",
+  "variant": "perturbed-hash-staleness",
+  "result": {
+   "elapsed_s": 2.5,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.5
+ },
+ {
+  "task_id": "T030",
+  "arm": "A",
+  "family": "route-planning",
+  "variant": "perturbed-direction-flip",
+  "result": {
+   "elapsed_s": 2.3,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.3
+ },
+ {
+  "task_id": "T031",
+  "arm": "A",
+  "family": "target-evidence",
+  "variant": "perturbed-residue-mapping",
+  "result": {
+   "elapsed_s": 2.3,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.3
+ },
+ {
+  "task_id": "T032",
+  "arm": "A",
+  "family": "structure-prep",
+  "variant": "perturbed-selection-contamination",
+  "result": {
+   "elapsed_s": 2.2,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.2
+ },
+ {
+  "task_id": "T033",
+  "arm": "A",
+  "family": "virtual-screen",
+  "variant": "perturbed-numeric-claim",
+  "result": {
+   "elapsed_s": 2.6,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.6
+ },
+ {
+  "task_id": "T034",
+  "arm": "A",
+  "family": "md-analysis",
+  "variant": "perturbed-chronology-claim",
+  "result": {
+   "elapsed_s": 2.4,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.4
+ },
+ {
+  "task_id": "T035",
+  "arm": "A",
+  "family": "route-planning",
+  "variant": "perturbed-duration-error",
+  "result": {
+   "elapsed_s": 1.7,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 1.7
+ },
+ {
+  "task_id": "T038",
+  "arm": "A",
+  "family": "virtual-screen",
+  "variant": "insufficient-evidence",
+  "result": {
+   "elapsed_s": 1.5,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 1.5
+ },
+ {
+  "task_id": "T039",
+  "arm": "A",
+  "family": "md-analysis",
+  "variant": "insufficient-evidence",
+  "result": {
+   "elapsed_s": 1.4,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 1.4
+ },
+ {
+  "task_id": "T036",
+  "arm": "A",
+  "family": "target-evidence",
+  "variant": "insufficient-evidence",
+  "result": {
+   "elapsed_s": 2.3,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.3
+ },
+ {
+  "task_id": "T037",
+  "arm": "A",
+  "family": "structure-prep",
+  "variant": "insufficient-evidence",
+  "result": {
+   "elapsed_s": 2.4,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.4
+ },
+ {
+  "task_id": "T040",
+  "arm": "A",
+  "family": "route-planning",
+  "variant": "insufficient-evidence",
+  "result": {
+   "elapsed_s": 2.1,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.1
+ },
+ {
+  "task_id": "T006",
+  "arm": "B",
+  "family": "structure-prep",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 2.4,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.4
+ },
+ {
+  "task_id": "T007",
+  "arm": "B",
+  "family": "structure-prep",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 2.5,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.5
+ },
+ {
+  "task_id": "T008",
+  "arm": "B",
+  "family": "structure-prep",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 2.5,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.5
+ },
+ {
+  "task_id": "T009",
+  "arm": "B",
+  "family": "structure-prep",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 2.3,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.3
+ },
+ {
+  "task_id": "T010",
+  "arm": "B",
+  "family": "structure-prep",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 2.5,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.5
+ },
+ {
+  "task_id": "T011",
+  "arm": "B",
+  "family": "virtual-screen",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 2.3,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.3
+ },
+ {
+  "task_id": "T012",
+  "arm": "B",
+  "family": "virtual-screen",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 2.5,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.5
+ },
+ {
+  "task_id": "T013",
+  "arm": "B",
+  "family": "virtual-screen",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 2.4,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.4
+ },
+ {
+  "task_id": "T016",
+  "arm": "B",
+  "family": "md-analysis",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 1.5,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 1.5
+ },
+ {
+  "task_id": "T014",
+  "arm": "B",
+  "family": "virtual-screen",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 2.0,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.0
+ },
+ {
+  "task_id": "T018",
+  "arm": "B",
+  "family": "md-analysis",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 1.5,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 1.5
+ },
+ {
+  "task_id": "T015",
+  "arm": "B",
+  "family": "virtual-screen",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 2.4,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.4
+ },
+ {
+  "task_id": "T017",
+  "arm": "B",
+  "family": "md-analysis",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 2.5,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.5
+ },
+ {
+  "task_id": "T019",
+  "arm": "B",
+  "family": "md-analysis",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 2.2,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.2
+ },
+ {
+  "task_id": "T022",
+  "arm": "B",
+  "family": "route-planning",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 1.4,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 1.4
+ },
+ {
+  "task_id": "T020",
+  "arm": "B",
+  "family": "md-analysis",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 2.2,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.2
+ },
+ {
+  "task_id": "T021",
+  "arm": "B",
+  "family": "route-planning",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 2.6,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.6
+ },
+ {
+  "task_id": "T023",
+  "arm": "B",
+  "family": "route-planning",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 2.4,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.4
+ },
+ {
+  "task_id": "T024",
+  "arm": "B",
+  "family": "route-planning",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 2.3,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.3
+ },
+ {
+  "task_id": "T025",
+  "arm": "B",
+  "family": "route-planning",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 2.2,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.2
+ },
+ {
+  "task_id": "T028",
+  "arm": "B",
+  "family": "virtual-screen",
+  "variant": "perturbed-parameter-swap",
+  "result": {
+   "elapsed_s": 1.6,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 1.6
+ },
+ {
+  "task_id": "T026",
+  "arm": "B",
+  "family": "target-evidence",
+  "variant": "perturbed-identity-swap",
+  "result": {
+   "elapsed_s": 2.4,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.4
+ },
+ {
+  "task_id": "T027",
+  "arm": "B",
+  "family": "structure-prep",
+  "variant": "perturbed-unit-swap",
+  "result": {
+   "elapsed_s": 2.4,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.4
+ },
+ {
+  "task_id": "T031",
+  "arm": "B",
+  "family": "target-evidence",
+  "variant": "perturbed-residue-mapping",
+  "result": {
+   "elapsed_s": 1.6,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 1.6
+ },
+ {
+  "task_id": "T029",
+  "arm": "B",
+  "family": "md-analysis",
+  "variant": "perturbed-hash-staleness",
+  "result": {
+   "elapsed_s": 2.6,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.6
+ },
+ {
+  "task_id": "T033",
+  "arm": "B",
+  "family": "virtual-screen",
+  "variant": "perturbed-numeric-claim",
+  "result": {
+   "elapsed_s": 1.6,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 1.6
+ },
+ {
+  "task_id": "T034",
+  "arm": "B",
+  "family": "md-analysis",
+  "variant": "perturbed-chronology-claim",
+  "result": {
+   "elapsed_s": 1.5,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 1.5
+ },
+ {
+  "task_id": "T030",
+  "arm": "B",
+  "family": "route-planning",
+  "variant": "perturbed-direction-flip",
+  "result": {
+   "elapsed_s": 2.1,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.1
+ },
+ {
+  "task_id": "T032",
+  "arm": "B",
+  "family": "structure-prep",
+  "variant": "perturbed-selection-contamination",
+  "result": {
+   "elapsed_s": 2.8,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.8
+ },
+ {
+  "task_id": "T035",
+  "arm": "B",
+  "family": "route-planning",
+  "variant": "perturbed-duration-error",
+  "result": {
+   "elapsed_s": 2.3,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.3
+ },
+ {
+  "task_id": "T038",
+  "arm": "B",
+  "family": "virtual-screen",
+  "variant": "insufficient-evidence",
+  "result": {
+   "elapsed_s": 1.6,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 1.6
+ },
+ {
+  "task_id": "T040",
+  "arm": "B",
+  "family": "route-planning",
+  "variant": "insufficient-evidence",
+  "result": {
+   "elapsed_s": 1.5,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 1.5
+ },
+ {
+  "task_id": "T036",
+  "arm": "B",
+  "family": "target-evidence",
+  "variant": "insufficient-evidence",
+  "result": {
+   "elapsed_s": 2.7,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.7
+ },
+ {
+  "task_id": "T037",
+  "arm": "B",
+  "family": "structure-prep",
+  "variant": "insufficient-evidence",
+  "result": {
+   "elapsed_s": 2.4,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.4
+ },
+ {
+  "task_id": "T039",
+  "arm": "B",
+  "family": "md-analysis",
+  "variant": "insufficient-evidence",
+  "result": {
+   "elapsed_s": 2.5,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.5
+ },
+ {
+  "task_id": "T006",
+  "arm": "C",
+  "family": "structure-prep",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 2.7,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.7
+ },
+ {
+  "task_id": "T008",
+  "arm": "C",
+  "family": "structure-prep",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 1.6,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 1.6
+ },
+ {
+  "task_id": "T007",
+  "arm": "C",
+  "family": "structure-prep",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 1.9,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 1.9
+ },
+ {
+  "task_id": "T012",
+  "arm": "C",
+  "family": "virtual-screen",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 1.5,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 1.5
+ },
+ {
+  "task_id": "T009",
+  "arm": "C",
+  "family": "structure-prep",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 2.4,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.4
+ },
+ {
+  "task_id": "T010",
+  "arm": "C",
+  "family": "structure-prep",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 2.5,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.5
+ },
+ {
+  "task_id": "T015",
+  "arm": "C",
+  "family": "virtual-screen",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 1.5,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 1.5
+ },
+ {
+  "task_id": "T011",
+  "arm": "C",
+  "family": "virtual-screen",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 2.3,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.3
+ },
+ {
+  "task_id": "T016",
+  "arm": "C",
+  "family": "md-analysis",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 1.5,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 1.5
+ },
+ {
+  "task_id": "T013",
+  "arm": "C",
+  "family": "virtual-screen",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 2.2,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.2
+ },
+ {
+  "task_id": "T014",
+  "arm": "C",
+  "family": "virtual-screen",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 2.8,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.8
+ },
+ {
+  "task_id": "T017",
+  "arm": "C",
+  "family": "md-analysis",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 2.1,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.1
+ },
+ {
+  "task_id": "T020",
+  "arm": "C",
+  "family": "md-analysis",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 1.5,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 1.5
+ },
+ {
+  "task_id": "T018",
+  "arm": "C",
+  "family": "md-analysis",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 2.6,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.6
+ },
+ {
+  "task_id": "T019",
+  "arm": "C",
+  "family": "md-analysis",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 2.5,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.5
+ },
+ {
+  "task_id": "T021",
+  "arm": "C",
+  "family": "route-planning",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 2.6,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.6
+ },
+ {
+  "task_id": "T022",
+  "arm": "C",
+  "family": "route-planning",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 2.7,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.7
+ },
+ {
+  "task_id": "T023",
+  "arm": "C",
+  "family": "route-planning",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 2.5,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.5
+ },
+ {
+  "task_id": "T024",
+  "arm": "C",
+  "family": "route-planning",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 2.0,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.0
+ },
+ {
+  "task_id": "T026",
+  "arm": "C",
+  "family": "target-evidence",
+  "variant": "perturbed-identity-swap",
+  "result": {
+   "elapsed_s": 1.9,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 1.9
+ },
+ {
+  "task_id": "T028",
+  "arm": "C",
+  "family": "virtual-screen",
+  "variant": "perturbed-parameter-swap",
+  "result": {
+   "elapsed_s": 1.7,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 1.7
+ },
+ {
+  "task_id": "T025",
+  "arm": "C",
+  "family": "route-planning",
+  "variant": "natural",
+  "result": {
+   "elapsed_s": 3.0,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 3.0
+ },
+ {
+  "task_id": "T027",
+  "arm": "C",
+  "family": "structure-prep",
+  "variant": "perturbed-unit-swap",
+  "result": {
+   "elapsed_s": 3.1,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 3.1
+ },
+ {
+  "task_id": "T030",
+  "arm": "C",
+  "family": "route-planning",
+  "variant": "perturbed-direction-flip",
+  "result": {
+   "elapsed_s": 2.4,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.4
+ },
+ {
+  "task_id": "T031",
+  "arm": "C",
+  "family": "target-evidence",
+  "variant": "perturbed-residue-mapping",
+  "result": {
+   "elapsed_s": 2.5,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.5
+ },
+ {
+  "task_id": "T029",
+  "arm": "C",
+  "family": "md-analysis",
+  "variant": "perturbed-hash-staleness",
+  "result": {
+   "elapsed_s": 2.9,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.9
+ },
+ {
+  "task_id": "T032",
+  "arm": "C",
+  "family": "structure-prep",
+  "variant": "perturbed-selection-contamination",
+  "result": {
+   "elapsed_s": 2.3,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.3
+ },
+ {
+  "task_id": "T033",
+  "arm": "C",
+  "family": "virtual-screen",
+  "variant": "perturbed-numeric-claim",
+  "result": {
+   "elapsed_s": 2.5,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.5
+ },
+ {
+  "task_id": "T034",
+  "arm": "C",
+  "family": "md-analysis",
+  "variant": "perturbed-chronology-claim",
+  "result": {
+   "elapsed_s": 2.1,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.1
+ },
+ {
+  "task_id": "T035",
+  "arm": "C",
+  "family": "route-planning",
+  "variant": "perturbed-duration-error",
+  "result": {
+   "elapsed_s": 2.2,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.2
+ },
+ {
+  "task_id": "T040",
+  "arm": "C",
+  "family": "route-planning",
+  "variant": "insufficient-evidence",
+  "result": {
+   "elapsed_s": 1.5,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 1.5
+ },
+ {
+  "task_id": "T036",
+  "arm": "C",
+  "family": "target-evidence",
+  "variant": "insufficient-evidence",
+  "result": {
+   "elapsed_s": 1.9,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 1.9
+ },
+ {
+  "task_id": "T037",
+  "arm": "C",
+  "family": "structure-prep",
+  "variant": "insufficient-evidence",
+  "result": {
+   "elapsed_s": 2.6,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.6
+ },
+ {
+  "task_id": "T038",
+  "arm": "C",
+  "family": "virtual-screen",
+  "variant": "insufficient-evidence",
+  "result": {
+   "elapsed_s": 2.6,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.6
+ },
+ {
+  "task_id": "T039",
+  "arm": "C",
+  "family": "md-analysis",
+  "variant": "insufficient-evidence",
+  "result": {
+   "elapsed_s": 2.5,
+   "artifact_ok": false,
+   "artifact_size": 0,
+   "content_preview": null
+  },
+  "error": null,
+  "elapsed_s": 2.5
+ }
+]

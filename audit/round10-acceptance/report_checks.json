@@ -1,0 +1,88 @@
+{
+  "requested_assembled_path_exists": false,
+  "actual_assembled_path": "paper/MANUSCRIPT_DRAFT_v1.md",
+  "results_section_exactly_synced": true,
+  "matches": {
+    "final-report.md": [
+      {
+        "line": 19,
+        "text": "3.1 ns total (0.1 ns initialization + 3.0 ns production);"
+      },
+      {
+        "line": 21,
+        "text": "> and the corrected imaged/fit analysis (GPT6) gives ligand internal RMSD **mean 1.847 Å"
+      },
+      {
+        "line": 22,
+        "text": "> / max 2.370 Å** (ligand-self fit) and protein backbone RMSD **mean 2.175 Å / max"
+      },
+      {
+        "line": 63,
+        "text": "| Simulation/triage (G4) | 3,642 scored; 1,158 ≤ −7.0; apo MD 5.81 ns; bound MD v1 (6.1 ns, Li-2013 12-6) **audited & corrected**; bound MD v2 (3.1 ns total, 12-6 subset of 12-6-4, C4 omitted, pre-registered): **no close Zn contact in any saved frame (4.18–7.71 Å); occupancy 0/620 under the"
+      },
+      {
+        "line": 66,
+        "text": "N318 414/620, T458 23/620, H319 11/620)**. **FAIL-as-submitted (units/selection); corrected analyses adopted** | G4: FAIL→corrected |"
+      },
+      {
+        "line": 182,
+        "text": "  RMSD **mean 1.847 Å, max 2.370 Å**; protein backbone RMSD **mean 2.175 Å, max"
+      },
+      {
+        "line": 218,
+        "text": "frames); occupancy under the 6 Å-center + 4.5 Å-catalytic-contact conjunction (added post hoc"
+      }
+    ],
+    "hit-report.md": [
+      {
+        "line": 17,
+        "text": "chemotypes still show that the pocket/protocol yields ≤ −7.0 scores for sphingomyelinase"
+      }
+    ],
+    "structure-analysis.md": [],
+    "paper/manuscript_results_discussion.md": [
+      {
+        "line": 75,
+        "text": "imaging, protein-backbone fit) gives ligand internal RMSD mean 1.847 Å / max 2.370 Å"
+      },
+      {
+        "line": 79,
+        "text": "A pre-registered second run (bound v2: 3.1 ns total = 0.1 ns initialization + 3.0 ns"
+      },
+      {
+        "line": 93,
+        "text": "414/620, T458 in 23/620, H319 in 11/620 — with the nearest catalytic-residue heavy"
+      },
+      {
+        "line": 97,
+        "text": "is therefore narrow: **under the audit-recorded joint criterion (added post hoc; see Methods) the ligand fails the"
+      }
+    ],
+    "paper/MANUSCRIPT_DRAFT_v1.md": [
+      {
+        "line": 78,
+        "text": "Physical time was reconstructed from integration steps, timestep, reporter interval, and simulation logs, rather than assumed from trajectory-reader time fields. The v1 audit identified 6.1 ns including initialization; v2 comprised 3.1 ns including 0.1 ns initialization and 3.0 ns subsequent dynamics (`independent-audit/REPORT.md`; `independent-audit/rereview-r3/md_v2_results.json`). Coordinates remained in nanometres during analysis and were converted explicitly to ångströms for reporting. Means, maxima, and minimum–maximum ranges were labelled separately. Selected production snapshots were not substituted for full saved-frame extrema."
+      },
+      {
+        "line": 196,
+        "text": "imaging, protein-backbone fit) gives ligand internal RMSD mean 1.847 Å / max 2.370 Å"
+      },
+      {
+        "line": 200,
+        "text": "A pre-registered second run (bound v2: 3.1 ns total = 0.1 ns initialization + 3.0 ns"
+      },
+      {
+        "line": 214,
+        "text": "414/620, T458 in 23/620, H319 in 11/620 — with the nearest catalytic-residue heavy"
+      },
+      {
+        "line": 218,
+        "text": "is therefore narrow: **under the audit-recorded joint criterion (added post hoc; see Methods) the ligand fails the"
+      },
+      {
+        "line": 342,
+        "text": "heavy atom within 4.5 Å (criterion added post hoc during audit-driven analysis; not"
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+ "gates": [
+  {
+   "gate_id": "G6-audit",
+   "outcome": "BLOCKED",
+   "decided_at": "2026-09-13T18:40:00+08:00",
+   "producer_id": "coordinator(session)",
+   "reviewer_ids": [
+    "external-gpt6-codex (independent-audit/REPORT.md)"
+   ],
+   "checks": [
+    "P1-1 reference misattribution ACCEPTED (CHEMBL4712=SMPD2 live-verified; activity 375434=CHEMBL2760 49µM)",
+    "P1-2 bound-MD units/duration/selection ACCEPTED (6.1 ns; nm-vs-Å; water O in backbone sel)",
+    "P1-3 Zn params identity ACCEPTED (prmtop eps=0.00330286 = Li2013 12-6 CM set)",
+    "P1-4 direction counterexample ACCEPTED (PMID 27598773)",
+    "P1-5 hERG_Central n=306,893 not n≈12k ACCEPTED"
+   ],
+   "objections": [
+    "G1 reference-control FAIL",
+    "G4 analysis FAIL",
+    "G6 integration BLOCKED"
+   ],
+   "resolution": "repair round 1 applied (reports corrected); re-review found 5 residual issues (12-6-4 wording, leftover benchmark, mean/max mislabel, gate numbering, 49uM scope) — ALL accepted and repaired in round 2; G6 stays BLOCKED pending independent re-review of the repaired revision incl. bound_v2 MD and hERG_Central results",
+   "conditional_scope": "none — identity/unit failures are not CONDITIONAL-waivable per skill",
+   "history": [
+    {
+     "round": 2,
+     "at": "2026-09-13",
+     "by": "external-gpt6 follow-up",
+     "result": "5 residual objections accepted, repaired; G6 remains BLOCKED"
+    },
+    {
+     "round": 3,
+     "at": "2026-09-13",
+     "by": "external-gpt6 rereview-r3",
+     "result": "R3-1..R3-7 accepted; five-role repair iteration executed: pocket-residence corrected analysis (occupancy 0, non-catalytic contacts), hERG models A/B separated and serialized (held-out AUC 0.9091 recomputable), synthesis pipeline fixture-validated (PROXY closure only), gate table unified, leaf-to-root manifest rebuilt (both nested manifests pass check_handoff.py)",
+     "g6_status": "BLOCKED — pending round-4 independent acceptance of this revision"
+    }
+   ],
+   "known_open_items": [
+    "G5-synthesis NOT_RUN: official ZINC stock (zenodo 11430881, 1.34 GB) blocked by persistent 504 gateway timeouts after exhaustive retries (best: 1.03 GB/77%); complete resumable setup preserved in scripts/stock_download_loop.sh",
+    "redocking RMSD graph-isomorphism revalidation pending (lenient-convention labels applied)",
+    "direction counterexample (PMID 27598773) unresolved — direction gate reopened"
+   ],
+   "team_skill_gate_state": {
+    "G1_target": "FAIL-as-submitted (reference identity); repaired; re-review pending",
+    "G2_site": "PASS-with-caveat (redocking lenient convention; graph-isomorphism revalidation pending)",
+    "G3_design": "PASS-with-caveat (no human-SMPD1 potency anchor; internal ranking only)",
+    "G4_simulation": "FAIL-as-submitted; corrected analyses adopted (v1 metric errors documented; v2 pre-registered run: no Zn coordination, occupancy 0%)",
+    "G5_synthesis": "NOT_RUN with PROXY-RUN: official stock service-blocked; pipeline fixture-validated; PROXY closures only",
+    "G6_integration": "BLOCKED"
+   }
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+  "independent_executed_R1_10_A": 1.7569671441021726,
+  "records": 13,
+  "actual_detected": 12,
+  "actual_delegated": 1,
+  "stored_summary": {
+    "executed_replays": 13,
+    "detected": 11,
+    "detection_rate": "11/13",
+    "note": "counts derived from executed observations; context-only findings (R3-4, R3-5, R3-7) and live-only (R1-4, R1-9) are excluded here and listed separately as coverage inventory"
+  },
+  "R1_10": [
+    {
+      "id": "R1-10",
+      "class": "matching-convention",
+      "artifact": "docking/redock_PC_out.pdbqt vs structures/5i85_PC.pdb",
+      "executed_check": "element-swap assignment RMSD recomputation (executed this run)",
+      "observed": "1.757 A (auditor: 1.757)",
+      "detected": true,
+      "note": "lenient convention reproduced by execution; graph-aware validation still pending"
+    }
+  ],
+  "count_before_append": true,
+  "hardcoded_residuals": [
+    "R1-2 literal v1/heat_first",
+    "R3-1 literal observation and True",
+    "R3-6 literal vals"
+  ]
+}

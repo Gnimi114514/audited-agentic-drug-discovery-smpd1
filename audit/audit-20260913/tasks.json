@@ -1,0 +1,25 @@
+{
+ "tasks": [
+  {
+   "task_id": "evd-01",
+   "role": "independent auditor (evidence/deterministic)",
+   "state": "READY",
+   "output_directory": "runs/audit-20260913/tasks/evd-01/attempt-1",
+   "attempt": 1
+  },
+  {
+   "task_id": "sim-01",
+   "role": "simulation auditor (MD recomputation)",
+   "state": "READY",
+   "output_directory": "runs/audit-20260913/tasks/sim-01/attempt-1",
+   "attempt": 1
+  },
+  {
+   "task_id": "red-01",
+   "role": "adversarial reviewer (red team)",
+   "state": "READY",
+   "output_directory": "runs/audit-20260913/tasks/red-01/attempt-1",
+   "attempt": 1
+  }
+ ]
+}

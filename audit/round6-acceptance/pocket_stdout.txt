@@ -1,0 +1,23 @@
+frames: 620
+protein: 8214 backbone: 2112 LIG: 36 ZN: 2
+pocket residues (topology resSeq, crystal): [(122, 206), (124, 208), (194, 278), (198, 282), (234, 318), (235, 319), (341, 425), (373, 457), (374, 458), (375, 459), (404, 488)]
+pocket atoms: 103
+{
+ "n_frames": 620,
+ "ligand_protein_frame_rmsd_A": {
+  "mean": 4.579,
+  "max": 5.935,
+  "final": 5.638
+ },
+ "pocket_occupancy_fraction": 0.0,
+ "catalytic_residues_ever_contacted_crystal_numbering": [
+  318,
+  319,
+  457,
+  458
+ ],
+ "occupancy_definition": "ligand center (geometric, protein frame) within 6 A of crystal PC centroid AND >=1 catalytic heavy atom within 4.5 A",
+ "residue_selector": "zero-based topology resSeq == Murcko ordinal (id2ord[r]); verified mapping 122->206 etc."
+}
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)

@@ -1,0 +1,47 @@
+{
+ "CHEMBL7385": {
+  "cnn_affinity": 6.03214,
+  "cnn_score": 0.705,
+  "vina_affinity": -9.72556
+ },
+ "CHEMBL24974": {
+  "cnn_affinity": 5.26922,
+  "cnn_score": 0.18617,
+  "vina_affinity": -12.04021
+ },
+ "CHEMBL48767": {
+  "cnn_affinity": 4.87535,
+  "cnn_score": 0.17161,
+  "vina_affinity": -9.98153
+ },
+ "CHEMBL6729": {
+  "cnn_affinity": 5.95794,
+  "cnn_score": 0.57756,
+  "vina_affinity": -12.00292
+ },
+ "EXP_CHEMBL7385_CF3": {
+  "cnn_affinity": 5.95484,
+  "cnn_score": 0.44198,
+  "vina_affinity": -10.67831
+ },
+ "EXP_CHEMBL24974_CF3": {
+  "cnn_affinity": 5.83429,
+  "cnn_score": 0.18104,
+  "vina_affinity": -13.47206
+ },
+ "REF_CHEMBL418376": {
+  "cnn_affinity": 5.81473,
+  "cnn_score": 0.25871,
+  "vina_affinity": -13.47818
+ },
+ "REF_CHEMBL5284579": {
+  "cnn_affinity": 5.73309,
+  "cnn_score": 0.18413,
+  "vina_affinity": -9.86923
+ },
+ "REF_CHEMBL310981": {
+  "cnn_affinity": 6.40086,
+  "cnn_score": 0.33663,
+  "vina_affinity": -13.91983
+ }
+}

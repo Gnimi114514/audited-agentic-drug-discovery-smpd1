@@ -1,0 +1,11 @@
+{
+ "n_total": 306879,
+ "n_train": 245503,
+ "n_test": 61376,
+ "train_pos_rate": 0.044785603434581246,
+ "test_pos_rate": 0.04478949426485923,
+ "dataset_sha256": "33ba1f2a87400ce57386ae193c67eb30d74dffbbf63df9956ccd2019ee12a0fa",
+ "fp": "Morgan radius=2 nbits=2048",
+ "model": "RandomForest(n_estimators=300, class_weight=balanced, random_state=0)",
+ "split": "stratified 80/20 random_state=0"
+}

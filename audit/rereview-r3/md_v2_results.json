@@ -1,0 +1,130 @@
+{
+  "frames": 620,
+  "protein_backbone_atoms": 2112,
+  "protein_selection": "largest bonded molecule; backbone names N/CA/C/O; includes modified protein residues",
+  "protein_atom_count": 8214,
+  "protein_residue_names": [
+    "ALA",
+    "ARG",
+    "ASN",
+    "ASP",
+    "CYS",
+    "GLN",
+    "GLU",
+    "GLY",
+    "HIE",
+    "ILE",
+    "LEU",
+    "LYS",
+    "MET",
+    "PHE",
+    "PRO",
+    "SER",
+    "THR",
+    "TRP",
+    "TYR",
+    "VAL"
+  ],
+  "ligand_heavy_atoms": 36,
+  "zn": [
+    {
+      "index": 8214,
+      "charge": 2.0,
+      "rmin": 1.455000000061763,
+      "epsilon": 0.02662781997945352
+    },
+    {
+      "index": 8215,
+      "charge": 2.0,
+      "rmin": 1.455000000061763,
+      "epsilon": 0.02662781997945352
+    }
+  ],
+  "min_zn_ligand_A": {
+    "min": 4.176831245422363,
+    "mean": 6.47774600982666,
+    "max": 7.7130866050720215,
+    "final": 5.584460258483887
+  },
+  "fraction_min_lt3": 0.0,
+  "centered_unrotated_ligand_rmsd_A": {
+    "min": 2.2725863456726074,
+    "mean": 3.4279327392578125,
+    "max": 4.74446964263916,
+    "final": 4.3860249519348145
+  },
+  "protein_fitted_ligand_rmsd_A": {
+    "min": 3.4008882609295195,
+    "mean": 4.579364414954778,
+    "max": 5.935452183131541,
+    "final": 5.6378541562793325
+  },
+  "protein_fitted_ligand_centroid_displacement_A": {
+    "min": 1.9645006099839444,
+    "mean": 3.044982535687391,
+    "max": 4.260254398849245,
+    "final": 3.9628474271591934
+  },
+  "protein_backbone_rmsd_A": {
+    "min": 0.9143226950276124,
+    "mean": 1.6875968278590743,
+    "max": 2.1187025601397056,
+    "final": 1.8265476436764847
+  },
+  "logged_frames": [
+    {
+      "frame": 20,
+      "time_ps": 100,
+      "min_distance_A": 4.5408830642700195,
+      "centered_rmsd_A": 3.3553009033203125,
+      "protein_fit_ligand_A": 4.853190701425129,
+      "backbone_A": 1.2824092795879218
+    },
+    {
+      "frame": 220,
+      "time_ps": 1100,
+      "min_distance_A": 6.314105987548828,
+      "centered_rmsd_A": 2.955756425857544,
+      "protein_fit_ligand_A": 4.184591863675405,
+      "backbone_A": 1.7391597882492342
+    },
+    {
+      "frame": 420,
+      "time_ps": 2100,
+      "min_distance_A": 6.587893962860107,
+      "centered_rmsd_A": 3.586930751800537,
+      "protein_fit_ligand_A": 4.598047526109227,
+      "backbone_A": 1.8304125304617649
+    },
+    {
+      "frame": 620,
+      "time_ps": 3100,
+      "min_distance_A": 5.584460258483887,
+      "centered_rmsd_A": 4.3860249519348145,
+      "protein_fit_ligand_A": 5.6378541562793325,
+      "backbone_A": 1.8265476436764847
+    }
+  ],
+  "forces": [
+    {
+      "type": "HarmonicBondForce",
+      "name": "HarmonicBondForce"
+    },
+    {
+      "type": "HarmonicAngleForce",
+      "name": "HarmonicAngleForce"
+    },
+    {
+      "type": "PeriodicTorsionForce",
+      "name": "PeriodicTorsionForce"
+    },
+    {
+      "type": "NonbondedForce",
+      "name": "NonbondedForce"
+    },
+    {
+      "type": "CMMotionRemover",
+      "name": "CMMotionRemover"
+    }
+  ]
+}

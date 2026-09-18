@@ -1,0 +1,880 @@
+{
+  "manifest": [
+    {
+      "file": "final-report.md",
+      "exists": true,
+      "actual_sha256": "1f8818ed0bb2e9d3ade1bf634bb9d9459ca6597ccbb16523aa3f0cd87ae556fe",
+      "actual_bytes": 8730,
+      "expected": {
+        "sha256": "1f8818ed0bb2e9d3ade1bf634bb9d9459ca6597ccbb16523aa3f0cd87ae556fe",
+        "bytes": 8730
+      },
+      "passed": true
+    },
+    {
+      "file": "target-dossier.md",
+      "exists": true,
+      "actual_sha256": "56778777d1109e914b2029df20e8f84e9f9038b478fe9924cf1a13cf45c54d18",
+      "actual_bytes": 7748,
+      "expected": {
+        "sha256": "56778777d1109e914b2029df20e8f84e9f9038b478fe9924cf1a13cf45c54d18",
+        "bytes": 7748
+      },
+      "passed": true
+    },
+    {
+      "file": "structure-analysis.md",
+      "exists": true,
+      "actual_sha256": "03ec46cce738e74327305391f3c4303004d55aab6964a7ecc668e02ace523201",
+      "actual_bytes": 4033,
+      "expected": {
+        "sha256": "03ec46cce738e74327305391f3c4303004d55aab6964a7ecc668e02ace523201",
+        "bytes": 4033
+      },
+      "passed": true
+    },
+    {
+      "file": "hit-report.md",
+      "exists": true,
+      "actual_sha256": "cac5821c800dbf77e3bdc8c4ef90e081e266cadad728b3c73731f78aed126a60",
+      "actual_bytes": 12385,
+      "expected": {
+        "sha256": "cac5821c800dbf77e3bdc8c4ef90e081e266cadad728b3c73731f78aed126a60",
+        "bytes": 12385
+      },
+      "passed": true
+    },
+    {
+      "file": "validation-plan.md",
+      "exists": true,
+      "actual_sha256": "9db369ae376dba190faca92699962aec645630846106c4eaa5fc28b380ded586",
+      "actual_bytes": 5770,
+      "expected": {
+        "sha256": "9db369ae376dba190faca92699962aec645630846106c4eaa5fc28b380ded586",
+        "bytes": 5770
+      },
+      "passed": true
+    },
+    {
+      "file": "research-log.md",
+      "exists": true,
+      "actual_sha256": "a31a1595a07fa2e1ca46b9bb5c512c1f8339cda2756745490477ed04735cc056",
+      "actual_bytes": 37661,
+      "expected": {
+        "sha256": "e96428bd201759c6254744c92c819c3a15799c4dac8c70b39ceabec24bc70009",
+        "bytes": 36576
+      },
+      "passed": false
+    },
+    {
+      "file": "AUTOMATION.md",
+      "exists": true,
+      "actual_sha256": "15930676cffa56d00ad9269d05b6c529173cba998197a01f48fa34f55199a4a8",
+      "actual_bytes": 3572,
+      "expected": {
+        "sha256": "15930676cffa56d00ad9269d05b6c529173cba998197a01f48fa34f55199a4a8",
+        "bytes": 3572
+      },
+      "passed": true
+    },
+    {
+      "file": "results/hits_ranked.csv",
+      "exists": true,
+      "actual_sha256": "d941016bcffb1607d316e3dbba61d41aee4495de81c88f74fc100e43c77b5052",
+      "actual_bytes": 501654,
+      "expected": {
+        "sha256": "d941016bcffb1607d316e3dbba61d41aee4495de81c88f74fc100e43c77b5052",
+        "bytes": 501654
+      },
+      "passed": true
+    },
+    {
+      "file": "results/ensemble_scores.csv",
+      "exists": true,
+      "actual_sha256": "bcaf6a68fa1f167f748384dde59c5993fae820e11f2a55e67c0c415d208f4c7f",
+      "actual_bytes": 693,
+      "expected": {
+        "sha256": "bcaf6a68fa1f167f748384dde59c5993fae820e11f2a55e67c0c415d208f4c7f",
+        "bytes": 693
+      },
+      "passed": true
+    },
+    {
+      "file": "results/expansion_results.json",
+      "exists": true,
+      "actual_sha256": "266c51446bc565a9dce4aae8975c3ae7abf143d75d569032c8684c75e90e8f19",
+      "actual_bytes": 53656,
+      "expected": {
+        "sha256": "266c51446bc565a9dce4aae8975c3ae7abf143d75d569032c8684c75e90e8f19",
+        "bytes": 53656
+      },
+      "passed": true
+    },
+    {
+      "file": "results/admet_predictions.csv",
+      "exists": true,
+      "actual_sha256": "15dcea91ea51962d186cf65f933ea0cf2160d4c146ffd611f150a35ff0249ec2",
+      "actual_bytes": 3909,
+      "expected": {
+        "sha256": "15dcea91ea51962d186cf65f933ea0cf2160d4c146ffd611f150a35ff0249ec2",
+        "bytes": 3909
+      },
+      "passed": true
+    },
+    {
+      "file": "results/herg_karim_predictions.csv",
+      "exists": true,
+      "actual_sha256": "e932ae505b6ad5760dcc9a9079109ae5a4a3850838b569f16d6d9d27ed1bb36c",
+      "actual_bytes": 789,
+      "expected": {
+        "sha256": "e932ae505b6ad5760dcc9a9079109ae5a4a3850838b569f16d6d9d27ed1bb36c",
+        "bytes": 789
+      },
+      "passed": true
+    },
+    {
+      "file": "results/herg_dili_predictions.csv",
+      "exists": true,
+      "actual_sha256": "6cfd4dc4f49dfcef00684d4093411b16be5268c64c5e53e28d3e327386650cc4",
+      "actual_bytes": 932,
+      "expected": {
+        "sha256": "6cfd4dc4f49dfcef00684d4093411b16be5268c64c5e53e28d3e327386650cc4",
+        "bytes": 932
+      },
+      "passed": true
+    },
+    {
+      "file": "results/gnina_rescoring.json",
+      "exists": true,
+      "actual_sha256": "40495bf4b5ef7707549ff8b2a0277a07d9cc429a56273f85249e1383d5ada15d",
+      "actual_bytes": 944,
+      "expected": {
+        "sha256": "40495bf4b5ef7707549ff8b2a0277a07d9cc429a56273f85249e1383d5ada15d",
+        "bytes": 944
+      },
+      "passed": true
+    },
+    {
+      "file": "results/homolog_selectivity.csv",
+      "exists": true,
+      "actual_sha256": "09d507c7c84826ed33d90407888a4d87e8206d4de0e4406fefa50a45ab52bb1b",
+      "actual_bytes": 1448,
+      "expected": {
+        "sha256": "09d507c7c84826ed33d90407888a4d87e8206d4de0e4406fefa50a45ab52bb1b",
+        "bytes": 1448
+      },
+      "passed": true
+    },
+    {
+      "file": "results/pose_contacts.csv",
+      "exists": true,
+      "actual_sha256": "dec00fd260e8186eea9eb3fb2e46dabf80ca9cadb3baf3b04de8fc660846aa18",
+      "actual_bytes": 2884,
+      "expected": {
+        "sha256": "dec00fd260e8186eea9eb3fb2e46dabf80ca9cadb3baf3b04de8fc660846aa18",
+        "bytes": 2884
+      },
+      "passed": true
+    },
+    {
+      "file": "results/md_ensemble_docking.csv",
+      "exists": true,
+      "actual_sha256": "2c7c65c08dd762449112fe6697c4d8bb83797132d41902aeabb7d488c4868786",
+      "actual_bytes": 464,
+      "expected": {
+        "sha256": "2c7c65c08dd762449112fe6697c4d8bb83797132d41902aeabb7d488c4868786",
+        "bytes": 464
+      },
+      "passed": true
+    },
+    {
+      "file": "results/top50.json",
+      "exists": true,
+      "actual_sha256": "aaba6b2857113d0577050b7161be242ac99a2ec1b283bcb67502a9ac88ab4446",
+      "actual_bytes": 21890,
+      "expected": {
+        "sha256": "aaba6b2857113d0577050b7161be242ac99a2ec1b283bcb67502a9ac88ab4446",
+        "bytes": 21890
+      },
+      "passed": true
+    },
+    {
+      "file": "results/analog_results.json",
+      "exists": true,
+      "actual_sha256": "08523d16764f296de8eb7a585ef4320eb2e22efa3c7808027141f0e334ec90c8",
+      "actual_bytes": 8928,
+      "expected": {
+        "sha256": "08523d16764f296de8eb7a585ef4320eb2e22efa3c7808027141f0e334ec90c8",
+        "bytes": 8928
+      },
+      "passed": true
+    },
+    {
+      "file": "md/prod.dcd",
+      "exists": true,
+      "actual_sha256": "4941f5acf59b5265305a48e5f0f59c07a53e0f86ae5785553a90c2b9480f4995",
+      "actual_bytes": 1962763656,
+      "expected": {
+        "sha256": "4941f5acf59b5265305a48e5f0f59c07a53e0f86ae5785553a90c2b9480f4995",
+        "bytes": 1962763656
+      },
+      "passed": true
+    },
+    {
+      "file": "md/final.pdb",
+      "exists": true,
+      "actual_sha256": "287d031e70e3581d9da9ec4c93d318c25a6e91d2e346e886d60ce4fa5ad2cde2",
+      "actual_bytes": 11411353,
+      "expected": {
+        "sha256": "287d031e70e3581d9da9ec4c93d318c25a6e91d2e346e886d60ce4fa5ad2cde2",
+        "bytes": 11411353
+      },
+      "passed": true
+    },
+    {
+      "file": "md/solvated.pdb",
+      "exists": true,
+      "actual_sha256": "c6f5d4b62034af6b9e7882d5b244a7d0f95699ce5609ebb76a07a9c12dbb8e8a",
+      "actual_bytes": 11411353,
+      "expected": {
+        "sha256": "c6f5d4b62034af6b9e7882d5b244a7d0f95699ce5609ebb76a07a9c12dbb8e8a",
+        "bytes": 11411353
+      },
+      "passed": true
+    },
+    {
+      "file": "md/bound.dcd",
+      "exists": true,
+      "actual_sha256": "0a6c5786223d1f2d4e809ed7b65ca4e5fd8fbeb8b11fe670bb5628a8a05bc251",
+      "actual_bytes": 1073692996,
+      "expected": {
+        "sha256": "0a6c5786223d1f2d4e809ed7b65ca4e5fd8fbeb8b11fe670bb5628a8a05bc251",
+        "bytes": 1073692996
+      },
+      "passed": true
+    },
+    {
+      "file": "md/bound_log.csv",
+      "exists": true,
+      "actual_sha256": "0a453c7a831e1875d58ef9834cfb7365513c8941e702f5ac956781a51e271eb3",
+      "actual_bytes": 82028,
+      "expected": {
+        "sha256": "0a453c7a831e1875d58ef9834cfb7365513c8941e702f5ac956781a51e271eb3",
+        "bytes": 82028
+      },
+      "passed": true
+    },
+    {
+      "file": "md/md_summary.txt",
+      "exists": true,
+      "actual_sha256": "218eb94af10abcf8f7f9649692ba29782f940a172ead817d08b9c12d6f70a77d",
+      "actual_bytes": 126,
+      "expected": {
+        "sha256": "218eb94af10abcf8f7f9649692ba29782f940a172ead817d08b9c12d6f70a77d",
+        "bytes": 126
+      },
+      "passed": true
+    },
+    {
+      "file": "md/complex.prmtop",
+      "exists": true,
+      "actual_sha256": "5bedce8569ebb44e4cb8ac4a6deed8cd1a7202d4f3f0f3b2658498ee455880ea",
+      "actual_bytes": 13990827,
+      "expected": {
+        "sha256": "5bedce8569ebb44e4cb8ac4a6deed8cd1a7202d4f3f0f3b2658498ee455880ea",
+        "bytes": 13990827
+      },
+      "passed": true
+    },
+    {
+      "file": "md/complex.inpcrd",
+      "exists": true,
+      "actual_sha256": "a8299226c0e859d72280cfe874e1ec8074e88b963b66d848e7366c399f349d24",
+      "actual_bytes": 2676748,
+      "expected": {
+        "sha256": "a8299226c0e859d72280cfe874e1ec8074e88b963b66d848e7366c399f349d24",
+        "bytes": 2676748
+      },
+      "passed": true
+    },
+    {
+      "file": "md/leader.mol2",
+      "exists": true,
+      "actual_sha256": "56ef720b3ce9de541eb236b4a84ebb88af044a0f458900ad8e35e07ce06e6c5a",
+      "actual_bytes": 7162,
+      "expected": {
+        "sha256": "56ef720b3ce9de541eb236b4a84ebb88af044a0f458900ad8e35e07ce06e6c5a",
+        "bytes": 7162
+      },
+      "passed": true
+    },
+    {
+      "file": "md/leader_pose.mol2",
+      "exists": true,
+      "actual_sha256": "8f4886dd6a1f13be9efcb4b78e2a4a4f5b0c1f6bb32ff53aa0456d823a9c756b",
+      "actual_bytes": 7112,
+      "expected": {
+        "sha256": "8f4886dd6a1f13be9efcb4b78e2a4a4f5b0c1f6bb32ff53aa0456d823a9c756b",
+        "bytes": 7112
+      },
+      "passed": true
+    },
+    {
+      "file": "structures/5i85.pdb",
+      "exists": true,
+      "actual_sha256": "c8b9711df2698f100b5f040f51cab14cf1cc9add5d98fb2eb5ec518ac528f2fe",
+      "actual_bytes": 791937,
+      "expected": {
+        "sha256": "c8b9711df2698f100b5f040f51cab14cf1cc9add5d98fb2eb5ec518ac528f2fe",
+        "bytes": 791937
+      },
+      "passed": true
+    },
+    {
+      "file": "structures/5i85_recA_ZN_rigid.pdbqt",
+      "exists": true,
+      "actual_sha256": "5d33cac3fb16951a306f94041196ff322d30308cd843447c7bdb28aa15da9bd1",
+      "actual_bytes": 427119,
+      "expected": {
+        "sha256": "5d33cac3fb16951a306f94041196ff322d30308cd843447c7bdb28aa15da9bd1",
+        "bytes": 427119
+      },
+      "passed": true
+    },
+    {
+      "file": "structures/5i81_rigid.pdbqt",
+      "exists": true,
+      "actual_sha256": "3517873488a4486399fc881944fedd4029877801c32b598e8f9e60b73732de93",
+      "actual_bytes": 430107,
+      "expected": {
+        "sha256": "3517873488a4486399fc881944fedd4029877801c32b598e8f9e60b73732de93",
+        "bytes": 430107
+      },
+      "passed": true
+    },
+    {
+      "file": "structures/5jg8_rigid.pdbqt",
+      "exists": true,
+      "actual_sha256": "f01b958c062a841f81c3fac1340d80257c7702bd18f39da83d6d1c9f93971d73",
+      "actual_bytes": 429315,
+      "expected": {
+        "sha256": "f01b958c062a841f81c3fac1340d80257c7702bd18f39da83d6d1c9f93971d73",
+        "bytes": 429315
+      },
+      "passed": true
+    },
+    {
+      "file": "scripts/run_all.sh",
+      "exists": true,
+      "actual_sha256": "cdf6536bb7604699577ab7efabdac0f2dd2591496aa27be8ebcdce876305af71",
+      "actual_bytes": 2740,
+      "expected": {
+        "sha256": "cdf6536bb7604699577ab7efabdac0f2dd2591496aa27be8ebcdce876305af71",
+        "bytes": 2740
+      },
+      "passed": true
+    },
+    {
+      "file": "scripts/md_run.py",
+      "exists": true,
+      "actual_sha256": "bc6590843ac01d6e87784a2f7c47722d1ce8b5f8f66b1f9543ef4f5ffaed7cb0",
+      "actual_bytes": 5455,
+      "expected": {
+        "sha256": "bc6590843ac01d6e87784a2f7c47722d1ce8b5f8f66b1f9543ef4f5ffaed7cb0",
+        "bytes": 5455
+      },
+      "passed": true
+    },
+    {
+      "file": "scripts/bound_md.py",
+      "exists": true,
+      "actual_sha256": "55bbfd7d30f52e90a4e450e63b668763e2f8bc1eb8d3e6c1b9e6c3b7d356309e",
+      "actual_bytes": 3351,
+      "expected": {
+        "sha256": "55bbfd7d30f52e90a4e450e63b668763e2f8bc1eb8d3e6c1b9e6c3b7d356309e",
+        "bytes": 3351
+      },
+      "passed": true
+    },
+    {
+      "file": "scripts/dock_runner.py",
+      "exists": true,
+      "actual_sha256": "8124392ff81f4f6a21b6f2c52ce94e77059a21042be06075c83d0f481aa8fb6f",
+      "actual_bytes": 3039,
+      "expected": {
+        "sha256": "8124392ff81f4f6a21b6f2c52ce94e77059a21042be06075c83d0f481aa8fb6f",
+        "bytes": 3039
+      },
+      "passed": true
+    },
+    {
+      "file": "scripts/triage.py",
+      "exists": true,
+      "actual_sha256": "2c1af9312fb64c06e11e5b494c72e5c6ab63d7d99b4b103b044d1d6f55c72bbd",
+      "actual_bytes": 4357,
+      "expected": {
+        "sha256": "2c1af9312fb64c06e11e5b494c72e5c6ab63d7d99b4b103b044d1d6f55c72bbd",
+        "bytes": 4357
+      },
+      "passed": true
+    },
+    {
+      "file": "scripts/ensemble_dock.py",
+      "exists": true,
+      "actual_sha256": "fda48b7e1df261f441c77f52121ffa21ac28042f33a24e8abb59c9d8fc2d0b88",
+      "actual_bytes": 5099,
+      "expected": {
+        "sha256": "fda48b7e1df261f441c77f52121ffa21ac28042f33a24e8abb59c9d8fc2d0b88",
+        "bytes": 5099
+      },
+      "passed": true
+    },
+    {
+      "file": "scripts/gnina_rescore.py",
+      "exists": true,
+      "actual_sha256": "45ff0db93d2df8b8f146d039dcca84609933fc753cc95ea0e6d884eb166f86b9",
+      "actual_bytes": 2463,
+      "expected": {
+        "sha256": "45ff0db93d2df8b8f146d039dcca84609933fc753cc95ea0e6d884eb166f86b9",
+        "bytes": 2463
+      },
+      "passed": true
+    }
+  ],
+  "screen": {
+    "rows": 3642,
+    "unique_names": 3642,
+    "below_minus7": 1158,
+    "first": {
+      "name": "CHEMBL28172",
+      "smiles": "O=C1NCN(c2ccccc2)C12CCN(C1Cc3ccccc3C1)CC2",
+      "vina_best": "-8.84",
+      "MW": "347.5",
+      "cLogP": "2.58",
+      "TPSA": "35.6",
+      "HBD": "1",
+      "HBA": "3",
+      "rotb": "2",
+      "SA": "2.93",
+      "QED": "0.907",
+      "charge": "0",
+      "CNS_MPO_4d": "2.77",
+      "Tanimoto_NN_approved": "0.475",
+      "NN_approved_drug": "FLUSPIRILENE",
+      "Tanimoto_NN_ASMref": "0.1",
+      "novelty_flag": "novel",
+      "composite": "8.966"
+    },
+    "energy_min": {
+      "name": "CHEMBL54786",
+      "smiles": "O=C1Cc2cc(CCN3CCN(c4cccc5ccccc45)CC3)ccc2N1",
+      "vina_best": "-8.92",
+      "MW": "371.5",
+      "cLogP": "3.7",
+      "TPSA": "35.6",
+      "HBD": "1",
+      "HBA": "3",
+      "rotb": "4",
+      "SA": "2.17",
+      "QED": "0.76",
+      "charge": "0",
+      "CNS_MPO_4d": "2.29",
+      "Tanimoto_NN_approved": "0.457",
+      "NN_approved_drug": "ZIPRASIDONE",
+      "Tanimoto_NN_ASMref": "0.181",
+      "novelty_flag": "novel",
+      "composite": "8.876"
+    },
+    "raw_lines": 20111,
+    "filtered_rows": 20111,
+    "dock_set_lines": 3500,
+    "prep_failures": [
+      [
+        "CHEMBL43398",
+        "embed-failed"
+      ],
+      [
+        "CHEMBL288285",
+        "embed-failed"
+      ],
+      [
+        "CHEMBL287794",
+        "embed-failed"
+      ],
+      [
+        "CHEMBL39284",
+        "embed-failed"
+      ],
+      [
+        "CHEMBL37966",
+        "embed-failed"
+      ],
+      [
+        "CHEMBL290675",
+        "embed-failed"
+      ],
+      [
+        "CHEMBL41313",
+        "embed-failed"
+      ],
+      [
+        "CHEMBL289948",
+        "embed-failed"
+      ],
+      [
+        "CHEMBL290032",
+        "embed-failed"
+      ],
+      [
+        "CHEMBL38697",
+        "embed-failed"
+      ]
+    ]
+  },
+  "expansion": {
+    "count": 225,
+    "sample": [
+      {
+        "parent": "CHEMBL37169",
+        "parent_vina": -8.85,
+        "tag": "C(F)(F)F@C16",
+        "smiles": "O=C1NC(CCN2CCN(c3ccc4ccc(C(F)(F)F)cc4c3)CC2)c2ccccc21",
+        "analog_name": "EXP_CHEMBL37169_C(F)(F)F_C16",
+        "analog_vina": -9.73,
+        "delta": -0.88
+      },
+      {
+        "parent": "CHEMBL37169",
+        "parent_vina": -8.85,
+        "tag": "C(F)(F)F@C17",
+        "smiles": "O=C1NC(CCN2CCN(c3ccc4cccc(C(F)(F)F)c4c3)CC2)c2ccccc21",
+        "analog_name": "EXP_CHEMBL37169_C(F)(F)F_C17",
+        "analog_vina": -9.54,
+        "delta": -0.69
+      }
+    ]
+  },
+  "herg_dataset_rows": 306893,
+  "smpd1_ad": {
+    "overall": 0.5499323177364711,
+    "literature": 0.8934312011132188,
+    "affected_pathway": 0.8476183455564804,
+    "animal_model": 0.5538149548970008
+  },
+  "bound_log": {
+    "rows": 1220,
+    "last": {
+      "#\"Step\"": "3050000",
+      "Time (ps)": "6100.000000325234",
+      "Potential Energy (kJ/mole)": "-896517.3463985659",
+      "Temperature (K)": "310.11362765905926",
+      "Speed (ns/day)": "237"
+    }
+  },
+  "apo_log": {
+    "rows": 2323,
+    "last": {
+      "#\"Step\"": "5807500",
+      "Time (ps)": "5807.500000724393",
+      "Potential Energy (kJ/mole)": "-1874392.5693780687",
+      "Temperature (K)": "310.1442472574922",
+      "Speed (ns/day)": "62.6"
+    }
+  },
+  "cnn": {
+    "CHEMBL7385": {
+      "cnn_affinity": 6.03214,
+      "cnn_score": 0.705,
+      "vina_affinity": -9.72556
+    },
+    "CHEMBL24974": {
+      "cnn_affinity": 5.26922,
+      "cnn_score": 0.18617,
+      "vina_affinity": -12.04021
+    },
+    "CHEMBL48767": {
+      "cnn_affinity": 4.87535,
+      "cnn_score": 0.17161,
+      "vina_affinity": -9.98153
+    },
+    "CHEMBL6729": {
+      "cnn_affinity": 5.95794,
+      "cnn_score": 0.57756,
+      "vina_affinity": -12.00292
+    },
+    "EXP_CHEMBL7385_CF3": {
+      "cnn_affinity": 5.95484,
+      "cnn_score": 0.44198,
+      "vina_affinity": -10.67831
+    },
+    "EXP_CHEMBL24974_CF3": {
+      "cnn_affinity": 5.83429,
+      "cnn_score": 0.18104,
+      "vina_affinity": -13.47206
+    },
+    "REF_CHEMBL418376": {
+      "cnn_affinity": 5.81473,
+      "cnn_score": 0.25871,
+      "vina_affinity": -13.47818
+    },
+    "REF_CHEMBL5284579": {
+      "cnn_affinity": 5.73309,
+      "cnn_score": 0.18413,
+      "vina_affinity": -9.86923
+    },
+    "REF_CHEMBL310981": {
+      "cnn_affinity": 6.40086,
+      "cnn_score": 0.33663,
+      "vina_affinity": -13.91983
+    }
+  },
+  "homolog": [
+    {
+      "name": "CHEMBL28172",
+      "SMPD3_NSM2": "0.141",
+      "SMPD2_NSM1": "0.132",
+      "SMPD4": "0.071",
+      "ASAH1_acid_ceramidase": "0.171",
+      "ASAH2_neutral_ceramidase": "0.051",
+      "NAAA": "0.191",
+      "max_homolog_Tanimoto": "0.191",
+      "closest_homolog": "NAAA"
+    },
+    {
+      "name": "CHEMBL7385",
+      "SMPD3_NSM2": "0.24",
+      "SMPD2_NSM1": "0.152",
+      "SMPD4": "0.101",
+      "ASAH1_acid_ceramidase": "0.173",
+      "ASAH2_neutral_ceramidase": "0.076",
+      "NAAA": "0.257",
+      "max_homolog_Tanimoto": "0.257",
+      "closest_homolog": "NAAA"
+    },
+    {
+      "name": "CHEMBL48767",
+      "SMPD3_NSM2": "0.154",
+      "SMPD2_NSM1": "0.109",
+      "SMPD4": "0.085",
+      "ASAH1_acid_ceramidase": "0.228",
+      "ASAH2_neutral_ceramidase": "0.052",
+      "NAAA": "0.197",
+      "max_homolog_Tanimoto": "0.228",
+      "closest_homolog": "ASAH1_acid_ceramidase"
+    },
+    {
+      "name": "CHEMBL54786",
+      "SMPD3_NSM2": "0.189",
+      "SMPD2_NSM1": "0.183",
+      "SMPD4": "0.107",
+      "ASAH1_acid_ceramidase": "0.232",
+      "ASAH2_neutral_ceramidase": "0.098",
+      "NAAA": "0.275",
+      "max_homolog_Tanimoto": "0.275",
+      "closest_homolog": "NAAA"
+    },
+    {
+      "name": "CHEMBL24974",
+      "SMPD3_NSM2": "0.152",
+      "SMPD2_NSM1": "0.134",
+      "SMPD4": "0.079",
+      "ASAH1_acid_ceramidase": "0.258",
+      "ASAH2_neutral_ceramidase": "0.125",
+      "NAAA": "0.282",
+      "max_homolog_Tanimoto": "0.282",
+      "closest_homolog": "NAAA"
+    },
+    {
+      "name": "CHEMBL29571",
+      "SMPD3_NSM2": "0.179",
+      "SMPD2_NSM1": "0.149",
+      "SMPD4": "0.088",
+      "ASAH1_acid_ceramidase": "0.25",
+      "ASAH2_neutral_ceramidase": "0.101",
+      "NAAA": "0.308",
+      "max_homolog_Tanimoto": "0.308",
+      "closest_homolog": "NAAA"
+    },
+    {
+      "name": "CHEMBL6729",
+      "SMPD3_NSM2": "0.291",
+      "SMPD2_NSM1": "0.233",
+      "SMPD4": "0.114",
+      "ASAH1_acid_ceramidase": "0.287",
+      "ASAH2_neutral_ceramidase": "0.107",
+      "NAAA": "0.254",
+      "max_homolog_Tanimoto": "0.291",
+      "closest_homolog": "SMPD3_NSM2"
+    },
+    {
+      "name": "CHEMBL37169",
+      "SMPD3_NSM2": "0.189",
+      "SMPD2_NSM1": "0.172",
+      "SMPD4": "0.087",
+      "ASAH1_acid_ceramidase": "0.247",
+      "ASAH2_neutral_ceramidase": "0.072",
+      "NAAA": "0.246",
+      "max_homolog_Tanimoto": "0.247",
+      "closest_homolog": "ASAH1_acid_ceramidase"
+    },
+    {
+      "name": "CHEMBL300739",
+      "SMPD3_NSM2": "0.173",
+      "SMPD2_NSM1": "0.098",
+      "SMPD4": "0.101",
+      "ASAH1_acid_ceramidase": "0.198",
+      "ASAH2_neutral_ceramidase": "0.054",
+      "NAAA": "0.218",
+      "max_homolog_Tanimoto": "0.218",
+      "closest_homolog": "NAAA"
+    },
+    {
+      "name": "CHEMBL26999",
+      "SMPD3_NSM2": "0.16",
+      "SMPD2_NSM1": "0.151",
+      "SMPD4": "0.068",
+      "ASAH1_acid_ceramidase": "0.186",
+      "ASAH2_neutral_ceramidase": "0.055",
+      "NAAA": "0.181",
+      "max_homolog_Tanimoto": "0.186",
+      "closest_homolog": "ASAH1_acid_ceramidase"
+    },
+    {
+      "name": "CHEMBL35743",
+      "SMPD3_NSM2": "0.14",
+      "SMPD2_NSM1": "0.117",
+      "SMPD4": "0.093",
+      "ASAH1_acid_ceramidase": "0.221",
+      "ASAH2_neutral_ceramidase": "0.093",
+      "NAAA": "0.227",
+      "max_homolog_Tanimoto": "0.227",
+      "closest_homolog": "NAAA"
+    },
+    {
+      "name": "CHEMBL48713",
+      "SMPD3_NSM2": "0.196",
+      "SMPD2_NSM1": "0.12",
+      "SMPD4": "0.095",
+      "ASAH1_acid_ceramidase": "0.253",
+      "ASAH2_neutral_ceramidase": "0.052",
+      "NAAA": "0.233",
+      "max_homolog_Tanimoto": "0.253",
+      "closest_homolog": "ASAH1_acid_ceramidase"
+    },
+    {
+      "name": "CHEMBL27093",
+      "SMPD3_NSM2": "0.161",
+      "SMPD2_NSM1": "0.152",
+      "SMPD4": "0.073",
+      "ASAH1_acid_ceramidase": "0.188",
+      "ASAH2_neutral_ceramidase": "0.051",
+      "NAAA": "0.182",
+      "max_homolog_Tanimoto": "0.188",
+      "closest_homolog": "ASAH1_acid_ceramidase"
+    },
+    {
+      "name": "CHEMBL295569",
+      "SMPD3_NSM2": "0.194",
+      "SMPD2_NSM1": "0.21",
+      "SMPD4": "0.112",
+      "ASAH1_acid_ceramidase": "0.233",
+      "ASAH2_neutral_ceramidase": "0.159",
+      "NAAA": "0.258",
+      "max_homolog_Tanimoto": "0.258",
+      "closest_homolog": "NAAA"
+    },
+    {
+      "name": "CHEMBL297711",
+      "SMPD3_NSM2": "0.244",
+      "SMPD2_NSM1": "0.106",
+      "SMPD4": "0.049",
+      "ASAH1_acid_ceramidase": "0.181",
+      "ASAH2_neutral_ceramidase": "0.069",
+      "NAAA": "0.197",
+      "max_homolog_Tanimoto": "0.244",
+      "closest_homolog": "SMPD3_NSM2"
+    },
+    {
+      "name": "CHEMBL24034",
+      "SMPD3_NSM2": "0.155",
+      "SMPD2_NSM1": "0.138",
+      "SMPD4": "0.071",
+      "ASAH1_acid_ceramidase": "0.238",
+      "ASAH2_neutral_ceramidase": "0.102",
+      "NAAA": "0.257",
+      "max_homolog_Tanimoto": "0.257",
+      "closest_homolog": "NAAA"
+    },
+    {
+      "name": "CHEMBL289645",
+      "SMPD3_NSM2": "0.228",
+      "SMPD2_NSM1": "0.196",
+      "SMPD4": "0.087",
+      "ASAH1_acid_ceramidase": "0.207",
+      "ASAH2_neutral_ceramidase": "0.099",
+      "NAAA": "0.25",
+      "max_homolog_Tanimoto": "0.25",
+      "closest_homolog": "NAAA"
+    },
+    {
+      "name": "CHEMBL45966",
+      "SMPD3_NSM2": "0.204",
+      "SMPD2_NSM1": "0.107",
+      "SMPD4": "0.093",
+      "ASAH1_acid_ceramidase": "0.247",
+      "ASAH2_neutral_ceramidase": "0.051",
+      "NAAA": "0.227",
+      "max_homolog_Tanimoto": "0.247",
+      "closest_homolog": "ASAH1_acid_ceramidase"
+    },
+    {
+      "name": "CHEMBL46169",
+      "SMPD3_NSM2": "0.216",
+      "SMPD2_NSM1": "0.184",
+      "SMPD4": "0.082",
+      "ASAH1_acid_ceramidase": "0.207",
+      "ASAH2_neutral_ceramidase": "0.117",
+      "NAAA": "0.276",
+      "max_homolog_Tanimoto": "0.276",
+      "closest_homolog": "NAAA"
+    },
+    {
+      "name": "CHEMBL297017",
+      "SMPD3_NSM2": "0.22",
+      "SMPD2_NSM1": "0.105",
+      "SMPD4": "0.084",
+      "ASAH1_acid_ceramidase": "0.265",
+      "ASAH2_neutral_ceramidase": "0.052",
+      "NAAA": "0.227",
+      "max_homolog_Tanimoto": "0.265",
+      "closest_homolog": "ASAH1_acid_ceramidase"
+    }
+  ],
+  "panel_recompute": {
+    "scores": {
+      "HFE": 0.6595054353813101,
+      "PLCG2": 0.654902593313734,
+      "SORL1": 0.6370901632445899,
+      "TREM2": 0.6357680050417023,
+      "ADAM10": 0.6234516449357201,
+      "MS4A6A": 0.6222882626270905,
+      "CR1": 0.61925708737012,
+      "BIN1": 0.6122531483002491,
+      "ABCA7": 0.6057352058176384,
+      "EPHA1": 0.6036353759422408,
+      "INPP5D": 0.5951267241332769,
+      "PICALM": 0.592300226160975,
+      "SMPD1": 0.5901433300453482,
+      "CDC25B": 0.5786129389687762,
+      "CLU": 0.5608112202157083,
+      "MAPT": 0.5520847991576239,
+      "SPI1": 0.5444271264156259,
+      "APH1B": 0.5170687268664211,
+      "CDK5": 0.49313053428336706,
+      "CD33": 0.48592987678276783,
+      "ACE": 0.3757517770062364,
+      "GSK3B": 0.26535285968223743
+    },
+    "matches": true
+  }
+}

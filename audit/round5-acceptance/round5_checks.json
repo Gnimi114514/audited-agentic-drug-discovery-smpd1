@@ -1,0 +1,1042 @@
+{
+  "generated_at": "2026-09-14T01:16:48.882499+00:00",
+  "role": "Fresh-session round-5 acceptance auditor",
+  "decision": "REJECT",
+  "G6": "BLOCKED; not eligible for acceptance on this revision",
+  "write_scope": "independent-audit/round5-acceptance only",
+  "checks": {
+    "repair_1": {
+      "repair": "1",
+      "verdict": "FAIL",
+      "literal_requested_checks": {
+        "box_nm_to_A_before_imaging": true,
+        "placeholder_removed": true,
+        "summary_mean_4_579_max_5_935": true,
+        "contacted_catalytic_residues_crystal_numbering_equals_319_458": true,
+        "units_note_present": true,
+        "v1_preserved_byte_identical_to_round4_snapshot": true,
+        "rerun_all_metrics_and_summary_equal_saved_producer": true
+      },
+      "independent_rerun": {
+        "frames": 620,
+        "RMSD_A": {
+          "mean": 4.579370920598672,
+          "min": 3.400931209523146,
+          "max": 5.935442988257247,
+          "final": 5.63788140935179
+        },
+        "frame_results_identical_to_round4_independent": true,
+        "actual_catalytic_residues": [
+          318,
+          319,
+          457,
+          458
+        ],
+        "catalytic_frame_counts": {
+          "206": 0,
+          "208": 0,
+          "278": 0,
+          "282": 0,
+          "318": 414,
+          "319": 11,
+          "425": 0,
+          "457": 620,
+          "458": 23,
+          "459": 0,
+          "488": 0
+        },
+        "strict_occupancy": 0.0,
+        "crystal_centroid_distance_A": {
+          "mean": 8.303681819346446,
+          "min": 6.5545028061399435,
+          "max": 9.992978185664809,
+          "final": 7.141910023393647
+        },
+        "residue_mapping": [
+          {
+            "topology_residue_index": 122,
+            "topology_resSeq": 122,
+            "crystal_residue": 206
+          },
+          {
+            "topology_residue_index": 124,
+            "topology_resSeq": 124,
+            "crystal_residue": 208
+          },
+          {
+            "topology_residue_index": 194,
+            "topology_resSeq": 194,
+            "crystal_residue": 278
+          },
+          {
+            "topology_residue_index": 198,
+            "topology_resSeq": 198,
+            "crystal_residue": 282
+          },
+          {
+            "topology_residue_index": 234,
+            "topology_resSeq": 234,
+            "crystal_residue": 318
+          },
+          {
+            "topology_residue_index": 235,
+            "topology_resSeq": 235,
+            "crystal_residue": 319
+          },
+          {
+            "topology_residue_index": 341,
+            "topology_resSeq": 341,
+            "crystal_residue": 425
+          },
+          {
+            "topology_residue_index": 373,
+            "topology_resSeq": 373,
+            "crystal_residue": 457
+          },
+          {
+            "topology_residue_index": 374,
+            "topology_resSeq": 374,
+            "crystal_residue": 458
+          },
+          {
+            "topology_residue_index": 375,
+            "topology_resSeq": 375,
+            "crystal_residue": 459
+          },
+          {
+            "topology_residue_index": 404,
+            "topology_resSeq": 404,
+            "crystal_residue": 488
+          }
+        ]
+      },
+      "failures": [
+        {
+          "id": "R5-P1",
+          "severity": "mandatory",
+          "source": "scripts/pocket_residence.py:44",
+          "finding": "Selection still uses id2ord[r]+1 against MDTraj resSeq, which is zero-based. In this topology crystal numbering = topology resSeq +84, not the comment +83. The later ord2crystal dictionary correctly translates the selected residues but cannot repair the wrong atom selection. Actual catalytic 318 and 457 are excluded; 457 contacts in all 620 frames and 318 in 414. Requested literal [319,458] is present but is an incomplete catalytic-contact result.",
+          "repair": "Build mapping from actual topology residue indices to crystal records, select all eleven catalytic residues correctly, rerun and report [318,319,457,458]."
+        },
+        {
+          "id": "R5-P2",
+          "severity": "mandatory",
+          "source": "scripts/pocket_residence.py:63,129",
+          "finding": "Crystal PC center remains untransformed when compared against ligand fitted to minimized reference. Common-frame alignment requested by adjudication is not implemented. Independent verifier aligns crystal backbone to reference first. Zero strict occupancy nevertheless independently reproduced.",
+          "repair": "Transform crystal PC centroid to minimized-reference frame before center-condition measurement; retain independent zero occupancy and distinguish geometric centroid from mass COM."
+        }
+      ],
+      "v1_sha256": "aaa1f61546740037541e6cb6bc63f1fc3a575735276a3069dbf7016375f4f446",
+      "artifacts": [
+        "pocket_rerun.py",
+        "pocket_rerun.json",
+        "c1_verify.py",
+        "c1_evidence.json"
+      ],
+      "execution": "Both WSL md-environment scripts exited 0 with -B. Producer copy changed only output destination; independent round4 verifier copied unchanged to round5 so all generated files stay in permitted directory."
+    },
+    "repair_2": {
+      "MODEL_A_lineage_both_reports": {
+        "status": "PASS",
+        "details": "Both disclose raw-record legacy training, deduplicated refit, and only 1/26 reproduced; final report canonical-dedup context is immediately above the lineage paragraph. MODEL-B alone gets held-out AUC.",
+        "evidence": [
+          {
+            "path": "final-report.md",
+            "line": 232,
+            "text": "**hERG_Central (dataset = 306,893 records; canonical-dedup to 306,879; now\nREPRODUCIBLE)**: stratified 80/20 split (indices saved), RF-300 (MODEL-B) → **held-out\ntest ROC-AUC 0.9091, average precision 0.4792** (sklearn average_precision_score;\nper-test-sample predictions archived so this is independently recomputable);\ndataset SHA256, split indices and metrics archived in results/herg_central_repro/.\n**Model lineage (post-adjudication):** the candidate probabilities quoted below come\nfrom the legacy RF500 run on raw retrieved records; the archived MODEL-A is a\n*deduplicated refit*, not a verified legacy reproduction (only 1/26 legacy values\nreproduced at tolerance — a training-protocol change, not random variation). Candidate\noverlap: all top candidates are 0.290–0.724 Tanimoto *similarity* from the nearest\ntraining molecule (no near-duplicate threshold defined), nearest-neighbor labels\nrecorded. Candidate legacy probabilities: CHEMBL7385 0.090, CHEMBL6729 0.058,\nCHEMBL48767 0.118, CHEMBL24974 0.258; expansion analogs 0.058–0.416. These are\npredictions on novel scaffolds — not a de-risking guarantee; the small-set DILI flag on\nCHEMBL7385 remains the main safety watch-item."
+          },
+          {
+            "path": "hit-report.md",
+            "line": 200,
+            "text": "The CNN's skepticism toward CHEMBL24974/48767 poses is an uncertainty flag, consistent\nwith their pharmacology/P-gp warnings. Data: results/gnina_rescoring.json.\n\n## MODEL-A legacy-probability precision note (round-4 audit)\n\n**MODEL-A lineage correction (post-adjudication):** the values previously reported\nas \"MODEL-A (RF500, full-data)\" were produced by a run on *raw retrieved records*\n(scripts/herg_karim.py); the archived MODEL-A is a *refit* on canonicalized,\ndeduplicated data (scripts/herg_model_separation.py). These are different estimators:\nan independent comparison reproduced only 1/26 legacy values at tolerance (e.g.\nCHEMBL28172 0.254 → 0.228, CHEMBL54786 0.328 → 0.392) — a training-protocol change,\nnot random variation. Legacy values are cited as legacy-run outputs; refit values are\nMODEL-A refit outputs. MODEL-B (RF300, fixed 80/20 split) values are exact for the archived split\n(results/herg_central_repro/models/)."
+          }
+        ]
+      },
+      "fitted_estimator_serialization_withdrawal": {
+        "status": "PARTIAL",
+        "details": "No fitted-estimator serialization claim remains in final-report.md, and saved-test-score evaluation is described. No explicit withdrawal or statement that fitted estimators are not archived is present; clarify this to close adjudication repair 2 unambiguously."
+      }
+    },
+    "repair_3": {
+      "T1_pocket": {
+        "status": "FAIL",
+        "details": "Center-condition-fails correction is present, but non-catalytic-only surface labels and occupancy from retired COM-imaged metric survive as current conclusions.",
+        "evidence": [
+          {
+            "path": "final-report.md",
+            "line": 59,
+            "text": "| Simulation/triage (G4) | 3,642 scored; 1,158 ≤ −7.0; apo MD 5.81 ns; bound MD v1 (6.1 ns, Li-2013 12-6) **audited & corrected**; bound MD v2 (3.0 ns, 12-6 subset of 12-6-4, C4 omitted, pre-registered): **no Zn coordination (5.6–6.6 Å), pocket occupancy 0%, contacts on non-catalytic surface (235/342/374/375/376/405)**. **FAIL-as-submitted (units/selection); corrected analyses adopted** | G4: FAIL→corrected |"
+          },
+          {
+            "path": "final-report.md",
+            "line": 202,
+            "text": "¹ These in-run values used the COM-imaged metric later retired by the round-3 audit\n(R3-1: COM alignment removes the very translation the metric claimed to measure) and\nprinted nm as Å. The corrected analysis, recomputed independently by the auditor and\nnow reproduced by the repaired producer script\n(runs/audit-20260913/tasks/sim-02/attempt-1/pocket_residence.json), uses whole-molecule\nimaging and a protein-backbone fit: **ligand RMSD mean 4.579 Å / max 5.935 Å over all\n620 frames**. Corrected contact analysis: catalytic residues H319 and T458 are contacted\n(≥1 heavy atom within 4.5 Å) during the trajectory; occupancy under the pre-specified\n6 Å-center + 4.5 Å-catalytic-contact conjunction remains 0/620 (the center condition\nfails; substantial radius sensitivity documented).\n\n**Honest interpretation (downgrades the earlier coordination story further):**\n1. The protein backbone is **stable** (1.7–1.8 Å) — the audited \"12.5 Å drift\" was a\n   water-contaminated selection, now corrected.\n2. The docked CHEMBL24974-CF3 pose does **not** coordinate the catalytic Zn²⁺: minimum\n   Zn–ligand distance stays 5.6–6.6 Å in the re-run. Attribution caveat: the v1-vs-v2\n   difference cannot be attributed to parameter strength alone — v1's metrics were also\n   unit-broken and the C4 term is absent from BOTH runs; what is established is only\n   that the corrected analysis of either run shows no persistent Zn coordination.\n3. The ligand remains in the pocket region (COM-imaged RMSD 3–4.4 Å) but drifts within\n   it — pocket occupancy without metal coordination."
+          }
+        ]
+      },
+      "T2_lineage": {
+        "status": "PASS",
+        "evidence": [
+          {
+            "path": "final-report.md",
+            "line": 232,
+            "text": "**hERG_Central (dataset = 306,893 records; canonical-dedup to 306,879; now\nREPRODUCIBLE)**: stratified 80/20 split (indices saved), RF-300 (MODEL-B) → **held-out\ntest ROC-AUC 0.9091, average precision 0.4792** (sklearn average_precision_score;\nper-test-sample predictions archived so this is independently recomputable);\ndataset SHA256, split indices and metrics archived in results/herg_central_repro/.\n**Model lineage (post-adjudication):** the candidate probabilities quoted below come\nfrom the legacy RF500 run on raw retrieved records; the archived MODEL-A is a\n*deduplicated refit*, not a verified legacy reproduction (only 1/26 legacy values\nreproduced at tolerance — a training-protocol change, not random variation). Candidate\noverlap: all top candidates are 0.290–0.724 Tanimoto *similarity* from the nearest\ntraining molecule (no near-duplicate threshold defined), nearest-neighbor labels\nrecorded. Candidate legacy probabilities: CHEMBL7385 0.090, CHEMBL6729 0.058,\nCHEMBL48767 0.118, CHEMBL24974 0.258; expansion analogs 0.058–0.416. These are\npredictions on novel scaffolds — not a de-risking guarantee; the small-set DILI flag on\nCHEMBL7385 remains the main safety watch-item."
+          }
+        ]
+      },
+      "T3_average_precision": {
+        "status": "PASS",
+        "evidence": [
+          {
+            "path": "final-report.md",
+            "line": 232,
+            "text": "**hERG_Central (dataset = 306,893 records; canonical-dedup to 306,879; now\nREPRODUCIBLE)**: stratified 80/20 split (indices saved), RF-300 (MODEL-B) → **held-out\ntest ROC-AUC 0.9091, average precision 0.4792** (sklearn average_precision_score;\nper-test-sample predictions archived so this is independently recomputable);"
+          }
+        ]
+      },
+      "T4_mean_max": {
+        "status": "FAIL",
+        "details": "Body labels mean/max correctly, but banner still uses unlabeled ranges.",
+        "evidence": [
+          {
+            "path": "final-report.md",
+            "line": 19,
+            "text": "> 6.1 ns duration (not 3 ns), naive ligand displacement 0.47–0.69 **nm** (4.7–6.9 Å),\n> and the corrected imaged/fit analysis (GPT6) gives ligand internal RMSD 1.85–2.37 Å\n> and protein backbone RMSD 2.18–2.68 Å — the original \"≤0.69 Å stable binding\" claim\n> is **withdrawn**; (3) the simulation actually used **Li 2013 CM 12-6 Zn²⁺ parameters**\n> (126 file, ε=0.00330286 — verified in complex.prmtop), not the 2014 12-6-4 file's 12-6 parameters; the C4 term of the 12-6-4 model is absent from both runs; (4)"
+          },
+          {
+            "path": "final-report.md",
+            "line": 173,
+            "text": "- Corrected analysis (GPT6; whole-molecule periodic imaging; ligand metric uses\n  ligand-self fitting, protein metric uses protein-backbone fitting): ligand internal\n  RMSD **mean 1.847 Å, max 2.370 Å**; protein backbone RMSD **mean 2.175 Å, max\n  2.679 Å**. (These are mean/max statistics, not min–max ranges.) The original\n  \"≤0.69 Å stable binding\" and \"12.5 Å loop-flailing\" claims are **withdrawn**."
+          }
+        ]
+      },
+      "T5_old_gate_labels": {
+        "status": "FAIL",
+        "details": "The two narrow literal strings in the request are absent, but old-G5 PASS survives outside the mapping table.",
+        "literal_old_G1_PASS_absent": true,
+        "literal_G5_PASS_pipe_absent": true,
+        "evidence": [
+          {
+            "path": "final-report.md",
+            "line": 60,
+            "text": "| Triage | Composite ranking + novelty NN + homolog selectivity (all ≤0.31) + **activity-record audit** (6/10 were GPCR ligands → reordered) | old-G5 PASS → team-skill G4 FAIL-as-submitted (units/selection; corrected analyses adopted) |"
+          }
+        ]
+      },
+      "T6_threshold": {
+        "status": "FAIL",
+        "details": "Internal ranking convention is absent from final-report.md. Structure report has it, but hit-report still claims the reference chemotypes yield <= -7.0 despite all three scores being above -7.0.",
+        "evidence": [
+          {
+            "path": "hit-report.md",
+            "line": 9,
+            "text": "| Reference compound | Known potency | Vina (predicted) |\n|---|---|---|\n| CHEMBL418376 | **1.0 µM vs SMPD2 (CHEMBL4712)** — no verified human-SMPD1 record | −6.96 |\n| CHEMBL5284579 | **1.8 µM vs SMPD2 (CHEMBL4712)** | −6.34 |\n| CHEMBL310981 | 1.0–3.3 µM vs SMPD2; **49 µM vs human SMPD1** (activity 375434) | −6.01 |\n\n→ **CORRECTED after external audit:** the \"known 1–2 µM actives\" hit **SMPD2\n(CHEMBL4712), not human SMPD1** — the calibration anchor is **withdrawn**. These\nchemotypes still show that the pocket/protocol yields ≤ −7.0 scores for sphingomyelinase\nchemotypes, but they are NOT validated human-SMPD1 actives. Docking scores never compare\nacross protocols/papers or across different enzymes.\n"
+          },
+          {
+            "path": "structure-analysis.md",
+            "line": 36,
+            "text": "Empirical benchmark — **WITHDRAWN after external audit**: the \"known 1–2 µM ASM\ninhibitors\" are µM actives of SMPD2 (CHEMBL4712), not human SMPD1 (CHEMBL310981 vs\nhuman SMPD1 = 49 µM, activity 375434). Their docked scores here are −6.96, −6.34 and −6.01 (none ≤ −7.0); they demonstrate\nonly that the protocol scores sphingomyelinase-family binders in this range. They are\nNOT a human-SMPD1 potency anchor and NOT evidence that sub-−7.0 scores indicate\nactivity. The campaign's −7.0 threshold is retained only as an\ninternal ranking convention, not a potency calibration."
+          }
+        ]
+      },
+      "T7_v1_topology": {
+        "status": "FAIL",
+        "details": "No rereview-r3 snapshot citation in final-report.md; v1 attribution still points to current complex.prmtop, now v2.",
+        "evidence": [
+          {
+            "path": "final-report.md",
+            "line": 22,
+            "text": "> is **withdrawn**; (3) the simulation actually used **Li 2013 CM 12-6 Zn²⁺ parameters**\n> (126 file, ε=0.00330286 — verified in complex.prmtop), not the 2014 12-6-4 file's 12-6 parameters; the C4 term of the 12-6-4 model is absent from both runs; (4)"
+          },
+          {
+            "path": "final-report.md",
+            "line": 168,
+            "text": "- Zn²⁺ parameters actually used: **Li et al. 2013 CM 12-6 set** (frcmod.ions234lm_126_tip3p,\n  auto-loaded by leaprc.water.tip3p; coordinator-verified in complex.prmtop:\n  ε = 0.00330286 kcal/mol, q = +2), **not** the 2014 12-6-4 file cited earlier."
+          }
+        ]
+      },
+      "historical_R4_T6_ensemble_denial": {
+        "status": "FAIL",
+        "details": "Original round4 IDs differ from the user checklist: original T3=mean/max,T4=old gate,T5=threshold,T6=ensemble denial. This additional historical mandatory closure still fails.",
+        "evidence": [
+          {
+            "path": "structure-analysis.md",
+            "line": 34,
+            "text": "| Ensemble re-docking of top 20 (5I81 / 5JG8; cross-crystal ensemble, see above) | 5I81 |Δ| median 0.17 (max 0.34) kcal/mol; 5JG8 systematically ~0.3–1.4 lower but all hits −6.99…−9.07; top-4 clean hits stable in all three crystals |"
+          },
+          {
+            "path": "structure-analysis.md",
+            "line": 58,
+            "text": "- Receptor is a single static conformation (no ensemble docking performed in this\n  campaign); flexible-loop (SMD/MD) effects on the entry channel are unassessed."
+          }
+        ]
+      }
+    },
+    "repair_4": {
+      "root_sha256": "18194bde7d5b16974b4ffb28a21c3a6f1bb08d17bc437318031bd69a694ebf6f",
+      "levels": [
+        "L1_evidence",
+        "L2_scripts",
+        "L3_reports_frozen",
+        "L4_nested_manifests",
+        "L5_audit_artifacts"
+      ],
+      "entries": [
+        {
+          "level": "L1_evidence",
+          "path": "results/hits_ranked.csv",
+          "sha256": "d941016bcffb1607d316e3dbba61d41aee4495de81c88f74fc100e43c77b5052",
+          "bytes": 501654,
+          "actual_sha256": "d941016bcffb1607d316e3dbba61d41aee4495de81c88f74fc100e43c77b5052",
+          "actual_bytes": 501654,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L1_evidence",
+          "path": "results/funnel_registry.json",
+          "sha256": "5d6c059bc74b59044ef6d608386d3b5c4b334d70ef0212360f7948ce3af6d288",
+          "bytes": 1832,
+          "actual_sha256": "5d6c059bc74b59044ef6d608386d3b5c4b334d70ef0212360f7948ce3af6d288",
+          "actual_bytes": 1832,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L1_evidence",
+          "path": "results/top50.json",
+          "sha256": "aaba6b2857113d0577050b7161be242ac99a2ec1b283bcb67502a9ac88ab4446",
+          "bytes": 21890,
+          "actual_sha256": "aaba6b2857113d0577050b7161be242ac99a2ec1b283bcb67502a9ac88ab4446",
+          "actual_bytes": 21890,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L1_evidence",
+          "path": "results/ensemble_scores.csv",
+          "sha256": "bcaf6a68fa1f167f748384dde59c5993fae820e11f2a55e67c0c415d208f4c7f",
+          "bytes": 693,
+          "actual_sha256": "bcaf6a68fa1f167f748384dde59c5993fae820e11f2a55e67c0c415d208f4c7f",
+          "actual_bytes": 693,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L1_evidence",
+          "path": "results/gnina_rescoring.json",
+          "sha256": "40495bf4b5ef7707549ff8b2a0277a07d9cc429a56273f85249e1383d5ada15d",
+          "bytes": 944,
+          "actual_sha256": "40495bf4b5ef7707549ff8b2a0277a07d9cc429a56273f85249e1383d5ada15d",
+          "actual_bytes": 944,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L1_evidence",
+          "path": "results/homolog_selectivity.csv",
+          "sha256": "09d507c7c84826ed33d90407888a4d87e8206d4de0e4406fefa50a45ab52bb1b",
+          "bytes": 1448,
+          "actual_sha256": "09d507c7c84826ed33d90407888a4d87e8206d4de0e4406fefa50a45ab52bb1b",
+          "actual_bytes": 1448,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L1_evidence",
+          "path": "results/admet_predictions.csv",
+          "sha256": "15dcea91ea51962d186cf65f933ea0cf2160d4c146ffd611f150a35ff0249ec2",
+          "bytes": 3909,
+          "actual_sha256": "15dcea91ea51962d186cf65f933ea0cf2160d4c146ffd611f150a35ff0249ec2",
+          "actual_bytes": 3909,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L1_evidence",
+          "path": "results/md_ensemble_docking.csv",
+          "sha256": "2c7c65c08dd762449112fe6697c4d8bb83797132d41902aeabb7d488c4868786",
+          "bytes": 464,
+          "actual_sha256": "2c7c65c08dd762449112fe6697c4d8bb83797132d41902aeabb7d488c4868786",
+          "actual_bytes": 464,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L1_evidence",
+          "path": "results/expansion_results.json",
+          "sha256": "266c51446bc565a9dce4aae8975c3ae7abf143d75d569032c8684c75e90e8f19",
+          "bytes": 53656,
+          "actual_sha256": "266c51446bc565a9dce4aae8975c3ae7abf143d75d569032c8684c75e90e8f19",
+          "actual_bytes": 53656,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L1_evidence",
+          "path": "results/herg_central_repro/metrics.json",
+          "sha256": "dc7dc6e28e8d91060d0427324cb03404c157d09bc0947ea8cedd834371003226",
+          "bytes": 117,
+          "actual_sha256": "dc7dc6e28e8d91060d0427324cb03404c157d09bc0947ea8cedd834371003226",
+          "actual_bytes": 117,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L1_evidence",
+          "path": "results/herg_central_repro/split_meta.json",
+          "sha256": "643a159b567655d9584fb0b28f84944b114999e52f0dd4ebbc78165ccefd5cd9",
+          "bytes": 402,
+          "actual_sha256": "643a159b567655d9584fb0b28f84944b114999e52f0dd4ebbc78165ccefd5cd9",
+          "actual_bytes": 402,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L1_evidence",
+          "path": "results/herg_central_repro/dataset.sha256",
+          "sha256": "a33ffb01b06381a1cb5cfcadcc83b221b323c12b94d515dab9d7c4bb83f53f7c",
+          "bytes": 66,
+          "actual_sha256": "a33ffb01b06381a1cb5cfcadcc83b221b323c12b94d515dab9d7c4bb83f53f7c",
+          "actual_bytes": 66,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L1_evidence",
+          "path": "results/herg_central_repro/candidate_overlap.csv",
+          "sha256": "dd74ef37dca0e0e63dc8108d0eb9e805698fc947dc392eea7fa9ffbb6def16bb",
+          "bytes": 723,
+          "actual_sha256": "dd74ef37dca0e0e63dc8108d0eb9e805698fc947dc392eea7fa9ffbb6def16bb",
+          "actual_bytes": 723,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L1_evidence",
+          "path": "results/herg_central_repro/models/candidate_predictions_by_model.csv",
+          "sha256": "a46b49dd0d200962c6d7b7919b268687495be696ec826d4b3dc748a2281570b8",
+          "bytes": 852,
+          "actual_sha256": "a46b49dd0d200962c6d7b7919b268687495be696ec826d4b3dc748a2281570b8",
+          "actual_bytes": 852,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L1_evidence",
+          "path": "results/herg_central_repro/models/model_provenance.json",
+          "sha256": "0e7fee3337deaed0ab83c8ac9bc3f21d8aa0de38d76d7e6b0cea1f698a44db7a",
+          "bytes": 442,
+          "actual_sha256": "0e7fee3337deaed0ab83c8ac9bc3f21d8aa0de38d76d7e6b0cea1f698a44db7a",
+          "actual_bytes": 442,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L1_evidence",
+          "path": "runs/audit-20260913/tasks/sim-02/attempt-1/pocket_residence.json",
+          "sha256": "207bb5749c69eb3e7e71d95d37271e4122aae7fa6b9d44a4f23d4ade73d26f49",
+          "bytes": 113800,
+          "actual_sha256": "207bb5749c69eb3e7e71d95d37271e4122aae7fa6b9d44a4f23d4ade73d26f49",
+          "actual_bytes": 113800,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L1_evidence",
+          "path": "runs/audit-20260913/tasks/sim-02/attempt-1/pocket_residence_v1_superseded.json",
+          "sha256": "aaa1f61546740037541e6cb6bc63f1fc3a575735276a3069dbf7016375f4f446",
+          "bytes": 113729,
+          "actual_sha256": "aaa1f61546740037541e6cb6bc63f1fc3a575735276a3069dbf7016375f4f446",
+          "actual_bytes": 113729,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L1_evidence",
+          "path": "runs/audit-20260913/tasks/syn-01/attempt-1/result.json",
+          "sha256": "c77469994a094397faaeb764a0c9f60d254bff1c855c5db3fe1e6eacdc473c4e",
+          "bytes": 216,
+          "actual_sha256": "c77469994a094397faaeb764a0c9f60d254bff1c855c5db3fe1e6eacdc473c4e",
+          "actual_bytes": 216,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L1_evidence",
+          "path": "runs/audit-20260913/tasks/syn-01/attempt-1/candidates_routes.json",
+          "sha256": "a4726dda55c058fd61b65840359f2f1711dee1ab9f03a4c14dfefd4b9e5ad851",
+          "bytes": 455,
+          "actual_sha256": "a4726dda55c058fd61b65840359f2f1711dee1ab9f03a4c14dfefd4b9e5ad851",
+          "actual_bytes": 455,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L1_evidence",
+          "path": "runs/benchmark-seeded/benchmark_results.json",
+          "sha256": "1c44dfd11d9fe2086cba06d6bce4c1e0d3a6e9614216e46c90dfe15c6cb1abbf",
+          "bytes": 2086,
+          "actual_sha256": "1c44dfd11d9fe2086cba06d6bce4c1e0d3a6e9614216e46c90dfe15c6cb1abbf",
+          "actual_bytes": 2086,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L1_evidence",
+          "path": "runs/benchmark-seeded/real_findings_replay.json",
+          "sha256": "1f3fbd22cd9c12b565d44058944a2d05a800758b98ed66e532514d2894167695",
+          "bytes": 5453,
+          "actual_sha256": "1f3fbd22cd9c12b565d44058944a2d05a800758b98ed66e532514d2894167695",
+          "actual_bytes": 5453,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L1_evidence",
+          "path": "md/bound_v2.dcd",
+          "sha256": "3069107c4d099dfc081673b0becdf6c33e942f5fe4ef2f78bb87d3d0e8200502",
+          "bytes": 545647396,
+          "actual_sha256": "3069107c4d099dfc081673b0becdf6c33e942f5fe4ef2f78bb87d3d0e8200502",
+          "actual_bytes": 545647396,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L1_evidence",
+          "path": "md/bound_ref.pdb",
+          "sha256": "b294b05be700ac7e9fd3a2bca59f4940970d7cbe029f88e04190f3873d61e3ab",
+          "bytes": 7381099,
+          "actual_sha256": "b294b05be700ac7e9fd3a2bca59f4940970d7cbe029f88e04190f3873d61e3ab",
+          "actual_bytes": 7381099,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L1_evidence",
+          "path": "md/bound_analysis_pre_registered.json",
+          "sha256": "afccad51c5aab8cf4ea52cd5dc19934d05c2259bf9d50ebb43c1ac6ad92231b7",
+          "bytes": 590,
+          "actual_sha256": "afccad51c5aab8cf4ea52cd5dc19934d05c2259bf9d50ebb43c1ac6ad92231b7",
+          "actual_bytes": 590,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L1_evidence",
+          "path": "md/complex.prmtop",
+          "sha256": "f2139e02ad03663415bd09849ab8bb398cffa2ad18f7ecbe6003bcb3f3c91cd8",
+          "bytes": 13990827,
+          "actual_sha256": "f2139e02ad03663415bd09849ab8bb398cffa2ad18f7ecbe6003bcb3f3c91cd8",
+          "actual_bytes": 13990827,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L1_evidence",
+          "path": "md/complex.inpcrd",
+          "sha256": "a8299226c0e859d72280cfe874e1ec8074e88b963b66d848e7366c399f349d24",
+          "bytes": 2676748,
+          "actual_sha256": "a8299226c0e859d72280cfe874e1ec8074e88b963b66d848e7366c399f349d24",
+          "actual_bytes": 2676748,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L1_evidence",
+          "path": "md/prod.dcd",
+          "sha256": "4941f5acf59b5265305a48e5f0f59c07a53e0f86ae5785553a90c2b9480f4995",
+          "bytes": 1962763656,
+          "actual_sha256": "4941f5acf59b5265305a48e5f0f59c07a53e0f86ae5785553a90c2b9480f4995",
+          "actual_bytes": 1962763656,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L1_evidence",
+          "path": "structures/5i85.pdb",
+          "sha256": "c8b9711df2698f100b5f040f51cab14cf1cc9add5d98fb2eb5ec518ac528f2fe",
+          "bytes": 791937,
+          "actual_sha256": "c8b9711df2698f100b5f040f51cab14cf1cc9add5d98fb2eb5ec518ac528f2fe",
+          "actual_bytes": 791937,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L1_evidence",
+          "path": "structures/5i85_recA_ZN_rigid.pdbqt",
+          "sha256": "5d33cac3fb16951a306f94041196ff322d30308cd843447c7bdb28aa15da9bd1",
+          "bytes": 427119,
+          "actual_sha256": "5d33cac3fb16951a306f94041196ff322d30308cd843447c7bdb28aa15da9bd1",
+          "actual_bytes": 427119,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L2_scripts",
+          "path": "scripts/bound_md.py",
+          "sha256": "25dfd0aee5f633947348f40b949f08d7b0b1ad4565b3bd8daf84a393b6f8da0f",
+          "bytes": 5623,
+          "actual_sha256": "25dfd0aee5f633947348f40b949f08d7b0b1ad4565b3bd8daf84a393b6f8da0f",
+          "actual_bytes": 5623,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L2_scripts",
+          "path": "scripts/pocket_residence.py",
+          "sha256": "742f0e28ccb2e137ba144ce11206362b636c4ee5af124aad64b9e3cd892049b8",
+          "bytes": 8252,
+          "actual_sha256": "742f0e28ccb2e137ba144ce11206362b636c4ee5af124aad64b9e3cd892049b8",
+          "actual_bytes": 8252,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L2_scripts",
+          "path": "scripts/herg_model_separation.py",
+          "sha256": "cf7d2b963af31a5c8c2c3cd71b36e6ceab224315971abc23735dcf3f3af76427",
+          "bytes": 4576,
+          "actual_sha256": "cf7d2b963af31a5c8c2c3cd71b36e6ceab224315971abc23735dcf3f3af76427",
+          "actual_bytes": 4576,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L2_scripts",
+          "path": "scripts/herg_central_repro.py",
+          "sha256": "03f248fc84a78741ac3820de67fd3bfc85f9a4a0efb291370924135568577eb8",
+          "bytes": 4813,
+          "actual_sha256": "03f248fc84a78741ac3820de67fd3bfc85f9a4a0efb291370924135568577eb8",
+          "actual_bytes": 4813,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L2_scripts",
+          "path": "scripts/seeded_benchmark.py",
+          "sha256": "7ec0f9e821571fbda7dc57cc401edbabd51a3fa0d17905f39758774bef00d908",
+          "bytes": 6677,
+          "actual_sha256": "7ec0f9e821571fbda7dc57cc401edbabd51a3fa0d17905f39758774bef00d908",
+          "actual_bytes": 6677,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L2_scripts",
+          "path": "scripts/findings_replay.py",
+          "sha256": "55d553f1f257e206856bad5c059a1830ea52a41c02486579aaf6cab2dd8fd7ee",
+          "bytes": 6223,
+          "actual_sha256": "55d553f1f257e206856bad5c059a1830ea52a41c02486579aaf6cab2dd8fd7ee",
+          "actual_bytes": 6223,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L2_scripts",
+          "path": "scripts/build_bound.sh",
+          "sha256": "61885c8d7c7b1a396a29c5cf0bca655c00b09fa5ad0b8b9d88f12db94940d20a",
+          "bytes": 2267,
+          "actual_sha256": "61885c8d7c7b1a396a29c5cf0bca655c00b09fa5ad0b8b9d88f12db94940d20a",
+          "actual_bytes": 2267,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L2_scripts",
+          "path": "scripts/dock_runner.py",
+          "sha256": "8124392ff81f4f6a21b6f2c52ce94e77059a21042be06075c83d0f481aa8fb6f",
+          "bytes": 3039,
+          "actual_sha256": "8124392ff81f4f6a21b6f2c52ce94e77059a21042be06075c83d0f481aa8fb6f",
+          "actual_bytes": 3039,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L2_scripts",
+          "path": "scripts/triage.py",
+          "sha256": "2c1af9312fb64c06e11e5b494c72e5c6ab63d7d99b4b103b044d1d6f55c72bbd",
+          "bytes": 4357,
+          "actual_sha256": "2c1af9312fb64c06e11e5b494c72e5c6ab63d7d99b4b103b044d1d6f55c72bbd",
+          "actual_bytes": 4357,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L2_scripts",
+          "path": "scripts/ensemble_dock.py",
+          "sha256": "fda48b7e1df261f441c77f52121ffa21ac28042f33a24e8abb59c9d8fc2d0b88",
+          "bytes": 5099,
+          "actual_sha256": "fda48b7e1df261f441c77f52121ffa21ac28042f33a24e8abb59c9d8fc2d0b88",
+          "actual_bytes": 5099,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L2_scripts",
+          "path": "scripts/gnina_rescore.py",
+          "sha256": "45ff0db93d2df8b8f146d039dcca84609933fc753cc95ea0e6d884eb166f86b9",
+          "bytes": 2463,
+          "actual_sha256": "45ff0db93d2df8b8f146d039dcca84609933fc753cc95ea0e6d884eb166f86b9",
+          "actual_bytes": 2463,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L2_scripts",
+          "path": "scripts/run_all.sh",
+          "sha256": "cdf6536bb7604699577ab7efabdac0f2dd2591496aa27be8ebcdce876305af71",
+          "bytes": 2740,
+          "actual_sha256": "cdf6536bb7604699577ab7efabdac0f2dd2591496aa27be8ebcdce876305af71",
+          "actual_bytes": 2740,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L3_reports_frozen",
+          "path": "final-report.md",
+          "sha256": "ad8492f3316fb9dc38a620eb58d8757b055d0bbbc1e682def886b29f83cde784",
+          "bytes": 17163,
+          "actual_sha256": "ad8492f3316fb9dc38a620eb58d8757b055d0bbbc1e682def886b29f83cde784",
+          "actual_bytes": 17163,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L3_reports_frozen",
+          "path": "target-dossier.md",
+          "sha256": "c0da5f25e216924200fbee74c3662bc9c350f4a2f312f10d6311e48d42ec8d55",
+          "bytes": 8518,
+          "actual_sha256": "c0da5f25e216924200fbee74c3662bc9c350f4a2f312f10d6311e48d42ec8d55",
+          "actual_bytes": 8518,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L3_reports_frozen",
+          "path": "structure-analysis.md",
+          "sha256": "e21e8dd1753489d19c69c262e191fba6d476d82bb43089dad948871dcfaae421",
+          "bytes": 4889,
+          "actual_sha256": "e21e8dd1753489d19c69c262e191fba6d476d82bb43089dad948871dcfaae421",
+          "actual_bytes": 4889,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L3_reports_frozen",
+          "path": "hit-report.md",
+          "sha256": "c04261ee600e20450fa082a9650e50c1247545e7dbcfc60077f4f328e764fa37",
+          "bytes": 13628,
+          "actual_sha256": "c04261ee600e20450fa082a9650e50c1247545e7dbcfc60077f4f328e764fa37",
+          "actual_bytes": 13628,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L3_reports_frozen",
+          "path": "validation-plan.md",
+          "sha256": "9db369ae376dba190faca92699962aec645630846106c4eaa5fc28b380ded586",
+          "bytes": 5770,
+          "actual_sha256": "9db369ae376dba190faca92699962aec645630846106c4eaa5fc28b380ded586",
+          "actual_bytes": 5770,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L3_reports_frozen",
+          "path": "research-log.md",
+          "sha256": "3b846393c022900bb276db2db51f052c02b3636c334ef7f3a188936ce10505d2",
+          "bytes": 54211,
+          "actual_sha256": "b9af72bd976430384f27ae985375410d094f19f2283985291d0d5a1a7be6086c",
+          "actual_bytes": 56642,
+          "hash_match": false,
+          "size_match": false,
+          "self_reference": false
+        },
+        {
+          "level": "L3_reports_frozen",
+          "path": "AUDIT.md",
+          "sha256": "0f344d8f2df2a367d899bc91d62a0f65f2be110aa67727da7378d9c8a2a880ca",
+          "bytes": 12549,
+          "actual_sha256": "0f344d8f2df2a367d899bc91d62a0f65f2be110aa67727da7378d9c8a2a880ca",
+          "actual_bytes": 12549,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L4_nested_manifests",
+          "path": "runs/audit-20260913/handoff-r6-reports.json",
+          "sha256": "9f14c3f16c9980ff5af47b78b6b912bc7266db16b6c0415b4bb34ebf153644ca",
+          "bytes": 887,
+          "actual_sha256": "9f14c3f16c9980ff5af47b78b6b912bc7266db16b6c0415b4bb34ebf153644ca",
+          "actual_bytes": 887,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L4_nested_manifests",
+          "path": "runs/audit-20260913/handoff-r6-evidence.json",
+          "sha256": "84e8af1f08f725312b7deee8dfd03bf74ede3463625cc0a4661fedbbffadf8ba",
+          "bytes": 5796,
+          "actual_sha256": "84e8af1f08f725312b7deee8dfd03bf74ede3463625cc0a4661fedbbffadf8ba",
+          "actual_bytes": 5796,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L5_audit_artifacts",
+          "path": "independent-audit/REPORT.md",
+          "sha256": "121544876092a01a2e371c7028300d90d37e5da845c1788bd9e268d8935fb92c",
+          "bytes": 14220,
+          "actual_sha256": "121544876092a01a2e371c7028300d90d37e5da845c1788bd9e268d8935fb92c",
+          "actual_bytes": 14220,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L5_audit_artifacts",
+          "path": "independent-audit/rereview-r3/REPORT.md",
+          "sha256": "f32c2013768fdffeb70f724b36a4e96d4fdc5954a674ca70de2fcbd96a9b99dc",
+          "bytes": 12255,
+          "actual_sha256": "f32c2013768fdffeb70f724b36a4e96d4fdc5954a674ca70de2fcbd96a9b99dc",
+          "actual_bytes": 12255,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L5_audit_artifacts",
+          "path": "independent-audit/round4-acceptance/round4_checks.json",
+          "sha256": "0271d44ac8c88d5d14a1c7acc7da7eef5b0bbe2ba9fc1064fb1b91a7bc293483",
+          "bytes": 65330,
+          "actual_sha256": "0271d44ac8c88d5d14a1c7acc7da7eef5b0bbe2ba9fc1064fb1b91a7bc293483",
+          "actual_bytes": 65330,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L5_audit_artifacts",
+          "path": "independent-audit/round4-acceptance/adjudication.md",
+          "sha256": "15d03d7e8844a5c7c2eeeaa0a701ac9b11359e63912a39ac8c9a5937a38b81c1",
+          "bytes": 13406,
+          "actual_sha256": "15d03d7e8844a5c7c2eeeaa0a701ac9b11359e63912a39ac8c9a5937a38b81c1",
+          "actual_bytes": 13406,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        },
+        {
+          "level": "L5_audit_artifacts",
+          "path": "runs/audit-20260913/reviews/gpt6-audit-triage.md",
+          "sha256": "72d0c758f3a1133b99e361bcb5e27a4b79d812797ee9d5bfdc76eab12fd478ed",
+          "bytes": 5922,
+          "actual_sha256": "72d0c758f3a1133b99e361bcb5e27a4b79d812797ee9d5bfdc76eab12fd478ed",
+          "actual_bytes": 5922,
+          "hash_match": true,
+          "size_match": true,
+          "self_reference": false
+        }
+      ],
+      "total": 55,
+      "hash_matches": 54,
+      "size_matches": 54,
+      "self_reference": false,
+      "handoffs": [
+        {
+          "command": [
+            "C:\\ProgramData\\anaconda3\\python.exe",
+            "-B",
+            "C:\\Users\\Gnimi\\.agents\\skills\\ai-drug-discovery-team\\scripts\\check_handoff.py",
+            "runs/audit-20260913/handoff-r6-reports.json",
+            "--root",
+            "C:\\Users\\Gnimi\\.zcode\\workspace\\default\\cognition-drug-discovery",
+            "--require",
+            "artifacts"
+          ],
+          "exit_code": 1,
+          "stdout": "{\n  \"mechanical_checks_passed\": false,\n  \"errors\": [\n    \"artifacts[5]: artifact SHA256 mismatch\"\n  ],\n  \"scientific_acceptance\": \"NOT_ASSESSED\"\n}\n",
+          "stderr": ""
+        },
+        {
+          "command": [
+            "C:\\ProgramData\\anaconda3\\python.exe",
+            "-B",
+            "C:\\Users\\Gnimi\\.agents\\skills\\ai-drug-discovery-team\\scripts\\check_handoff.py",
+            "runs/audit-20260913/handoff-r6-evidence.json",
+            "--root",
+            "C:\\Users\\Gnimi\\.zcode\\workspace\\default\\cognition-drug-discovery",
+            "--require",
+            "artifacts"
+          ],
+          "exit_code": 0,
+          "stdout": "{\n  \"mechanical_checks_passed\": true,\n  \"errors\": [],\n  \"scientific_acceptance\": \"NOT_ASSESSED\"\n}\n",
+          "stderr": ""
+        }
+      ]
+    },
+    "repair_5": {
+      "scope": "Mandatory item 5, benchmark existence, internal arithmetic, producing-script reproducibility and actual replay provenance",
+      "verdict": "FAIL_SUBSTANTIVE_REPLAY_CLAIM; stored numeric requirements pass",
+      "checks": {
+        "stored_seeded_results_arithmetic": {
+          "pass": true,
+          "seeded": 5,
+          "controls": 5,
+          "summary": {
+            "seeded_cases": 5,
+            "detected": 5,
+            "missed": [],
+            "control_false_positives": 0,
+            "per_class_detection": {
+              "E1-unit-swap": true,
+              "E4-direction-flip": true,
+              "E3-parameter-swap": true,
+              "E2-identity-swap": true,
+              "E5-hash-staleness": true
+            }
+          }
+        },
+        "seeded_rerun": {
+          "pass": true,
+          "excluded_comparison_fields": [
+            "generated"
+          ]
+        },
+        "stored_replay_results_arithmetic": {
+          "pass": true,
+          "replayable_count": 13,
+          "context_live_only": [
+            "R1-4",
+            "R1-9",
+            "R3-4",
+            "R3-5",
+            "R3-7"
+          ]
+        },
+        "replay_script_reproduces_stored_result": {
+          "pass": false,
+          "difference": {
+            "summary.detection_rate_deterministic": {
+              "stored": "13/13 artifact-replayable findings detected (100%); 5 findings were context/live-only and are reported separately",
+              "rerun": "18/18 = 100% of artifact-replayable findings"
+            }
+          }
+        },
+        "actual_artifact_replay_implemented": {
+          "pass": false,
+          "evidence": "scripts/findings_replay.py:19-85 hardcodes detected statuses. Its only open() call is line 109, writing output. No artifact read, detector invocation, or erroneous-state reconstruction is implemented. Lines 91-96 count hardcoded detected statuses for both denominator and numerator."
+        },
+        "seeded_design_matches_implementation": {
+          "pass": false,
+          "evidence": "scripts/seeded_benchmark.py:6-9 claims 15 injection sites and 15 controls; executed implementation has 5 and 5. E1-E4 are in-memory constants rather than copied project artifacts; only E5 reads/writes a canary."
+        },
+        "historical_wrong_parameter_set_challenge": {
+          "detected": false,
+          "expected_if_claimed_2014": true,
+          "evidence": "scripts/seeded_benchmark.py:62-68 accepts either 2013 or 2014 epsilon. Seed uses neither-set epsilon 0.01234567, so 5/5 does not demonstrate detection of historical R1-3 wrong-set error."
+        }
+      },
+      "mandatory_repairs": [
+        "Implement actual artifact-backed checks for the claimed 13 replayable findings (with frozen erroneous inputs, detector execution, observations and per-case result); derive denominator from replayable cases, not detected cases. Until executed, label this file a manually curated coverage inventory and withdraw claims that deterministic replays were run.",
+        "Make findings_replay.py regenerate the corrected 13/13 and 5 context/live-only summary and regenerate benchmark artifacts and dependent manifests.",
+        "Correct seeded benchmark documentation to the executed 5-case/5-control design or execute the stated 15-site design; describe simplified fixtures and parameter-set limitations accurately."
+      ],
+      "limits": [
+        "No broader sensitivity estimate follows from these five hand-constructed checks.",
+        "This audit reruns the supplied producing scripts with output paths redirected only; it does not turn their hardcoded replay labels into independently executed checks."
+      ],
+      "input_sha256": {
+        "scripts/seeded_benchmark.py": "7ec0f9e821571fbda7dc57cc401edbabd51a3fa0d17905f39758774bef00d908",
+        "scripts/findings_replay.py": "55d553f1f257e206856bad5c059a1830ea52a41c02486579aaf6cab2dd8fd7ee",
+        "runs/benchmark-seeded/benchmark_results.json": "1c44dfd11d9fe2086cba06d6bce4c1e0d3a6e9614216e46c90dfe15c6cb1abbf",
+        "runs/benchmark-seeded/real_findings_replay.json": "1f3fbd22cd9c12b565d44058944a2d05a800758b98ed66e532514d2894167695"
+      },
+      "write_scope": "All rerun and audit writes were confined to independent-audit/round5-acceptance."
+    }
+  },
+  "mandatory_repairs": [
+    "Correct residue selection and crystal/reference-frame center transform; rerun pocket analysis and propagate complete catalytic contacts.",
+    "Remove surviving pocket, mean/max, old-gate, reference-threshold, ensemble-denial and v1-provenance contradictions. Explicitly withdraw fitted-estimator serialization and describe saved-score/refit limits.",
+    "Execute real artifact replay for all 13 claimed cases; derive results from checks, fix stale 18/18 producer summary, and align seeded documentation with executed design.",
+    "Freeze all final leaves, regenerate nested handoffs then root, and require both handoffs plus every root hash to pass."
+  ],
+  "source_sha256": {
+    "final-report.md": "ad8492f3316fb9dc38a620eb58d8757b055d0bbbc1e682def886b29f83cde784",
+    "hit-report.md": "c04261ee600e20450fa082a9650e50c1247545e7dbcfc60077f4f328e764fa37",
+    "structure-analysis.md": "e21e8dd1753489d19c69c262e191fba6d476d82bb43089dad948871dcfaae421",
+    "scripts/seeded_benchmark.py": "7ec0f9e821571fbda7dc57cc401edbabd51a3fa0d17905f39758774bef00d908",
+    "scripts/findings_replay.py": "55d553f1f257e206856bad5c059a1830ea52a41c02486579aaf6cab2dd8fd7ee",
+    "runs/benchmark-seeded/benchmark_results.json": "1c44dfd11d9fe2086cba06d6bce4c1e0d3a6e9614216e46c90dfe15c6cb1abbf",
+    "runs/benchmark-seeded/real_findings_replay.json": "1f3fbd22cd9c12b565d44058944a2d05a800758b98ed66e532514d2894167695",
+    "audit_manifest.json": "18194bde7d5b16974b4ffb28a21c3a6f1bb08d17bc437318031bd69a694ebf6f",
+    "scripts/pocket_residence.py": "742f0e28ccb2e137ba144ce11206362b636c4ee5af124aad64b9e3cd892049b8"
+  },
+  "source_drift_at_delivery": {
+    "final-report.md": false,
+    "hit-report.md": false,
+    "structure-analysis.md": false,
+    "scripts/seeded_benchmark.py": false,
+    "scripts/findings_replay.py": false,
+    "runs/benchmark-seeded/benchmark_results.json": false,
+    "runs/benchmark-seeded/real_findings_replay.json": false,
+    "audit_manifest.json": false,
+    "scripts/pocket_residence.py": false
+  },
+  "limitations": [
+    "No experimental validation or G6 promotion performed.",
+    "Five simplified seeded fixtures are not a general sensitivity benchmark.",
+    "Literal requested contact labels pass but conflict with complete independent catalytic mapping; scientific failure is reported explicitly."
+  ],
+  "report": "independent-audit/round5-acceptance/round5-acceptance.md"
+}

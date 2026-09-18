@@ -1,0 +1,20 @@
+{
+  "source_sha256": "1f3999ce32f51338f04b53a2e219963fcc07164c8a8f5d65b1e988061bdbc8bd",
+  "entries": 13,
+  "actual_true": 12,
+  "actual_null": 1,
+  "saved_summary": {
+    "executed_replays": 13,
+    "detected": 12,
+    "delegated": 1,
+    "detection_rate": "12/13",
+    "note": "counts derived from executed observations; context-only findings (R3-4, R3-5, R3-7) and live-only (R1-4, R1-9) are excluded here and listed separately as coverage inventory"
+  },
+  "count_line": 197,
+  "append_line": 191,
+  "literal_evidence": {
+    "146": "retired_vals = [float(v) for v in m2]",
+    "182": "vals = [float(t.replace('\u2212', '-')) for t in _re.findall(r'[-\u2212]?\\d+\\.\\d+', row_txt)]"
+  },
+  "reads_bound_run_log": true
+}

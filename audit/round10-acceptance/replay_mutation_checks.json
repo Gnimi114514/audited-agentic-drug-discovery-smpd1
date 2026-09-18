@@ -1,0 +1,45 @@
+[
+  {
+    "variant": "current",
+    "values": [
+      1.0,
+      -6.96,
+      1.8,
+      -6.34,
+      1.0,
+      3.3,
+      -6.01
+    ],
+    "detected": true,
+    "exception": null
+  },
+  {
+    "variant": "negative_score",
+    "values": [
+      1.0,
+      -7.96,
+      1.8,
+      -6.34,
+      1.0,
+      3.3,
+      -6.01
+    ],
+    "detected": false,
+    "exception": null
+  },
+  {
+    "variant": "missing_all_three_scores",
+    "values": [
+      1.0,
+      1.8,
+      1.0,
+      3.3
+    ],
+    "detected": true,
+    "exception": null
+  },
+  {
+    "variant": "empty",
+    "exception": "AssertionError: R3-6 replay: expected >=3 table values"
+  }
+]

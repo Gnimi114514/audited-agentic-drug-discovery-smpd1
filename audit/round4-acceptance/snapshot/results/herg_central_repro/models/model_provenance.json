@@ -1,0 +1,12 @@
+{
+ "python": "3.12.3",
+ "sklearn": "1.9.0",
+ "n_total_dedup": 306879,
+ "n_train_B": 245503,
+ "n_test_B": 61376,
+ "MODEL_B_test_roc_auc": 0.9091,
+ "MODEL_B_test_avg_precision": 0.4792,
+ "metric_note": "AP computed with sklearn average_precision_score",
+ "model_A": "RF n_estimators=500, full dedup data (legacy protocol; in-sample for candidates)",
+ "model_B": "RF n_estimators=300, saved 80% split (held-out evaluation protocol)"
+}

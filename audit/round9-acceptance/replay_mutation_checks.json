@@ -1,0 +1,28 @@
+[
+  {
+    "variant": "current_artifact",
+    "parsed_values": [
+      6.96,
+      6.34,
+      6.01
+    ],
+    "observed": "values=[6.96, 6.34, 6.01], any<=-7: False",
+    "detected": true
+  },
+  {
+    "variant": "reference_score_changed_to_minus_7_96",
+    "parsed_values": [
+      6.34,
+      6.01,
+      6.99
+    ],
+    "observed": "values=[6.34, 6.01, 6.99], any<=-7: False",
+    "detected": true
+  },
+  {
+    "variant": "empty_artifact",
+    "parsed_values": [],
+    "observed": "values=[], any<=-7: False",
+    "detected": true
+  }
+]

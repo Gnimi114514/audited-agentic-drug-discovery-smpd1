@@ -1,0 +1,216 @@
+{
+ "artifacts": [
+  {
+   "path": "results/hits_ranked.csv",
+   "sha256": "d941016bcffb1607d316e3dbba61d41aee4495de81c88f74fc100e43c77b5052"
+  },
+  {
+   "path": "results/funnel_registry.json",
+   "sha256": "5d6c059bc74b59044ef6d608386d3b5c4b334d70ef0212360f7948ce3af6d288"
+  },
+  {
+   "path": "results/top50.json",
+   "sha256": "aaba6b2857113d0577050b7161be242ac99a2ec1b283bcb67502a9ac88ab4446"
+  },
+  {
+   "path": "results/ensemble_scores.csv",
+   "sha256": "bcaf6a68fa1f167f748384dde59c5993fae820e11f2a55e67c0c415d208f4c7f"
+  },
+  {
+   "path": "results/gnina_rescoring.json",
+   "sha256": "40495bf4b5ef7707549ff8b2a0277a07d9cc429a56273f85249e1383d5ada15d"
+  },
+  {
+   "path": "results/homolog_selectivity.csv",
+   "sha256": "09d507c7c84826ed33d90407888a4d87e8206d4de0e4406fefa50a45ab52bb1b"
+  },
+  {
+   "path": "results/admet_predictions.csv",
+   "sha256": "15dcea91ea51962d186cf65f933ea0cf2160d4c146ffd611f150a35ff0249ec2"
+  },
+  {
+   "path": "results/md_ensemble_docking.csv",
+   "sha256": "2c7c65c08dd762449112fe6697c4d8bb83797132d41902aeabb7d488c4868786"
+  },
+  {
+   "path": "results/expansion_results.json",
+   "sha256": "266c51446bc565a9dce4aae8975c3ae7abf143d75d569032c8684c75e90e8f19"
+  },
+  {
+   "path": "results/herg_central_repro/metrics.json",
+   "sha256": "dc7dc6e28e8d91060d0427324cb03404c157d09bc0947ea8cedd834371003226"
+  },
+  {
+   "path": "results/herg_central_repro/split_meta.json",
+   "sha256": "643a159b567655d9584fb0b28f84944b114999e52f0dd4ebbc78165ccefd5cd9"
+  },
+  {
+   "path": "results/herg_central_repro/dataset.sha256",
+   "sha256": "a33ffb01b06381a1cb5cfcadcc83b221b323c12b94d515dab9d7c4bb83f53f7c"
+  },
+  {
+   "path": "results/herg_central_repro/candidate_overlap.csv",
+   "sha256": "dd74ef37dca0e0e63dc8108d0eb9e805698fc947dc392eea7fa9ffbb6def16bb"
+  },
+  {
+   "path": "results/herg_central_repro/models/candidate_predictions_by_model.csv",
+   "sha256": "a46b49dd0d200962c6d7b7919b268687495be696ec826d4b3dc748a2281570b8"
+  },
+  {
+   "path": "results/herg_central_repro/models/model_provenance.json",
+   "sha256": "0e7fee3337deaed0ab83c8ac9bc3f21d8aa0de38d76d7e6b0cea1f698a44db7a"
+  },
+  {
+   "path": "results/herg_central_repro/models/modelB_test_predictions.npz",
+   "sha256": "ff3c9c473c537aeca52a300b6c7b646c528506575ca9a1f7cf133f885c1bfd0f"
+  },
+  {
+   "path": "results/herg_karim_predictions.csv",
+   "sha256": "e932ae505b6ad5760dcc9a9079109ae5a4a3850838b569f16d6d9d27ed1bb36c"
+  },
+  {
+   "path": "results/herg_dili_predictions.csv",
+   "sha256": "6cfd4dc4f49dfcef00684d4093411b16be5268c64c5e53e28d3e327386650cc4"
+  },
+  {
+   "path": "results/pose_contacts.csv",
+   "sha256": "dec00fd260e8186eea9eb3fb2e46dabf80ca9cadb3baf3b04de8fc660846aa18"
+  },
+  {
+   "path": "runs/audit-20260913/tasks/sim-02/attempt-1/pocket_residence.json",
+   "sha256": "bd22cc6cd230dcf919ae39da59540d664c407edb24f17266e39883d304d17eea"
+  },
+  {
+   "path": "runs/audit-20260913/tasks/sim-02/attempt-1/pocket_residence_v1_superseded.json",
+   "sha256": "aaa1f61546740037541e6cb6bc63f1fc3a575735276a3069dbf7016375f4f446"
+  },
+  {
+   "path": "runs/audit-20260913/tasks/sim-02/attempt-1/pocket_residence_superseded_by_r5fix.json",
+   "sha256": "207bb5749c69eb3e7e71d95d37271e4122aae7fa6b9d44a4f23d4ade73d26f49"
+  },
+  {
+   "path": "runs/audit-20260913/tasks/sim-02/attempt-1/pocket_residence_r5fix_summary.json",
+   "sha256": "cb648cb97dfb89c665646f2c2da84c03a1ec2129ccaf34fd111bfcf76ee2fefb"
+  },
+  {
+   "path": "runs/audit-20260913/tasks/sim-02/attempt-1/pocket_residence_r7_summary.json",
+   "sha256": "1ddf4e3a801ed7098af4df17d2e30d9cf37c55496b23ed342b698fb2c4749e5a"
+  },
+  {
+   "path": "runs/audit-20260913/tasks/sim-02/attempt-1/pocket_residence_r7_frames.json",
+   "sha256": "5c15b9145469b818400260f399b138abadb3a9cf38049b9d8d2308a0cd9fc4c0"
+  },
+  {
+   "path": "runs/audit-20260913/tasks/syn-01/attempt-1/result.json",
+   "sha256": "c77469994a094397faaeb764a0c9f60d254bff1c855c5db3fe1e6eacdc473c4e"
+  },
+  {
+   "path": "runs/audit-20260913/tasks/syn-01/attempt-1/candidates_routes.json",
+   "sha256": "a4726dda55c058fd61b65840359f2f1711dee1ab9f03a4c14dfefd4b9e5ad851"
+  },
+  {
+   "path": "runs/benchmark-seeded/benchmark_results.json",
+   "sha256": "1c44dfd11d9fe2086cba06d6bce4c1e0d3a6e9614216e46c90dfe15c6cb1abbf"
+  },
+  {
+   "path": "runs/benchmark-seeded/real_findings_replay.json",
+   "sha256": "1f3fbd22cd9c12b565d44058944a2d05a800758b98ed66e532514d2894167695"
+  },
+  {
+   "path": "runs/benchmark-seeded/real_findings_replay_executed.json",
+   "sha256": "eeea277cfa275937b9bbe4fac4f178321e5ce2a13ac3036b3ef5275e74bee175"
+  },
+  {
+   "path": "md/bound_v2.dcd",
+   "sha256": "3069107c4d099dfc081673b0becdf6c33e942f5fe4ef2f78bb87d3d0e8200502"
+  },
+  {
+   "path": "md/bound_ref.pdb",
+   "sha256": "b294b05be700ac7e9fd3a2bca59f4940970d7cbe029f88e04190f3873d61e3ab"
+  },
+  {
+   "path": "md/bound_analysis_pre_registered.json",
+   "sha256": "32f363a5832ea2702b8311f793526479638af23b616b1b9913ec2715c02fd6dd"
+  },
+  {
+   "path": "md/complex.prmtop",
+   "sha256": "f2139e02ad03663415bd09849ab8bb398cffa2ad18f7ecbe6003bcb3f3c91cd8"
+  },
+  {
+   "path": "md/complex.inpcrd",
+   "sha256": "a8299226c0e859d72280cfe874e1ec8074e88b963b66d848e7366c399f349d24"
+  },
+  {
+   "path": "md/prod.dcd",
+   "sha256": "4941f5acf59b5265305a48e5f0f59c07a53e0f86ae5785553a90c2b9480f4995"
+  },
+  {
+   "path": "structures/5i85.pdb",
+   "sha256": "c8b9711df2698f100b5f040f51cab14cf1cc9add5d98fb2eb5ec518ac528f2fe"
+  },
+  {
+   "path": "structures/5i85_recA_ZN_rigid.pdbqt",
+   "sha256": "5d33cac3fb16951a306f94041196ff322d30308cd843447c7bdb28aa15da9bd1"
+  },
+  {
+   "path": "scripts/bound_md.py",
+   "sha256": "25dfd0aee5f633947348f40b949f08d7b0b1ad4565b3bd8daf84a393b6f8da0f"
+  },
+  {
+   "path": "scripts/pocket_residence.py",
+   "sha256": "742f0e28ccb2e137ba144ce11206362b636c4ee5af124aad64b9e3cd892049b8"
+  },
+  {
+   "path": "scripts/pocket_residence_r5fix.py",
+   "sha256": "add48616e611526c9000c85298872672664612fba69707b3b05caf0e56b813ff"
+  },
+  {
+   "path": "scripts/pocket_residence_r7.py",
+   "sha256": "04b78aa7305a70edec895ef3655183364eda3eee61c94ba8f7deaf33da36d755"
+  },
+  {
+   "path": "scripts/herg_model_separation.py",
+   "sha256": "cf7d2b963af31a5c8c2c3cd71b36e6ceab224315971abc23735dcf3f3af76427"
+  },
+  {
+   "path": "scripts/herg_central_repro.py",
+   "sha256": "03f248fc84a78741ac3820de67fd3bfc85f9a4a0efb291370924135568577eb8"
+  },
+  {
+   "path": "scripts/seeded_benchmark.py",
+   "sha256": "7ec0f9e821571fbda7dc57cc401edbabd51a3fa0d17905f39758774bef00d908"
+  },
+  {
+   "path": "scripts/findings_replay.py",
+   "sha256": "55d553f1f257e206856bad5c059a1830ea52a41c02486579aaf6cab2dd8fd7ee"
+  },
+  {
+   "path": "scripts/findings_replay_executed.py",
+   "sha256": "1f3999ce32f51338f04b53a2e219963fcc07164c8a8f5d65b1e988061bdbc8bd"
+  },
+  {
+   "path": "scripts/build_bound.sh",
+   "sha256": "61885c8d7c7b1a396a29c5cf0bca655c00b09fa5ad0b8b9d88f12db94940d20a"
+  },
+  {
+   "path": "scripts/dock_runner.py",
+   "sha256": "8124392ff81f4f6a21b6f2c52ce94e77059a21042be06075c83d0f481aa8fb6f"
+  },
+  {
+   "path": "scripts/triage.py",
+   "sha256": "2c1af9312fb64c06e11e5b494c72e5c6ab63d7d99b4b103b044d1d6f55c72bbd"
+  },
+  {
+   "path": "scripts/ensemble_dock.py",
+   "sha256": "fda48b7e1df261f441c77f52121ffa21ac28042f33a24e8abb59c9d8fc2d0b88"
+  },
+  {
+   "path": "scripts/gnina_rescore.py",
+   "sha256": "45ff0db93d2df8b8f146d039dcca84609933fc753cc95ea0e6d884eb166f86b9"
+  },
+  {
+   "path": "scripts/run_all.sh",
+   "sha256": "cdf6536bb7604699577ab7efabdac0f2dd2591496aa27be8ebcdce876305af71"
+  }
+ ]
+}

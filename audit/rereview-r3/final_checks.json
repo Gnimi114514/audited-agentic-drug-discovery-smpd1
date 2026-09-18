@@ -1,0 +1,11 @@
+{
+  "selected_files_changed_during_review": [],
+  "herg_split": {
+    "train": 245503,
+    "test": 61376,
+    "train_unique": 245503,
+    "test_unique": 61376,
+    "intersection": 0,
+    "covers_0_to_306878": true
+  }
+}

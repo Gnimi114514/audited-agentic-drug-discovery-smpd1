@@ -1,0 +1,6202 @@
+{
+ "n_frames": 620,
+ "metrics": [
+  {
+   "frame": 0,
+   "ligand_protein_frame_rmsd_A": 5.3,
+   "com_disp_A": 4.02,
+   "pocket_contacts": 2,
+   "contact_residues": [
+    342,
+    374
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 1,
+   "ligand_protein_frame_rmsd_A": 4.919,
+   "com_disp_A": 3.37,
+   "pocket_contacts": 2,
+   "contact_residues": [
+    235,
+    374
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 2,
+   "ligand_protein_frame_rmsd_A": 4.899,
+   "com_disp_A": 3.326,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 3,
+   "ligand_protein_frame_rmsd_A": 5.136,
+   "com_disp_A": 3.858,
+   "pocket_contacts": 2,
+   "contact_residues": [
+    235,
+    374
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 4,
+   "ligand_protein_frame_rmsd_A": 4.972,
+   "com_disp_A": 3.592,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    235
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 5,
+   "ligand_protein_frame_rmsd_A": 5.11,
+   "com_disp_A": 3.77,
+   "pocket_contacts": 2,
+   "contact_residues": [
+    235,
+    374
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 6,
+   "ligand_protein_frame_rmsd_A": 5.379,
+   "com_disp_A": 4.119,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    374
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 7,
+   "ligand_protein_frame_rmsd_A": 5.389,
+   "com_disp_A": 3.87,
+   "pocket_contacts": 2,
+   "contact_residues": [
+    342,
+    374
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 8,
+   "ligand_protein_frame_rmsd_A": 5.245,
+   "com_disp_A": 3.838,
+   "pocket_contacts": 2,
+   "contact_residues": [
+    235,
+    374
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 9,
+   "ligand_protein_frame_rmsd_A": 4.862,
+   "com_disp_A": 3.381,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 10,
+   "ligand_protein_frame_rmsd_A": 5.157,
+   "com_disp_A": 3.611,
+   "pocket_contacts": 2,
+   "contact_residues": [
+    342,
+    374
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 11,
+   "ligand_protein_frame_rmsd_A": 5.48,
+   "com_disp_A": 4.071,
+   "pocket_contacts": 3,
+   "contact_residues": [
+    235,
+    342,
+    374
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 12,
+   "ligand_protein_frame_rmsd_A": 5.244,
+   "com_disp_A": 3.768,
+   "pocket_contacts": 3,
+   "contact_residues": [
+    235,
+    342,
+    374
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 13,
+   "ligand_protein_frame_rmsd_A": 5.595,
+   "com_disp_A": 4.123,
+   "pocket_contacts": 3,
+   "contact_residues": [
+    235,
+    342,
+    374
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 14,
+   "ligand_protein_frame_rmsd_A": 5.133,
+   "com_disp_A": 3.643,
+   "pocket_contacts": 3,
+   "contact_residues": [
+    235,
+    342,
+    374
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 15,
+   "ligand_protein_frame_rmsd_A": 4.811,
+   "com_disp_A": 3.335,
+   "pocket_contacts": 2,
+   "contact_residues": [
+    342,
+    374
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 16,
+   "ligand_protein_frame_rmsd_A": 4.738,
+   "com_disp_A": 3.066,
+   "pocket_contacts": 3,
+   "contact_residues": [
+    235,
+    342,
+    374
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 17,
+   "ligand_protein_frame_rmsd_A": 4.878,
+   "com_disp_A": 3.537,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    374
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 18,
+   "ligand_protein_frame_rmsd_A": 5.164,
+   "com_disp_A": 3.689,
+   "pocket_contacts": 2,
+   "contact_residues": [
+    342,
+    374
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 19,
+   "ligand_protein_frame_rmsd_A": 4.853,
+   "com_disp_A": 3.546,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    374
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 20,
+   "ligand_protein_frame_rmsd_A": 5.126,
+   "com_disp_A": 3.741,
+   "pocket_contacts": 0,
+   "contact_residues": [],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 21,
+   "ligand_protein_frame_rmsd_A": 5.232,
+   "com_disp_A": 3.742,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    374
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 22,
+   "ligand_protein_frame_rmsd_A": 4.755,
+   "com_disp_A": 3.431,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    374
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 23,
+   "ligand_protein_frame_rmsd_A": 4.74,
+   "com_disp_A": 3.457,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    374
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 24,
+   "ligand_protein_frame_rmsd_A": 4.574,
+   "com_disp_A": 3.396,
+   "pocket_contacts": 2,
+   "contact_residues": [
+    342,
+    374
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 25,
+   "ligand_protein_frame_rmsd_A": 4.882,
+   "com_disp_A": 3.717,
+   "pocket_contacts": 2,
+   "contact_residues": [
+    342,
+    374
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 26,
+   "ligand_protein_frame_rmsd_A": 5.13,
+   "com_disp_A": 3.624,
+   "pocket_contacts": 2,
+   "contact_residues": [
+    342,
+    374
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 27,
+   "ligand_protein_frame_rmsd_A": 5.087,
+   "com_disp_A": 3.526,
+   "pocket_contacts": 2,
+   "contact_residues": [
+    235,
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 28,
+   "ligand_protein_frame_rmsd_A": 4.527,
+   "com_disp_A": 2.728,
+   "pocket_contacts": 0,
+   "contact_residues": [],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 29,
+   "ligand_protein_frame_rmsd_A": 5.046,
+   "com_disp_A": 3.006,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 30,
+   "ligand_protein_frame_rmsd_A": 4.765,
+   "com_disp_A": 2.856,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 31,
+   "ligand_protein_frame_rmsd_A": 5.347,
+   "com_disp_A": 3.511,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 32,
+   "ligand_protein_frame_rmsd_A": 4.922,
+   "com_disp_A": 3.127,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 33,
+   "ligand_protein_frame_rmsd_A": 5.6,
+   "com_disp_A": 3.75,
+   "pocket_contacts": 0,
+   "contact_residues": [],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 34,
+   "ligand_protein_frame_rmsd_A": 5.14,
+   "com_disp_A": 3.254,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 35,
+   "ligand_protein_frame_rmsd_A": 5.35,
+   "com_disp_A": 3.712,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 36,
+   "ligand_protein_frame_rmsd_A": 5.295,
+   "com_disp_A": 3.547,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 37,
+   "ligand_protein_frame_rmsd_A": 5.26,
+   "com_disp_A": 3.404,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 38,
+   "ligand_protein_frame_rmsd_A": 5.289,
+   "com_disp_A": 3.627,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 39,
+   "ligand_protein_frame_rmsd_A": 5.038,
+   "com_disp_A": 2.998,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 40,
+   "ligand_protein_frame_rmsd_A": 4.869,
+   "com_disp_A": 3.112,
+   "pocket_contacts": 0,
+   "contact_residues": [],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 41,
+   "ligand_protein_frame_rmsd_A": 5.192,
+   "com_disp_A": 3.239,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 42,
+   "ligand_protein_frame_rmsd_A": 4.771,
+   "com_disp_A": 2.854,
+   "pocket_contacts": 0,
+   "contact_residues": [],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 43,
+   "ligand_protein_frame_rmsd_A": 4.863,
+   "com_disp_A": 3.047,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 44,
+   "ligand_protein_frame_rmsd_A": 5.142,
+   "com_disp_A": 3.102,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 45,
+   "ligand_protein_frame_rmsd_A": 4.973,
+   "com_disp_A": 3.154,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 46,
+   "ligand_protein_frame_rmsd_A": 5.036,
+   "com_disp_A": 3.134,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 47,
+   "ligand_protein_frame_rmsd_A": 5.358,
+   "com_disp_A": 3.513,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 48,
+   "ligand_protein_frame_rmsd_A": 5.076,
+   "com_disp_A": 3.261,
+   "pocket_contacts": 0,
+   "contact_residues": [],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 49,
+   "ligand_protein_frame_rmsd_A": 5.047,
+   "com_disp_A": 3.17,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 50,
+   "ligand_protein_frame_rmsd_A": 5.037,
+   "com_disp_A": 3.408,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 51,
+   "ligand_protein_frame_rmsd_A": 5.015,
+   "com_disp_A": 3.347,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 52,
+   "ligand_protein_frame_rmsd_A": 5.072,
+   "com_disp_A": 3.362,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 53,
+   "ligand_protein_frame_rmsd_A": 4.997,
+   "com_disp_A": 3.225,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 54,
+   "ligand_protein_frame_rmsd_A": 4.795,
+   "com_disp_A": 3.113,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 55,
+   "ligand_protein_frame_rmsd_A": 4.735,
+   "com_disp_A": 2.907,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 56,
+   "ligand_protein_frame_rmsd_A": 4.737,
+   "com_disp_A": 2.885,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 57,
+   "ligand_protein_frame_rmsd_A": 4.985,
+   "com_disp_A": 3.171,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 58,
+   "ligand_protein_frame_rmsd_A": 5.106,
+   "com_disp_A": 3.441,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 59,
+   "ligand_protein_frame_rmsd_A": 4.882,
+   "com_disp_A": 3.29,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 60,
+   "ligand_protein_frame_rmsd_A": 4.659,
+   "com_disp_A": 2.762,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 61,
+   "ligand_protein_frame_rmsd_A": 4.759,
+   "com_disp_A": 2.923,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 62,
+   "ligand_protein_frame_rmsd_A": 5.112,
+   "com_disp_A": 3.192,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 63,
+   "ligand_protein_frame_rmsd_A": 4.622,
+   "com_disp_A": 3.088,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 64,
+   "ligand_protein_frame_rmsd_A": 4.733,
+   "com_disp_A": 3.043,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 65,
+   "ligand_protein_frame_rmsd_A": 4.791,
+   "com_disp_A": 2.688,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 66,
+   "ligand_protein_frame_rmsd_A": 4.605,
+   "com_disp_A": 3.012,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 67,
+   "ligand_protein_frame_rmsd_A": 4.609,
+   "com_disp_A": 2.753,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 68,
+   "ligand_protein_frame_rmsd_A": 5.015,
+   "com_disp_A": 3.346,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 69,
+   "ligand_protein_frame_rmsd_A": 5.2,
+   "com_disp_A": 3.482,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 70,
+   "ligand_protein_frame_rmsd_A": 4.916,
+   "com_disp_A": 3.202,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 71,
+   "ligand_protein_frame_rmsd_A": 4.919,
+   "com_disp_A": 3.356,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 72,
+   "ligand_protein_frame_rmsd_A": 4.827,
+   "com_disp_A": 2.971,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 73,
+   "ligand_protein_frame_rmsd_A": 4.683,
+   "com_disp_A": 2.698,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 74,
+   "ligand_protein_frame_rmsd_A": 4.603,
+   "com_disp_A": 2.829,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 75,
+   "ligand_protein_frame_rmsd_A": 4.891,
+   "com_disp_A": 2.926,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 76,
+   "ligand_protein_frame_rmsd_A": 5.037,
+   "com_disp_A": 3.282,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 77,
+   "ligand_protein_frame_rmsd_A": 4.675,
+   "com_disp_A": 3.008,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 78,
+   "ligand_protein_frame_rmsd_A": 4.965,
+   "com_disp_A": 2.817,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 79,
+   "ligand_protein_frame_rmsd_A": 4.397,
+   "com_disp_A": 2.363,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 80,
+   "ligand_protein_frame_rmsd_A": 4.537,
+   "com_disp_A": 2.622,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 81,
+   "ligand_protein_frame_rmsd_A": 4.641,
+   "com_disp_A": 2.857,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 82,
+   "ligand_protein_frame_rmsd_A": 4.475,
+   "com_disp_A": 2.812,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 83,
+   "ligand_protein_frame_rmsd_A": 4.475,
+   "com_disp_A": 3.09,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 84,
+   "ligand_protein_frame_rmsd_A": 4.027,
+   "com_disp_A": 2.874,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 85,
+   "ligand_protein_frame_rmsd_A": 4.49,
+   "com_disp_A": 3.109,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 86,
+   "ligand_protein_frame_rmsd_A": 4.775,
+   "com_disp_A": 3.229,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 87,
+   "ligand_protein_frame_rmsd_A": 4.672,
+   "com_disp_A": 3.238,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 88,
+   "ligand_protein_frame_rmsd_A": 4.784,
+   "com_disp_A": 3.353,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 89,
+   "ligand_protein_frame_rmsd_A": 4.736,
+   "com_disp_A": 3.354,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 90,
+   "ligand_protein_frame_rmsd_A": 4.444,
+   "com_disp_A": 2.901,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 91,
+   "ligand_protein_frame_rmsd_A": 4.194,
+   "com_disp_A": 2.872,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 92,
+   "ligand_protein_frame_rmsd_A": 4.766,
+   "com_disp_A": 3.214,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 93,
+   "ligand_protein_frame_rmsd_A": 4.433,
+   "com_disp_A": 3.191,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 94,
+   "ligand_protein_frame_rmsd_A": 4.011,
+   "com_disp_A": 2.868,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 95,
+   "ligand_protein_frame_rmsd_A": 4.002,
+   "com_disp_A": 2.637,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 96,
+   "ligand_protein_frame_rmsd_A": 3.997,
+   "com_disp_A": 2.795,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 97,
+   "ligand_protein_frame_rmsd_A": 3.778,
+   "com_disp_A": 2.648,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 98,
+   "ligand_protein_frame_rmsd_A": 3.908,
+   "com_disp_A": 2.523,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 99,
+   "ligand_protein_frame_rmsd_A": 4.056,
+   "com_disp_A": 2.555,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 100,
+   "ligand_protein_frame_rmsd_A": 4.073,
+   "com_disp_A": 2.716,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 101,
+   "ligand_protein_frame_rmsd_A": 3.942,
+   "com_disp_A": 2.602,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 102,
+   "ligand_protein_frame_rmsd_A": 3.994,
+   "com_disp_A": 2.666,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 103,
+   "ligand_protein_frame_rmsd_A": 4.149,
+   "com_disp_A": 2.559,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 104,
+   "ligand_protein_frame_rmsd_A": 4.027,
+   "com_disp_A": 2.601,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 105,
+   "ligand_protein_frame_rmsd_A": 4.067,
+   "com_disp_A": 2.686,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 106,
+   "ligand_protein_frame_rmsd_A": 3.61,
+   "com_disp_A": 2.219,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 107,
+   "ligand_protein_frame_rmsd_A": 4.181,
+   "com_disp_A": 2.774,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 108,
+   "ligand_protein_frame_rmsd_A": 4.325,
+   "com_disp_A": 2.747,
+   "pocket_contacts": 0,
+   "contact_residues": [],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 109,
+   "ligand_protein_frame_rmsd_A": 4.335,
+   "com_disp_A": 2.423,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 110,
+   "ligand_protein_frame_rmsd_A": 4.101,
+   "com_disp_A": 2.588,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 111,
+   "ligand_protein_frame_rmsd_A": 4.644,
+   "com_disp_A": 3.071,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 112,
+   "ligand_protein_frame_rmsd_A": 4.101,
+   "com_disp_A": 2.476,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 113,
+   "ligand_protein_frame_rmsd_A": 4.364,
+   "com_disp_A": 2.676,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 114,
+   "ligand_protein_frame_rmsd_A": 4.251,
+   "com_disp_A": 2.836,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 115,
+   "ligand_protein_frame_rmsd_A": 3.859,
+   "com_disp_A": 2.365,
+   "pocket_contacts": 0,
+   "contact_residues": [],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 116,
+   "ligand_protein_frame_rmsd_A": 4.083,
+   "com_disp_A": 2.574,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 117,
+   "ligand_protein_frame_rmsd_A": 4.376,
+   "com_disp_A": 2.636,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 118,
+   "ligand_protein_frame_rmsd_A": 3.904,
+   "com_disp_A": 2.382,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 119,
+   "ligand_protein_frame_rmsd_A": 4.162,
+   "com_disp_A": 2.625,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 120,
+   "ligand_protein_frame_rmsd_A": 4.459,
+   "com_disp_A": 2.59,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 121,
+   "ligand_protein_frame_rmsd_A": 4.309,
+   "com_disp_A": 2.624,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 122,
+   "ligand_protein_frame_rmsd_A": 4.131,
+   "com_disp_A": 2.561,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 123,
+   "ligand_protein_frame_rmsd_A": 4.297,
+   "com_disp_A": 2.646,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 124,
+   "ligand_protein_frame_rmsd_A": 4.014,
+   "com_disp_A": 2.305,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 125,
+   "ligand_protein_frame_rmsd_A": 4.25,
+   "com_disp_A": 2.554,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 126,
+   "ligand_protein_frame_rmsd_A": 4.112,
+   "com_disp_A": 2.332,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 127,
+   "ligand_protein_frame_rmsd_A": 4.373,
+   "com_disp_A": 2.995,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 128,
+   "ligand_protein_frame_rmsd_A": 3.916,
+   "com_disp_A": 2.425,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 129,
+   "ligand_protein_frame_rmsd_A": 3.961,
+   "com_disp_A": 2.031,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 130,
+   "ligand_protein_frame_rmsd_A": 3.917,
+   "com_disp_A": 2.129,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 131,
+   "ligand_protein_frame_rmsd_A": 4.254,
+   "com_disp_A": 2.74,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 132,
+   "ligand_protein_frame_rmsd_A": 3.829,
+   "com_disp_A": 2.234,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 133,
+   "ligand_protein_frame_rmsd_A": 4.056,
+   "com_disp_A": 2.536,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 134,
+   "ligand_protein_frame_rmsd_A": 4.247,
+   "com_disp_A": 2.634,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 135,
+   "ligand_protein_frame_rmsd_A": 3.985,
+   "com_disp_A": 2.529,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 136,
+   "ligand_protein_frame_rmsd_A": 3.83,
+   "com_disp_A": 2.316,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 137,
+   "ligand_protein_frame_rmsd_A": 4.337,
+   "com_disp_A": 2.734,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 138,
+   "ligand_protein_frame_rmsd_A": 4.199,
+   "com_disp_A": 2.717,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 139,
+   "ligand_protein_frame_rmsd_A": 4.176,
+   "com_disp_A": 2.698,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 140,
+   "ligand_protein_frame_rmsd_A": 4.32,
+   "com_disp_A": 2.601,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 141,
+   "ligand_protein_frame_rmsd_A": 4.287,
+   "com_disp_A": 2.858,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 142,
+   "ligand_protein_frame_rmsd_A": 4.443,
+   "com_disp_A": 3.059,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 143,
+   "ligand_protein_frame_rmsd_A": 3.796,
+   "com_disp_A": 2.32,
+   "pocket_contacts": 0,
+   "contact_residues": [],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 144,
+   "ligand_protein_frame_rmsd_A": 3.872,
+   "com_disp_A": 2.451,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 145,
+   "ligand_protein_frame_rmsd_A": 3.91,
+   "com_disp_A": 2.642,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 146,
+   "ligand_protein_frame_rmsd_A": 3.64,
+   "com_disp_A": 2.21,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 147,
+   "ligand_protein_frame_rmsd_A": 3.966,
+   "com_disp_A": 2.555,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 148,
+   "ligand_protein_frame_rmsd_A": 3.754,
+   "com_disp_A": 1.965,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 149,
+   "ligand_protein_frame_rmsd_A": 3.946,
+   "com_disp_A": 2.667,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 150,
+   "ligand_protein_frame_rmsd_A": 4.002,
+   "com_disp_A": 2.461,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 151,
+   "ligand_protein_frame_rmsd_A": 4.07,
+   "com_disp_A": 2.547,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 152,
+   "ligand_protein_frame_rmsd_A": 3.679,
+   "com_disp_A": 2.067,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 153,
+   "ligand_protein_frame_rmsd_A": 4.045,
+   "com_disp_A": 2.694,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 154,
+   "ligand_protein_frame_rmsd_A": 3.636,
+   "com_disp_A": 2.412,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 155,
+   "ligand_protein_frame_rmsd_A": 3.85,
+   "com_disp_A": 2.697,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 156,
+   "ligand_protein_frame_rmsd_A": 3.893,
+   "com_disp_A": 2.336,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 157,
+   "ligand_protein_frame_rmsd_A": 4.303,
+   "com_disp_A": 2.908,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 158,
+   "ligand_protein_frame_rmsd_A": 3.948,
+   "com_disp_A": 2.409,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 159,
+   "ligand_protein_frame_rmsd_A": 3.875,
+   "com_disp_A": 2.325,
+   "pocket_contacts": 0,
+   "contact_residues": [],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 160,
+   "ligand_protein_frame_rmsd_A": 4.221,
+   "com_disp_A": 2.808,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 161,
+   "ligand_protein_frame_rmsd_A": 4.332,
+   "com_disp_A": 2.933,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 162,
+   "ligand_protein_frame_rmsd_A": 4.266,
+   "com_disp_A": 2.673,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 163,
+   "ligand_protein_frame_rmsd_A": 4.059,
+   "com_disp_A": 2.641,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 164,
+   "ligand_protein_frame_rmsd_A": 4.204,
+   "com_disp_A": 2.877,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 165,
+   "ligand_protein_frame_rmsd_A": 4.217,
+   "com_disp_A": 2.581,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 166,
+   "ligand_protein_frame_rmsd_A": 3.827,
+   "com_disp_A": 2.455,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 167,
+   "ligand_protein_frame_rmsd_A": 4.178,
+   "com_disp_A": 2.706,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 168,
+   "ligand_protein_frame_rmsd_A": 3.794,
+   "com_disp_A": 2.182,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 169,
+   "ligand_protein_frame_rmsd_A": 4.116,
+   "com_disp_A": 2.715,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 170,
+   "ligand_protein_frame_rmsd_A": 3.497,
+   "com_disp_A": 2.267,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 171,
+   "ligand_protein_frame_rmsd_A": 3.998,
+   "com_disp_A": 2.644,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 172,
+   "ligand_protein_frame_rmsd_A": 4.078,
+   "com_disp_A": 2.562,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 173,
+   "ligand_protein_frame_rmsd_A": 3.852,
+   "com_disp_A": 2.575,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 174,
+   "ligand_protein_frame_rmsd_A": 3.451,
+   "com_disp_A": 2.336,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 175,
+   "ligand_protein_frame_rmsd_A": 3.401,
+   "com_disp_A": 2.146,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 176,
+   "ligand_protein_frame_rmsd_A": 4.054,
+   "com_disp_A": 2.533,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 177,
+   "ligand_protein_frame_rmsd_A": 3.861,
+   "com_disp_A": 2.529,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 178,
+   "ligand_protein_frame_rmsd_A": 4.017,
+   "com_disp_A": 2.636,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 179,
+   "ligand_protein_frame_rmsd_A": 4.213,
+   "com_disp_A": 2.677,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 180,
+   "ligand_protein_frame_rmsd_A": 3.86,
+   "com_disp_A": 2.411,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 181,
+   "ligand_protein_frame_rmsd_A": 3.938,
+   "com_disp_A": 2.609,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 182,
+   "ligand_protein_frame_rmsd_A": 4.284,
+   "com_disp_A": 2.867,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 183,
+   "ligand_protein_frame_rmsd_A": 4.282,
+   "com_disp_A": 2.748,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 184,
+   "ligand_protein_frame_rmsd_A": 3.879,
+   "com_disp_A": 2.47,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 185,
+   "ligand_protein_frame_rmsd_A": 3.8,
+   "com_disp_A": 2.426,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 186,
+   "ligand_protein_frame_rmsd_A": 3.828,
+   "com_disp_A": 2.733,
+   "pocket_contacts": 0,
+   "contact_residues": [],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 187,
+   "ligand_protein_frame_rmsd_A": 4.113,
+   "com_disp_A": 2.78,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 188,
+   "ligand_protein_frame_rmsd_A": 4.166,
+   "com_disp_A": 2.616,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 189,
+   "ligand_protein_frame_rmsd_A": 3.863,
+   "com_disp_A": 2.542,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 190,
+   "ligand_protein_frame_rmsd_A": 3.697,
+   "com_disp_A": 2.308,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 191,
+   "ligand_protein_frame_rmsd_A": 4.165,
+   "com_disp_A": 3.179,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 192,
+   "ligand_protein_frame_rmsd_A": 4.136,
+   "com_disp_A": 2.951,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 193,
+   "ligand_protein_frame_rmsd_A": 4.244,
+   "com_disp_A": 3.033,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 194,
+   "ligand_protein_frame_rmsd_A": 4.163,
+   "com_disp_A": 2.874,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 195,
+   "ligand_protein_frame_rmsd_A": 4.078,
+   "com_disp_A": 2.783,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 196,
+   "ligand_protein_frame_rmsd_A": 4.306,
+   "com_disp_A": 2.788,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 197,
+   "ligand_protein_frame_rmsd_A": 4.233,
+   "com_disp_A": 2.81,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 198,
+   "ligand_protein_frame_rmsd_A": 4.309,
+   "com_disp_A": 2.773,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 199,
+   "ligand_protein_frame_rmsd_A": 4.339,
+   "com_disp_A": 3.055,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 200,
+   "ligand_protein_frame_rmsd_A": 3.937,
+   "com_disp_A": 2.722,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 201,
+   "ligand_protein_frame_rmsd_A": 4.045,
+   "com_disp_A": 2.795,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 202,
+   "ligand_protein_frame_rmsd_A": 4.451,
+   "com_disp_A": 3.235,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 203,
+   "ligand_protein_frame_rmsd_A": 4.233,
+   "com_disp_A": 2.895,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 204,
+   "ligand_protein_frame_rmsd_A": 4.022,
+   "com_disp_A": 2.669,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 205,
+   "ligand_protein_frame_rmsd_A": 4.195,
+   "com_disp_A": 2.694,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 206,
+   "ligand_protein_frame_rmsd_A": 4.337,
+   "com_disp_A": 2.872,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 207,
+   "ligand_protein_frame_rmsd_A": 4.29,
+   "com_disp_A": 2.627,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 208,
+   "ligand_protein_frame_rmsd_A": 4.025,
+   "com_disp_A": 2.61,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 209,
+   "ligand_protein_frame_rmsd_A": 4.337,
+   "com_disp_A": 3.02,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 210,
+   "ligand_protein_frame_rmsd_A": 4.147,
+   "com_disp_A": 2.794,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 211,
+   "ligand_protein_frame_rmsd_A": 4.306,
+   "com_disp_A": 2.847,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 212,
+   "ligand_protein_frame_rmsd_A": 4.032,
+   "com_disp_A": 2.936,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 213,
+   "ligand_protein_frame_rmsd_A": 4.223,
+   "com_disp_A": 2.712,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 214,
+   "ligand_protein_frame_rmsd_A": 4.026,
+   "com_disp_A": 2.463,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 215,
+   "ligand_protein_frame_rmsd_A": 4.593,
+   "com_disp_A": 3.099,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 216,
+   "ligand_protein_frame_rmsd_A": 4.107,
+   "com_disp_A": 2.657,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 217,
+   "ligand_protein_frame_rmsd_A": 4.31,
+   "com_disp_A": 2.637,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 218,
+   "ligand_protein_frame_rmsd_A": 4.141,
+   "com_disp_A": 2.626,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 219,
+   "ligand_protein_frame_rmsd_A": 4.185,
+   "com_disp_A": 2.789,
+   "pocket_contacts": 0,
+   "contact_residues": [],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 220,
+   "ligand_protein_frame_rmsd_A": 3.908,
+   "com_disp_A": 2.572,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 221,
+   "ligand_protein_frame_rmsd_A": 3.943,
+   "com_disp_A": 2.645,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 222,
+   "ligand_protein_frame_rmsd_A": 4.109,
+   "com_disp_A": 2.577,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 223,
+   "ligand_protein_frame_rmsd_A": 4.464,
+   "com_disp_A": 3.069,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 224,
+   "ligand_protein_frame_rmsd_A": 4.351,
+   "com_disp_A": 3.132,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 225,
+   "ligand_protein_frame_rmsd_A": 3.998,
+   "com_disp_A": 2.591,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 226,
+   "ligand_protein_frame_rmsd_A": 4.215,
+   "com_disp_A": 2.904,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 227,
+   "ligand_protein_frame_rmsd_A": 3.788,
+   "com_disp_A": 2.513,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 228,
+   "ligand_protein_frame_rmsd_A": 4.134,
+   "com_disp_A": 2.794,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 229,
+   "ligand_protein_frame_rmsd_A": 4.373,
+   "com_disp_A": 3.053,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 230,
+   "ligand_protein_frame_rmsd_A": 4.189,
+   "com_disp_A": 3.019,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 231,
+   "ligand_protein_frame_rmsd_A": 3.807,
+   "com_disp_A": 2.478,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 232,
+   "ligand_protein_frame_rmsd_A": 4.035,
+   "com_disp_A": 2.831,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 233,
+   "ligand_protein_frame_rmsd_A": 3.936,
+   "com_disp_A": 2.564,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 234,
+   "ligand_protein_frame_rmsd_A": 4.012,
+   "com_disp_A": 2.776,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 235,
+   "ligand_protein_frame_rmsd_A": 4.173,
+   "com_disp_A": 2.958,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 236,
+   "ligand_protein_frame_rmsd_A": 4.014,
+   "com_disp_A": 2.758,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 237,
+   "ligand_protein_frame_rmsd_A": 4.089,
+   "com_disp_A": 2.778,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 238,
+   "ligand_protein_frame_rmsd_A": 4.239,
+   "com_disp_A": 2.92,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 239,
+   "ligand_protein_frame_rmsd_A": 3.941,
+   "com_disp_A": 2.678,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 240,
+   "ligand_protein_frame_rmsd_A": 3.822,
+   "com_disp_A": 2.563,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 241,
+   "ligand_protein_frame_rmsd_A": 4.198,
+   "com_disp_A": 2.708,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 242,
+   "ligand_protein_frame_rmsd_A": 4.163,
+   "com_disp_A": 2.801,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 243,
+   "ligand_protein_frame_rmsd_A": 4.348,
+   "com_disp_A": 2.91,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 244,
+   "ligand_protein_frame_rmsd_A": 4.288,
+   "com_disp_A": 3.032,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 245,
+   "ligand_protein_frame_rmsd_A": 4.116,
+   "com_disp_A": 2.904,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 246,
+   "ligand_protein_frame_rmsd_A": 4.754,
+   "com_disp_A": 3.347,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 247,
+   "ligand_protein_frame_rmsd_A": 4.432,
+   "com_disp_A": 3.272,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 248,
+   "ligand_protein_frame_rmsd_A": 4.462,
+   "com_disp_A": 3.151,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 249,
+   "ligand_protein_frame_rmsd_A": 4.248,
+   "com_disp_A": 2.969,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 250,
+   "ligand_protein_frame_rmsd_A": 4.156,
+   "com_disp_A": 2.746,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 251,
+   "ligand_protein_frame_rmsd_A": 4.108,
+   "com_disp_A": 2.474,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 252,
+   "ligand_protein_frame_rmsd_A": 4.131,
+   "com_disp_A": 2.636,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 253,
+   "ligand_protein_frame_rmsd_A": 4.402,
+   "com_disp_A": 2.619,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 254,
+   "ligand_protein_frame_rmsd_A": 4.583,
+   "com_disp_A": 2.972,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 255,
+   "ligand_protein_frame_rmsd_A": 4.861,
+   "com_disp_A": 3.466,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 256,
+   "ligand_protein_frame_rmsd_A": 4.621,
+   "com_disp_A": 3.319,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 257,
+   "ligand_protein_frame_rmsd_A": 4.673,
+   "com_disp_A": 3.148,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 258,
+   "ligand_protein_frame_rmsd_A": 4.432,
+   "com_disp_A": 3.031,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 259,
+   "ligand_protein_frame_rmsd_A": 4.866,
+   "com_disp_A": 3.26,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 260,
+   "ligand_protein_frame_rmsd_A": 4.786,
+   "com_disp_A": 3.087,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 261,
+   "ligand_protein_frame_rmsd_A": 4.922,
+   "com_disp_A": 3.418,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 262,
+   "ligand_protein_frame_rmsd_A": 4.686,
+   "com_disp_A": 3.017,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 263,
+   "ligand_protein_frame_rmsd_A": 4.947,
+   "com_disp_A": 3.54,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 264,
+   "ligand_protein_frame_rmsd_A": 4.417,
+   "com_disp_A": 2.908,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 265,
+   "ligand_protein_frame_rmsd_A": 4.561,
+   "com_disp_A": 3.123,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 266,
+   "ligand_protein_frame_rmsd_A": 4.659,
+   "com_disp_A": 3.36,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 267,
+   "ligand_protein_frame_rmsd_A": 4.297,
+   "com_disp_A": 2.975,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 268,
+   "ligand_protein_frame_rmsd_A": 4.507,
+   "com_disp_A": 3.246,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 269,
+   "ligand_protein_frame_rmsd_A": 4.368,
+   "com_disp_A": 3.311,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 270,
+   "ligand_protein_frame_rmsd_A": 4.966,
+   "com_disp_A": 3.673,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 271,
+   "ligand_protein_frame_rmsd_A": 4.317,
+   "com_disp_A": 3.206,
+   "pocket_contacts": 0,
+   "contact_residues": [],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 272,
+   "ligand_protein_frame_rmsd_A": 4.533,
+   "com_disp_A": 2.955,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 273,
+   "ligand_protein_frame_rmsd_A": 4.735,
+   "com_disp_A": 3.255,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 274,
+   "ligand_protein_frame_rmsd_A": 4.495,
+   "com_disp_A": 3.021,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 275,
+   "ligand_protein_frame_rmsd_A": 4.336,
+   "com_disp_A": 2.938,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 276,
+   "ligand_protein_frame_rmsd_A": 4.635,
+   "com_disp_A": 3.072,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 277,
+   "ligand_protein_frame_rmsd_A": 4.582,
+   "com_disp_A": 2.846,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 278,
+   "ligand_protein_frame_rmsd_A": 4.437,
+   "com_disp_A": 2.842,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 279,
+   "ligand_protein_frame_rmsd_A": 4.599,
+   "com_disp_A": 3.093,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 280,
+   "ligand_protein_frame_rmsd_A": 4.738,
+   "com_disp_A": 3.039,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 281,
+   "ligand_protein_frame_rmsd_A": 4.784,
+   "com_disp_A": 3.221,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 282,
+   "ligand_protein_frame_rmsd_A": 4.461,
+   "com_disp_A": 2.802,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 283,
+   "ligand_protein_frame_rmsd_A": 3.845,
+   "com_disp_A": 2.416,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 284,
+   "ligand_protein_frame_rmsd_A": 4.408,
+   "com_disp_A": 2.727,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 285,
+   "ligand_protein_frame_rmsd_A": 4.591,
+   "com_disp_A": 3.052,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 286,
+   "ligand_protein_frame_rmsd_A": 4.509,
+   "com_disp_A": 3.091,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 287,
+   "ligand_protein_frame_rmsd_A": 4.712,
+   "com_disp_A": 3.168,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 288,
+   "ligand_protein_frame_rmsd_A": 4.661,
+   "com_disp_A": 3.269,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 289,
+   "ligand_protein_frame_rmsd_A": 4.87,
+   "com_disp_A": 3.264,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 290,
+   "ligand_protein_frame_rmsd_A": 4.736,
+   "com_disp_A": 3.198,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 291,
+   "ligand_protein_frame_rmsd_A": 4.812,
+   "com_disp_A": 3.215,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 292,
+   "ligand_protein_frame_rmsd_A": 4.866,
+   "com_disp_A": 3.165,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 293,
+   "ligand_protein_frame_rmsd_A": 4.813,
+   "com_disp_A": 3.463,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 294,
+   "ligand_protein_frame_rmsd_A": 4.257,
+   "com_disp_A": 2.601,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 295,
+   "ligand_protein_frame_rmsd_A": 4.488,
+   "com_disp_A": 3.177,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 296,
+   "ligand_protein_frame_rmsd_A": 4.69,
+   "com_disp_A": 3.264,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 297,
+   "ligand_protein_frame_rmsd_A": 4.495,
+   "com_disp_A": 2.849,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 298,
+   "ligand_protein_frame_rmsd_A": 4.933,
+   "com_disp_A": 3.676,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 299,
+   "ligand_protein_frame_rmsd_A": 4.54,
+   "com_disp_A": 3.36,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 300,
+   "ligand_protein_frame_rmsd_A": 4.837,
+   "com_disp_A": 3.547,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 301,
+   "ligand_protein_frame_rmsd_A": 4.639,
+   "com_disp_A": 3.314,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 302,
+   "ligand_protein_frame_rmsd_A": 4.522,
+   "com_disp_A": 3.217,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 303,
+   "ligand_protein_frame_rmsd_A": 4.687,
+   "com_disp_A": 3.325,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 304,
+   "ligand_protein_frame_rmsd_A": 4.461,
+   "com_disp_A": 3.227,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 305,
+   "ligand_protein_frame_rmsd_A": 4.548,
+   "com_disp_A": 3.384,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 306,
+   "ligand_protein_frame_rmsd_A": 4.39,
+   "com_disp_A": 3.063,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 307,
+   "ligand_protein_frame_rmsd_A": 4.05,
+   "com_disp_A": 2.922,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 308,
+   "ligand_protein_frame_rmsd_A": 4.394,
+   "com_disp_A": 2.843,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 309,
+   "ligand_protein_frame_rmsd_A": 4.654,
+   "com_disp_A": 3.083,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 310,
+   "ligand_protein_frame_rmsd_A": 4.655,
+   "com_disp_A": 3.058,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 311,
+   "ligand_protein_frame_rmsd_A": 4.584,
+   "com_disp_A": 2.927,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 312,
+   "ligand_protein_frame_rmsd_A": 4.906,
+   "com_disp_A": 3.027,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 313,
+   "ligand_protein_frame_rmsd_A": 4.591,
+   "com_disp_A": 2.958,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 314,
+   "ligand_protein_frame_rmsd_A": 4.74,
+   "com_disp_A": 2.903,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 315,
+   "ligand_protein_frame_rmsd_A": 4.788,
+   "com_disp_A": 3.04,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 316,
+   "ligand_protein_frame_rmsd_A": 4.625,
+   "com_disp_A": 2.936,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 317,
+   "ligand_protein_frame_rmsd_A": 4.51,
+   "com_disp_A": 3.097,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 318,
+   "ligand_protein_frame_rmsd_A": 4.405,
+   "com_disp_A": 2.798,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 319,
+   "ligand_protein_frame_rmsd_A": 4.468,
+   "com_disp_A": 3.005,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 320,
+   "ligand_protein_frame_rmsd_A": 4.473,
+   "com_disp_A": 3.024,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 321,
+   "ligand_protein_frame_rmsd_A": 4.454,
+   "com_disp_A": 2.97,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 322,
+   "ligand_protein_frame_rmsd_A": 4.31,
+   "com_disp_A": 2.731,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 323,
+   "ligand_protein_frame_rmsd_A": 4.584,
+   "com_disp_A": 3.116,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 324,
+   "ligand_protein_frame_rmsd_A": 4.062,
+   "com_disp_A": 2.704,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 325,
+   "ligand_protein_frame_rmsd_A": 4.355,
+   "com_disp_A": 2.869,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 326,
+   "ligand_protein_frame_rmsd_A": 4.291,
+   "com_disp_A": 2.847,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 327,
+   "ligand_protein_frame_rmsd_A": 4.565,
+   "com_disp_A": 3.019,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 328,
+   "ligand_protein_frame_rmsd_A": 4.281,
+   "com_disp_A": 2.9,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 329,
+   "ligand_protein_frame_rmsd_A": 4.409,
+   "com_disp_A": 2.948,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 330,
+   "ligand_protein_frame_rmsd_A": 4.683,
+   "com_disp_A": 3.166,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 331,
+   "ligand_protein_frame_rmsd_A": 4.407,
+   "com_disp_A": 2.899,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 332,
+   "ligand_protein_frame_rmsd_A": 4.299,
+   "com_disp_A": 2.712,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 333,
+   "ligand_protein_frame_rmsd_A": 4.213,
+   "com_disp_A": 2.582,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 334,
+   "ligand_protein_frame_rmsd_A": 4.79,
+   "com_disp_A": 3.408,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 335,
+   "ligand_protein_frame_rmsd_A": 4.749,
+   "com_disp_A": 3.162,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 336,
+   "ligand_protein_frame_rmsd_A": 4.418,
+   "com_disp_A": 3.01,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 337,
+   "ligand_protein_frame_rmsd_A": 4.21,
+   "com_disp_A": 2.633,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 338,
+   "ligand_protein_frame_rmsd_A": 4.189,
+   "com_disp_A": 2.57,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 339,
+   "ligand_protein_frame_rmsd_A": 4.548,
+   "com_disp_A": 3.01,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 340,
+   "ligand_protein_frame_rmsd_A": 4.663,
+   "com_disp_A": 3.22,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 341,
+   "ligand_protein_frame_rmsd_A": 4.733,
+   "com_disp_A": 3.194,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 342,
+   "ligand_protein_frame_rmsd_A": 4.545,
+   "com_disp_A": 3.048,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 343,
+   "ligand_protein_frame_rmsd_A": 4.479,
+   "com_disp_A": 2.943,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 344,
+   "ligand_protein_frame_rmsd_A": 4.335,
+   "com_disp_A": 2.8,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 345,
+   "ligand_protein_frame_rmsd_A": 4.072,
+   "com_disp_A": 2.468,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 346,
+   "ligand_protein_frame_rmsd_A": 4.508,
+   "com_disp_A": 2.699,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 347,
+   "ligand_protein_frame_rmsd_A": 4.214,
+   "com_disp_A": 2.626,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 348,
+   "ligand_protein_frame_rmsd_A": 4.275,
+   "com_disp_A": 2.715,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 349,
+   "ligand_protein_frame_rmsd_A": 4.441,
+   "com_disp_A": 2.89,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 350,
+   "ligand_protein_frame_rmsd_A": 4.124,
+   "com_disp_A": 2.744,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 351,
+   "ligand_protein_frame_rmsd_A": 3.901,
+   "com_disp_A": 2.385,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 352,
+   "ligand_protein_frame_rmsd_A": 4.324,
+   "com_disp_A": 2.954,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 353,
+   "ligand_protein_frame_rmsd_A": 4.208,
+   "com_disp_A": 2.632,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 354,
+   "ligand_protein_frame_rmsd_A": 4.255,
+   "com_disp_A": 2.679,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 355,
+   "ligand_protein_frame_rmsd_A": 4.12,
+   "com_disp_A": 2.663,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 356,
+   "ligand_protein_frame_rmsd_A": 4.27,
+   "com_disp_A": 2.85,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 357,
+   "ligand_protein_frame_rmsd_A": 4.285,
+   "com_disp_A": 2.78,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 358,
+   "ligand_protein_frame_rmsd_A": 4.035,
+   "com_disp_A": 2.58,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 359,
+   "ligand_protein_frame_rmsd_A": 4.275,
+   "com_disp_A": 2.827,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 360,
+   "ligand_protein_frame_rmsd_A": 4.554,
+   "com_disp_A": 2.921,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 361,
+   "ligand_protein_frame_rmsd_A": 4.133,
+   "com_disp_A": 2.739,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 362,
+   "ligand_protein_frame_rmsd_A": 4.512,
+   "com_disp_A": 2.742,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 363,
+   "ligand_protein_frame_rmsd_A": 4.658,
+   "com_disp_A": 2.949,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 364,
+   "ligand_protein_frame_rmsd_A": 4.922,
+   "com_disp_A": 3.088,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 365,
+   "ligand_protein_frame_rmsd_A": 4.241,
+   "com_disp_A": 2.811,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 366,
+   "ligand_protein_frame_rmsd_A": 4.57,
+   "com_disp_A": 2.953,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 367,
+   "ligand_protein_frame_rmsd_A": 4.598,
+   "com_disp_A": 2.974,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 368,
+   "ligand_protein_frame_rmsd_A": 3.917,
+   "com_disp_A": 2.426,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 369,
+   "ligand_protein_frame_rmsd_A": 3.772,
+   "com_disp_A": 2.34,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 370,
+   "ligand_protein_frame_rmsd_A": 4.173,
+   "com_disp_A": 2.853,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 371,
+   "ligand_protein_frame_rmsd_A": 3.885,
+   "com_disp_A": 2.415,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 372,
+   "ligand_protein_frame_rmsd_A": 4.036,
+   "com_disp_A": 2.781,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 373,
+   "ligand_protein_frame_rmsd_A": 4.287,
+   "com_disp_A": 2.536,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 374,
+   "ligand_protein_frame_rmsd_A": 4.331,
+   "com_disp_A": 2.862,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 375,
+   "ligand_protein_frame_rmsd_A": 4.382,
+   "com_disp_A": 2.745,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 376,
+   "ligand_protein_frame_rmsd_A": 4.008,
+   "com_disp_A": 2.604,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 377,
+   "ligand_protein_frame_rmsd_A": 4.473,
+   "com_disp_A": 2.996,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 378,
+   "ligand_protein_frame_rmsd_A": 3.962,
+   "com_disp_A": 2.611,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 379,
+   "ligand_protein_frame_rmsd_A": 4.44,
+   "com_disp_A": 3.029,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 380,
+   "ligand_protein_frame_rmsd_A": 4.529,
+   "com_disp_A": 3.082,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 381,
+   "ligand_protein_frame_rmsd_A": 4.857,
+   "com_disp_A": 3.287,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 382,
+   "ligand_protein_frame_rmsd_A": 4.644,
+   "com_disp_A": 3.299,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 383,
+   "ligand_protein_frame_rmsd_A": 4.669,
+   "com_disp_A": 3.29,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 384,
+   "ligand_protein_frame_rmsd_A": 4.698,
+   "com_disp_A": 3.335,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 385,
+   "ligand_protein_frame_rmsd_A": 4.741,
+   "com_disp_A": 3.283,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 386,
+   "ligand_protein_frame_rmsd_A": 4.224,
+   "com_disp_A": 2.873,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 387,
+   "ligand_protein_frame_rmsd_A": 4.289,
+   "com_disp_A": 2.957,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 388,
+   "ligand_protein_frame_rmsd_A": 4.256,
+   "com_disp_A": 2.573,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 389,
+   "ligand_protein_frame_rmsd_A": 4.047,
+   "com_disp_A": 2.892,
+   "pocket_contacts": 0,
+   "contact_residues": [],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 390,
+   "ligand_protein_frame_rmsd_A": 4.337,
+   "com_disp_A": 3.233,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 391,
+   "ligand_protein_frame_rmsd_A": 4.45,
+   "com_disp_A": 3.205,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 392,
+   "ligand_protein_frame_rmsd_A": 4.728,
+   "com_disp_A": 3.396,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 393,
+   "ligand_protein_frame_rmsd_A": 3.774,
+   "com_disp_A": 2.43,
+   "pocket_contacts": 0,
+   "contact_residues": [],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 394,
+   "ligand_protein_frame_rmsd_A": 4.121,
+   "com_disp_A": 2.969,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 395,
+   "ligand_protein_frame_rmsd_A": 4.407,
+   "com_disp_A": 3.192,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 396,
+   "ligand_protein_frame_rmsd_A": 4.316,
+   "com_disp_A": 2.998,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 397,
+   "ligand_protein_frame_rmsd_A": 4.416,
+   "com_disp_A": 3.092,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 398,
+   "ligand_protein_frame_rmsd_A": 4.729,
+   "com_disp_A": 3.294,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 399,
+   "ligand_protein_frame_rmsd_A": 4.872,
+   "com_disp_A": 3.132,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 400,
+   "ligand_protein_frame_rmsd_A": 4.409,
+   "com_disp_A": 2.876,
+   "pocket_contacts": 0,
+   "contact_residues": [],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 401,
+   "ligand_protein_frame_rmsd_A": 4.237,
+   "com_disp_A": 2.736,
+   "pocket_contacts": 0,
+   "contact_residues": [],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 402,
+   "ligand_protein_frame_rmsd_A": 4.188,
+   "com_disp_A": 2.889,
+   "pocket_contacts": 0,
+   "contact_residues": [],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 403,
+   "ligand_protein_frame_rmsd_A": 4.979,
+   "com_disp_A": 3.684,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 404,
+   "ligand_protein_frame_rmsd_A": 4.575,
+   "com_disp_A": 3.144,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 405,
+   "ligand_protein_frame_rmsd_A": 4.701,
+   "com_disp_A": 3.341,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 406,
+   "ligand_protein_frame_rmsd_A": 4.307,
+   "com_disp_A": 3.118,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 407,
+   "ligand_protein_frame_rmsd_A": 4.576,
+   "com_disp_A": 3.199,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 408,
+   "ligand_protein_frame_rmsd_A": 4.434,
+   "com_disp_A": 3.181,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 409,
+   "ligand_protein_frame_rmsd_A": 4.621,
+   "com_disp_A": 3.283,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 410,
+   "ligand_protein_frame_rmsd_A": 4.567,
+   "com_disp_A": 3.202,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 411,
+   "ligand_protein_frame_rmsd_A": 4.311,
+   "com_disp_A": 2.779,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 412,
+   "ligand_protein_frame_rmsd_A": 4.144,
+   "com_disp_A": 2.788,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 413,
+   "ligand_protein_frame_rmsd_A": 4.377,
+   "com_disp_A": 2.879,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 414,
+   "ligand_protein_frame_rmsd_A": 4.634,
+   "com_disp_A": 3.087,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 415,
+   "ligand_protein_frame_rmsd_A": 4.512,
+   "com_disp_A": 2.935,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 416,
+   "ligand_protein_frame_rmsd_A": 4.633,
+   "com_disp_A": 3.163,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 417,
+   "ligand_protein_frame_rmsd_A": 4.744,
+   "com_disp_A": 3.163,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 418,
+   "ligand_protein_frame_rmsd_A": 4.471,
+   "com_disp_A": 2.821,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 419,
+   "ligand_protein_frame_rmsd_A": 4.598,
+   "com_disp_A": 2.861,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 420,
+   "ligand_protein_frame_rmsd_A": 4.59,
+   "com_disp_A": 3.062,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 421,
+   "ligand_protein_frame_rmsd_A": 4.628,
+   "com_disp_A": 3.11,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 422,
+   "ligand_protein_frame_rmsd_A": 3.946,
+   "com_disp_A": 2.225,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 423,
+   "ligand_protein_frame_rmsd_A": 4.478,
+   "com_disp_A": 2.899,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 424,
+   "ligand_protein_frame_rmsd_A": 4.701,
+   "com_disp_A": 3.047,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 425,
+   "ligand_protein_frame_rmsd_A": 4.61,
+   "com_disp_A": 3.092,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 426,
+   "ligand_protein_frame_rmsd_A": 4.627,
+   "com_disp_A": 2.966,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 427,
+   "ligand_protein_frame_rmsd_A": 4.749,
+   "com_disp_A": 3.189,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 428,
+   "ligand_protein_frame_rmsd_A": 4.838,
+   "com_disp_A": 3.238,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 429,
+   "ligand_protein_frame_rmsd_A": 4.687,
+   "com_disp_A": 3.061,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 430,
+   "ligand_protein_frame_rmsd_A": 4.63,
+   "com_disp_A": 3.005,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 431,
+   "ligand_protein_frame_rmsd_A": 4.49,
+   "com_disp_A": 2.693,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 432,
+   "ligand_protein_frame_rmsd_A": 4.901,
+   "com_disp_A": 3.148,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 433,
+   "ligand_protein_frame_rmsd_A": 4.398,
+   "com_disp_A": 2.717,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 434,
+   "ligand_protein_frame_rmsd_A": 4.638,
+   "com_disp_A": 3.073,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 435,
+   "ligand_protein_frame_rmsd_A": 4.264,
+   "com_disp_A": 2.907,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 436,
+   "ligand_protein_frame_rmsd_A": 4.106,
+   "com_disp_A": 2.504,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 437,
+   "ligand_protein_frame_rmsd_A": 4.725,
+   "com_disp_A": 3.289,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 438,
+   "ligand_protein_frame_rmsd_A": 4.96,
+   "com_disp_A": 3.478,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 439,
+   "ligand_protein_frame_rmsd_A": 4.492,
+   "com_disp_A": 2.908,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 440,
+   "ligand_protein_frame_rmsd_A": 4.354,
+   "com_disp_A": 2.672,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 441,
+   "ligand_protein_frame_rmsd_A": 4.465,
+   "com_disp_A": 2.949,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 442,
+   "ligand_protein_frame_rmsd_A": 4.333,
+   "com_disp_A": 2.837,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 443,
+   "ligand_protein_frame_rmsd_A": 4.538,
+   "com_disp_A": 2.932,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 444,
+   "ligand_protein_frame_rmsd_A": 4.578,
+   "com_disp_A": 2.937,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 445,
+   "ligand_protein_frame_rmsd_A": 4.7,
+   "com_disp_A": 3.093,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 446,
+   "ligand_protein_frame_rmsd_A": 4.628,
+   "com_disp_A": 2.98,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 447,
+   "ligand_protein_frame_rmsd_A": 4.482,
+   "com_disp_A": 2.89,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 448,
+   "ligand_protein_frame_rmsd_A": 4.795,
+   "com_disp_A": 3.297,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 449,
+   "ligand_protein_frame_rmsd_A": 4.664,
+   "com_disp_A": 3.08,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 450,
+   "ligand_protein_frame_rmsd_A": 4.461,
+   "com_disp_A": 3.052,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 451,
+   "ligand_protein_frame_rmsd_A": 4.732,
+   "com_disp_A": 3.123,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 452,
+   "ligand_protein_frame_rmsd_A": 4.877,
+   "com_disp_A": 3.169,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 453,
+   "ligand_protein_frame_rmsd_A": 4.573,
+   "com_disp_A": 3.048,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 454,
+   "ligand_protein_frame_rmsd_A": 4.874,
+   "com_disp_A": 3.229,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 455,
+   "ligand_protein_frame_rmsd_A": 4.487,
+   "com_disp_A": 2.88,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 456,
+   "ligand_protein_frame_rmsd_A": 4.929,
+   "com_disp_A": 3.216,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 457,
+   "ligand_protein_frame_rmsd_A": 4.652,
+   "com_disp_A": 2.974,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 458,
+   "ligand_protein_frame_rmsd_A": 4.647,
+   "com_disp_A": 2.797,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 459,
+   "ligand_protein_frame_rmsd_A": 4.546,
+   "com_disp_A": 3.043,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 460,
+   "ligand_protein_frame_rmsd_A": 4.798,
+   "com_disp_A": 3.026,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 461,
+   "ligand_protein_frame_rmsd_A": 4.562,
+   "com_disp_A": 2.874,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 462,
+   "ligand_protein_frame_rmsd_A": 4.778,
+   "com_disp_A": 3.147,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 463,
+   "ligand_protein_frame_rmsd_A": 4.727,
+   "com_disp_A": 3.099,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 464,
+   "ligand_protein_frame_rmsd_A": 4.233,
+   "com_disp_A": 2.807,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 465,
+   "ligand_protein_frame_rmsd_A": 4.977,
+   "com_disp_A": 3.225,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 466,
+   "ligand_protein_frame_rmsd_A": 4.659,
+   "com_disp_A": 3.164,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 467,
+   "ligand_protein_frame_rmsd_A": 4.685,
+   "com_disp_A": 2.989,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 468,
+   "ligand_protein_frame_rmsd_A": 4.707,
+   "com_disp_A": 3.033,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 469,
+   "ligand_protein_frame_rmsd_A": 5.089,
+   "com_disp_A": 3.485,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 470,
+   "ligand_protein_frame_rmsd_A": 4.665,
+   "com_disp_A": 3.221,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 471,
+   "ligand_protein_frame_rmsd_A": 4.95,
+   "com_disp_A": 3.075,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 472,
+   "ligand_protein_frame_rmsd_A": 5.14,
+   "com_disp_A": 3.728,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 473,
+   "ligand_protein_frame_rmsd_A": 4.812,
+   "com_disp_A": 3.451,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 474,
+   "ligand_protein_frame_rmsd_A": 5.34,
+   "com_disp_A": 3.932,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 475,
+   "ligand_protein_frame_rmsd_A": 4.756,
+   "com_disp_A": 3.418,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 476,
+   "ligand_protein_frame_rmsd_A": 4.69,
+   "com_disp_A": 3.362,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 477,
+   "ligand_protein_frame_rmsd_A": 4.607,
+   "com_disp_A": 3.207,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 478,
+   "ligand_protein_frame_rmsd_A": 4.453,
+   "com_disp_A": 2.952,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 479,
+   "ligand_protein_frame_rmsd_A": 4.509,
+   "com_disp_A": 3.024,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 480,
+   "ligand_protein_frame_rmsd_A": 4.463,
+   "com_disp_A": 2.995,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 481,
+   "ligand_protein_frame_rmsd_A": 4.199,
+   "com_disp_A": 3.005,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 482,
+   "ligand_protein_frame_rmsd_A": 4.343,
+   "com_disp_A": 2.784,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 483,
+   "ligand_protein_frame_rmsd_A": 4.871,
+   "com_disp_A": 3.391,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 484,
+   "ligand_protein_frame_rmsd_A": 4.647,
+   "com_disp_A": 3.156,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 485,
+   "ligand_protein_frame_rmsd_A": 4.543,
+   "com_disp_A": 2.983,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 486,
+   "ligand_protein_frame_rmsd_A": 5.045,
+   "com_disp_A": 3.618,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 487,
+   "ligand_protein_frame_rmsd_A": 5.15,
+   "com_disp_A": 3.386,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 488,
+   "ligand_protein_frame_rmsd_A": 4.646,
+   "com_disp_A": 2.929,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 489,
+   "ligand_protein_frame_rmsd_A": 5.137,
+   "com_disp_A": 3.598,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 490,
+   "ligand_protein_frame_rmsd_A": 5.103,
+   "com_disp_A": 3.304,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 491,
+   "ligand_protein_frame_rmsd_A": 5.14,
+   "com_disp_A": 3.522,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 492,
+   "ligand_protein_frame_rmsd_A": 4.705,
+   "com_disp_A": 3.19,
+   "pocket_contacts": 0,
+   "contact_residues": [],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 493,
+   "ligand_protein_frame_rmsd_A": 4.979,
+   "com_disp_A": 3.207,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 494,
+   "ligand_protein_frame_rmsd_A": 4.892,
+   "com_disp_A": 3.195,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 495,
+   "ligand_protein_frame_rmsd_A": 4.715,
+   "com_disp_A": 3.135,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 496,
+   "ligand_protein_frame_rmsd_A": 4.588,
+   "com_disp_A": 2.932,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 497,
+   "ligand_protein_frame_rmsd_A": 4.82,
+   "com_disp_A": 3.084,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 498,
+   "ligand_protein_frame_rmsd_A": 4.967,
+   "com_disp_A": 3.463,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 499,
+   "ligand_protein_frame_rmsd_A": 4.739,
+   "com_disp_A": 3.263,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 500,
+   "ligand_protein_frame_rmsd_A": 4.441,
+   "com_disp_A": 3.048,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 501,
+   "ligand_protein_frame_rmsd_A": 4.608,
+   "com_disp_A": 3.14,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 502,
+   "ligand_protein_frame_rmsd_A": 4.686,
+   "com_disp_A": 3.22,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 503,
+   "ligand_protein_frame_rmsd_A": 4.867,
+   "com_disp_A": 3.21,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 504,
+   "ligand_protein_frame_rmsd_A": 4.982,
+   "com_disp_A": 3.039,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 505,
+   "ligand_protein_frame_rmsd_A": 4.732,
+   "com_disp_A": 3.049,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 506,
+   "ligand_protein_frame_rmsd_A": 4.951,
+   "com_disp_A": 3.326,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 507,
+   "ligand_protein_frame_rmsd_A": 4.945,
+   "com_disp_A": 3.181,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 508,
+   "ligand_protein_frame_rmsd_A": 4.63,
+   "com_disp_A": 3.109,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 509,
+   "ligand_protein_frame_rmsd_A": 4.669,
+   "com_disp_A": 3.093,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 510,
+   "ligand_protein_frame_rmsd_A": 4.623,
+   "com_disp_A": 3.302,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 511,
+   "ligand_protein_frame_rmsd_A": 4.848,
+   "com_disp_A": 3.138,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 512,
+   "ligand_protein_frame_rmsd_A": 5.019,
+   "com_disp_A": 3.288,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 513,
+   "ligand_protein_frame_rmsd_A": 4.805,
+   "com_disp_A": 3.382,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 514,
+   "ligand_protein_frame_rmsd_A": 4.816,
+   "com_disp_A": 3.246,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 515,
+   "ligand_protein_frame_rmsd_A": 4.974,
+   "com_disp_A": 3.395,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 516,
+   "ligand_protein_frame_rmsd_A": 4.744,
+   "com_disp_A": 3.09,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 517,
+   "ligand_protein_frame_rmsd_A": 4.758,
+   "com_disp_A": 3.07,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 518,
+   "ligand_protein_frame_rmsd_A": 4.81,
+   "com_disp_A": 3.196,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 519,
+   "ligand_protein_frame_rmsd_A": 4.579,
+   "com_disp_A": 2.982,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 520,
+   "ligand_protein_frame_rmsd_A": 4.326,
+   "com_disp_A": 2.857,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 521,
+   "ligand_protein_frame_rmsd_A": 4.478,
+   "com_disp_A": 3.112,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 522,
+   "ligand_protein_frame_rmsd_A": 4.473,
+   "com_disp_A": 3.084,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 523,
+   "ligand_protein_frame_rmsd_A": 4.471,
+   "com_disp_A": 2.881,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 524,
+   "ligand_protein_frame_rmsd_A": 4.856,
+   "com_disp_A": 3.173,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 525,
+   "ligand_protein_frame_rmsd_A": 4.668,
+   "com_disp_A": 2.935,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 526,
+   "ligand_protein_frame_rmsd_A": 4.09,
+   "com_disp_A": 2.728,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 527,
+   "ligand_protein_frame_rmsd_A": 4.947,
+   "com_disp_A": 3.528,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 528,
+   "ligand_protein_frame_rmsd_A": 4.532,
+   "com_disp_A": 3.245,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 529,
+   "ligand_protein_frame_rmsd_A": 4.293,
+   "com_disp_A": 2.89,
+   "pocket_contacts": 0,
+   "contact_residues": [],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 530,
+   "ligand_protein_frame_rmsd_A": 4.461,
+   "com_disp_A": 3.05,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 531,
+   "ligand_protein_frame_rmsd_A": 4.681,
+   "com_disp_A": 3.156,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 532,
+   "ligand_protein_frame_rmsd_A": 4.491,
+   "com_disp_A": 2.926,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 533,
+   "ligand_protein_frame_rmsd_A": 4.659,
+   "com_disp_A": 3.109,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 534,
+   "ligand_protein_frame_rmsd_A": 5.049,
+   "com_disp_A": 3.533,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 535,
+   "ligand_protein_frame_rmsd_A": 4.545,
+   "com_disp_A": 2.918,
+   "pocket_contacts": 0,
+   "contact_residues": [],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 536,
+   "ligand_protein_frame_rmsd_A": 4.631,
+   "com_disp_A": 2.887,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 537,
+   "ligand_protein_frame_rmsd_A": 4.439,
+   "com_disp_A": 2.907,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 538,
+   "ligand_protein_frame_rmsd_A": 4.812,
+   "com_disp_A": 3.311,
+   "pocket_contacts": 0,
+   "contact_residues": [],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 539,
+   "ligand_protein_frame_rmsd_A": 4.682,
+   "com_disp_A": 3.371,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 540,
+   "ligand_protein_frame_rmsd_A": 4.583,
+   "com_disp_A": 3.182,
+   "pocket_contacts": 0,
+   "contact_residues": [],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 541,
+   "ligand_protein_frame_rmsd_A": 4.672,
+   "com_disp_A": 3.203,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 542,
+   "ligand_protein_frame_rmsd_A": 4.839,
+   "com_disp_A": 3.396,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 543,
+   "ligand_protein_frame_rmsd_A": 4.804,
+   "com_disp_A": 3.408,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 544,
+   "ligand_protein_frame_rmsd_A": 4.869,
+   "com_disp_A": 3.323,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 545,
+   "ligand_protein_frame_rmsd_A": 4.932,
+   "com_disp_A": 3.641,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 546,
+   "ligand_protein_frame_rmsd_A": 4.842,
+   "com_disp_A": 3.451,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 547,
+   "ligand_protein_frame_rmsd_A": 4.116,
+   "com_disp_A": 2.883,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 548,
+   "ligand_protein_frame_rmsd_A": 5.035,
+   "com_disp_A": 3.395,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 549,
+   "ligand_protein_frame_rmsd_A": 4.97,
+   "com_disp_A": 3.401,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 550,
+   "ligand_protein_frame_rmsd_A": 5.009,
+   "com_disp_A": 3.217,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 551,
+   "ligand_protein_frame_rmsd_A": 5.008,
+   "com_disp_A": 3.378,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 552,
+   "ligand_protein_frame_rmsd_A": 4.995,
+   "com_disp_A": 3.241,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 553,
+   "ligand_protein_frame_rmsd_A": 5.127,
+   "com_disp_A": 3.48,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 554,
+   "ligand_protein_frame_rmsd_A": 4.927,
+   "com_disp_A": 3.198,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 555,
+   "ligand_protein_frame_rmsd_A": 4.939,
+   "com_disp_A": 3.326,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 556,
+   "ligand_protein_frame_rmsd_A": 5.225,
+   "com_disp_A": 3.488,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 557,
+   "ligand_protein_frame_rmsd_A": 5.169,
+   "com_disp_A": 3.503,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 558,
+   "ligand_protein_frame_rmsd_A": 5.322,
+   "com_disp_A": 3.601,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 559,
+   "ligand_protein_frame_rmsd_A": 5.135,
+   "com_disp_A": 3.271,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 560,
+   "ligand_protein_frame_rmsd_A": 5.1,
+   "com_disp_A": 3.239,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 561,
+   "ligand_protein_frame_rmsd_A": 4.853,
+   "com_disp_A": 3.091,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 562,
+   "ligand_protein_frame_rmsd_A": 5.154,
+   "com_disp_A": 3.224,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 563,
+   "ligand_protein_frame_rmsd_A": 5.301,
+   "com_disp_A": 3.561,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 564,
+   "ligand_protein_frame_rmsd_A": 5.12,
+   "com_disp_A": 3.282,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 565,
+   "ligand_protein_frame_rmsd_A": 5.157,
+   "com_disp_A": 3.436,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 566,
+   "ligand_protein_frame_rmsd_A": 5.31,
+   "com_disp_A": 3.436,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 567,
+   "ligand_protein_frame_rmsd_A": 5.273,
+   "com_disp_A": 3.297,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 568,
+   "ligand_protein_frame_rmsd_A": 5.062,
+   "com_disp_A": 3.485,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 569,
+   "ligand_protein_frame_rmsd_A": 5.087,
+   "com_disp_A": 3.123,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 570,
+   "ligand_protein_frame_rmsd_A": 5.264,
+   "com_disp_A": 3.361,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 571,
+   "ligand_protein_frame_rmsd_A": 5.294,
+   "com_disp_A": 3.514,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 572,
+   "ligand_protein_frame_rmsd_A": 5.54,
+   "com_disp_A": 3.661,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 573,
+   "ligand_protein_frame_rmsd_A": 5.334,
+   "com_disp_A": 3.382,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 574,
+   "ligand_protein_frame_rmsd_A": 5.108,
+   "com_disp_A": 3.26,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 575,
+   "ligand_protein_frame_rmsd_A": 5.071,
+   "com_disp_A": 3.335,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 576,
+   "ligand_protein_frame_rmsd_A": 5.096,
+   "com_disp_A": 3.092,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 577,
+   "ligand_protein_frame_rmsd_A": 5.077,
+   "com_disp_A": 3.261,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 578,
+   "ligand_protein_frame_rmsd_A": 5.405,
+   "com_disp_A": 3.545,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 579,
+   "ligand_protein_frame_rmsd_A": 5.202,
+   "com_disp_A": 3.478,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 580,
+   "ligand_protein_frame_rmsd_A": 5.467,
+   "com_disp_A": 3.801,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 581,
+   "ligand_protein_frame_rmsd_A": 5.214,
+   "com_disp_A": 3.77,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 582,
+   "ligand_protein_frame_rmsd_A": 5.478,
+   "com_disp_A": 3.751,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 583,
+   "ligand_protein_frame_rmsd_A": 5.269,
+   "com_disp_A": 3.679,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 584,
+   "ligand_protein_frame_rmsd_A": 5.362,
+   "com_disp_A": 3.704,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 585,
+   "ligand_protein_frame_rmsd_A": 5.532,
+   "com_disp_A": 3.747,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 586,
+   "ligand_protein_frame_rmsd_A": 5.935,
+   "com_disp_A": 4.26,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 587,
+   "ligand_protein_frame_rmsd_A": 5.63,
+   "com_disp_A": 4.125,
+   "pocket_contacts": 0,
+   "contact_residues": [],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 588,
+   "ligand_protein_frame_rmsd_A": 5.495,
+   "com_disp_A": 3.983,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 589,
+   "ligand_protein_frame_rmsd_A": 5.502,
+   "com_disp_A": 3.847,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 590,
+   "ligand_protein_frame_rmsd_A": 5.583,
+   "com_disp_A": 3.823,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 591,
+   "ligand_protein_frame_rmsd_A": 5.333,
+   "com_disp_A": 3.724,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 592,
+   "ligand_protein_frame_rmsd_A": 5.233,
+   "com_disp_A": 3.432,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 593,
+   "ligand_protein_frame_rmsd_A": 5.248,
+   "com_disp_A": 3.572,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 594,
+   "ligand_protein_frame_rmsd_A": 5.285,
+   "com_disp_A": 3.493,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 595,
+   "ligand_protein_frame_rmsd_A": 5.123,
+   "com_disp_A": 3.393,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 596,
+   "ligand_protein_frame_rmsd_A": 5.315,
+   "com_disp_A": 3.337,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 597,
+   "ligand_protein_frame_rmsd_A": 5.448,
+   "com_disp_A": 3.731,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 598,
+   "ligand_protein_frame_rmsd_A": 5.017,
+   "com_disp_A": 3.275,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 599,
+   "ligand_protein_frame_rmsd_A": 5.253,
+   "com_disp_A": 3.607,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 600,
+   "ligand_protein_frame_rmsd_A": 5.374,
+   "com_disp_A": 3.593,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 601,
+   "ligand_protein_frame_rmsd_A": 5.227,
+   "com_disp_A": 3.691,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 602,
+   "ligand_protein_frame_rmsd_A": 5.207,
+   "com_disp_A": 3.586,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 603,
+   "ligand_protein_frame_rmsd_A": 5.214,
+   "com_disp_A": 3.788,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 604,
+   "ligand_protein_frame_rmsd_A": 5.104,
+   "com_disp_A": 3.575,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 605,
+   "ligand_protein_frame_rmsd_A": 5.223,
+   "com_disp_A": 3.536,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 606,
+   "ligand_protein_frame_rmsd_A": 5.32,
+   "com_disp_A": 3.59,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 607,
+   "ligand_protein_frame_rmsd_A": 5.648,
+   "com_disp_A": 4.028,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 608,
+   "ligand_protein_frame_rmsd_A": 5.348,
+   "com_disp_A": 3.706,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 609,
+   "ligand_protein_frame_rmsd_A": 5.633,
+   "com_disp_A": 3.946,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 610,
+   "ligand_protein_frame_rmsd_A": 5.746,
+   "com_disp_A": 4.108,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 611,
+   "ligand_protein_frame_rmsd_A": 5.288,
+   "com_disp_A": 3.505,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 612,
+   "ligand_protein_frame_rmsd_A": 5.457,
+   "com_disp_A": 3.865,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 613,
+   "ligand_protein_frame_rmsd_A": 5.533,
+   "com_disp_A": 3.867,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 614,
+   "ligand_protein_frame_rmsd_A": 5.178,
+   "com_disp_A": 3.368,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 615,
+   "ligand_protein_frame_rmsd_A": 5.359,
+   "com_disp_A": 3.657,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 616,
+   "ligand_protein_frame_rmsd_A": 5.408,
+   "com_disp_A": 3.795,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 617,
+   "ligand_protein_frame_rmsd_A": 5.23,
+   "com_disp_A": 3.369,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 618,
+   "ligand_protein_frame_rmsd_A": 5.225,
+   "com_disp_A": 3.616,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  },
+  {
+   "frame": 619,
+   "ligand_protein_frame_rmsd_A": 5.638,
+   "com_disp_A": 3.963,
+   "pocket_contacts": 1,
+   "contact_residues": [
+    342
+   ],
+   "pocket_occupied": false
+  }
+ ],
+ "summary": {
+  "ligand_protein_frame_rmsd_A": {
+   "mean": 4.579,
+   "max": 5.935,
+   "final": 5.638
+  },
+  "pocket_contacts_mean": 1.0,
+  "pocket_occupancy_fraction": 0.0,
+  "definition": "occupied = ligand COM (protein frame) within 6 A of crystal PC centroid AND >=1 pocket residue heavy atom within 4.5 A",
+  "contacted_catalytic_residues_crystal_numbering": [
+   319,
+   458
+  ],
+  "contacted_nonpocket_residues_fixed_numbering": [
+   342
+  ],
+  "catalytic_residues_ever_contacted_crystal_numbering": [
+   319,
+   458
+  ],
+  "units_note": "box vectors scaled nm->A before imaging; all distances reported in A"
+ }
+}

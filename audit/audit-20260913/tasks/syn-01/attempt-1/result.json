@@ -1,0 +1,9 @@
+{
+ "fixture_target_in_stock": true,
+ "n_routes": 1,
+ "top_route_score": {
+  "state score": 0.049100689501895424
+ },
+ "top_route_steps": 0,
+ "closure": "PROXY (chembl20k stock) - not purchasability evidence"
+}

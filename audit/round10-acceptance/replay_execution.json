@@ -1,0 +1,10 @@
+{
+  "command": [
+    "C:\\ProgramData\\anaconda3\\python.exe",
+    "-B",
+    "independent-audit\\round10-acceptance\\run_replay.py"
+  ],
+  "exit_code": 0,
+  "stdout": "R3-6 replay values parsed: [1.0, -6.96, 1.8, -6.34, 1.0, 3.3, -6.01]\n{\n \"executed_replays\": 13,\n \"detected\": 12,\n \"delegated\": 1,\n \"detection_rate\": \"12/13\",\n \"note\": \"counts derived from executed observations; context-only findings (R3-4, R3-5, R3-7) and live-only (R1-4, R1-9) are excluded here and listed separately as coverage inventory\"\n}\nR1-1 detected - pref_name=Sphingomyelin phosphodiesterase 2\nR1-2 detected - printed=0.47 A(labeled) x10=4.699999999999999 vs corrected 5.300237293\nR1-3 NOT - parmed unavailable on this interpreter; eps verification delegated to \nR1-5 detected - rows=306893 (claimed 12k -> false)\nR1-6 detected - c9286858 != 26ba98ff\nR1-7 detected - range=2.63-3.93\nR1-8 detected - first=CHEMBL28172(-8.84) best=CHEMBL54786(-8.92)\nR1-11 detected - ['CHEMBL24974', 'CHEMBL48767']\nR3-1 detected - retired last 0.65 (x10=6.50 A) vs protein-frame mean 4.579 A\nR3-2 detected - separated outputs present=True\nR3-3 detected - af9d300a != be41238e\nR3-6 detected - values=[1.0, -6.96, 1.8, -6.34, 1.0, 3.3, -6.01]\nR1-10 detected - 1.757 A (auditor: 1.757)\n",
+  "stderr": "Found local copy...\nLoading...\nDone!\n"
+}

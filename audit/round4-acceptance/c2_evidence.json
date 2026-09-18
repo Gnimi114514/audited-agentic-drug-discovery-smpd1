@@ -1,0 +1,217 @@
+{
+  "check": "C2",
+  "verdict": "FAIL",
+  "auc_independent_rank_method": 0.9091471448597943,
+  "auc_round4": 0.9091,
+  "npz_keys": [
+    "test_indices",
+    "y_true",
+    "y_prob"
+  ],
+  "n_test": 61376,
+  "n_positive": 2749,
+  "n_negative": 58627,
+  "finite_scores": true,
+  "probability_range": [
+    0.0,
+    1.0
+  ],
+  "test_indices_equal_saved_split": true,
+  "test_train_intersection_count": 0,
+  "csv_columns": [
+    "name",
+    "MODEL_A_RF500_fulldata_prob",
+    "MODEL_B_RF300_split_prob"
+  ],
+  "n_candidate_rows": 26,
+  "legacy_matches_at_legacy_precision": 1,
+  "candidate_comparison": [
+    {
+      "name": "CHEMBL28172",
+      "legacy": 0.254,
+      "MODEL_A": 0.228,
+      "MODEL_B": 0.24,
+      "legacy_reproduced_at_legacy_precision": false
+    },
+    {
+      "name": "CHEMBL7385",
+      "legacy": 0.09,
+      "MODEL_A": 0.09,
+      "MODEL_B": 0.1067,
+      "legacy_reproduced_at_legacy_precision": true
+    },
+    {
+      "name": "CHEMBL48767",
+      "legacy": 0.118,
+      "MODEL_A": 0.0893,
+      "MODEL_B": 0.1267,
+      "legacy_reproduced_at_legacy_precision": false
+    },
+    {
+      "name": "CHEMBL54786",
+      "legacy": 0.328,
+      "MODEL_A": 0.392,
+      "MODEL_B": 0.3598,
+      "legacy_reproduced_at_legacy_precision": false
+    },
+    {
+      "name": "CHEMBL24974",
+      "legacy": 0.258,
+      "MODEL_A": 0.25,
+      "MODEL_B": 0.27,
+      "legacy_reproduced_at_legacy_precision": false
+    },
+    {
+      "name": "CHEMBL29571",
+      "legacy": 0.462,
+      "MODEL_A": 0.4775,
+      "MODEL_B": 0.5,
+      "legacy_reproduced_at_legacy_precision": false
+    },
+    {
+      "name": "CHEMBL6729",
+      "legacy": 0.058,
+      "MODEL_A": 0.06,
+      "MODEL_B": 0.0533,
+      "legacy_reproduced_at_legacy_precision": false
+    },
+    {
+      "name": "CHEMBL37169",
+      "legacy": 0.296,
+      "MODEL_A": 0.324,
+      "MODEL_B": 0.3367,
+      "legacy_reproduced_at_legacy_precision": false
+    },
+    {
+      "name": "CHEMBL300739",
+      "legacy": 0.154,
+      "MODEL_A": 0.1319,
+      "MODEL_B": 0.1433,
+      "legacy_reproduced_at_legacy_precision": false
+    },
+    {
+      "name": "CHEMBL26999",
+      "legacy": 0.364,
+      "MODEL_A": 0.33,
+      "MODEL_B": 0.36,
+      "legacy_reproduced_at_legacy_precision": false
+    },
+    {
+      "name": "CHEMBL35743",
+      "legacy": 0.358,
+      "MODEL_A": 0.382,
+      "MODEL_B": 0.3133,
+      "legacy_reproduced_at_legacy_precision": false
+    },
+    {
+      "name": "CHEMBL48713",
+      "legacy": 0.128,
+      "MODEL_A": 0.1073,
+      "MODEL_B": 0.1533,
+      "legacy_reproduced_at_legacy_precision": false
+    },
+    {
+      "name": "CHEMBL27093",
+      "legacy": 0.286,
+      "MODEL_A": 0.222,
+      "MODEL_B": 0.2667,
+      "legacy_reproduced_at_legacy_precision": false
+    },
+    {
+      "name": "CHEMBL295569",
+      "legacy": 0.058,
+      "MODEL_A": 0.064,
+      "MODEL_B": 0.0867,
+      "legacy_reproduced_at_legacy_precision": false
+    },
+    {
+      "name": "CHEMBL297711",
+      "legacy": 0.382,
+      "MODEL_A": 0.4,
+      "MODEL_B": 0.3467,
+      "legacy_reproduced_at_legacy_precision": false
+    },
+    {
+      "name": "CHEMBL24034",
+      "legacy": 0.216,
+      "MODEL_A": 0.226,
+      "MODEL_B": 0.2733,
+      "legacy_reproduced_at_legacy_precision": false
+    },
+    {
+      "name": "CHEMBL289645",
+      "legacy": 0.172,
+      "MODEL_A": 0.178,
+      "MODEL_B": 0.16,
+      "legacy_reproduced_at_legacy_precision": false
+    },
+    {
+      "name": "CHEMBL45966",
+      "legacy": 0.142,
+      "MODEL_A": 0.1053,
+      "MODEL_B": 0.13,
+      "legacy_reproduced_at_legacy_precision": false
+    },
+    {
+      "name": "CHEMBL46169",
+      "legacy": 0.298,
+      "MODEL_A": 0.29,
+      "MODEL_B": 0.2633,
+      "legacy_reproduced_at_legacy_precision": false
+    },
+    {
+      "name": "CHEMBL297017",
+      "legacy": 0.13,
+      "MODEL_A": 0.1013,
+      "MODEL_B": 0.11,
+      "legacy_reproduced_at_legacy_precision": false
+    },
+    {
+      "name": "ANALOG_EXP_CHEMBL37169_C(F)(F)F_C16",
+      "legacy": 0.272,
+      "MODEL_A": 0.296,
+      "MODEL_B": 0.2933,
+      "legacy_reproduced_at_legacy_precision": false
+    },
+    {
+      "name": "ANALOG_EXP_CHEMBL24974_C(F)(F)F_C27",
+      "legacy": 0.2,
+      "MODEL_A": 0.192,
+      "MODEL_B": 0.1767,
+      "legacy_reproduced_at_legacy_precision": false
+    },
+    {
+      "name": "ANALOG_EXP_CHEMBL29571_C(F)(F)F_C21",
+      "legacy": 0.416,
+      "MODEL_A": 0.4216,
+      "MODEL_B": 0.4033,
+      "legacy_reproduced_at_legacy_precision": false
+    },
+    {
+      "name": "ANALOG_EXP_CHEMBL48767_O_C16",
+      "legacy": 0.08,
+      "MODEL_A": 0.0674,
+      "MODEL_B": 0.0696,
+      "legacy_reproduced_at_legacy_precision": false
+    },
+    {
+      "name": "ANALOG_EXP_CHEMBL6729_O_C24",
+      "legacy": 0.058,
+      "MODEL_A": 0.056,
+      "MODEL_B": 0.0533,
+      "legacy_reproduced_at_legacy_precision": false
+    },
+    {
+      "name": "ANALOG_EXP_CHEMBL7385_C(F)(F)F_C19",
+      "legacy": 0.142,
+      "MODEL_A": 0.112,
+      "MODEL_B": 0.1467,
+      "legacy_reproduced_at_legacy_precision": false
+    }
+  ],
+  "serialized_estimator_files_under_results": [],
+  "findings": [
+    "AUC and separate model columns pass; legacy reproduction fails for most candidates.",
+    "Producer separation script serializes prediction arrays, not fitted models. MODEL-A training uses deduplication/canonicalization absent from legacy script, so it is not the identical legacy model."
+  ]
+}

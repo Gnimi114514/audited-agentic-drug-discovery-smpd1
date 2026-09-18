@@ -1,0 +1,74 @@
+{
+ "generated": "2026-09-13T18:37:02+08:00",
+ "stages": {
+  "1_chembl_cns_library": 20111,
+  "2_pains_brenk_charge_clean": 11758,
+  "3_scaffold_capped_dock_set": 3500,
+  "4_docked_scored_total": 3642,
+  "note_stage2": "rows passing error/alerts/charge filters (alerts-carrying rows retained in CSV)"
+ },
+ "batch_composition_of_ranked_table": {
+  "main_dock_set": 3490,
+  "batch_merged_other": [
+   "CHEMBL11",
+   "CHEMBL12",
+   "CHEMBL263075",
+   "CHEMBL263080",
+   "CHEMBL263081",
+   "CHEMBL264721",
+   "CHEMBL265410",
+   "CHEMBL265663",
+   "CHEMBL265664",
+   "CHEMBL266198"
+  ],
+  "batch_merged_other_count": 152,
+  "note": "timing-test pilot (200 molecules, same ChEMBL filters) + reference inhibitors (3) + prior cached batch were docked in the same protocol and merged into one ranking table"
+ },
+ "preparation_failures": [
+  [
+   "CHEMBL43398",
+   "embed-failed"
+  ],
+  [
+   "CHEMBL288285",
+   "embed-failed"
+  ],
+  [
+   "CHEMBL287794",
+   "embed-failed"
+  ],
+  [
+   "CHEMBL39284",
+   "embed-failed"
+  ],
+  [
+   "CHEMBL37966",
+   "embed-failed"
+  ],
+  [
+   "CHEMBL290675",
+   "embed-failed"
+  ],
+  [
+   "CHEMBL41313",
+   "embed-failed"
+  ],
+  [
+   "CHEMBL289948",
+   "embed-failed"
+  ],
+  [
+   "CHEMBL290032",
+   "embed-failed"
+  ],
+  [
+   "CHEMBL38697",
+   "embed-failed"
+  ]
+ ],
+ "known_discrepancies": [
+  "dock_set.smi lists 3,500 rows (protocol text once said 3,452 = 3,452 new preparations in one batch; totals differ because cached pilot/ref preparations are excluded)",
+  "152 ranked names are outside the current dock_set.smi (batch merge: pilot batch + references); all were docked under the identical protocol",
+  "first row of hits_ranked.csv is composite-ranked; best raw Vina is CHEMBL54786 -8.92 (corrected per GPT6 audit finding 8)"
+ ]
+}

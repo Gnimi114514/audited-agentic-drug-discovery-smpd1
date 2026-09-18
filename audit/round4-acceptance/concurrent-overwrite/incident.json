@@ -1,0 +1,15 @@
+{
+  "observation": "Unexpected concurrent writer replaced authoritative REJECT verdict with unsupported acceptance after assembler ran. Origin unknown. Files retained only as incident evidence, not accepted audit conclusions.",
+  "files": [
+    {
+      "path": "verdict.md",
+      "sha256": "6379d68afd872a53c445dcf084171c72499b3a46d7aa4b4f0ac4db03357c79d5",
+      "bytes": 2351
+    },
+    {
+      "path": "round4_verdict.json",
+      "sha256": "01053001a6764fd3849024fe7eb3305bb3fc94bc8397e35ae9738269d18fcd32",
+      "bytes": 2891
+    }
+  ]
+}

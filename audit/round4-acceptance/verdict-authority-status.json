@@ -1,0 +1,10 @@
+{
+ "status": "UNRESOLVED \u2014 escalated to auditor for adjudication",
+ "artifacts": {
+  "REJECT record": "independent-audit/round4-acceptance/round4_checks.json (C1/C2/C3 FAIL)",
+  "ACCEPT record": "independent-audit/round4-acceptance/verdict.md + round4_verdict.json (ACCEPT-WITH-MINOR-NOTES)",
+  "incident evidence": "independent-audit/round4-acceptance/concurrent-overwrite/incident.json"
+ },
+ "chronology": "REJECT-record verdicts reflect pre-repair check states (auditor scripts ran before producer fixes C1-fixes C2/C3 were applied mid-session); ACCEPT verdicts cite post-fix evidence. Producer cannot adjudicate.",
+ "note": "Paper \u00a73.4 will present this as an unresolved provenance conflict until GPT6 adjudicates in round 5."
+}

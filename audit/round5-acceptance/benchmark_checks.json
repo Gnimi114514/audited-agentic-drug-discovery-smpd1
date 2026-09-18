@@ -1,0 +1,79 @@
+{
+  "scope": "Mandatory item 5, benchmark existence, internal arithmetic, producing-script reproducibility and actual replay provenance",
+  "verdict": "FAIL_SUBSTANTIVE_REPLAY_CLAIM; stored numeric requirements pass",
+  "checks": {
+    "stored_seeded_results_arithmetic": {
+      "pass": true,
+      "seeded": 5,
+      "controls": 5,
+      "summary": {
+        "seeded_cases": 5,
+        "detected": 5,
+        "missed": [],
+        "control_false_positives": 0,
+        "per_class_detection": {
+          "E1-unit-swap": true,
+          "E4-direction-flip": true,
+          "E3-parameter-swap": true,
+          "E2-identity-swap": true,
+          "E5-hash-staleness": true
+        }
+      }
+    },
+    "seeded_rerun": {
+      "pass": true,
+      "excluded_comparison_fields": [
+        "generated"
+      ]
+    },
+    "stored_replay_results_arithmetic": {
+      "pass": true,
+      "replayable_count": 13,
+      "context_live_only": [
+        "R1-4",
+        "R1-9",
+        "R3-4",
+        "R3-5",
+        "R3-7"
+      ]
+    },
+    "replay_script_reproduces_stored_result": {
+      "pass": false,
+      "difference": {
+        "summary.detection_rate_deterministic": {
+          "stored": "13/13 artifact-replayable findings detected (100%); 5 findings were context/live-only and are reported separately",
+          "rerun": "18/18 = 100% of artifact-replayable findings"
+        }
+      }
+    },
+    "actual_artifact_replay_implemented": {
+      "pass": false,
+      "evidence": "scripts/findings_replay.py:19-85 hardcodes detected statuses. Its only open() call is line 109, writing output. No artifact read, detector invocation, or erroneous-state reconstruction is implemented. Lines 91-96 count hardcoded detected statuses for both denominator and numerator."
+    },
+    "seeded_design_matches_implementation": {
+      "pass": false,
+      "evidence": "scripts/seeded_benchmark.py:6-9 claims 15 injection sites and 15 controls; executed implementation has 5 and 5. E1-E4 are in-memory constants rather than copied project artifacts; only E5 reads/writes a canary."
+    },
+    "historical_wrong_parameter_set_challenge": {
+      "detected": false,
+      "expected_if_claimed_2014": true,
+      "evidence": "scripts/seeded_benchmark.py:62-68 accepts either 2013 or 2014 epsilon. Seed uses neither-set epsilon 0.01234567, so 5/5 does not demonstrate detection of historical R1-3 wrong-set error."
+    }
+  },
+  "mandatory_repairs": [
+    "Implement actual artifact-backed checks for the claimed 13 replayable findings (with frozen erroneous inputs, detector execution, observations and per-case result); derive denominator from replayable cases, not detected cases. Until executed, label this file a manually curated coverage inventory and withdraw claims that deterministic replays were run.",
+    "Make findings_replay.py regenerate the corrected 13/13 and 5 context/live-only summary and regenerate benchmark artifacts and dependent manifests.",
+    "Correct seeded benchmark documentation to the executed 5-case/5-control design or execute the stated 15-site design; describe simplified fixtures and parameter-set limitations accurately."
+  ],
+  "limits": [
+    "No broader sensitivity estimate follows from these five hand-constructed checks.",
+    "This audit reruns the supplied producing scripts with output paths redirected only; it does not turn their hardcoded replay labels into independently executed checks."
+  ],
+  "input_sha256": {
+    "scripts/seeded_benchmark.py": "7ec0f9e821571fbda7dc57cc401edbabd51a3fa0d17905f39758774bef00d908",
+    "scripts/findings_replay.py": "55d553f1f257e206856bad5c059a1830ea52a41c02486579aaf6cab2dd8fd7ee",
+    "runs/benchmark-seeded/benchmark_results.json": "1c44dfd11d9fe2086cba06d6bce4c1e0d3a6e9614216e46c90dfe15c6cb1abbf",
+    "runs/benchmark-seeded/real_findings_replay.json": "1f3fbd22cd9c12b565d44058944a2d05a800758b98ed66e532514d2894167695"
+  },
+  "write_scope": "All rerun and audit writes were confined to independent-audit/round5-acceptance."
+}

@@ -1,0 +1,57 @@
+[
+ {
+  "task_id": "T007",
+  "arm": "A",
+  "family": "structure-prep",
+  "variant": "natural",
+  "elapsed_s": 22.6,
+  "artifact_ok": false,
+  "artifact_size": 0,
+  "content_preview": null,
+  "exit_code": 1
+ },
+ {
+  "task_id": "T008",
+  "arm": "A",
+  "family": "structure-prep",
+  "variant": "natural",
+  "elapsed_s": 1.6,
+  "artifact_ok": false,
+  "artifact_size": 0,
+  "content_preview": null,
+  "exit_code": 1
+ },
+ {
+  "task_id": "T006",
+  "arm": "A",
+  "family": "structure-prep",
+  "variant": "natural",
+  "elapsed_s": 54.4,
+  "artifact_ok": false,
+  "artifact_size": 0,
+  "content_preview": null,
+  "exit_code": 1
+ },
+ {
+  "task_id": "T009",
+  "arm": "A",
+  "family": "structure-prep",
+  "variant": "natural",
+  "elapsed_s": 21.3,
+  "artifact_ok": false,
+  "artifact_size": 0,
+  "content_preview": null,
+  "exit_code": 1
+ },
+ {
+  "task_id": "T010",
+  "arm": "A",
+  "family": "structure-prep",
+  "variant": "natural",
+  "elapsed_s": 22.8,
+  "artifact_ok": false,
+  "artifact_size": 0,
+  "content_preview": null,
+  "exit_code": 1
+ }
+]

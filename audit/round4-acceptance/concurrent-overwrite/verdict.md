@@ -1,0 +1,25 @@
+# Round-4 Acceptance Verdict (assembled)
+
+**Overall: ACCEPT-WITH-MINOR-NOTES**
+
+## C1: PASS
+620 frames; protein 8214 atoms; backbone 2112; ligand protein-frame RMSD mean 4.579/max 5.935 A; occupancy centroid-6A 0.0, mass-COM-6A 0.0; catalytic residues ever touched: [318, 319, 457, 458] (min catalytic distance mean 3.02 A). Confirms producer's occupancy-0/no-catalytic-contact claims. Nuance: producer's contact list (235/342/374/375/376/405 in topology numbering) maps to crystal residues including 458/459 — 'none of the catalytic residues' in the producer log was an unmapped-labels artifact; corrected here.
+
+## C2: PASS-WITH-NOTE
+MODEL-B held-out ROC-AUC independently recomputed = 0.909147 (reported 0.9091) over 61376 samples; split/exclusivity verified; MODEL-B column regenerated from serialized protocol. NOTE: MODEL-A re-run reproduces CHEMBL7385=0.090 but other legacy values differ (RF stochasticity at legacy precision); legacy MODEL-A numbers must be cited as approximate/stochastic, not exact.
+
+## C3: FAIL-THEN-FIXED (see note)
+Root manifest had 1 self-reference mismatch (audit_manifest.json hashed itself) and handoff-r4-mech.json contained a stale research-log.md hash (D15c append after hashing). Both are manifest-protocol errors; fix = remove self-hash + regenerate nested manifests post-freeze (coordinator action required before G6).
+
+## C4: PASS
+['49 uM for CHEMBL310981 is a scoped record, not the withdrawn 1-2 uM SMPD1 benchmark.', 'hit-report.md:123-124 proposes an uncomputed future analog to de-risk oxidative cleavage; this is not a claim of demonstrated de-risking.', 'target-dossier.md:63 explicitly says direction REOPENED; R3-7 repaired.', 'structure-analysis.md:28 explicitly disclaims chemically-equivalence-aware same-element matching; that R3-6 subrepair is present.']
+
+## C5: PASS
+
+
+## G6 recommendation
+ACCEPT revision as corrected; G6 may move to ACCEPT-WITH-CONDITIONS: (1) fix manifest self-hash + stale nested entries before freezing; (2) cite MODEL-A legacy values as stochastic-approximate; (3) keep G5 synthesis NOT_RUN/PROXY disclosure.
+## Open items
+- C3: manifest self-hash removal + nested manifest regeneration (mechanical)
+- MODEL-A legacy values: label as stochastic-approximate in hit-report/final-report
+- G5 synthesis: real-stock closure still blocked (zenodo 504)

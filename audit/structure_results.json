@@ -1,0 +1,9 @@
+{
+  "redock_heavy_atoms": 11,
+  "name_matched_rmsd_A": 2.5241790204485755,
+  "restricted_symmetry_rmsd_A": 1.9137690798288833,
+  "element_assignment_lower_bound_A": 1.7569671441021726,
+  "clean_library_rows": 11758,
+  "ligand_mol2_atoms": 65,
+  "mol2_total_charge": -0.0010010000000001719
+}

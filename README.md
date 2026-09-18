@@ -44,7 +44,7 @@ Yiming Zuo is the accountable human author. GLM/ZCode and GPT/Codex were used as
 
 ## Citation
 
-See `CITATION.cff`. Replace the repository URL and release identifier in downstream citations after the first public release is created.
+See `CITATION.cff`. Cite release `v0.1.0` from https://github.com/Gnimi114514/audited-agentic-drug-discovery-smpd1. This GitHub release does not yet have a DOI.
 
 ## License
 

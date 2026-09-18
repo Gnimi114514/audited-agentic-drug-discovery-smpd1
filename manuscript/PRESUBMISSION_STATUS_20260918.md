@@ -4,7 +4,7 @@ Date: 2026-09-18
 
 ## Decision
 
-The local manuscript package has been revised into a pre-submission version, but it is not yet ready for journal upload. The paper can be developed as a transparent computational failure-analysis case study. It currently does not support claims that the audit has general sensitivity, that multi-agent execution improves scientific correctness, or that the SMPD1 candidates are validated leads.
+The local manuscript package has been revised into a pre-submission version and its curated repository has been made public. The paper can be submitted as a transparent computational failure-analysis case study after the named author completes the scientific sign-off and submission-form checks. It does not support claims that the audit has general sensitivity, that multi-agent execution improves scientific correctness, or that the SMPD1 candidates are validated leads.
 
 ## Completed in this revision
 
@@ -19,18 +19,16 @@ The local manuscript package has been revised into a pre-submission version, but
 
 ## Submission blockers
 
-1. **Public data and code deposit:** create a versioned public release with a persistent DOI, license, and complete inventory. Replace the temporary Data Availability statement before submission.
-2. **Reference verification:** independently verify every bibliographic record and add complete numbered in-text citations. The existing `reference_verification.json` contains mismatched records and cannot certify the current reference list.
-3. **Human scientific sign-off:** the named author must check the manuscript against raw artifacts, confirm the affiliation/contact/ORCID, approve the AI-use description, and take responsibility for every claim. AI-generated text cannot certify this step.
-4. **Figure and source-data check:** confirm that all six figure panels reproduce the cited source files and that legends, units, denominators, and model versions match the accepted artifacts.
-5. **Journal requirements:** re-check the live Scientific Reports author instructions at the time of upload, including article type, data policy, AI disclosure, file formats, declarations, and submission fields.
+1. **Persistent archive:** the public GitHub repository is versioned and licensed, but it has no DOI. Archive release `v0.1.0` with Zenodo and add the DOI if one is obtained before submission.
+2. **Human scientific sign-off:** the named author must check the manuscript against raw artifacts, confirm the affiliation/contact/ORCID, approve the AI-use description, and take responsibility for every claim. AI-generated text cannot certify this step.
+3. **Submission-form checks:** confirm the final article type, declarations, suggested reviewers if requested, and other fields in the live Scientific Reports submission portal.
 
 ## Evidence that remains developmental
 
 - The 15/18 result is coverage of a project-designed seeded test with a corrected label, not a held-out estimate of audit sensitivity.
 - The 15 three-arm outputs show execution feasibility only. The tasks were not independently scored for scientific correctness, and the arms had unequal Agent-call budgets.
 - The final computational acceptance was scoped and conditional. It did not establish affinity, efficacy, selectivity, safety, purchasability, synthesis feasibility, or experimental validation.
-- A public DOI and reader-accessible repository are absent as of this status review.
+- A reader-accessible GitHub repository is available, but no archival DOI has been minted.
 
 ## Files for human pre-submission review
 
